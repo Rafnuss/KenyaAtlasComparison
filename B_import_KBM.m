@@ -3,12 +3,13 @@ load('data/grid')
 load('data/oldatlas')
 addpath('functions/')
 
-%% Get kbm coverage
+%% Get kbm species coverage
 if false
     opts = weboptions("Timeout",60);
     
     % get coverage map
-    % websave("data/kbm/coverage.csv","https://api.birdmap.africa/sabap2/v2/coverage/project/kenya/species?format=csv", opts)
+    % websave("data/kbm/coverage.csv",    "https://api.birdmap.africa/sabap2/v2/coverage/project/kenya/species?format=csv", opts)
+     % websave("data/kbm/coverage.geojson","https://api.birdmap.africa/sabap2/v2/coverage/project/kenya?format=geoJSON")
     sp_kbm = readtable("data/kbm/coverage.csv", 'TextType', 'string');
     
     % Add SEQ number to the species list
@@ -22,13 +23,12 @@ else
     sp_kbm = readtable("data/kbm/sp_kbm.xlsx", 'TextType', 'string');
 end
 
-
 %% Download the data for all species in geojson
 if false
     opts = weboptions("Timeout",60);
     for i_sp=1:height(sp_kbm)
         filename = "data/kbm/geojson/"+sp_kbm.Ref(i_sp)+".geojson";
-        if ~isnan(sp_kbm.Ref(i_sp)) && ~exist(filename,'file')
+        if ~isnan(sp_kbm.Ref(i_sp)) % && ~exist(filename,'file')
             sp_kbm.Ref(i_sp)
             websave(filename,"https://api.birdmap.africa/sabap2/v2/summary/species/"+sp_kbm.Ref(i_sp)+"/country/kenya?format=geoJSON",opts)
             pause(5)
@@ -73,12 +73,11 @@ if (false)
     end
     % Save new atlas
     save('data/kbm/map_kbm',"fullp","adhocp")
+else
+    load('data/kbm/map_kbm')
 end
 
-%% 
-load('data/kbm/map_kbm')
-
-% Visual check
+%%  Visual check
 tmp = fullp | adhocp;
 tmp2 = sum(tmp,3);
 figure; hold on;
@@ -91,7 +90,7 @@ tmp2 = sum(tmp(:,:,i_sp),3);
 figure; hold on;
 imagesc(gn.lon,gn.lat,tmp2,'alphadata',0.8*(tmp2>0)); 
 axis equal tight; set(gca,"YDir","normal"); plot_google_map;
-title(sp_kbm.Common_species(i_sp)+" " + sp_kbm.Common_group(i_sp)+" ("+sp_kbm.Ref(i_sp)+")")
+title(sp_kbm.Common_species(i_sp)+" " + sp_kbm.Common_group(i_sp)+" (ADU:"+sp_kbm.Ref(i_sp)+" | SEQ:"+sp_kbm.SEQ(i_sp)+")")
 
 
 
@@ -129,5 +128,26 @@ for i_sp=1:height(sp_old)
 end
 
 
+%% Get kbm effort coverage
+if false
+    opts = weboptions("Timeout",60);
+    websave("data/kbm/coverage.geojson","https://api.birdmap.africa/sabap2/v2/coverage/project/kenya?format=geoJSON")
+else
+    d = loadjson("data/kbm/coverage.geojson");
+    coverage_kbm = zeros(numel(gn.lat), numel(gn.lon));
+    for i_f = 1:numel(d.features)
+        id = strcmpi(d.features{i_f}.properties.pentad, gn.pentad);
+        assert(sum(id(:))>0)
+        [i1,i2]=ind2sub(size(id),find(id));
+        coverage_kbm(i2,i1) = d.features{i_f}.properties.full_0x20_protocol_total_hours;
+        %coverage_kbm(i2,i1,2) = d.features{i_f}.properties.full_0x20_protocol;
+        %coverage_kbm(i2,i1,3) = d.features{i_f}.properties.adhoc_0x20_protocol;
+    end
+    coverage_kbm = blockproc(coverage_kbm,[1 1]*g.res/gn.res,@(x) sum(x.data,[1 2]));
+    coverage_kbm(isnan(coverage_kbm))=0;
+end
+
+
 %% Save
-save('data/kbmatlas.mat',"map_kbm")
+save('data/kbmatlas.mat',"map_kbm","coverage_kbm")
+

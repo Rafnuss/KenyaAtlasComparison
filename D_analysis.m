@@ -6,309 +6,340 @@ load('data/oldatlas')
 load('data/kbmatlas.mat')
 load("data/ebirdatlas.mat")
 
-%% 
-% 
+%% Overview of the Old vs New atlas
+map_sp_old = sum(map_old,3);
+map_sp_new = sum(map_kbm|map_ebird,3);
 
-figure('position',[0 0 1400 600]); tiledlayout(1,3,'TileSpacing','tight','Padding','tight')
+figure('position',[0 0 1400 1200]); tiledlayout(2,3,'TileSpacing','tight','Padding','tight')
 colormap(viridis)
 nexttile;hold on;
-imagesc(g.lon,g.lat,sum(map_old>0,3),'alphadata',.8*(sum(map_old>0,3)>0)); 
-axis equal tight; set(gca,"YDir","normal"); title('Total Species in Atlas')
-plot_google_map; colorbar; caxis([0 630])
+imagesc(g.lon,g.lat,map_sp_old,'alphadata',.8*(map_sp_old>0)); 
+axis equal tight; set(gca,"YDir","normal"); title('Species in old atlas')
+plot_google_map('MapType','terrain', 'ShowLabels',0); box on; colorbar; caxis([0 630])
 
 nexttile;hold on;
-imagesc(g.lon,g.lat,sum(map_kbm>0,3),'alphadata',.8*(sum(map_kbm>0,3)>0)); 
-axis equal tight; set(gca,"YDir","normal"); title('Total Species in KBM')
-plot_google_map; colorbar; caxis([0 630])
+imagesc(g.lon,g.lat,sum(map_kbm,3),'alphadata',.8*(sum(map_kbm,3)>0)); 
+axis equal tight; set(gca,"YDir","normal"); title('Species in KBM')
+plot_google_map('MapType','terrain', 'ShowLabels',0); box on; colorbar; caxis([0 630])
 
 nexttile;hold on;
-imagesc(g.lon,g.lat,sum(map_ebird>0,3),'alphadata',.8*(sum(map_ebird>0,3)>0)); 
-axis equal tight; set(gca,"YDir","normal"); title('Total Species in eBird')
-plot_google_map; colorbar; caxis([0 630])
+imagesc(g.lon,g.lat,sum(map_ebird,3),'alphadata',.8*(sum(map_ebird,3)>0)); 
+axis equal tight; set(gca,"YDir","normal"); title('Species in eBird')
+plot_google_map('MapType','terrain', 'ShowLabels',0); box on; colorbar; caxis([0 630])
 
+nexttile;hold on; title('Difference NEW (KBM+eBird) - OLD')
+imagesc(g.lon,g.lat,map_sp_new-map_sp_old,'alphadata',.8*((map_sp_new-map_sp_old)~=0)); 
+axis equal tight; set(gca,"YDir","normal")
+plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar;
+colormap(gca,brewermap([],'RdYlGn')); caxis([-300 300]);box on; 
 
-figure('position',[0 0 1400 600]); tiledlayout(1,3,'TileSpacing','tight','Padding','tight')
-nexttile;hold on; title('Difference Atlas - KBM')
-tmp = sum(map_old>0,3)-sum(map_kbm>0,3);
+nexttile;hold on; title('Difference KBM - OLD')
+tmp = sum(map_kbm>0,3)-sum(map_old>0,3);
 imagesc(g.lon,g.lat,tmp,'alphadata',.8*(tmp~=0)); 
 axis equal tight; set(gca,"YDir","normal")
-plot_google_map; colorbar;
-colormap( brewermap([],'RdYlGn')); caxis([-300 300])
+plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar;
+colormap(gca,brewermap([],'RdYlGn')); caxis([-300 300]); box on; 
 
-nexttile;hold on; title('Difference Atlas - eBird')
-tmp = sum(map_old>0,3)-sum(map_ebird>0,3);
+nexttile;hold on; title('Difference eBird - OLD')
+tmp = sum(map_ebird>0,3)-sum(map_old>0,3);
 imagesc(g.lon,g.lat,tmp,'alphadata',.8*(tmp~=0)); 
 axis equal tight; set(gca,"YDir","normal")
-plot_google_map; colorbar;
-colormap( brewermap([],'RdYlGn')); caxis([-300 300])
+plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar;
+colormap(gca,brewermap([],'RdYlGn')); caxis([-300 300]); box on; 
 
-nexttile;hold on; title('Difference Atlas - (KBM+eBird)')
-tmp = sum(map_old>0,3)-sum((map_kbm|map_ebird)>0,3);
-imagesc(g.lon,g.lat,tmp,'alphadata',.6*(tmp~=0)); 
-axis equal tight; set(gca,"YDir","normal")
-plot_google_map; colorbar;
-colormap( brewermap([],'RdYlGn')); caxis([-300 300])
 
-%%
+
+%% Check map for a single species
 i_sp = find(strcmp(sp_old.CommonName,"Black Kite"));
 
 figure('position',[0 0 1400 600]); tiledlayout(1,3,'TileSpacing','tight','Padding','tight')
-colormap(viridis)
 
 nexttile;hold on; box on;
 imagesc(g.lon,g.lat,map_old(:,:,i_sp),'alphadata',.8*map_old(:,:,i_sp)); 
 axis equal tight; set(gca,"YDir","normal"); title('Atlas')
-plot_google_map; 
+plot_google_map('MapType','terrain', 'ShowLabels',0); 
 
 nexttile;hold on; box on;
 imagesc(g.lon,g.lat,map_kbm(:,:,i_sp),'alphadata',.8*map_kbm(:,:,i_sp)); 
 axis equal tight; set(gca,"YDir","normal"); title('KBM')
-plot_google_map;
+plot_google_map('MapType','terrain', 'ShowLabels',0);
 
 nexttile;hold on; box on;
 imagesc(g.lon,g.lat,map_ebird(:,:,i_sp),'alphadata',.8*map_ebird(:,:,i_sp)); 
 axis equal tight; set(gca,"YDir","normal"); title('eBird')
-plot_google_map;
+plot_google_map('MapType','terrain', 'ShowLabels',0);
+
+
+%% Compute the difference
+map_diff = (map_kbm|map_ebird)*2 - map_old; % convert to 2, 1, 0 and -1
+map_diff(map_diff==0)=nan;
+map_diff(map_diff==1)=0;
+map_diff(map_diff==2)=1;
+% nan: neither new nor old
+% -1: only old
+% 0: new and old
+% 1: only new
 
 %% Coverage
 %opts = weboptions("Timeout",60);
 % websave("data/birdmap/coverage.geojson","https://api.birdmap.africa/sabap2/v2/coverage/project/kenya/species?format=geojson",opts)
 %cov_new = readtable("data/birdmap/coverage.csv", 'TextType', 'string');
 
+% mask_table = table(g.SqN(:)+g.SqL(:), g.LON(:), g.LAT(:), reshape(sum(map_kbm|map_ebird,3),[],1), reshape(sum(map_old,3),[],1),...
+%     VariableNames=["Sq","lon","lat","nb_kbmebird","nb_old"]);
+% mask_table = mask_table(mask_table.Sq~="0",:);
+% writetable(mask_table,"mask_table.xlsx")
 
-%% Mask 
-mask = sum(map_kbm|map_ebird,3)<100 | sum(map_old,3)<100;
+% Histogram of species number
+figure; hold on;
+histogram(map_sp_old(map_sp_old>0),binWidth=10)
+histogram(map_sp_new(map_sp_new>0),binWidth=10)
+
+% Coverage & Effort
+figure('position',[0 0 1400 600]); tiledlayout(1,2,'TileSpacing','tight','Padding','tight')
+colormap(viridis)
+nexttile;hold on;
+tmp =reshape(grp2idx(categorical(coverage_old(:))),size(coverage_old));
+imagesc(g.lon,g.lat,tmp,'alphadata',0.8*(tmp>1)); 
+axis equal tight; set(gca,"YDir","normal"); title('OLD: modeled coverage %')
+plot_google_map('MapType','terrain', 'ShowLabels',0); c=colorbar;c.Ticks=0:6; c.TickLabels=unique(coverage_old)+"%";
+xticks(''); yticks(''); box on
+nexttile;hold on;
+imagesc(g.lon,g.lat,log(coverage_kbm+coverage_ebird),'alphadata',.8*((coverage_ebird(:,:,1)+coverage_kbm(:,:,1))>0)); 
+axis equal tight; set(gca,"YDir","normal"); title('NEW: sum of durations')
+plot_google_map('MapType','terrain', 'ShowLabels',0); c=colorbar; 
+c.Ticks=log([0 12 24 24*7 24*30.5 24*30.5*6]);
+c.TickLabels=["0" "12hr" "1day" "1week" "1month" "6months"]; 
+xticks(''); yticks(''); box on
+
+
+% Fitted coverage
+figure('position',[0 0 900 450]);tiledlayout(1,2,'TileSpacing','tight','Padding','tight')
+nexttile; hold on; title('Old Atlas')
+x=categorical(coverage_old(:));
+y=map_sp_old(:);
+id = ~isundefined(x);
+x=x(id);
+y=y(id);
+plot(x, y,'.k',MarkerSize=10)
+p=fit(x, y, 'poly2');
+plot(0:.1:7, p(0:.1:7),'-r')
+xlabel("Coverage")
+box on; grid on; ylim([0 700]); ylabel("Number of species")
+% scatter(categorical(coverage_old(:)), reshape(sum(map_kbm|map_ebird,3),1,[]),'filled')
+
+nexttile; hold on; title('New Atlas')
+%plot(coverage_kbm(:), reshape(sum(map_kbm,3),[],1),'.b')
+%plot(coverage_ebird(:), reshape(sum(map_ebird,3),[],1),'.r')
+x=coverage_kbm(:)+coverage_ebird(:);
+y=map_sp_new(:);
+id = x~=0 & ~isnan(y);
+x=x(id);
+y=y(id);
+plot(x, y,'.k',MarkerSize=10)
+p=fit(log(x), y, 'poly2');
+plot(logspace(0,5,100), p(log(logspace(0,5,100))),'-r')
+set(gca,"XScale","log"); xlabel("Total duration");
+set(gca,"Xtick", ([0 12 24 24*7 24*30.5 24*30.5*6]));
+set(gca,"XtickLabels",["0" "12hr" "1day" "1week" "1month" "6months"]);
+box on; grid on; ylim([0 700]); yticklabels('')
+
+
+% Effort new vs old 
+figure('position',[0 0 900 450]);
+x=coverage_kbm(:)+coverage_ebird(:);
+y=categorical(coverage_old(:));
+% z = (reshape(sum(map_kbm|map_ebird,3),[],1) - reshape(sum(map_old,3),[],1)) ./ 2./(reshape(sum(map_kbm|map_ebird,3),[],1) + reshape(sum(map_old,3),[],1));
+z = (reshape(sum(map_kbm|map_ebird,3),[],1) - reshape(sum(map_old,3),[],1));
+id = ~isundefined(y) & y~="0";
+x=x(id);
+y=y(id);
+z = z(id);
+scatter(x, y, 300, z, 'filled',MarkerFaceAlpha=.8)
+set(gca,"XScale","log"); xlabel("Total duration (new atlas)"); ylabel("Coverage (old atlas)")
+set(gca,"Xtick", ([0 12 24 24*7 24*30.5 24*30.5*6]));
+set(gca,"XtickLabels",["0" "12hr" "1day" "1week" "1month" "6months"]);
+box on; grid on; colorbar; colormap(brewermap([],'RdYlGn'))
+% clim([-.5 .5]); 
+clim([-200 200])
+
+
+% Compute correction 
+% map_new_correction quantifies how many species in a square can be
+% explained by the additional effort (compared to a standard effort for this category). 
+figure('position',[0 0 900 400]); hold on;
+cov_u = unique(coverage_old);
+col = colormap( brewermap(7,'GnBu'));
+map_new_correction = nan(size(map_kbm,1), size(map_kbm,2));
+for i = 3:numel(cov_u)
+    id = find(coverage_old(:)==cov_u(i));
+    x = coverage_kbm(id)+coverage_ebird(id);
+    id = id(x>0);
+    x = x(x>0);
+    y = sum(map_kbm|map_ebird,3) - sum(map_old,3);
+    y=y(id);
+    plot(x,y,'.', color=col(i,:), markersize=20)
+    p = fit(log(x), y, 'poly1');
+    x_interp = logspace(-0.6,4.5,100);
+    plot(x_interp, p(log(x_interp)),'-', color=col(i,:), linewidth=2)
+    p11 = predint(p,log(x_interp),0.95,'functional','on');
+    fill([x_interp' ; flipud(x_interp')],[p11(:,1) ; flipud(p11(:,2))],col(i,:), EdgeColor = 'none',FaceAlpha=.2);  
+
+    map_new_correction(id) = p(log(x));
+end
+set(gca,"XScale","log"); xlabel("Total duration"); ylabel("Number of species")
+set(gca,"Xtick", ([0 12 24 24*7 24*30.5 24*30.5*6]));
+set(gca,"XtickLabels",["0" "12hr" "1day" "1week" "1month" "6months"]);
+yline(0,'--k')
+box on; grid on; axis tight; ylim([-200 200])
+
+
+% Corrected number of species
+map_new_corrected = sum(map_kbm|map_ebird,3) - map_new_correction;
+
+figure('position',[0 0 900 600]); tiledlayout(1,2,'TileSpacing','tight','Padding','tight')
+colormap( brewermap([],'RdYlGn')); 
+nexttile;hold on;
+imagesc(g.lon,g.lat,sum(map_kbm|map_ebird,3)-sum(map_old,3),'alphadata',.8*(sum(map_kbm|map_ebird,3)>0)); 
+axis equal tight; set(gca,"YDir","normal"); title('Old - uncorrected new')
+plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar; caxis([-200 200])
+
+nexttile;hold on;
+imagesc(g.lon,g.lat,map_new_corrected-sum(map_old,3),'alphadata',.8*(map_new_corrected>0)); 
+axis equal tight; set(gca,"YDir","normal"); title('Old - corrected new')
+plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar; caxis([-200 200])
+
+
+%% Mask
+
+mask = ~((coverage_kbm+coverage_ebird)>24) | coverage_old=="" | coverage_old=="0" | coverage_old=="11-30";
+%mask_2 = ~((coverage_kbm+coverage_ebird)>24*7) | coverage_old=="" | coverage_old=="0" | coverage_old=="11-30" | coverage_old=="31-50";
+%mask=zeros(size(mask_1));
+%mask(~mask_1)=1;
+%mask(~mask_2)=2;
+% mask = sum(map_kbm|map_ebird,3)<100 | sum(map_old,3)<100;
 % mask = abs(sum((map_kbm|map_ebird)>0,3)-sum(map_old>0,3))>100;
 
-figure;hold on; title('Mask')
-imagesc(g.lon,g.lat,ones(size(mask)),'alphadata',.8*(mask)); 
-axis equal tight; set(gca,"YDir","normal")
-plot_google_map; colormap( 'gray'); 
+% figure;hold on; 
+% imagesc(g.lon,g.lat,ones(size(mask)),'alphadata',.8*(1-mask/2)); 
+% axis equal tight; set(gca,"YDir","normal")
+% plot_google_map('MapType','terrain', 'ShowLabels',0); 
+% set(gca,'XColor', 'none','YColor','none')
+% set(gca, 'color', 'none');
+% colormap( 'gray'); 
 
-figure; hold on; title('Difference (new+eBird) - old')
-tmp = sum((map_kbm|map_ebird)>0,3)-sum(map_old>0,3);
-tmp(mask)=0;
-imagesc(g.lon,g.lat,tmp,'alphadata',.8*(tmp~=0)); 
-axis equal tight; set(gca,"YDir","normal")
-plot_google_map; colorbar;
-colormap( brewermap([],'RdYlGn')); caxis([-300 300])
+
+% Correction
+% the correction C can be view as the probability that a given species is
+% observed/not observed due to the change in effort. 
+% The negative sign is to provide 
+
+% C = - 10 * map_new_correction ./ (map_sp_new+map_sp_old)/2;
+Clost = - map_new_correction ./ map_sp_new;
+Cgain = - map_new_correction ./ map_sp_old;
+C = - map_new_correction ./ (map_sp_new+map_sp_old)/2;
+
+
+% Create size of marker for figure
+sz = @(x) min(max(200*(1+4*x),15),600); % -1<x<1
+
+figure('position',[0 0 600 600]);
+colormap( brewermap([],'RdYlGn')); 
+nexttile;hold on;
+scatter(g.LON(~isnan(C)),g.LAT(~isnan(C)),sz(-C(~isnan(C))),'k','filled','MarkerEdgeColor','k')
+% imagesc(g.lon,g.lat,nan(size(C)),'alphadata',zeros(size(C))); 
+imagesc(g.lon,g.lat,ones(size(mask)),'alphadata',.6*mask); 
+axis equal tight; set(gca,"YDir","normal");
+plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar; clim([-.1 .1])
+box on; xticks(''); yticks('')
+colormap(flipud(gray))
 
 
 %%
-% 
-diff = (map_kbm|map_ebird)*2 - map_old;
-diff(repmat(mask,1,1,size(map_kbm,3)))=nan;
-diff(diff==0)=nan;
-diff(diff==1)=0;
-diff(diff==2)=1;
-% nan: neither new nor old
-% -1: only old
-% 0: new and old
-% 1: only new
+i_sp = find(strcmp(sp_old.CommonName,"Great Crested Grebe"));
+% i_sp = find(strcmp(sp_old.CommonName,"House Sparrow"));
 
-
-i_sp = find(strcmp(sp_old.CommonName,"Black Kite"));
 figure('position',[0 0 600 600]); hold on; box on; grid on
-colormap(viridis)
-im = imagesc(g.lon,g.lat,diff(:,:,i_sp),'alphadata',.8*(~isnan(diff(:,:,i_sp)))); 
+
+tmp = map_diff(:,:,i_sp); 
+tmp2 = tmp; tmp2(tmp2==0)=1; tmp2(isnan(tmp2))=-1;
+
+s0=scatter(g.LON(~mask),g.LAT(~mask),sz(tmp2(~mask).*C(~mask)),'k','filled','markerfacealpha',0.3);
+
+id =~isnan(tmp) & ~mask;
+s1= scatter(g.LON(id),g.LAT(id),sz(tmp2(id).*C(id).*~mask(id)),tmp(id),'filled','MarkerEdgeColor',[.3 .3 .3]);
+
+id =~isnan(tmp) & mask;
+s2= scatter(g.LON(id),g.LAT(id),sz(-3),tmp(id),'filled','MarkerEdgeColor',[.3 .3 .3]);
+    
+
 xticks([g.lon(1)-g.res/2 g.lon+g.res/2])
 yticks([g.lat(1)-g.res/2 g.lat+g.res/2])
 axis equal tight; set(gca,"YDir","normal");
 title(sp_old.CommonName(i_sp))
-plot_google_map;
+plot_google_map('MapType','terrain', 'ShowLabels',0);%[roadmap,,  satellite, terrain, hybrid);
 colormap(brewermap(3,'RdYlGn'))
+xticklabels([]); yticklabels([])
+clim([-1 1])
+axis([32.9394   42.4606   -4.9500    5.0500])
 
-for i_sp = 2:height(sp_old)
-    im.CData = diff(:,:,i_sp);
-    im.AlphaData = .8*(~isnan(diff(:,:,i_sp)));
+for i_sp = 1:height(sp_old)
+     
+    delete(s0); delete(s1); delete(s2);
+
+    tmp = map_diff(:,:,i_sp); 
+    tmp2 = tmp; tmp2(tmp2==0)=1; tmp2(isnan(tmp2))=-1;
+
+    s0=scatter(g.LON(~mask),g.LAT(~mask),sz(tmp2(~mask).*C(~mask)),'k','filled','markerfacealpha',0.3);
+    
+    id =~isnan(tmp) & ~mask;
+    s1= scatter(g.LON(id),g.LAT(id),sz(tmp2(id).*C(id)),tmp(id),'filled','MarkerEdgeColor',[.3 .3 .3]);
+    
+    id =~isnan(tmp) & mask;
+    s2= scatter(g.LON(id),g.LAT(id),sz(-3),tmp(id),'filled','MarkerEdgeColor',[.3 .3 .3]);
+    
+
     title(sp_old.SEQ(i_sp) + " | "+sp_old.CommonName(i_sp))
     exportgraphics(gca, "export/species/"+num2str(sp_old.SEQ(i_sp))+"_"+strrep(sp_old.CommonName(i_sp)," ","-")+".png")
 end
 
 %%
 % 
+sp = sp_old;
 
-sp_old.lost = squeeze(sum(diff==-1,[1 2]));
-sp_old.kept = squeeze(sum(diff==0,[1 2]));
-sp_old.gain = squeeze(sum(diff==1,[1 2]));
-sp_old.diff = sp_old.gain-sp_old.lost;
+tmp_old = map_old;
+tmp_old(repmat(mask,1,1,size(tmp_old,3)))=0;
+sp.old = squeeze(sum(tmp_old,[1 2]));
+tmp_new = map_kbm|map_ebird;
+tmp_new(repmat(mask,1,1,size(tmp_new,3)))=0;
+sp.new = squeeze(sum(tmp_new,[1 2]));
 
-
-writetable(sp_old,"export/lost_kept_gain_sp.csv")
-
-
-figure; box on; grid on; grid on; grid on
-histogram(sp_old.gain-sp_old.lost)
-xlabel('Number of cell gained (+) or lost (-) since old atlas');
-ylabel("Number of species")
+sp.lost = squeeze(sum(tmp_old & ~tmp_new,[1 2]));
+sp.kept = squeeze(sum(tmp_old & tmp_new,[1 2]));
+sp.gain = squeeze(sum(~tmp_old & tmp_new,[1 2]));
 
 
-sp_old_s=sortrows(sp_old,"diff");
+% Convert C to a correction
+% -1<C<1 -> 0<corr<1
+% corr = max(min((C+1)/2,1),0);
 
-figure; box on; grid on;
-b = barh([sp_old.lost sp_old.gain].*[-1 1],'stacked');
-c=brewermap(3,'RdYlGn');
-b(1).FaceColor=  c(1,:);
-b(2).FaceColor=  c(3,:);
+tmp_lost = tmp_old & ~tmp_new;
+tmp_gain = ~tmp_old & tmp_new;
 
-nd=50;
+sp.lost_score = squeeze(nansum(tmp_lost.*(1+C),[1 2]));
+sp.gain_score = squeeze(nansum(tmp_gain.*(1+C),[1 2]));
 
-for i_s=1:(nd*3):height(sp_old)
-    figure('position',[0 0 3508 2480]/2); tiledlayout(1,3,'TileSpacing','tight','Padding','tight')
-    for u=1:3
-        id_sub = (1:nd)+i_s-1+(u-1)*nd;
-        id_sub = id_sub(id_sub<=height(sp_old));
-        nexttile; box on; grid on;
-        b = barh([-sp_old_s.kept(id_sub)/2 -sp_old_s.lost(id_sub) sp_old_s.kept(id_sub)/2 sp_old_s.gain(id_sub)],1,'stacked');
-        c=brewermap(3,'RdYlGn');
-        b(1).FaceColor=  c(2,:);
-        b(2).FaceColor=  c(1,:);
-        b(3).FaceColor=  c(2,:);
-        b(4).FaceColor=  c(3,:);
-        yticks(1:nd);
-        yticklabels(sp_old_s.CommonName(id_sub));
-        % xlabel('Number of grid lost (-) and gain(+)')
-        set(gca, 'YDir','reverse')
-        text(zeros(numel(id_sub),1),1:numel(id_sub),num2str(sp_old_s.kept(id_sub)),'horiz','center'); 
-        text(-sp_old_s.lost(id_sub)/2-sp_old_s.kept(id_sub)/2,1:numel(id_sub),num2str(sp_old_s.lost(id_sub)),'horiz','center'); 
-        text(sp_old_s.gain(id_sub)/2+sp_old_s.kept(id_sub)/2,1:numel(id_sub),num2str(sp_old_s.gain(id_sub)),'horiz','center'); 
-        grid on; axis tight; xlim([-90 90])
-    end
-    exportgraphics(gcf, "export/ranking_"+num2str(i_s)+".png")
-    close gcf
-end
+% figure; hold on
+% plot(sp.gain,sp.gain_score-sp.gain,'.g')
+% plot(sp.lost,sp.lost_score-sp.lost,'.r')
 
-%% Group species 
+writetable(sp,"export/sp_lost_kept_gain.csv")
 
-cat = {
-'AM', 'Afrotropical migrant';...
-'AMR', 'Afrotropical migrant and resident';...
-'E', ' endemic species or race';...
-%'EX', 'species which are thought to have become extinct in Kenya';...
-%'HIST', 'no record for 50 years, i.e. no record since 1968 or earlier';...
-%'IO', 'visitor from northwest Indian Ocean islands';...
-%'MM', ' migrant from the Malagasy region';...
-%'N', ' nomadic/wanderer';...
-%'NRR', ' not recently recorded, i.e. since the period 1969 to 1999';...
-%'OM', ' migrant from the Oriental region';...
-'PM', ' migrant from the Palaearctic region';...
-'PMR', ' migrant from the Palaearctic region and resident';...
-%'RAR', ' Fewer than 5 records on East African Rarities Committee list at time of publication';...
-%'RS', ' visitor from the Red Sea'...
-%'SO', ' visitor from the Southern Ocean or Antarctica';...
-%'VIO', ' vagrant from the northwest Indian Ocean';...
-%'VM', ' vagrant from the Malagasy region';...
-%'VN', ' vagrant from the Nearctic region';...
-%'VO', ' vagrant from the Oriental region';...
-%'VP', ' vagrant from the Palaearctic region';...
-%'VSO', ' vagrant from the Southern Ocean or Antarctica';...
-%'VSA', 'vagrant from southern Africa'...
-};
 
-for i_g=1:size(cat,1)
-    id_sub = find(sp_old_s.(cat{i_g,1})=="TRUE");
-    
-    figure('position',[0 0 3508/3 2480]/2); tiledlayout(1,1,'TileSpacing','tight','Padding','tight')
-    nexttile; box on; grid on;
-    b = barh([-sp_old_s.kept(id_sub)/2 -sp_old_s.lost(id_sub) sp_old_s.kept(id_sub)/2 sp_old_s.gain(id_sub)],1,'stacked');
-    c=brewermap(3,'RdYlGn');
-    b(1).FaceColor=  c(2,:);
-    b(2).FaceColor=  c(1,:);
-    b(3).FaceColor=  c(2,:);
-    b(4).FaceColor=  c(3,:);
-    yticks(1:numel(id_sub));
-    yticklabels(sp_old_s.CommonName(id_sub));
-    % xlabel('Number of grid lost (-) and gain(+)')
-    set(gca, 'YDir','reverse')
-    text(zeros(numel(id_sub),1),1:numel(id_sub),num2str(sp_old_s.kept(id_sub)),'horiz','center'); 
-    text(-sp_old_s.lost(id_sub)/2-sp_old_s.kept(id_sub)/2,1:numel(id_sub),num2str(sp_old_s.lost(id_sub)),'horiz','center'); 
-    text(sp_old_s.gain(id_sub)/2+sp_old_s.kept(id_sub)/2,1:numel(id_sub),num2str(sp_old_s.gain(id_sub)),'horiz','center'); 
-    grid on; axis tight; xlim([-90 90])
-    title(cat{i_g,2})
-    exportgraphics(gcf, "export/ranking_"+cat{i_g,1}+".png")
-end
+g.corr = C;
+g.mask = mask>=1;
+g.coverage_new=coverage_kbm+coverage_ebird;
+g.coverage_old=coverage_old;
+save('data/grid_corr',"g")
 
-%% By status
-cat = ["Critically Endangered","Endangered","Vulnerable","Near Threatened"];
-for i_g=1:numel(cat)
-    id_sub = find(sp_old_s.red_list==cat(i_g));
-    
-    figure('position',[0 0 3508/3 2480]/2); tiledlayout(1,1,'TileSpacing','tight','Padding','tight')
-    nexttile; box on; grid on;
-    b = barh([-sp_old_s.kept(id_sub)/2 -sp_old_s.lost(id_sub) sp_old_s.kept(id_sub)/2 sp_old_s.gain(id_sub)],1,'stacked');
-    c=brewermap(3,'RdYlGn');
-    b(1).FaceColor=  c(2,:);
-    b(2).FaceColor=  c(1,:);
-    b(3).FaceColor=  c(2,:);
-    b(4).FaceColor=  c(3,:);
-    yticks(1:numel(id_sub));
-    yticklabels(sp_old_s.CommonName(id_sub));
-    % xlabel('Number of grid lost (-) and gain(+)')
-    set(gca, 'YDir','reverse')
-    text(zeros(numel(id_sub),1),1:numel(id_sub),num2str(sp_old_s.kept(id_sub)),'horiz','center'); 
-    text(-sp_old_s.lost(id_sub)/2-sp_old_s.kept(id_sub)/2,1:numel(id_sub),num2str(sp_old_s.lost(id_sub)),'horiz','center'); 
-    text(sp_old_s.gain(id_sub)/2+sp_old_s.kept(id_sub)/2,1:numel(id_sub),num2str(sp_old_s.gain(id_sub)),'horiz','center'); 
-    grid on; axis tight; xlim([-90 90])
-    title(cat(i_g))
-    exportgraphics(gcf, "export/ranking_"+cat(i_g)+".png")
-end
 
-%% By family
-
-fam = groupcounts(sp_old_s,"family_english");
-fam = fam(fam.GroupCount>10,:);
-
-for i_f=1:height(fam)
-    id_sub = find(sp_old_s.family_english==fam.family_english(i_f));
-    
-    figure('position',[0 0 3508/3 2480]/2); tiledlayout(1,1,'TileSpacing','tight','Padding','tight')
-    nexttile; box on; grid on;
-    b = barh([-sp_old_s.kept(id_sub)/2 -sp_old_s.lost(id_sub) sp_old_s.kept(id_sub)/2 sp_old_s.gain(id_sub)],1,'stacked');
-    c=brewermap(3,'RdYlGn');
-    b(1).FaceColor=  c(2,:);
-    b(2).FaceColor=  c(1,:);
-    b(3).FaceColor=  c(2,:);
-    b(4).FaceColor=  c(3,:);
-    yticks(1:numel(id_sub));
-    yticklabels(sp_old_s.CommonName(id_sub));
-    % xlabel('Number of grid lost (-) and gain(+)')
-    set(gca, 'YDir','reverse')
-    text(zeros(numel(id_sub),1),1:numel(id_sub),num2str(sp_old_s.kept(id_sub)),'horiz','center'); 
-    text(-sp_old_s.lost(id_sub)/2-sp_old_s.kept(id_sub)/2,1:numel(id_sub),num2str(sp_old_s.lost(id_sub)),'horiz','center'); 
-    text(sp_old_s.gain(id_sub)/2+sp_old_s.kept(id_sub)/2,1:numel(id_sub),num2str(sp_old_s.gain(id_sub)),'horiz','center'); 
-    grid on; axis tight; xlim([-90 90])
-    title(fam.family_english(i_f))
-    exportgraphics(gcf, "export/ranking_"+fam.family_english(i_f)+".png")
-end
-
-%%
-G = groupsummary(sp_old_s,"family_english",@(x) median(x),["gain","lost","kept"]);
-G.diff=G.fun1_gain-G.fun1_lost;
-figure; hold on;
-scatter(G.fun1_gain,G.fun1_lost,G.GroupCount*10,'filled')
-text(G.fun1_gain,G.fun1_lost,G.family_english,"HorizontalAlignment","center")
-
-G=sortrows(G,"diff");
-
-figure('position',[0 0 3508/2 2480]/2); tiledlayout(1,2,'TileSpacing','tight','Padding','tight')
-nd = 55;
-for u=1:2
-    id_sub = (1:nd)+(u-1)*nd;
-    id_sub = id_sub(id_sub<=height(G));
-    nexttile; box on; grid on;
-    b = barh([-G.fun1_kept(id_sub)/2 -G.fun1_lost(id_sub) G.fun1_kept(id_sub)/2 G.fun1_gain(id_sub)],1,'stacked');
-    c=brewermap(3,'RdYlGn');
-    b(1).FaceColor =  c(2,:);
-    b(2).FaceColor =  c(1,:);
-    b(3).FaceColor =  c(2,:);
-    b(4).FaceColor =  c(3,:);
-    yticks(1:numel(id_sub));
-    yticklabels(G.family_english(id_sub)+" ("+num2str(G.GroupCount(id_sub))+")");
-    % xlabel('Number of grid lost (-) and gain(+)')
-    set(gca, 'YDir','reverse')
-    text(zeros(numel(id_sub),1),1:numel(id_sub),num2str(G.fun1_kept(id_sub)),'horiz','center'); 
-    text(-G.fun1_lost(id_sub)/2-G.fun1_kept(id_sub)/2,1:numel(id_sub),num2str(G.fun1_lost(id_sub)),'horiz','center'); 
-    text(G.fun1_gain(id_sub)/2+G.fun1_kept(id_sub)/2,1:numel(id_sub),num2str(G.fun1_gain(id_sub)),'horiz','center'); 
-    grid on; axis tight; xlim([-55 55])
-end
-exportgraphics(gcf, "export/ranking_family.png")
