@@ -1,0 +1,30 @@
+Metadata for:		EU birds decline overall in line with global patterns.csv
+Summary of species level results showing group allocations, total change and proportional change.
+Supporting manuscript:	Abundance decline in the avifauna of the European Union reveals global similarities in biodiversity change
+
+species:			species scientific name following HBW and BirdLife International 2019
+common_name:			species common name in English
+family:				species family
+order:				species order
+migratory.strategy:		migratory strategy following Sanderson et al 2006
+breeding.biome:			species core breeding habitat following Sanderson et al 2006
+bird.group:			broad type of bird species, categoried by family following Rosenberg et al 2019
+abundance.category:		Abundance quartile of the species' population estimate
+ts_source:			whether the species time-series was derived from the modelled output output of national monitoring schemes (PECBMS) or from national trend and population estimates (Article 12)
+firstyear:			start year of the species' time-series used in the analysis
+lastyear:			final year of the species' time-series used in the analysis
+year_est1:			average minimum year of the species' national population estimates
+year_est2:			average maximum year of the species' national population estimates
+popest:				average EU population estimate assessed between year_est1 and year_est2
+popse:				standard error around the EU population estimate
+Loss_mean:			Mean loss of individuals 1980:2017 from Bayesian heirarchical model described in section 2.2.1 of the paper
+Loss_sd:			standard deviation of the mean loss of individuals
+Loss_lci95:			lower 95% credible interval of the loss of individuals
+Loss_med:			Median loss of individuals 1980:2017
+Loss_uci95:			upper 95% credible interval of the loss of individuals
+total_proportional_change:	Proportional change 1980:2017
+annual rate of change:		Annual rate of change 1980:2017
+
+HBW and BirdLife International (2019) Handbook of the Birds of the World and BirdLife International digital checklist of the birds of the world. Version 4. Available at: http://datazone.birdlife.org/userfiles/file/Species/Taxonomy/HBW-BirdLife_Checklist_v4_Dec19.zip
+Rosenberg, K.V., Dokter, A.M., Blancher, P.J., Sauer, J.R., Smith, A.C., Smith, P.A. et al. (2019). Decline of the North American avifauna. Science, 366, 120-124.
+Sanderson, F.J., Donald, P.F., Pain, D.J., Burfield, I.J. & Van Bommel, F.P. (2006). Long-term population declines in Afro-Palearctic migrant birds. Biol. Conserv., 131, 93-105.

@@ -1,29 +1,86 @@
-
-
-
 library(phytools)
 library(readxl)
 library(tidyverse)
-tree <- read.tree("/Users/raphael/Library/CloudStorage/Box-Box/KenyaAtlasComparison/data/addTaxaComplete2Sep2022.tre")
-lost_kept_gain_sp <- read_xlsx("/Users/raphael/Library/CloudStorage/Box-Box/KenyaAtlasComparison/export/lost_kept_gain_sp.xlsx")
+library(RColorBrewer)
 
-# Map old atlas to eBird taxa
-sp_ebird = readxl::read_xlsx('/Users/raphael/Library/CloudStorage/Box-Box/KenyaAtlasComparison/data/eBird/sp_ebird.xlsx')%>%
-  filter(SEQ!=0) %>%
-  mutate(
-    scientifique_name = str_replace_all(scientifique_name," ","_")
-  ) %>%
-  filter(scientifique_name %in% tree$tip.label) %>%
-  left_join(lost_kept_gain_sp) %>%
-  group_by(scientifique_name) %>%
-  summarise(diff_score = sum(diff_score))
+fld <- "/Users/raphael/Library/CloudStorage/Box-Box/KenyaAtlasComparison/"
+tree <- read.tree(paste0(fld,"data/phylo/addTaxaComplete2Sep2022.tre"))
+sp_lost_kept_gain <- read_csv(paste0(fld,"export/sp_lost_kept_gain.csv"))
+sp_ebird = read_xlsx(paste0(fld,"data/eBird/sp_ebird.xlsx")) %>% 
+  transmute(
+    tre_label = str_replace_all(scientific_name," ","_"), 
+    SEQ
+    ) %>% 
+  filter(SEQ %in% sp_lost_kept_gain$SEQ) # remove species which have been observed since the old atlas and SEQ=0
+ 
+# Prune the tree to keep only species from sp_old/sp_lost_kept
+pruned <- drop.tip(tree, setdiff(tree$tip.label, sp_ebird$tre_label))
 
-pruned <- drop.tip(tree, setdiff(tree$tip.label, sp_ebird$scientifique_name))
-x <- sp_ebird$diff_score
-names(x) <- sp_ebird$scientifique_name
+# Find the equivalent seq of the tip of the tree
+pruned_label_seq = sp_ebird$SEQ[match(pruned$tip.label, sp_ebird$tre_label)]
 
-contMap(pruned, x, type="fan",fsize=0.9)
+# Merge tree tip which have the same SEQ
+while (any(duplicated(pruned_label_seq))){
+  
+  # Select the first duplicate
+  seq_dup <- head(pruned_label_seq[duplicated(pruned_label_seq)],1)
+  # Find the species name which need to be merged
+  sp_dup <- pruned$tip.label[pruned_label_seq==seq_dup]
+  print(sp_dup)
+  
+  # Find the node of the closer parent
+  c <- getMRCA(pruned, sp_dup)
+  stopifnot(!is.null(c))
+  
+  # Add a tip at the parent node
+  pruned = bind.tip(pruned, "temp", edge.length=NULL, where=c, position=0)
+  # delete the two children nodes
+  pruned = drop.tip(pruned, sp_dup)
+  pruned$tip.label[pruned$tip.label=="temp"] <- sp_dup[1]
+  
+  # Update the seq with the new tree
+  pruned_label_seq = sp_ebird$SEQ[match(pruned$tip.label, sp_ebird$tre_label)]
+}
+
+# Update the tips label
+pruned$tip.label <- pruned_label_seq
+
+# Add random name to node label to be able to read in matlab
+n <- length(pruned$node.label)
+a <- do.call(paste0, replicate(5, sample(LETTERS, n, TRUE), FALSE))
+pruned$node.label <- paste0(a, sprintf("%04d", sample(9999, n, TRUE)), sample(LETTERS, n, TRUE))
+
+# Export tree
+write.tree(pruned, paste0(fld,"data/phylo/kenyan_bird.tre"))
+
+
+
+
+## Pagel's lambda
+pruned2 <- drop.tip(pruned, setdiff(pruned$tip.label, sp_lost_kept_gain %>% .$SEQ))
+id = match(pruned2$tip.label, sp_lost_kept_gain$SEQ)
+x <- sp_lost_kept_gain$gain[id] - sp_lost_kept_gain$lost[id]
+lambda<-phylosig(pruned2, x, method="lambda", test=T)
+
+
+
+# Plot
+# 
+pruned2 <- drop.tip(pruned, setdiff(pruned$tip.label, sp_lost_kept_gain %>% filter((old+new)>10) %>% .$SEQ))
+
+# Use sp_old scientific name (rather than ebird)
+id = match(pruned2$tip.label, sp_lost_kept_gain$SEQ)
+x <- sp_lost_kept_gain$gain[id]-sp_lost_kept_gain$lost[id]
+pruned2$tip.label <- paste0(sp_lost_kept_gain$CommonName[id], ": ", ifelse(sign(x)==1,"+",""), x)
+pruned2$tip.label <- paste0(sp_lost_kept_gain$Family[id],' - ', sp_lost_kept_gain$CommonName[id])
+names(x) <- pruned2$tip.label
+m <- contMap(pruned2, x, plot=F, fsize=0.1, lims=c(-20, 20))
+m <-setMap(m, brewer.pal(11,'RdYlGn'))
+
+
+setEPS()
+postscript("whatever.eps")
+plot(m, type="fan", fsize=0.1, lwd=1, outline=F)
+dev.off()
 
 plotTree(pruned, x)
-
-write.tree(pruned, "/Users/raphael/Library/CloudStorage/Box-Box/KenyaAtlasComparison/data/kenyan_bird.tre")

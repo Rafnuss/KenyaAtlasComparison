@@ -47,6 +47,9 @@ old_atlas = old_atlas(:,["SEQ" "SqN" "SqL" "pre_1970" "x1970_1984"]);
 % Remove recent data (post 1984)
 old_atlas(ismissing(old_atlas.pre_1970) & ismissing(old_atlas.x1970_1984),:)=[];
 
+% Keep only main period data
+old_atlas(ismissing(old_atlas.x1970_1984),:)=[];
+
 % Match the grid
 [~,old_atlas.idg]=ismember(string(old_atlas.SqN)+old_atlas.SqL,string(g.SqN(:))+g.SqL(:));
 
@@ -54,24 +57,36 @@ old_atlas(ismissing(old_atlas.pre_1970) & ismissing(old_atlas.x1970_1984),:)=[];
 
 %% Script to create the dataset to compare the old and new Kenyan bird atlas
 
-sp_old = readtable("data/oldatlas/A Bird Atlas of Kenya_base_list.xlsx", 'TextType', 'string');
+% sp_old = readtable("data/oldatlas/A Bird Atlas of Kenya_base_list.xlsx", 'TextType', 'string');
+sp_base = readtable("data/species_base_list.xlsx", 'TextType', 'string');
 
 % Delete species with MergeSEQ==0
-sp_old(sp_old.MergedSEQ==0,:)
-old_atlas(ismember(old_atlas.SEQ,sp_old.SEQ(sp_old.MergedSEQ==0)),:)=[];
+sp_base.common_name(sp_base.merged_SEQ==0)
+old_atlas(ismember(old_atlas.SEQ,sp_base.SEQ(sp_base.merged_SEQ==0)),:)=[];
 
-% Merge species by replacing SEQ for MergedSEQ>0
-[~,id] = ismember(old_atlas.SEQ, sp_old.MergedSEQ);
-old_atlas.SEQ(id>0) = sp_old.MergedSEQ(id(id>0));
+% Merge species by replacing SEQ for merged_SEQ>0
+[~,id] = ismember(old_atlas.SEQ, sp_base.merged_SEQ);
+old_atlas.SEQ(id>0) = sp_base.merged_SEQ(id(id>0));
 
-sp_old = sp_old(isnan(sp_old.MergedSEQ),:);
+sp_base = sp_base(isnan(sp_base.merged_SEQ),:);
+sp_base = removevars(sp_base,["merged_SEQ" "avibaseID"    "inaturalistID"  "observationorgID"    "GBIFID"    "clements_code"  "SISRecID" "Min_Latitude"    "Max_Latitude"    "Centroid_Latitude"    "Centroid_Longitude"    "Range_Size"]);
 
+% Rename lovebird
+id = sp_base.common_name == "Fischer's Lovebird";
+sp_base.common_name(id) = "Fischer's x Yellow-collared Lovebird";
+sp_base.scientific_name(id) = "Agapornis fischeri x personatus";
+sp_base.IUCN(id) = missing();
+
+% Rename collared flycatcher
+id = sp_base.SEQ == 786;
+sp_base.common_name(id) = "Semicollared/Pied/Collared Flycatcher";
+sp_base.scientific_name(id) = "Ficedula sp.";
 
 %% Format as matrix
-map_old = false(numel(g.lat), numel(g.lon), height(sp_old));
+map_old = false(numel(g.lat), numel(g.lon), height(sp_base));
 
-for i_sp = 1:height(sp_old)
-    id = sp_old.SEQ(i_sp) == old_atlas.SEQ;
+for i_sp = 1:height(sp_base)
+    id = sp_base.SEQ(i_sp) == old_atlas.SEQ;
     tmp = false(numel(g.lat), numel(g.lon));
     tmp(old_atlas.idg(id))=true;
     map_old(:,:,i_sp) = tmp;
@@ -83,10 +98,9 @@ plot_google_map; title('Number of species'); colorbar;
 
 i_sp = 141;
 figure; imagesc(g.lon,g.lat,map_old(:,:,i_sp),'alphadata',0.8*(map_old(:,:,i_sp)>0)); axis equal tight; set(gca,"YDir","normal")
-plot_google_map; title(sp_old.CommonName(i_sp)+" (SEQ="+sp_old.SEQ(i_sp)+")")
-
+plot_google_map; title(sp_base.common_name(i_sp)+" (SEQ="+sp_base.SEQ(i_sp)+")")
 
 
 %% Save
 save('data/grid','g')
-save('data/oldatlas',"map_old","sp_old","coverage_old")
+save('data/oldatlas',"map_old","sp_base","coverage_old")
