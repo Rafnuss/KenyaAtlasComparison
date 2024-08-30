@@ -2,7 +2,7 @@
 addpath("functions/")
 sp = readtable("export/sp_lost_kept_gain.csv", TextType="string");
 sp.diff = (sp.new - sp.old)./(sp.new + sp.old)*2;
-sp = sp(sp.waterBird==1,:);
+sp = sp(sp.waterbird==1,:);
 
 csr8 = readtable("data/CSR8/KE_slope_edit.csv", TextType="string");
 csr8.meaning_sym(:) = "~";
@@ -42,7 +42,7 @@ figure; hold on; grid on;
 tmp = spj.totals_imputed .* spj.add;
 tmp = sign(tmp).*log(abs(tmp));
 scatter(spj.new - spj.old, tmp, 10+10*log10(spj.totals_imputed),'ok','filled')
-text(spj.new - spj.old, tmp,spj.CommonName,"HorizontalAlignment","center")
+text(spj.new - spj.old, tmp,spj.clements_common_name,"HorizontalAlignment","center")
 
 
 %
@@ -63,7 +63,7 @@ for i_s=1:3
     b(3).FaceColor=  c(2,:);
     b(4).FaceColor=  c(3,:);
     yticks(1:height(spj));
-    yticklabels(spj.CommonName(id_sub)+" "+spj.meaning_sym(id_sub));
+    yticklabels(spj.clements_common_name(id_sub)+" "+spj.meaning_sym(id_sub));
     % xlabel('Number of grid lost (-) and gain(+)')
     set(gca, 'YDir','reverse')
     text(zeros(numel(id_sub),1),1:numel(id_sub),num2str(round(spj.kept(id_sub))),'horiz','center'); 

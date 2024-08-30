@@ -2,9 +2,9 @@
 %% Load data
 addpath("functions/")
 sp = readtable("export/sp_lost_kept_gain.csv", TextType="string");
-sp = sp((sp.lost+sp.gain+sp.kept)>10,:);
-sp(sp.CommonName=="House Sparrow",:) = [];
-sp(sp.CommonName=="Levant Sparrowhawk",:) = [];
+% sp = sp((sp.lost+sp.gain+sp.kept)>10,:);
+% sp(sp.CommonName=="House Sparrow",:) = [];
+% sp(sp.CommonName=="Levant Sparrowhawk",:) = [];
 
 burn = readtable("data/burns2021/EU birds decline overall in line with global patterns_species_results_withSEQ.csv", TextType="string");
 burn.migratory_strategy = categorical(burn.migratory_strategy);
@@ -12,10 +12,14 @@ burn = burn(burn.SEQ>0,:);
 spj = outerjoin(sp, burn, Keys="SEQ");
 
 
-% spj.diff = (spj.new - spj.old)./(spj.new + spj.old)*2;
+spj.diff = spj.gain_score - spj.lost_score;
+spj.diff = (spj.new - spj.old)./(spj.new + spj.old)*2;
 spj.diff = (spj.new ./ spj.old).^(1/33);
+spj.diff = spj.new - spj.old;
 
 id = spj.migratory_strategy~="Resident" & ~isnan(spj.annualRateOfChange) & ~isnan(spj.diff);% spj.migratory_strategy=="Resident"; spj.Palearctic==1 &
+id = spj.palearctic==1 & ~isnan(spj.annualRateOfChange) & ~isnan(spj.diff) & (spj.lost+spj.gain+spj.kept)>10
+id = ~isnan(spj.annualRateOfChange) & ~isnan(spj.diff) & (spj.lost+spj.gain+spj.kept)>1
 
 
 fit(spj.diff(id), spj.annualRateOfChange(id),"poly1",weight=(spj.new(id) + spj.old(id))/2)

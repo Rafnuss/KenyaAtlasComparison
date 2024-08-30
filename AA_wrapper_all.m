@@ -1,0 +1,7 @@
+A_import_old_atlas
+B_import_KBM
+C_import_ebird
+D_correction
+close all
+clear all
+clc
