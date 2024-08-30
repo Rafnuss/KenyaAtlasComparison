@@ -1,0 +1,1069 @@
+Ref,Common_group,Common_species,Genus,Species,fp,fpn,fp_last,ad,adn,ad_last,Column1
+1,Ostrich,Common,Struthio,camelus,6.3593,658,9/26/22,1.9553,440,9/28/22,1
+4,Grebe,Great Crested,Podiceps,cristatus,0.0773,8,7/30/22,0.0089,2,12/7/21,4
+5,Grebe,Black-necked,Podiceps,nigricollis,0.1256,13,2/1/21,0.0311,7,1/9/21,5
+6,Grebe,Little,Tachybaptus,ruficollis,11.5589,1196,9/25/22,2.3908,538,9/28/22,6
+28,Shearwater,Tropical,Puffinus,bailloni,0.0097,1,2/23/19,0.0044,1,12/22/21,28
+41,Pelican,Pink-backed,Pelecanus,rufescens,4.1461,429,9/21/22,1.0043,226,9/17/22,41
+42,Pelican,Great White,Pelecanus,onocrotalus,5.0063,518,9/13/22,1.5376,346,9/5/22,42
+47,Cormorant,White-breasted ,Phalacrocorax,lucidus,3.1893,330,8/28/22,0.4933,111,4/4/22,47
+50,Cormorant,Reed,Microcarbo,africanus,19.2326,1990,9/26/22,3.4618,779,9/28/22,50
+52,Darter,African,Anhinga,rufa,5.4509,564,9/26/22,0.7688,173,7/30/22,52
+54,Heron,Grey,Ardea,cinerea,22.2383,2301,9/26/22,6.328,1424,9/24/22,54
+55,Heron,Black-headed,Ardea,melanocephala,26.2492,2716,9/26/22,6.728,1514,9/28/22,55
+56,Heron,Goliath,Ardea,goliath,2.7448,284,9/13/22,0.6977,157,9/17/22,56
+57,Heron,Purple,Ardea,purpurea,4.2234,437,9/25/22,0.7688,173,9/8/22,57
+58,Egret,Great,Ardea,alba,14.5356,1504,9/26/22,3.204,721,9/19/22,58
+59,Egret,Little,Egretta,garzetta,8.7852,909,9/13/22,2.3241,523,9/17/22,59
+60,Egret,Intermediate,Ardea,intermedia,8.2149,850,9/26/22,1.9464,438,9/28/22,60
+61,Egret,Western Cattle,Bubulcus,ibis,22.0547,2282,9/26/22,8.2833,1864,9/25/22,61
+62,Heron,Squacco,Ardeola,ralloides,5.3059,549,9/12/22,1.1376,256,9/26/22,62
+63,Heron,Striated,Butorides,striata,6.485,671,9/13/22,1.0265,231,9/6/22,63
+64,Heron,Black,Egretta,ardesiaca,1.5463,160,9/18/22,0.3555,80,6/15/22,64
+65,Heron,Rufous-bellied,Ardeola,rufiventris,0.1353,14,6/13/22,0.1111,25,2/13/22,65
+66,Bittern,Dwarf,Ixobrychus,sturmii,0.3383,35,9/21/22,0.0311,7,5/14/22,66
+67,Bittern,Little,Ixobrychus,minutus,0.7152,74,8/27/22,0.0889,20,9/26/22,67
+69,Heron,Black-crowned Night,Nycticorax,nycticorax,3.1797,329,8/27/22,0.6444,145,8/27/22,69
+70,Heron,White-backed Night,Gorsachius,leuconotus,0.0966,10,6/13/21,0.0356,8,11/26/21,70
+72,,Hamerkop,Scopus,umbretta,20.576,2129,9/26/22,5.2437,1180,9/16/22,72
+73,Stork,Marabou,Leptoptilos,crumenifer,14.0331,1452,9/26/22,5.1104,1150,9/28/22,73
+74,Openbill,African,Anastomus,lamelligerus,6.8232,706,9/21/22,1.5465,348,9/13/22,74
+75,Stork,Saddle-billed,Ephippiorhynchus,senegalensis,1.7686,183,7/30/22,0.4266,96,9/18/22,75
+76,Stork,Yellow-billed,Mycteria,ibis,14.8642,1538,9/26/22,3.9195,882,9/17/22,76
+77,Stork,Woolly-necked,Ciconia,episcopus,7.7124,798,9/26/22,1.3865,312,9/1/22,77
+78,Stork,Abdim's,Ciconia,abdimii,1.0728,111,6/30/22,0.4222,95,5/14/22,78
+79,Stork,Black,Ciconia,nigra,1.3627,141,5/14/22,0.2266,51,2/27/22,79
+80,Stork,White,Ciconia,ciconia,2.4548,254,6/23/22,0.8977,202,9/14/22,80
+81,Ibis,African Sacred,Threskiornis,aethiopicus,28.53,2952,9/26/22,9.4165,2119,9/24/22,81
+83,Ibis,Glossy,Plegadis,falcinellus,4.6487,481,9/13/22,1.302,293,9/17/22,83
+84,Ibis,Hadada ,Bostrychia,hagedash,47.7046,4936,9/26/22,15.3091,3445,9/28/22,84
+85,Spoonbill,African,Platalea,alba,11.4913,1189,9/26/22,2.8707,646,9/26/22,85
+86,Flamingo,Greater ,Phoenicopterus,roseus,3.199,331,9/13/22,0.871,196,9/17/22,86
+87,Flamingo,Lesser,Phoeniconaias,minor,2.9864,309,9/13/22,1.0799,243,9/17/22,87
+88,Goose,Spur-winged,Plectropterus,gambensis,2.1359,221,9/4/22,0.5688,128,9/26/22,88
+89,Goose,Egyptian,Alopochen,aegyptiaca,30.26,3131,9/26/22,8.1411,1832,9/28/22,89
+91,Duck,Knob-billed,Sarkidiornis,melanotos,2.3775,246,9/4/22,0.5777,130,9/17/22,91
+92,Goose,African Pygmy,Nettapus,auritus,1.0245,106,9/21/22,0.1378,31,5/14/22,92
+93,Shoveler,Northern,Spatula,clypeata,0.3866,40,2/9/22,0.1111,25,12/7/21,93
+95,Duck,African Black,Anas,sparsa,2.4065,249,9/24/22,0.7155,161,9/7/22,95
+96,Duck,Yellow-billed,Anas,undulata,8.5822,888,9/25/22,2.3908,538,9/28/22,96
+97,Teal,Red-billed,Anas,erythrorhyncha,4.6584,482,9/26/22,1.3554,305,9/17/22,97
+98,Teal,Cape,Anas,capensis,1.498,155,7/31/22,0.4755,107,7/16/22,98
+99,Teal,Blue-billed,Spatula,hottentota,2.4065,249,8/28/22,0.671,151,9/17/22,99
+100,Duck,White-faced Whistling,Dendrocygna,viduata,8.2343,852,9/21/22,1.7242,388,9/17/22,100
+101,Duck,Fulvous Whistling,Dendrocygna,bicolor,0.9858,102,5/14/22,0.1778,40,2/6/22,101
+102,Pochard,Southern,Netta,erythrophthalma,0.3963,41,5/7/22,0.0667,15,12/20/21,102
+103,Duck,Maccoa,Oxyura,maccoa,0.1256,13,2/23/22,0.0222,5,7/4/21,103
+104,Duck,White-backed,Thalassornis,leuconotus,1.1598,120,9/19/22,0.2933,66,8/21/22,104
+105,,Secretarybird,Sagittarius,serpentarius,5.5282,572,9/26/22,1.9864,447,9/14/22,105
+107,Vulture,White-backed,Gyps,africanus,8.9591,927,9/26/22,2.1064,474,9/22/22,107
+108,Vulture,Lappet-faced,Torgos,tracheliotos,2.4741,256,8/5/22,0.9377,211,9/17/22,108
+109,Vulture,White-headed,Trigonoceps,occipitalis,0.7055,73,9/26/22,0.2622,59,9/22/22,109
+110,Vulture,Hooded,Necrosyrtes,monachus,1.8653,193,9/4/22,0.4577,103,9/22/22,110
+111,Vulture,Egyptian,Neophron,percnopterus,0.3479,36,5/4/22,0.1644,37,7/3/22,111
+112,Vulture,Palm-nut,Gypohierax,angolensis,4.0108,415,8/28/22,0.6444,145,9/13/22,112
+113,Falcon,Peregrine,Falco,peregrinus,0.8408,87,4/1/22,0.2755,62,7/14/22,113
+114,Falcon,Lanner,Falco,biarmicus,3.8948,403,9/2/22,0.5733,129,9/22/22,114
+115,Hobby,Eurasian,Falco,subbuteo,0.7828,81,5/1/22,0.0933,21,5/2/22,115
+116,Hobby,African,Falco,cuvierii,0.2126,22,9/1/22,0.0444,10,9/4/21,116
+117,Falcon,Red-necked,Falco,chicquera,0.203,21,7/21/22,0.0578,13,5/1/22,117
+119,Falcon,Amur,Falco,amurensis,0.5316,55,4/4/22,0.1067,24,4/30/22,119
+120,Falcon,Red-footed,Falco,vespertinus,0.0097,1,2/21/21,0.0089,2,5/8/21,120
+121,Kestrel,Dickinson's,Falco,dickinsoni,0,0,-,0.0044,1,5/18/19,121
+122,Kestrel,Greater,Falco,rupicoloides,0.3673,38,5/6/22,0.3244,73,4/30/22,122
+123,Kestrel,Rock,Falco,rupicolus,0.1546,16,2/6/22,0.0178,4,1/31/21,123
+125,Kestrel,Lesser,Falco,naumanni,1.2661,131,4/26/22,0.3111,70,5/8/22,125
+126,Falcon,Pygmy,Polihierax,semitorquatus,3.0347,314,9/16/22,1.1865,267,9/16/22,126
+127,Cuckoo-Hawk,African,Aviceda,cuculoides,0.2706,28,9/12/21,0.0444,10,8/13/21,127
+128,Kite,Black,Milvus,migrans,10.5441,1091,9/18/22,5.3415,1202,9/28/22,128
+129,Kite,Yellow-billed,Milvus,aegyptius,19.3099,1998,9/26/22,7.4968,1687,9/25/22,129
+130,Kite,Black-winged ,Elanus,caeruleus,10.2735,1063,8/28/22,2.7063,609,9/25/22,130
+131,Hawk,Bat,Macheiramphus,alcinus,0.4059,42,8/27/22,0.1155,26,6/16/22,131
+132,Honey-buzzard,European,Pernis,apivorus,0.5219,54,4/11/22,0.0578,13,5/2/22,132
+133,Eagle,Verreaux's,Aquila,verreauxii,2.2325,231,8/28/22,0.3733,84,6/7/22,133
+134,Eagle,Tawny,Aquila,rapax,10.8051,1118,9/26/22,2.7552,620,9/19/22,134
+135,Eagle,Steppe,Aquila,nipalensis,2.2422,232,9/16/22,0.6044,136,4/8/22,135
+136,Eagle,Lesser Spotted,Clanga,pomarina,0.1063,11,11/30/21,0.0356,8,12/3/21,136
+137,Eagle,Wahlberg's,Hieraaetus,wahlbergi,4.3588,451,9/26/22,0.8443,190,9/28/22,137
+138,Eagle,Long-crested,Lophaetus,occipitalis,9.3554,968,9/18/22,2.0975,472,9/28/22,138
+139,Eagle,Booted,Hieraaetus,pennatus,1.4304,148,3/14/22,0.1022,23,5/9/22,139
+140,Hawk-Eagle,Ayre's,Hieraaetus,ayresii,1.7493,181,9/11/22,0.28,63,7/30/22,140
+141,Hawk-eagle,African,Aquila,spilogaster,4.0978,424,9/26/22,0.7421,167,9/26/22,141
+142,Eagle,Martial,Polemaetus,bellicosus,6.6783,691,9/3/22,1.4576,328,9/18/22,142
+143,Eagle,Crowned ,Stephanoaetus,coronatus,3.1797,329,9/20/22,0.7066,159,8/21/22,143
+144,Buzzard,Lizard,Kaupifalco,monogrammicus,6.8136,705,9/5/22,1.5331,345,9/25/22,144
+145,Eagle,Brown Snake ,Circaetus,cinereus,2.7351,283,9/25/22,0.9554,215,9/26/22,145
+146,Eagle,Black-chested Snake,Circaetus,pectoralis,4.3974,455,9/4/22,1.0132,228,9/26/22,146
+147,Eagle,Southern Banded Snake ,Circaetus,fasciolatus,1.0148,105,5/29/22,0.1822,41,9/25/22,147
+148,Eagle,Western Banded Snake ,Circaetus,cinerascens,0.2609,27,8/28/22,0.0844,19,7/31/22,148
+149,Eagle,African Fish,Haliaeetus,vocifer,19.8512,2054,9/26/22,4.115,926,9/25/22,149
+150,Vulture,Bearded,Gypaetus,barbatus,0.0097,1,5/7/19,0,0,-,150
+151,,Bateleur,Terathopius,ecaudatus,7.6157,788,9/26/22,2.6041,586,9/26/22,151
+153,Buzzard,Augur,Buteo,augur,23.3014,2411,9/25/22,5.7948,1304,9/28/22,153
+154,Buzzard,Common,Buteo,buteo,4.987,516,5/13/22,0.951,214,9/14/22,154
+156,Sparrowhawk,Rufous-breasted,Accipiter,rufiventris,0.2513,26,9/4/22,0.0444,10,11/4/19,156
+157,Sparrowhawk,Ovambo,Accipiter,ovampensis,0.087,9,6/13/22,0.0178,4,5/8/21,157
+158,Sparrowhawk,Little,Accipiter,minullus,3.5083,363,8/21/22,0.6177,139,9/25/22,158
+159,Sparrowhawk,Black,Accipiter,melanoleucus,8.3599,865,9/19/22,1.4176,319,9/24/22,159
+160,Goshawk,African,Accipiter,tachiro,6.8136,705,9/20/22,1.342,302,9/14/22,160
+161,,Shikra,Accipiter,badius,1.701,176,9/2/22,0.3377,76,5/14/22,161
+162,Goshawk,Gabar,Micronisus,gabar,7.1422,739,9/13/22,1.4576,328,9/20/22,162
+163,Goshawk,Dark Chanting,Melierax,metabates,0.5702,59,9/4/22,0.2177,49,9/19/22,163
+165,Goshawk,Pale Chanting,Melierax,canorus,0.0193,2,10/8/21,0.0044,1,10/14/21,165
+166,Harrier,Western Marsh,Circus,aeruginosus,3.0734,318,5/14/22,0.6977,157,4/2/22,166
+167,Harrier,African Marsh,Circus,ranivorus,0.7055,73,3/9/22,0.2044,46,7/29/22,167
+168,Harrier,Pallid,Circus,macrourus,2.4935,258,3/19/22,0.5599,126,3/19/22,168
+170,Harrier,Montagu's,Circus,pygargus,2.3098,239,3/17/22,0.5199,117,8/14/22,170
+171,Harrier-Hawk,African,Polyboroides,typus,11.6362,1204,9/25/22,2.3819,536,9/28/22,171
+172,Osprey,Western,Pandion,haliaetus,1.8459,191,9/25/22,0.4622,104,3/24/22,172
+173,Francolin,Coqui,Peliperdix,coqui,2.7641,286,9/13/22,0.7643,172,9/25/22,173
+174,Francolin,Crested,Dendroperdix,sephaena,18.9813,1964,9/26/22,3.4262,771,9/26/22,174
+177,Francolin,Shelley's,Scleroptila,shelleyi,1.3047,135,8/6/22,0.1733,39,8/27/22,177
+178,Francolin,Red-winged,Scleroptila,levaillantii,0.0193,2,6/13/22,0.0311,7,5/8/21,178
+188,Spurfowl,Red-necked,Pternistis,afer,1.5077,156,7/30/22,0.3777,85,9/18/22,188
+189,Quail,Common,Coturnix,coturnix,0.9278,96,4/27/22,0.2089,47,7/28/22,189
+190,Quail,Harlequin,Coturnix,delegorguei,1.556,161,7/30/22,0.3555,80,7/11/22,190
+192,Guineafowl,Helmeted,Numida,meleagris,18.1502,1878,9/26/22,4.5372,1021,9/26/22,192
+193,Guineafowl,Crested,Guttera,pucherani,1.0824,112,7/20/22,0.2,45,3/24/22,193
+196,Buttonquail,Common,Turnix,sylvaticus,0.4446,46,4/26/22,0.0889,20,6/14/22,196
+197,Rail,African,Rallus,caerulescens,0.5026,52,9/18/22,0.0533,12,10/1/21,197
+198,Crake,Corn,Crex,crex,0.0193,2,12/27/19,0.0089,2,1/4/20,198
+199,Crake,African,Crecopsis,egregia,0.1353,14,5/14/21,0.0444,10,7/6/21,199
+200,Crake,Striped,Aenigmatolimnas,marginalis,0,0,-,0.0089,2,6/24/18,200
+201,Crake,Spotted,Porzana,porzana,0.0097,1,3/21/19,0.0044,1,3/26/06,201
+203,Crake,Black,Zapornia,flavirostra,13.0859,1354,9/26/22,1.7953,404,9/28/22,203
+205,Flufftail,Red-chested,Sarothrura,rufa,0.1836,19,10/9/21,0.0222,5,5/30/19,205
+206,Flufftail,Buff-spotted,Sarothrura,elegans,0.0097,1,10/16/20,0.0178,4,2/17/22,206
+207,Flufftail,Striped,Sarothrura,affinis,0.0097,1,12/25/17,0,0,-,207
+208,Swamphen,African,Porphyrio,madagascariensis,1.2081,125,9/12/22,0.2666,60,9/4/22,208
+209,Gallinule,Allen's,Porphyrio,alleni,0.8602,89,9/21/22,0.0444,10,6/20/22,209
+210,Moorhen,Common,Gallinula,chloropus,7.0938,734,9/26/22,1.342,302,9/28/22,210
+211,Moorhen,Lesser,Paragallinula,angulata,0.3673,38,8/4/22,0.0444,10,6/20/22,211
+212,Coot,Red-knobbed,Fulica,cristata,4.3394,449,8/28/22,1.4487,326,9/16/22,212
+213,Finfoot,African,Podica,senegalensis,0.0677,7,5/30/22,0.0044,1,7/2/17,213
+214,Crane,Grey Crowned,Balearica,regulorum,12.9796,1343,9/26/22,4.1728,939,9/28/22,214
+217,Bustard,Kori,Ardeotis,kori,4.9096,508,9/21/22,1.4709,331,9/17/22,217
+219,Bustard,Denham's,Neotis,denhami,0.0483,5,5/6/22,0.0133,3,2/14/19,219
+222,Bustard,White-bellied,Eupodotis,senegalensis,5.4412,563,9/26/22,1.3732,309,9/17/22,222
+227,Bustard,Black-bellied,Lissotis,melanogaster,2.1455,222,9/13/22,0.671,151,9/9/22,227
+228,Jacana,African,Actophilornis,africanus,10.3025,1066,9/26/22,2.453,552,9/28/22,228
+229,Jacana,Lesser,Microparra,capensis,0.3286,34,7/30/22,0.1333,30,7/16/22,229
+230,Painted-snipe,Greater,Rostratula,benghalensis,0.5509,57,6/22/22,0.0889,20,9/17/22,230
+232,Turnstone,Ruddy,Arenaria,interpres,1.2854,133,8/21/22,0.2755,62,5/8/22,232
+233,Plover,Common Ringed,Charadrius,hiaticula,6.3013,652,8/30/22,1.5065,339,6/30/22,233
+234,Plover,Lesser Sand,Charadrius,mongolus,3.112,322,8/21/22,0.6266,141,5/8/22,234
+235,Plover,White-fronted,Charadrius,marginatus,1.5753,163,8/21/22,0.2666,60,6/9/22,235
+236,Plover,Chestnut-banded,Charadrius,pallidus,0.116,12,3/9/22,0.1511,34,9/17/22,236
+237,Plover,Kittlitz's,Charadrius,pecuarius,3.9818,412,9/4/22,1.1865,267,9/17/22,237
+238,Plover,Three-banded,Charadrius,tricollaris,14.8159,1533,9/26/22,2.6974,607,9/19/22,238
+239,Plover,Greater Sand,Charadrius,leschenaultii,2.9864,309,8/21/22,0.5866,132,5/14/22,239
+240,Plover,Caspian,Charadrius,asiaticus,0.4252,44,7/28/22,0.12,27,9/19/22,240
+241,Plover,Grey,Pluvialis,squatarola,4.5327,469,8/21/22,1.031,232,7/30/22,241
+242,Lapwing,Crowned,Vanellus,coronatus,16.2559,1682,9/26/22,4.075,917,9/25/22,242
+243,Lapwing,Black-winged,Vanellus,melanopterus,2.2132,229,8/17/22,0.8221,185,9/18/22,243
+244,Lapwing,Senegal,Vanellus,lugubris,2.0006,207,7/13/22,0.5244,118,9/9/22,244
+245,Lapwing,Blacksmith,Vanellus,armatus,12.7767,1322,9/26/22,3.7062,834,9/17/22,245
+247,Lapwing,African Wattled,Vanellus,senegallus,1.2564,130,8/18/22,0.4799,108,9/19/22,247
+248,Lapwing,Long-toed,Vanellus,crassirostris,3.9818,412,9/26/22,0.911,205,9/17/22,248
+249,Snipe,Great,Gallinago,media,0.0193,2,8/22/19,0.0044,1,11/22/99,249
+250,Snipe,African,Gallinago,nigripennis,0.4252,44,7/30/22,0.2977,67,7/16/22,250
+251,Sandpiper,Curlew,Calidris,ferruginea,3.9238,406,8/21/22,0.7243,163,5/8/22,251
+253,Stint,Little,Calidris,minuta,6.9585,720,9/26/22,1.702,383,9/13/22,253
+255,,Sanderling,Calidris,alba,2.1649,224,8/21/22,0.4088,92,9/1/22,255
+256,,Ruff,Calidris,pugnax,4.1268,427,8/28/22,1.1065,249,9/17/22,256
+257,Sandpiper,Terek,Xenus,cinereus,2.8317,293,8/21/22,0.551,124,4/8/22,257
+258,Sandpiper,Common,Actitis,hypoleucos,17.0388,1763,9/26/22,3.4751,782,9/16/22,258
+259,Sandpiper,Green,Tringa,ochropus,4.3201,447,9/13/22,0.9021,203,9/17/22,259
+260,Redshank,Spotted,Tringa,erythropus,0.0773,8,3/8/22,0.0311,7,1/8/22,260
+261,Redshank,Common,Tringa,totanus,0.1256,13,2/9/22,0.0489,11,2/13/22,261
+262,Sandpiper,Marsh,Tringa,stagnatilis,3.6919,382,9/13/22,1.0043,226,9/17/22,262
+263,Greenshank,Common,Tringa,nebularia,9.6356,997,9/26/22,2.2708,511,9/3/22,263
+264,Sandpiper,Wood,Tringa,glareola,10.9307,1131,9/26/22,2.2797,513,9/16/22,264
+265,Godwit,Black-tailed,Limosa,limosa,0.8312,86,8/28/22,0.1778,40,3/28/22,265
+266,Godwit,Bar-tailed,Limosa,lapponica,0.6379,66,8/21/22,0.16,36,3/12/22,266
+267,Curlew,Eurasian,Numenius,arquata,1.4594,151,8/21/22,0.32,72,4/16/22,267
+268,Whimbrel,Eurasian ,Numenius,phaeopus,4.726,489,8/21/22,0.9021,203,8/23/22,268
+269,Avocet,Pied,Recurvirostra,avosetta,1.6237,168,8/21/22,0.5288,119,9/17/22,269
+270,Stilt,Black-winged,Himantopus,himantopus,7.2871,754,9/26/22,2.3819,536,9/17/22,270
+272,Phalarope,Red-necked,Phalaropus,lobatus,0.0773,8,2/26/20,0.0178,4,3/24/22,272
+273,,Crab-plover,Dromas,ardeola,2.8607,296,8/21/22,0.5644,127,6/4/22,273
+274,Thick-knee,Water,Burhinus,vermiculatus,6.7073,694,9/21/22,1.031,232,9/26/22,274
+275,Thick-knee,Spotted,Burhinus,capensis,2.5611,265,9/26/22,0.5688,128,9/8/22,275
+277,Courser,Temminck's,Cursorius,temminckii,1.498,155,9/13/22,0.3866,87,9/8/22,277
+278,Courser,Double-banded,Rhinoptilus,africanus,0.8602,89,6/23/22,0.2311,52,9/17/22,278
+279,Courser,Three-banded,Rhinoptilus,cinctus,0.9181,95,9/3/22,0.0889,20,9/3/22,279
+280,Courser,Bronze-winged,Rhinoptilus,chalcopterus,0.029,3,3/15/18,0.0178,4,5/1/21,280
+281,Pratincole,Collared,Glareola,pratincola,1.44,149,7/24/22,0.3066,69,6/27/22,281
+283,Pratincole,Rock,Glareola,nuchalis,0.0387,4,6/22/21,0.0356,8,4/24/22,283
+284,Jaeger,Parasitic,Stercorarius,parasiticus,0.0097,1,5/20/21,0.0089,2,5/20/21,284
+285,Jaeger,Pomarine,Stercorarius,pomarinus,0.0097,1,5/8/21,0,0,-,285
+288,Gull,Grey-headed,Chroicocephalus,cirrocephalus,3.3246,344,9/13/22,1.0754,242,7/16/22,288
+290,Tern,Caspian,Hydroprogne,caspia,1.2371,128,8/21/22,0.3466,78,6/17/22,290
+291,Tern,Common,Sterna,hirundo,1.0824,112,7/29/22,0.2889,65,4/2/22,291
+293,Tern,Roseate,Sterna,dougallii,0.5992,62,8/21/22,0.1378,31,7/6/22,293
+295,Tern,Sooty,Onychoprion,fuscatus,0.087,9,10/9/21,0.0089,2,6/9/21,295
+297,Tern,Lesser Crested,Thalasseus,bengalensis,2.5515,264,7/30/22,0.7466,168,7/6/22,297
+298,Tern,Greater Crested,Thalasseus,bergii,0.9375,97,7/30/22,0.3111,70,8/20/22,298
+299,Tern,Little,Sternula,albifrons,0.0677,7,4/30/22,0.0133,3,5/8/22,299
+303,Noddy,Brown,Anous,stolidus,0.3286,34,7/5/22,0.0711,16,7/6/22,303
+304,Tern,White-winged,Chlidonias,leucopterus,2.938,304,7/31/22,0.6221,140,9/17/22,304
+305,Tern,Whiskered,Chlidonias,hybrida,2.4935,258,8/27/22,0.5466,123,7/16/22,305
+306,Skimmer,African,Rynchops,flavirostris,0.2223,23,6/19/22,0.12,27,2/25/22,306
+309,Sandgrouse,Yellow-throated,Pterocles,gutturalis,1.2274,127,8/17/22,0.3688,83,8/15/22,309
+311,Pigeon,Speckled,Columba,guinea,17.8892,1851,9/25/22,7.7634,1747,9/25/22,311
+312,Pigeon,African Olive,Columba,arquatrix,1.4497,150,7/2/22,0.2577,58,4/24/22,312
+313,Pigeon,Eastern Bronze-naped,Columba,delegorguei,0.3866,40,4/20/22,0.0489,11,6/19/22,313
+314,Dove,Red-eyed,Streptopelia,semitorquata,46.6609,4828,9/26/22,9.6343,2168,9/28/22,314
+315,Dove,Mourning Collared,Streptopelia,decipiens,9.4713,980,9/26/22,2.3508,529,9/17/22,315
+316,Dove,Cape Turtle,Streptopelia,capicola,43.6648,4518,9/26/22,11.6429,2620,9/26/22,316
+317,Dove,Laughing,Spilopelia,senegalensis,19.6192,2030,9/26/22,5.537,1246,9/18/22,317
+318,Dove,Namaqua,Oena,capensis,11.2593,1165,9/18/22,3.0751,692,9/17/22,318
+319,Dove,Tambourine,Turtur,tympanistria,11.5299,1193,9/18/22,1.8042,406,9/25/22,319
+320,Dove,Blue-spotted Wood,Turtur,afer,2.4355,252,8/28/22,0.28,63,8/27/22,320
+321,Dove,Emerald-spotted Wood,Turtur,chalcospilos,38.5136,3985,9/26/22,7.839,1764,9/26/22,321
+322,Dove,Lemon,Columba,larvata,0.7345,76,7/20/22,0.1289,29,8/18/22,322
+323,Pigeon,African Green,Treron,calvus,7.1325,738,9/12/22,0.9865,222,9/28/22,323
+327,Parrot,Meyer's,Poicephalus,meyeri,6.8039,704,9/13/22,1.1243,253,9/21/22,327
+328,Parrot,Brown-headed,Poicephalus,cryptoxanthus,1.0438,108,7/13/22,0.3999,90,2/11/22,328
+337,Turaco,Purple-crested,Gallirex,porphyreolophus,0.087,9,10/8/17,0,0,-,337
+338,Turaco,Schalow's,Tauraco,schalowi,0.7828,81,9/13/22,0.1289,29,8/15/22,338
+340,Cuckoo,Common,Cuculus,canorus,1.3337,138,4/29/22,0.2044,46,5/1/22,340
+341,Cuckoo,African,Cuculus,gularis,0.5992,62,9/13/22,0.1911,43,4/11/22,341
+343,Cuckoo,Red-chested,Cuculus,solitarius,12.6027,1304,9/18/22,2.6974,607,9/8/22,343
+344,Cuckoo,Black,Cuculus,clamosus,2.6384,273,9/3/22,0.36,81,6/22/22,344
+345,Cuckoo,Thick-billed,Pachycoccyx,audeberti,0.2223,23,4/12/22,0.04,9,6/26/21,345
+346,Cuckoo,Great Spotted,Clamator,glandarius,0.4639,48,5/4/22,0.1333,30,5/3/22,346
+347,Cuckoo,Levaillant's,Clamator,levaillantii,0.5509,57,9/2/22,0.1422,32,9/2/22,347
+348,Cuckoo,Jacobin,Clamator,jacobinus,3.5663,369,7/13/22,0.6577,148,5/29/22,348
+350,Cuckoo,African Emerald,Chrysococcyx,cupreus,2.2712,235,6/9/22,0.3733,84,7/13/22,350
+351,Cuckoo,Klaas's,Chrysococcyx,klaas,18.6141,1926,9/19/22,3.1996,720,9/26/22,351
+352,Cuckoo,Diederik,Chrysococcyx,caprius,14.6902,1520,9/13/22,2.5952,584,9/13/22,352
+353,Coucal,Black,Centropus,grillii,0.058,6,6/14/22,0.0667,15,7/12/22,353
+355,Coucal,Senegal,Centropus,senegalensis,0.174,18,1/8/22,0.0089,2,12/29/21,355
+357,Nightjar,Montane,Caprimulgus,poliocephalus,2.8027,290,9/18/22,0.751,169,8/10/22,357
+358,Malkoha,Green,Ceuthmochares,australis,3.8079,394,9/23/22,0.6932,156,9/13/22,358
+359,Owl,Western Barn ,Tyto,alba,0.4542,47,8/25/22,0.0844,19,3/17/22,359
+361,Owl,Marsh,Asio,capensis,0.145,15,10/9/21,0.0844,19,8/6/22,361
+362,Owl,African Wood,Strix,woodfordii,1.672,173,8/19/22,0.2755,62,5/14/22,362
+363,Owl,African Scops,Otus,senegalensis,1.498,155,9/11/22,0.1378,31,9/3/22,363
+364,Owl,Southern White-faced Scops,Ptilopsis,granti,0.0387,4,1/26/21,0.0178,4,5/9/21,364
+365,Owlet,Pearl-spotted,Glaucidium,perlatum,3.2377,335,9/9/22,0.4844,109,9/3/22,365
+366,Owlet,African Barred,Glaucidium,capense,0.8022,83,4/11/22,0.2355,53,2/7/22,366
+367,Eagle-Owl,Cape,Bubo,capensis,0.029,3,2/19/21,0.0711,16,4/9/22,367
+368,Eagle-Owl,Spotted,Bubo,africanus,1.4787,153,7/25/22,0.1911,43,9/26/22,368
+369,Eagle-Owl,Verreaux's,Bubo,lacteus,3.9045,404,9/3/22,0.6888,155,9/3/22,369
+370,Owl,Pel's Fishing,Scotopelia,peli,0.029,3,5/13/22,0.0089,2,5/15/22,370
+371,Nightjar,European,Caprimulgus,europaeus,0.5702,59,4/14/22,0.08,18,3/30/22,371
+373,Nightjar,Fiery-necked,Caprimulgus,pectoralis,0.8505,88,4/21/22,0.2977,67,4/5/22,373
+374,Nightjar,Freckled,Caprimulgus,tristigma,0.3576,37,6/13/22,0.0356,8,8/14/22,374
+375,Nightjar,Swamp,Caprimulgus,natalensis,0.174,18,8/27/22,0.0133,3,8/27/22,375
+376,Nightjar,Square-tailed,Caprimulgus,fossii,0.0773,8,1/24/21,0.0178,4,3/8/20,376
+377,Nightjar,Pennant-winged,Caprimulgus,vexillarius,0.0097,1,8/21/22,0.0089,2,7/20/22,377
+378,Swift,Common,Apus,apus,1.2081,125,3/28/22,0.8443,190,5/14/22,378
+379,Swift,Pallid,Apus,pallidus,0,0,-,0.0044,1,11/27/17,379
+380,Swift,African Black,Apus,barbatus,1.9136,198,9/2/22,0.3288,74,7/10/22,380
+382,Swift,Mottled,Tachymarptis,aequatorialis,2.7544,285,9/4/22,0.3999,90,5/5/22,382
+383,Swift,White-rumped,Apus,caffer,7.4321,769,9/4/22,0.9377,211,7/14/22,383
+384,Swift,Horus,Apus,horus,0.9085,94,6/13/22,0.1511,34,3/29/22,384
+385,Swift,Little,Apus,affinis,26.5778,2750,9/26/22,5.5593,1251,9/25/22,385
+386,Swift,Alpine,Tachymarptis,melba,0.5122,53,2/5/22,0.0978,22,3/30/22,386
+387,Swift,African Palm,Cypsiurus,parvus,26.2202,2713,9/26/22,5.4259,1221,9/28/22,387
+388,Spinetail,Mottled,Telacanthura,ussheri,0.8988,93,5/14/22,0.2177,49,6/17/22,388
+389,Spinetail,Böhm's,Neafrapus,boehmi,0.4832,50,5/14/22,0.0622,14,9/12/22,389
+390,Mousebird,Speckled,Colius,striatus,53.977,5585,9/26/22,13.8337,3113,9/28/22,390
+393,Trogon,Narina,Apaloderma,narina,2.938,304,9/12/22,0.6133,138,8/24/22,393
+394,Kingfisher,Pied,Ceryle,rudis,20.1218,2082,9/26/22,3.7906,853,9/28/22,394
+395,Kingfisher,Giant,Megaceryle,maxima,4.1171,426,9/18/22,0.8799,198,9/12/22,395
+397,Kingfisher,Malachite,Corythornis,cristatus,14.2747,1477,9/26/22,2.2619,509,9/28/22,397
+398,Kingfisher,African Pygmy,Ispidina,picta,4.6197,478,9/25/22,0.5466,123,9/28/22,398
+399,Kingfisher,Woodland,Halcyon,senegalensis,2.2035,228,9/13/22,0.5288,119,8/26/22,399
+400,Kingfisher,Mangrove,Halcyon,senegaloides,3.2666,338,8/27/22,0.6133,138,6/30/22,400
+401,Kingfisher,Grey-headed,Halcyon,leucocephala,17.2804,1788,9/25/22,4.1017,923,9/28/22,401
+402,Kingfisher,Brown-hooded,Halcyon,albiventris,3.6726,380,9/12/22,0.7688,173,9/18/22,402
+403,Kingfisher,Striped,Halcyon,chelicuti,11.9455,1236,9/25/22,2.2042,496,9/26/22,403
+404,Bee-eater,European,Merops,apiaster,11.5202,1192,9/26/22,2.1819,491,9/12/22,404
+405,Bee-eater,Blue-cheeked,Merops,persicus,2.4741,256,6/14/22,0.5066,114,5/31/22,405
+406,Bee-eater,Olive,Merops,superciliosus,3.0347,314,9/2/22,0.5999,135,9/12/22,406
+407,Bee-eater,Southern Carmine,Merops,nubicoides,0.0097,1,9/10/16,0,0,-,407
+409,Bee-eater,White-fronted,Merops,bullockoides,5.2092,539,9/18/22,1.6442,370,9/25/22,409
+410,Bee-eater,Little,Merops,pusillus,15.5214,1606,9/26/22,3.044,685,9/28/22,410
+412,Roller,European,Coracias,garrulus,4.958,513,5/14/22,2.5374,571,5/14/22,412
+413,Roller,Lilac-breasted,Coracias,caudatus,20.1411,2084,9/26/22,6.8124,1533,9/26/22,413
+415,Roller,Purple,Coracias,naevius,2.0199,209,9/25/22,0.6133,138,8/14/22,415
+416,Roller,Broad-billed,Eurystomus,glaucurus,2.1359,221,8/27/22,0.4933,111,9/25/22,416
+418,Hoopoe,African,Upupa,africana,9.5293,986,9/21/22,2.1419,482,9/16/22,418
+419,Wood Hoopoe,Green ,Phoeniculus,purpureus,10.0029,1035,9/13/22,2.022,455,8/21/22,419
+420,Wood Hoopoe,Violet ,Phoeniculus,damarensis,0.8408,87,9/9/22,0.1378,31,9/26/22,420
+421,Scimitarbill,Common,Rhinopomastus,cyanomelas,4.1075,425,9/4/22,0.8399,189,8/27/22,421
+422,Hornbill,Trumpeter,Bycanistes,bucinator,3.3246,344,8/19/22,0.8132,183,9/24/22,422
+423,Hornbill,Silvery-cheeked,Bycanistes,brevis,4.3298,448,9/19/22,1.4309,322,9/21/22,423
+424,Hornbill,African Grey,Lophoceros,nasutus,9.2104,953,9/26/22,2.5019,563,9/26/22,424
+427,Hornbill,Crowned,Lophoceros,alboterminatus,5.3349,552,8/23/22,1.3998,315,9/25/22,427
+430,Hornbill,Southern Ground ,Bucorvus,leadbeateri,1.6623,172,9/21/22,0.631,142,9/13/22,430
+431,Barbet,Black-collared,Lybius,torquatus,0.6282,65,5/14/22,0.1333,30,2/24/22,431
+433,Barbet,White-eared,Stactolaema,leucotis,0.5219,54,9/23/22,0.1244,28,11/7/21,433
+435,Barbet,Green,Stactolaema,olivacea,2.5515,264,9/23/22,0.591,133,9/24/22,435
+436,Tinkerbird,Red-fronted,Pogoniulus,pusillus,20.2088,2091,9/21/22,3.5773,805,9/26/22,436
+437,Tinkerbird,Yellow-fronted,Pogoniulus,chrysoconus,0.1933,20,5/14/22,0.0267,6,4/24/22,437
+438,Tinkerbird,Yellow-rumped,Pogoniulus,bilineatus,16.024,1658,9/25/22,2.8085,632,9/28/22,438
+440,Honeyguide,Greater,Indicator,indicator,5.6441,584,9/26/22,0.7421,167,9/26/22,440
+441,Honeyguide,Scaly-throated,Indicator,variegatus,1.469,152,7/31/22,0.3022,68,9/25/22,441
+442,Honeyguide,Lesser,Indicator,minor,6.2917,651,9/12/22,0.6977,157,9/25/22,442
+443,Honeybird,Brown-backed,Prodotiscus,regulus,0.4639,48,8/21/22,0.0267,6,9/26/22,443
+444,Honeybird,Green-backed,Prodotiscus,zambesiae,2.7351,283,9/14/22,0.2533,57,9/20/22,444
+447,Woodpecker,Golden-tailed,Campethera,abingoni,0.174,18,12/12/21,0.0222,5,7/10/21,447
+449,Woodpecker,Green-backed,Campethera,cailliautii,0.2803,29,2/9/22,0.0755,17,9/26/22,449
+450,Woodpecker,Cardinal,Dendropicos,fuscescens,10.1092,1046,9/18/22,1.2443,280,9/26/22,450
+451,Woodpecker,Bearded,Chloropicus,namaquus,2.2905,237,9/9/22,0.2889,65,9/26/22,451
+453,Wryneck,Red-throated,Jynx,ruficollis,1.5657,162,9/4/22,0.3866,87,9/24/22,453
+454,Broadbill,African,Smithornis,capensis,0.3576,37,9/11/22,0.0267,6,10/17/20,454
+455,Pitta,African,Pitta,angolensis,0.0097,1,5/18/22,0,0,-,455
+456,Lark,Melodious,Mirafra,cheniana,0.0193,2,9/4/20,0.0222,5,5/21/22,456
+458,Lark,Rufous-naped,Mirafra,africana,10.6214,1099,9/26/22,2.7241,613,9/24/22,458
+459,Lark,Fawn-colored,Calendulauda,africanoides,3.4213,354,7/3/22,0.5288,119,9/20/22,459
+467,Babbler,African Hill,Sylvia,abyssinica,1.5077,156,6/24/22,0.2577,58,5/14/22,467
+468,Lark,Flappet,Mirafra,rufocinnamomea,3.4503,357,6/10/22,0.6355,143,9/25/22,468
+471,Warbler,Mountain Yellow,Iduna,similis,0.7635,79,9/4/22,0.1778,40,5/17/22,471
+476,Weaver,Baglafecht,Ploceus,baglafecht,31.6034,3270,9/25/22,8.8833,1999,9/28/22,476
+477,Finch,Oriole,Linurgus,olivaceus,0.145,15,4/4/22,0.0222,5,4/26/20,477
+484,Sparrow-Lark,Chestnut-backed ,Eremopterix,leucotis,0.145,15,2/20/22,0.0622,14,4/6/22,484
+488,Lark,Red-capped,Calandrella,cinerea,4.9193,509,9/4/22,1.2487,281,9/8/22,488
+493,Swallow,Barn,Hirundo,rustica,27.9405,2891,9/18/22,7.6345,1718,9/26/22,493
+494,Swallow,Angolan,Hirundo,angolensis,1.5657,162,9/5/22,0.24,54,7/19/22,494
+496,Swallow,Wire-tailed,Hirundo,smithii,14.207,1470,9/26/22,2.7819,626,9/28/22,496
+497,Swallow,Blue,Hirundo,atrocaerulea,0.0387,4,6/18/22,0.0044,1,10/7/20,497
+499,Swallow,Grey-rumped,Pseudhirundo,griseopyga,0.1933,20,3/15/22,0.0533,12,8/6/22,499
+500,Swallow,Mosque,Cecropis,senegalensis,2.6288,272,9/2/22,0.5333,120,9/14/22,500
+501,Swallow,Red-breasted,Cecropis,semirufa,0.2513,26,4/29/22,0.0578,13,7/31/21,501
+503,Swallow,Lesser Striped,Cecropis,abyssinica,20.8466,2157,9/4/22,3.7595,846,9/13/22,503
+504,Swallow,South African Cliff ,Petrochelidon,spilodera,0,0,-,0.0089,2,7/6/20,504
+506,Martin,Rock,Ptyonoprogne,fuligula,18.1405,1877,9/25/22,3.2929,741,9/28/22,506
+507,Martin,Common House,Delichon,urbicum,2.6771,277,7/2/22,0.4355,98,5/29/22,507
+508,Martin,Sand,Riparia,riparia,2.4548,254,8/27/22,0.32,72,5/21/22,508
+509,Martin,Brown-throated,Riparia,paludicola,11.4236,1182,9/25/22,1.9642,442,9/25/22,509
+510,Martin,Banded,Riparia,cincta,2.2519,233,9/26/22,0.3466,78,8/20/22,510
+511,Saw-wing,Black (Southern Africa),Psalidoprocne,pristoptera holomelas,15.2701,1580,9/26/22,2.9285,659,9/25/22,511
+513,Cuckooshrike,Black,Campephaga,flava,7.8863,816,9/26/22,1.1376,256,9/20/22,513
+515,Cuckooshrike,White-breasted ,Ceblepyris,pectoralis,0.0097,1,3/12/15,0,0,-,515
+516,Cuckooshrike,Grey ,Ceblepyris,caesius,1.2757,132,9/4/22,0.1733,39,9/20/22,516
+517,Drongo,Fork-tailed,Dicrurus,adsimilis,44.0031,4553,9/26/22,0.7643,172,9/26/22,517
+518,Drongo,Common Square-tailed,Dicrurus,ludwigii,0.3576,37,9/11/22,0.0444,10,5/24/22,518
+519,Oriole,Eurasian Golden,Oriolus,oriolus,5.9727,618,6/24/22,1.2665,285,4/16/22,519
+520,Oriole,African Golden,Oriolus,auratus,3.3343,345,7/16/22,0.7999,180,7/7/22,520
+521,Oriole,Black-headed,Oriolus,larvatus,23.9586,2479,9/26/22,4.7816,1076,9/28/22,521
+522,Crow,Pied,Corvus,albus,34.3674,3556,9/26/22,17.4599,3929,9/28/22,522
+523,Crow,Cape,Corvus,capensis,4.0012,414,9/18/22,2.413,543,9/10/22,523
+524,Raven,White-necked,Corvus,albicollis,0.4639,48,7/2/22,0.08,18,3/30/22,524
+530,Tit,Grey Penduline,Anthoscopus,caroli,0.3189,33,9/2/22,0.0089,2,8/16/21,530
+532,Creeper,African Spotted,Salpornis,salvadori,0.0097,1,9/4/22,0.0044,1,11/27/20,532
+533,Babbler,Arrow-marked,Turdoides,jardineii,4.9483,512,9/25/22,0.8932,201,9/18/22,533
+541,Greenbul,Placid,Phyllastrephus,placidus,0.6862,71,8/21/22,0.1511,34,8/21/22,541
+545,Bulbul,Dark-capped,Pycnonotus,tricolor,12.3031,1273,9/25/22,3.7195,837,9/24/22,545
+546,Brownbul,Terrestrial,Phyllastrephus,terrestris,0.5702,59,5/14/22,0.1289,29,2/26/22,546
+548,Greenbul,Lowland Tiny,Phyllastrephus,debilis,0.6572,68,7/2/22,0.1244,28,5/14/22,548
+549,Greenbul,Stripe-cheeked,Arizelocichla,milanjensis,0.174,18,7/2/22,0.0889,20,7/10/22,549
+550,Greenbul,Yellow-bellied,Chlorocichla,flaviventris,5.9534,616,9/23/22,1.5998,360,9/25/22,550
+551,Greenbul,Sombre,Andropadus,importunus,12.0808,1250,9/23/22,3.3107,745,9/25/22,551
+555,Greenbul,Shelley's,Arizelocichla,masukuensis,0.1643,17,9/11/22,0.0311,7,1/4/20,555
+556,Thrush,Orange Ground,Geokichla,gurneyi,0.0097,1,7/8/14,0.0044,1,7/10/22,556
+558,Thrush,Spotted Ground,Geokichla,guttata,0.1256,13,8/19/22,0.0311,7,11/2/21,558
+563,Wheatear,Northern,Oenanthe,oenanthe,6.9875,723,9/26/22,1.7775,400,9/25/22,563
+565,Greenbul,Little,Eurillas,virens,0.3866,40,9/23/22,0.0578,13,5/1/22,565
+567,Scrub Robin,Rufous-tailed,Cercotrichas,galactotes,1.3724,142,6/18/22,0.1644,37,3/20/22,567
+568,Wheatear,Capped,Oenanthe,pileata,0.9181,95,5/13/22,0.3777,85,9/17/22,568
+570,Chat,Familiar,Oenanthe,familiaris,0.087,9,12/17/19,0.0089,2,12/20/17,570
+573,Chat,Mocking Cliff,Thamnolaea,cinnamomeiventris,1.0148,105,9/2/22,0.2266,51,3/28/22,573
+575,Chat,Ant-eating ,Myrmecocichla,formicivora,0.0097,1,10/9/19,0.0089,2,10/18/20,575
+576,Stonechat,African,Saxicola,torquatus,7.5094,777,9/25/22,2.0975,472,9/28/22,576
+577,,Whinchat,Saxicola,rubetra,1.8556,192,6/30/22,0.2889,65,3/27/22,577
+579,Robin-Chat,Red-capped,Cossypha,natalensis,4.3781,453,8/30/22,0.911,205,9/25/22,579
+580,Robin-Chat,White-browed,Cossypha,heuglini,22.7312,2352,9/25/22,4.1239,928,9/18/22,580
+581,Robin-Chat,Cape,Cossypha,caffra,18.6527,1930,9/25/22,4.435,998,9/25/22,581
+585,Scrub Robin,Bearded,Cercotrichas,quadrivirgata,6.9875,723,7/16/22,1.5598,351,9/24/22,585
+588,Scrub Robin,White-browed,Cercotrichas,leucophrys,15.8113,1636,9/26/22,2.2175,499,9/17/22,588
+589,Robin,White-starred,Pogonocichla,stellata,2.8511,295,9/20/22,0.6488,146,9/14/22,589
+591,Akalat,East Coast,Sheppardia,gunningi,0.5219,54,7/2/22,0.1067,24,7/2/22,591
+592,Nightingale,Thrush,Luscinia,luscinia,1.3337,138,3/29/22,0.16,36,2/3/22,592
+593,Palm Thrush,Collared,Cichladusa,arquata,1.5173,157,7/15/22,0.4533,102,9/1/22,593
+594,Whitethroat,Common,Curruca,communis,1.9039,197,4/4/22,0.16,36,3/30/22,594
+595,Warbler,Garden,Sylvia,borin,1.1404,118,4/9/22,0.0933,21,3/20/22,595
+596,Warbler,Icterine,Hippolais,icterina,0.0097,1,3/26/17,0.0133,3,3/28/21,596
+597,Warbler,Olive-tree,Hippolais,olivetorum,0.3673,38,4/4/22,0.0222,5,12/3/21,597
+598,Warbler,River,Locustella,fluviatilis,0.3093,32,12/9/21,0.0267,6,12/6/21,598
+599,Warbler,Willow,Phylloscopus,trochilus,11.153,1154,9/25/22,1.3065,294,9/18/22,599
+600,Eremomela,Yellow-bellied,Eremomela,icteropygialis,2.9091,301,9/5/22,0.2889,65,5/2/22,600
+602,Eremomela,Green-capped,Eremomela,scotops,0.1063,11,10/8/21,0.0178,4,2/13/22,602
+603,Warbler,Great Reed ,Acrocephalus,arundinaceus,0.2223,23,4/26/22,0.0222,5,11/10/21,603
+604,Warbler,Lesser Swamp ,Acrocephalus,gracilirostris,4.1655,431,8/28/22,0.4044,91,8/3/22,604
+605,Warbler,Barred,Curruca,nisoria,0.4252,44,12/7/21,0.0711,16,4/6/22,605
+606,Warbler,African Reed,Acrocephalus,baeticatus,0.4059,42,6/29/22,0.04,9,7/26/22,606
+607,Warbler,Marsh,Acrocephalus,palustris,0.8118,84,4/23/22,0.1422,32,12/15/21,607
+608,Warbler,Sedge,Acrocephalus,schoenobaenus,0.6089,63,12/9/21,0.0533,12,5/4/22,608
+609,Warbler,Little Rush,Bradypterus,baboecala,2.3678,245,7/13/22,0.1866,42,7/7/22,609
+616,Grassbird,Fan-tailed,Catriscus,brevirostris,0.1063,11,7/30/22,0.0222,5,2/13/22,616
+617,Warbler,Moustached Grass,Melocichla,mentalis,2.7448,284,8/7/22,0.2755,62,5/29/22,617
+622,Apalis,Bar-throated,Apalis,thoracica,0.0097,1,10/18/18,0,0,-,622
+623,Apalis,Black-headed,Apalis,melanocephala,3.315,343,9/23/22,0.7954,179,7/7/22,623
+625,Apalis,Yellow-breasted,Apalis,flavida,21.4748,2222,9/26/22,2.7774,625,9/14/22,625
+627,Camaroptera,Green-backed,Camaroptera,brachyura,8.012,829,9/25/22,1.7642,397,9/24/22,627
+628,Camaroptera,Grey-backed,Camaroptera,brevicaudata,36.5517,3782,9/26/22,6.1903,1393,9/25/22,628
+629,Cisticola,Zitting,Cisticola,juncidis,1.8749,194,9/26/22,0.3999,90,9/20/22,629
+630,Cisticola,Desert,Cisticola,aridulus,1.3337,138,6/17/22,0.2177,49,6/27/22,630
+632,Cisticola,Hunter's,Cisticola,hunteri,7.2098,746,9/20/22,2.2575,508,9/5/22,632
+634,Cisticola,Wing-snapping,Cisticola,ayresii,0.6959,72,7/30/22,0.2622,59,7/16/22,634
+636,Cisticola,Short-winged,Cisticola,brachypterus,2.5418,263,9/5/22,0.2711,61,6/20/22,636
+639,Cisticola,Wailing,Cisticola,lais,0.087,9,7/27/17,0.0133,3,1/1/17,639
+642,Cisticola,Rattling,Cisticola,chiniana,22.7795,2357,9/26/22,5.3859,1212,9/25/22,642
+643,Cisticola,Singing,Cisticola,cantans,13.1149,1357,9/26/22,2.493,561,9/24/22,643
+644,Cisticola,Red-faced,Cisticola,erythrops,7.0455,729,9/25/22,0.9377,211,9/2/22,644
+646,Cisticola,Levaillant's,Cisticola,tinniens,0.4252,44,7/30/22,0.24,54,7/30/22,646
+647,Cisticola,Croaking,Cisticola,natalensis,1.1018,114,9/23/22,0.2266,51,6/14/22,647
+649,Prinia,Tawny-flanked,Prinia,subflava,32.3089,3343,9/26/22,5.7415,1292,9/28/22,649
+652,Warbler,Evergreen Forest,Bradypterus,lopezi,0.2706,28,7/2/22,0.04,9,9/20/22,652
+654,Flycatcher,Spotted,Muscicapa,striata,11.4623,1186,5/14/22,1.8442,415,5/14/22,654
+655,Flycatcher,African Dusky,Muscicapa,adusta,9.51,984,9/25/22,1.862,419,9/28/22,655
+656,Flycatcher,Ashy,Muscicapa,caerulescens,1.498,155,6/25/22,0.3155,71,7/7/22,656
+657,Tit-Flycatcher,Grey,Myioparus,plumbeus,0.1063,11,9/4/21,0.0267,6,5/14/22,657
+662,Flycatcher,Pale,Melaenornis,pallidus,11.7425,1215,9/23/22,1.7642,397,9/17/22,662
+664,Flycatcher,Southern Black,Melaenornis,pammelaina,5.5088,570,8/28/22,0.831,187,9/17/22,664
+666,Warbler,African Yellow ,Iduna,natalensis,6.1081,632,9/25/22,0.5999,135,9/2/22,666
+667,Shrike-flycatcher,Black-and-white,Bias,musicus,0.0387,4,10/15/20,0.0044,1,11/7/21,667
+668,Hyliota,Southern,Hyliota,australis,0.1933,20,12/25/21,0.0489,11,4/12/21,668
+671,Warbler,Yellow-throated Woodland,Phylloscopus,ruficapilla,0.1546,16,7/2/22,0.08,18,7/10/22,671
+673,Batis,Chinspot,Batis,molitor,23.2918,2410,9/26/22,3.2485,731,9/28/22,673
+675,Batis,Pale,Batis,soror,2.1069,218,8/19/22,0.4888,110,8/21/22,675
+677,Wattle-eye,Black-throated,Platysteira,peltata,3.8755,401,9/20/22,0.36,81,9/10/22,677
+680,Flycatcher,Blue-mantled Crested,Trochocercus,cyanomelas,0.6959,72,8/19/22,0.1422,32,7/2/22,680
+681,Flycatcher,White-tailed Crested,Elminia,albonotata,0.7538,78,9/4/22,0.1022,23,9/20/22,681
+682,Flycatcher,African Paradise,Terpsiphone,viridis,36.0588,3731,9/26/22,6.648,1496,9/25/22,682
+683,Batis,Forest ,Batis,mixta,0.9858,102,8/19/22,0.1466,33,7/2/22,683
+685,Wagtail,African Pied,Motacilla,aguimp,41.8382,4329,9/26/22,12.825,2886,9/28/22,685
+686,Wagtail,Cape,Motacilla,capensis,2.7834,288,9/18/22,0.5866,132,8/3/22,686
+688,Wagtail,Mountain,Motacilla,clara,3.5952,372,9/7/22,0.7332,165,9/28/22,688
+689,Wagtail,Western Yellow,Motacilla,flava,9.4907,982,8/6/22,1.7998,405,9/25/22,689
+690,Wagtail,Grey,Motacilla,cinerea,0.4252,44,12/28/21,0.0889,20,2/17/22,690
+692,Pipit,African,Anthus,cinnamomeus,16.0916,1665,9/26/22,3.3995,765,9/25/22,692
+693,Pipit,Long-billed,Anthus,similis,0.145,15,12/22/21,0.0178,4,5/2/22,693
+694,Pipit,Plain-backed,Anthus,leucophrys,4.2041,435,9/4/22,0.8977,202,9/3/22,694
+696,Pipit,Striped,Anthus,lineiventris,0.203,21,7/2/22,0.08,18,7/3/22,696
+698,Pipit,Tree,Anthus,trivialis,2.6481,274,4/12/22,0.3066,69,5/12/22,698
+699,Pipit,Bushveld,Anthus,caffer,0.0773,8,4/23/19,0.0044,1,9/14/19,699
+702,Pipit,Golden,Tmetothylacus,tenellus,2.4741,256,8/21/22,1.0487,236,9/25/22,702
+704,Longclaw,Yellow-throated,Macronyx,croceus,10.95,1133,9/26/22,1.7553,395,9/19/22,704
+705,Longclaw,Rosy-throated,Macronyx,ameliae,1.0824,112,9/13/22,0.2622,59,8/5/22,705
+706,Shrike,Lesser Grey,Lanius,minor,1.3724,142,5/1/22,0.2133,48,4/30/22,706
+707,Fiscal,Southern ,Lanius,collaris,0.2416,25,10/10/21,0.0489,11,10/16/21,707
+708,Shrike,Red-backed,Lanius,collurio,4.9773,515,5/1/22,0.8177,184,5/7/22,708
+712,Puffback,Black-backed,Dryoscopus,cubla,24.5095,2536,9/26/22,4.3283,974,9/20/22,712
+714,Tchagra,Brown-crowned,Tchagra,australis,9.9449,1029,9/16/22,1.3465,303,9/16/22,714
+715,Tchagra,Black-crowned,Tchagra,senegalus,14.3327,1483,9/10/22,3.2929,741,9/13/22,715
+716,Tchagra,Marsh,Bocagia,minuta,0.116,12,8/27/22,0.0178,4,7/24/22,716
+719,Bushshrike,Orange-breasted,Chlorophoneus,sulfureopectus,10.6988,1107,9/26/22,1.0976,247,9/25/22,719
+720,Bushshrike,Black-fronted,Chlorophoneus,nigrifrons,0.7248,75,7/2/22,0.1067,24,6/27/22,720
+721,Bushshrike,Gorgeous,Telophorus,viridis,0.9181,95,7/2/22,0.2933,66,8/21/22,721
+723,Bushshrike,Grey-headed,Malaconotus,blanchoti,11.1433,1153,9/18/22,2.1019,473,9/26/22,723
+724,Shrike,Magpie,Urolestes,melanoleucus,0.1643,17,2/11/22,0.08,18,9/18/22,724
+725,Nicator,Eastern,Nicator,gularis,5.9727,618,8/19/22,1.5376,346,7/7/22,725
+727,Helmetshrike,White-crested,Prionops,plumatus,3.1893,330,9/21/22,0.6044,136,9/26/22,727
+728,Helmetshrike,Retz's,Prionops,retzii,2.9477,305,8/28/22,0.7199,162,8/21/22,728
+729,Helmetshrike,Chestnut-fronted,Prionops,scopifrons,2.2615,234,9/23/22,0.6221,140,8/21/22,729
+731,,Brubru,Nilaus,afer,10.5055,1087,9/21/22,1.3332,300,9/17/22,731
+735,Starling,Wattled,Creatophora,cinerea,8.1086,839,9/18/22,1.9197,432,9/26/22,735
+736,Starling,Violet-backed,Cinnyricinclus,leucogaster,8.8238,913,9/18/22,1.2665,285,9/28/22,736
+738,Starling,Greater Blue-eared,Lamprotornis,chalybaeus,16.4395,1701,9/25/22,4.4439,1000,9/25/22,738
+739,Starling,Miombo Blue-eared,Lamprotornis,elisabeth,0.0773,8,10/6/17,0.0044,1,10/24/15,739
+740,Starling,Black-bellied,Notopholia,corusca,8.5919,889,9/23/22,2.1242,478,9/25/22,740
+745,Starling,Red-winged,Onychognathus,morio,8.1473,843,9/18/22,2.8396,639,8/26/22,745
+747,Oxpecker,Yellow-billed,Buphagus,africanus,4.9193,509,8/28/22,1.0976,247,9/18/22,747
+748,Oxpecker,Red-billed,Buphagus,erythrorynchus,13.7624,1424,9/26/22,2.8752,647,9/17/22,748
+751,Sunbird,Malachite,Nectarinia,famosa,0.9955,103,7/20/22,0.3555,80,7/16/22,751
+752,Sunbird,Bronzy,Nectarinia,kilimensis,25.4277,2631,9/26/22,5.8748,1322,9/28/22,752
+754,Sunbird,Copper,Cinnyris,cupreus,0.3286,34,1/8/22,0.04,9,4/24/22,754
+755,Sunbird,Marico,Cinnyris,mariquensis,8.7078,901,9/4/22,1.1687,263,9/17/22,755
+756,Sunbird,Purple-banded,Cinnyris,bifasciatus,5.1706,535,8/19/22,0.9243,208,9/13/22,756
+762,Sunbird,Variable,Cinnyris,venustus,30.4243,3148,9/26/22,6.8346,1538,9/28/22,762
+765,Sunbird,Grey,Cyanomitra,veroxii,1.701,176,7/13/22,0.3733,84,9/1/22,765
+766,Sunbird,Olive,Cyanomitra,olivacea,9.9836,1033,8/27/22,2.2708,511,9/24/22,766
+767,Sunbird,Eastern Double-collared,Cinnyris,mediocris,3.5179,364,9/20/22,0.8443,190,9/20/22,767
+769,Sunbird,Plain-backed,Anthreptes,reichenowi,0.6765,70,8/19/22,0.1155,26,7/7/22,769
+770,Sunbird,Western Violet-backed,Anthreptes,longuemarei,0.0193,2,9/2/22,0.0044,1,5/9/19,770
+771,Sunbird,Collared,Hedydipna,collaris,22.8375,2363,9/23/22,4.6305,1042,9/25/22,771
+772,Sunbird,Amethyst,Chalcomitra,amethystina,18.3242,1896,9/25/22,3.124,703,9/25/22,772
+774,Sunbird,Scarlet-chested,Chalcomitra,senegalensis,22.3833,2316,9/26/22,3.1996,720,9/28/22,774
+777,White-eye,Northern Yellow,Zosterops,senegalensis,3.6242,375,9/1/22,0.5555,125,3/7/22,777
+778,Seedeater,Streaky,Crithagra,striolata,22.6056,2339,9/25/22,6.3058,1419,9/28/22,778
+779,Weaver,Red-billed Buffalo,Bubalornis,niger,6.195,641,9/21/22,2.5774,580,9/16/22,779
+780,Sparrow-Weaver,White-browed ,Plocepasser,mahali,27.5346,2849,9/26/22,10.0387,2259,9/28/22,780
+782,Sparrow-Weaver,Chestnut-backed,Plocepasser,rufoscapulatus,0.0097,1,5/1/22,0.0044,1,5/18/19,782
+784,Sparrow,House,Passer,domesticus,19.3486,2002,9/24/22,8.8833,1999,9/28/22,784
+788,Sparrow,Yellow-throated Bush,Gymnoris,superciliaris,0.145,15,10/7/21,0.0044,1,2/28/21,788
+790,Weaver,Dark-backed,Ploceus,bicolor,2.5031,259,9/11/22,0.4177,94,9/24/22,790
+791,Weaver,Spectacled,Ploceus,ocularis,16.3622,1693,9/25/22,2.1286,479,9/28/22,791
+792,Weaver,Lesser Masked,Ploceus,intermedius,7.8477,812,9/5/22,1.342,302,9/16/22,792
+793,Weaver,Red-headed,Anaplectes,rubriceps,7.3838,764,9/26/22,0.9643,217,9/5/22,793
+796,Weaver,Chestnut,Ploceus,rubiginosus,5.9921,620,9/25/22,1.0887,245,9/28/22,796
+797,Weaver,Village,Ploceus,cucullatus,23.9393,2477,9/25/22,4.6927,1056,9/25/22,797
+800,Weaver,Yellow,Ploceus,subaureus,4.6197,478,9/25/22,0.4755,107,9/28/22,800
+801,Weaver,Golden,Ploceus,xanthops,10.4475,1081,9/25/22,1.3909,313,9/28/22,801
+804,Weaver,Thick-billed,Amblyospiza,albifrons,11.2883,1168,9/21/22,1.0754,242,9/20/22,804
+805,Quelea,Red-billed,Quelea,quelea,13.1439,1360,9/26/22,2.573,579,8/10/22,805
+806,Quelea,Red-headed,Quelea,erythrops,0.145,15,7/26/21,0.0222,5,5/9/20,806
+807,Quelea,Cardinal,Quelea,cardinalis,0.5026,52,8/17/22,0.04,9,8/10/22,807
+808,Bishop,Southern Red,Euplectes,orix,1.4014,145,6/21/22,0.12,27,7/20/22,808
+809,Bishop,Black-winged Red ,Euplectes,hordeaceus,1.1211,116,9/2/22,0.12,27,7/28/22,809
+810,Bishop,Yellow,Euplectes,capensis,9.1911,951,9/18/22,1.7775,400,9/8/22,810
+812,Bishop,Yellow-crowned,Euplectes,afer,0.8312,86,5/24/22,0.2133,48,5/8/22,812
+813,Widowbird,Red-collared,Euplectes,ardens,5.2866,547,9/25/22,1.031,232,9/28/22,813
+814,Widowbird,White-winged,Euplectes,albonotatus,7.0359,728,9/25/22,1.1332,255,9/25/22,814
+815,Widowbird,Yellow-mantled,Euplectes,macroura,0.6959,72,7/22/22,0.1644,37,5/21/22,815
+816,Widowbird,Fan-tailed,Euplectes,axillaris,1.9909,206,9/5/22,0.4666,105,9/19/22,816
+817,Waxbill,Crimson-rumped,Estrilda,rhodopyga,4.1751,432,9/25/22,0.6755,152,6/25/22,817
+818,Widowbird,Long-tailed,Euplectes,progne,1.1598,120,9/13/22,0.5999,135,7/16/22,818
+821,Finch,Cut-throat,Amadina,fasciata,2.3098,239,9/4/22,0.5866,132,6/24/22,821
+822,Mannikin,Magpie,Spermestes,fringilloides,0.0483,5,11/23/19,0,0,-,822
+823,Mannikin,Bronze,Spermestes,cucullata,24.9251,2579,9/19/22,4.355,980,9/20/22,823
+824,Mannikin,Red-backed,Spermestes,nigriceps,5.3156,550,9/23/22,0.871,196,7/2/22,824
+826,Waxbill,Yellow-bellied,Coccopygia,quartinia,2.8317,293,9/4/22,0.4622,104,9/20/22,826
+827,Twinspot,Green,Mandingoa,nitidula,0.2899,30,9/19/22,0.0889,20,3/30/22,827
+829,Pytilia,Orange-winged,Pytilia,afra,0.0483,5,10/15/20,0.0133,3,10/31/20,829
+830,Pytilia,Green-winged,Pytilia,melba,4.1171,426,9/16/22,0.7421,167,9/16/22,830
+832,Twinspot,Red-throated,Hypargos,niveoguttatus,0.7442,77,6/25/22,0.0978,22,5/14/22,832
+833,Firefinch,African,Lagonosticta,rubricata,3.228,334,9/5/22,1.0576,238,8/31/22,833
+834,Seedeater,Reichard's,Crithagra,reichardi,0.058,6,11/18/20,0,0,-,834
+835,Firefinch,Jameson's,Lagonosticta,rhodopareia,0.7345,76,8/28/22,0.2355,53,6/20/22,835
+837,Firefinch,Red-billed,Lagonosticta,senegala,28.1628,2914,9/25/22,4.5549,1025,9/28/22,837
+838,Waxbill,Orange-breasted,Amandava,subflava,0.6862,71,9/18/22,0.0267,6,8/27/21,838
+841,Waxbill,Black-faced,Brunhilda,erythronotos,1.817,188,9/16/22,0.1911,43,9/16/22,841
+843,Waxbill,Common,Estrilda,astrild,15.1155,1564,9/26/22,2.3908,538,9/20/22,843
+844,,Quailfinch,Ortygospiza,atricollis,0.5992,62,7/30/22,0.1378,31,8/27/22,844
+846,Whydah,Pin-tailed,Vidua,macroura,17.3287,1793,9/18/22,3.1951,719,9/4/22,846
+850,Indigobird,Purple,Vidua,purpurascens,0.0387,4,7/28/19,0.0178,4,5/14/22,850
+851,Indigobird,Village,Vidua,chalybeata,7.5384,780,9/24/22,1.3332,300,9/7/22,851
+852,Whydah,Long-tailed Paradise ,Vidua,paradisaea,2.1262,220,5/15/22,0.7599,171,5/14/22,852
+853,Whydah,Broad-tailed Paradise ,Vidua,obtusa,0,0,-,0.0044,1,1/30/19,853
+854,Finch,Cuckoo,Anomalospiza,imberbis,0.4156,43,9/26/22,0.0267,6,7/30/21,854
+859,Canary,Yellow-fronted,Crithagra,mozambica,11.3366,1173,9/21/22,2.4219,545,9/2/22,859
+863,Canary,Brimstone,Crithagra,sulphurata,12.1968,1262,9/18/22,1.9153,431,9/28/22,863
+867,Seedeater,Streaky-headed,Crithagra,gularis,0.1063,11,5/8/21,0.0267,6,9/29/21,867
+872,Bunting,Cinnamon-breasted,Emberiza,tahapisi,2.7834,288,9/26/22,0.5821,131,9/5/22,872
+874,Bunting,Golden-breasted,Emberiza,flaviventris,5.4992,569,9/26/22,0.871,196,9/28/22,874
+883,Heron,Malagasy Pond,Ardeola,idae,1.7396,180,9/21/22,0.0978,22,7/30/22,883
+885,,Garganey,Spatula,querquedula,0.4349,45,3/8/22,0.1155,26,2/20/22,885
+886,Pintail,Northern,Anas,acuta,0.2126,22,2/13/22,0.0489,11,2/23/20,886
+887,Falcon,Taita,Falco,fasciinucha,0.0097,1,3/14/17,0.0044,1,7/22/21,887
+888,Falcon,Sooty,Falco,concolor,0.0966,10,11/8/20,0.0311,7,3/30/22,888
+889,Kestrel,Grey,Falco,ardosiaceus,0.3673,38,8/24/22,0.1644,37,9/18/22,889
+892,Flufftail,Streaky-breasted,Sarothrura,boehmi,0,0,-,0.0044,1,12/9/19,892
+894,Oystercatcher,Eurasian,Haematopus,ostralegus,0.1063,11,7/6/22,0.0089,2,5/21/22,894
+897,Stint,Red-necked,Calidris,ruficollis,0.0193,2,10/15/16,0,0,-,897
+898,Pratincole,Madagascan ,Glareola,ocularis,0.4639,48,8/30/22,0.0667,15,5/14/22,898
+902,Tern,Gull-billed,Gelochelidon,nilotica,5.5862,578,8/30/22,1.2087,272,7/11/22,902
+904,Swift,Scarce,Schoutedenapus,myoptilus,0.8891,92,9/4/22,0.0667,15,5/14/22,904
+905,Tinkerbird,Green,Pogoniulus,simplex,0.4639,48,7/2/22,0.0533,12,7/2/22,905
+906,Honeyguide,Pallid,Indicator,meliphilus,0.7828,81,5/14/22,0.1778,40,9/8/22,906
+909,Oriole,Green-headed,Oriolus,chlorocephalus,0.4542,47,7/15/22,0.0978,22,3/27/22,909
+911,Warbler,Eurasian Reed,Acrocephalus,scirpaceus,0.3286,34,1/15/22,0.0578,13,8/14/22,911
+912,Warbler,Greater Swamp,Acrocephalus,rufescens,0.174,18,8/27/22,0.04,9,11/7/21,912
+913,Crombec,Red-faced,Sylvietta,whytii,14.497,1500,9/26/22,1.6398,369,9/28/22,913
+923,Cuckoo,Barred Long-tailed,Cercococcyx,montanus,0.116,12,1/21/22,0.0133,3,11/11/20,923
+933,Gull,Black-headed,Chroicocephalus,ridibundus,0.3576,37,4/30/22,0.16,36,7/16/22,933
+938,Tern,White-cheeked,Sterna,repressa,0.029,3,11/1/21,0.0133,3,3/18/20,938
+939,Noddy,Lesser,Anous,tenuirostris,0.2126,22,8/10/21,0.0578,13,7/6/22,939
+940,Dove,Rock,Columba,livia,2.0779,215,6/29/22,2.173,489,7/25/22,940
+942,Turaco,Ross's,Tauraco,rossae,1.1888,123,9/5/22,0.2266,51,9/8/22,942
+944,Trogon,Bar-tailed,Apaloderma,vittatum,0.6572,68,9/11/22,0.1155,26,9/20/22,944
+945,Greenbul,Zanzibar Sombre ,Andropadus,importunus insularis,5.7891,599,11/25/21,0.9243,208,5/8/21,945
+947,Warbler,Wood,Phylloscopus,sibilatrix,0,0,-,0.0044,1,3/25/05,947
+949,Warbler,Basra Reed ,Acrocephalus,griseldis,0.2223,23,12/7/21,0.0222,5,12/3/21,949
+954,Spurfowl,Hildebrandt's,Pternistis,hildebrandti,1.5753,163,9/25/22,0.3555,80,7/5/22,954
+955,Plover,Little Ringed,Charadrius,dubius,0.3576,37,7/16/22,0.0889,20,5/14/22,955
+957,Snipe,Common,Gallinago,gallinago,1.1984,124,4/10/22,0.2089,47,3/27/22,957
+960,Barbet,White-headed,Lybius,leucocephalus,7.8767,815,9/25/22,0.8221,185,9/28/22,960
+962,Swallow,Red-rumped,Cecropis,daurica,16.9614,1755,9/18/22,3.0574,688,9/24/22,962
+964,Saw-wing,White-headed,Psalidoprocne,albiceps,4.3781,453,9/13/22,0.6044,136,9/25/22,964
+965,Greenbul,Grey-olive,Phyllastrephus,cerviniventris,0.8505,88,6/17/22,0.0622,14,9/28/22,965
+966,Chat,Sooty,Myrmecocichla,nigra,1.4014,145,7/30/22,0.5555,125,9/18/22,966
+969,Blackcap,Blackcap,Sylvia,atricapilla,3.3053,342,4/9/22,0.4533,102,5/7/22,969
+971,Widowbird,Marsh,Euplectes,hartlaubi,0.0097,1,7/26/21,0,0,-,971
+973,Citril,African,Crithagra,citrinelloides,16.5265,1710,9/26/22,3.124,703,9/28/22,973
+977,Boubou,Ethiopian ,Laniarius,aethiopicus,18.5948,1924,5/15/21,3.1329,705,10/17/20,977
+979,Buzzard,Long-legged,Buteo,rufinus,0.0097,1,2/28/16,0.0044,1,11/21/17,979
+981,Sandpiper,Broad-billed,Calidris,falcinellus,0.087,9,4/7/22,0,0,-,981
+985,Stint,Temminck's,Calidris,temminckii,0.1546,16,1/24/22,0.0267,6,12/15/20,985
+989,Crow,House,Corvus,splendens,13.8688,1435,9/21/22,6.928,1559,9/25/22,989
+992,Falcon,Eleonora's,Falco,eleonorae,0.0387,4,4/8/19,0.0222,5,10/31/20,992
+1004,Redstart,Common,Phoenicurus,phoenicurus,0.0097,1,4/23/19,0.0089,2,4/17/18,1004
+1006,Sparrowhawk,Eurasian,Accipiter,nisus,0.058,6,1/22/22,0.0089,2,12/3/21,1006
+1010,Wheatear,Isabelline,Oenanthe,isabellina,3.9335,407,4/7/22,1.0443,235,4/16/22,1010
+1013,Frigatebird,Lesser,Fregata,ariel,0.0097,1,10/25/21,0.0267,6,11/2/21,1013
+1022,Flycatcher,European Pied,Ficedula,hypoleuca,0.1063,11,11/28/21,0.0356,8,4/15/21,1022
+1023,Wheatear,Pied,Oenanthe,pleschanka,2.1745,225,5/18/22,0.5688,128,3/30/22,1023
+1028,Pipit,Red-throated,Anthus,cervinus,0.4832,50,2/9/22,0.1378,31,3/29/22,1028
+1029,Vulture,Rüppell's,Gyps,rueppelli,4.3588,451,8/28/22,1.1421,257,9/18/22,1029
+1031,Lapwing,Spur-winged,Vanellus,spinosus,13.0183,1347,9/26/22,3.6751,827,9/26/22,1031
+1034,Bee-eater,White-throated,Merops,albicollis,10.1189,1047,9/11/22,2.3241,523,9/4/22,1034
+1036,Coucal,White-browed,Centropus,superciliosus,31.0428,3212,9/26/22,5.8037,1306,9/25/22,1036
+1039,Plover,Pacific Golden,Pluvialis,fulva,0.0677,7,2/5/22,0.0444,10,2/6/22,1039
+1050,Barbet,Brown-breasted,Lybius,melanopterus,2.4452,253,5/14/22,0.4577,103,9/13/22,1050
+1054,Chiffchaff,Common,Phylloscopus,collybita,0.0677,7,4/9/22,0.0044,1,2/25/18,1054
+1063,Flycatcher,Swamp,Muscicapa,aquatica,0.9665,100,7/19/22,0.1111,25,7/16/22,1063
+1064,Warbler,White-winged Swamp,Bradypterus,carpalis,0.174,18,11/30/21,0.0222,5,11/22/20,1064
+1065,Weaver,Slender-billed,Ploceus,pelzelni,0.8408,87,8/27/22,0.0578,13,7/12/22,1065
+1067,Warbler,Papyrus Yellow,Calamonastides,gracilirostris,0.0193,2,10/3/19,0.0044,1,12/21/20,1067
+1068,Sunbird,Green-headed,Cyanomitra,verticalis,3.7016,383,9/20/22,0.5688,128,9/28/22,1068
+1078,Gull,Slender-billed,Chroicocephalus,genei,0.029,3,7/16/22,0.0222,5,5/8/22,1078
+1085,Robin-Chat,Grey-winged ,Cossypha,polioptera,0.3479,36,9/5/22,0.0667,15,7/30/21,1085
+1086,Greenbul,Cabanis's,Phyllastrephus,cabanisi,3.4116,353,9/26/22,0.5421,122,9/14/22,1086
+1090,Waxbill,Fawn-breasted,Estrilda,paludicola,0.029,3,12/19/20,0,0,-,1090
+1098,Eagle,Greater Spotted,Clanga,clanga,0.087,9,1/8/22,0.0311,7,2/15/21,1098
+1099,Apalis,Buff-throated,Apalis,rufogularis,0.4349,45,9/11/22,0.08,18,11/30/21,1099
+1103,Apalis,Yellow-throated,Apalis,flavigularis,0.174,18,10/16/21,0.0133,3,7/10/21,1103
+1105,Thrush,Olive,Turdus,olivaceus,0.2996,31,5/25/20,0.0844,19,6/7/20,1105
+1106,Warbler,Evergreen Forest,Bradypterus,lopezi,0.145,15,11/6/16,0.0222,5,11/7/21,1106
+1107,Warbler,Cinnamon Bracken,Bradypterus,cinnamomeus,2.7158,281,9/4/22,0.7732,174,9/5/22,1107
+1109,Alethe,Brown-chested,Chamaetylas,poliocephala,1.2081,125,9/20/22,0.1955,44,6/27/22,1109
+1111,Greenbul,Yellow-whiskered,Eurillas,latirostris,7.8863,816,9/20/22,1.6042,361,9/28/22,1111
+1113,Greenbul,Honeyguide,Baeopogon,indicator,0.174,18,1/26/22,0.0178,4,12/26/20,1113
+1114,Warbler,Black-faced Rufous,Bathmocercus,rufus,0.6282,65,1/27/22,0.1155,26,5/24/22,1114
+1116,Sunbird,Green-throated,Chalcomitra,rubescens,0.3866,40,11/28/21,0.0311,7,8/11/21,1116
+1117,Sunbird,Olive-bellied,Cinnyris,chloropygius,0.2416,25,1/8/22,0.0267,6,11/30/21,1117
+1118,Sunbird,Golden-winged,Drepanorhynchus,reichenowi,5.2769,546,9/18/22,1.2798,288,9/12/22,1118
+1125,Wattle-eye,Yellow-bellied,Platysteira,concreta,0.087,9,7/30/21,0.0267,6,8/11/21,1125
+1127,Flycatcher,African Blue ,Elminia,longicauda,3.3923,351,9/4/22,0.5688,128,9/12/22,1127
+1128,Flycatcher,Dusky Crested,Elminia,nigromitrata,0.0773,8,12/23/21,0.0133,3,8/11/21,1128
+1129,Waxbill,Black-crowned,Estrilda,nonnula,0.2706,28,3/30/22,0.0356,8,4/24/22,1129
+1132,Honeyguide,Least,Indicator,exilis,0.1643,17,1/25/22,0.0267,6,11/30/21,1132
+1133,Babbler,Grey-chested ,Kakamega,poliothorax,0.029,3,8/24/18,0.0133,3,11/19/20,1133
+1141,Nigrita,Grey-headed,Nigrita,canicapillus,1.4787,153,9/11/22,0.1866,42,7/24/22,1141
+1148,Wattle-eye,Brown-throated,Platysteira,cyanea,1.5077,156,9/13/22,0.1955,44,9/18/22,1148
+1150,Weaver,Brown-capped,Ploceus,insignis,1.6333,169,9/20/22,0.1778,40,6/27/22,1150
+1151,Weaver,Black-billed,Ploceus,melanogaster,0.6572,68,9/11/22,0.1378,31,11/21/21,1151
+1152,Weaver,Vieillot's Black,Ploceus,nigerrimus,0.5509,57,9/11/22,0.0667,15,8/11/21,1152
+1153,Weaver,Vitelline Masked ,Ploceus,vitellinus,5.5088,570,9/4/22,0.8799,198,7/29/22,1153
+1155,Prinia,Banded,Prinia,bairdii,0.3383,35,12/23/21,0.0311,7,8/13/21,1155
+1159,Seedeater,Thick-billed,Crithagra,burtoni,2.0682,214,9/4/22,0.3911,88,9/20/22,1159
+1168,Thrush,African,Turdus,pelios,4.871,504,9/3/22,0.9688,218,8/21/22,1168
+1187,Weaver,Black-necked,Ploceus,nigricollis,3.6049,373,9/16/22,0.6177,139,9/17/22,1187
+1188,Woodpecker,Buff-spotted,Pardipicus,nivosus,0.0966,10,1/26/22,0.0178,4,12/12/20,1188
+1189,Camaroptera,Olive-green,Camaroptera,chloronota,0.5605,58,7/20/22,0.08,18,8/11/21,1189
+1190,Bluebill,Red-headed,Spermophaga,ruficapilla,0.5026,52,12/25/21,0.0489,11,11/30/21,1190
+1191,Bristlebill,Red-tailed,Bleda,syndactylus,0.5122,53,1/26/22,0.0667,15,5/24/22,1191
+1193,Illadopsis,Scaly-breasted,Illadopsis,albipectus,0.3093,32,12/23/21,0.0133,3,10/17/20,1193
+1200,Ostrich,Somali,Struthio,molybdophanes,1.73,179,8/14/22,0.7643,172,8/1/22,1200
+1234,Spurfowl,Jackson's,Pternistis,jacksoni,0.3286,34,9/20/22,0.3999,90,7/16/22,1234
+1236,Spurfowl,Yellow-necked,Pternistis,leucoscepus,13.1342,1359,9/21/22,3.1862,717,9/26/22,1236
+1246,Spurfowl,Scaly,Pternistis,squamatus,1.9039,197,9/4/22,0.24,54,7/16/22,1246
+1250,Partridge,Stone,Ptilopachus,petrosus,0.8022,83,9/2/22,0.0356,8,12/27/21,1250
+1254,Francolin,Moorland,Scleroptila,psilolaema,0,0,-,0.0222,5,7/30/21,1254
+1256,Francolin,Ring-necked,Scleroptila,streptophora,0.0097,1,6/7/18,0,0,-,1256
+1260,Guineafowl,Vulturine,Acryllium,vulturinum,3.8369,397,9/26/22,1.3109,295,9/26/22,1260
+1274,Teal,Eurasian,Anas,crecca,0.029,3,1/16/22,0.0089,2,2/6/21,1274
+1280,Wigeon,Eurasian,Mareca,penelope,0.0097,1,1/5/15,0,0,-,1280
+1294,Duck,Ring-necked,Aythya,collaris,0.0097,1,7/28/14,0,0,-,1294
+1344,,Quail-plover,Ortyxelos,meiffrenii,0.0097,1,11/23/16,0.0089,2,5/20/21,1344
+1350,Honeyguide,Thick-billed,Indicator,conirostris,0.0483,5,11/11/21,0.0044,1,11/19/20,1350
+1364,Honeybird,Cassin's,Prodotiscus,insignis,0.0193,2,8/31/21,0.0044,1,8/1/19,1364
+1366,Woodpecker,Mombasa,Campethera,mombassica,2.7061,280,8/19/22,0.6932,156,9/24/22,1366
+1368,Woodpecker,Brown-eared,Pardipicus,caroli,0.1836,19,1/25/22,0.0089,2,5/9/20,1368
+1372,Woodpecker,Nubian,Campethera,nubica,21.4555,2220,9/26/22,3.0796,693,9/26/22,1372
+1376,Woodpecker,Tullberg's ,Campethera,tullbergi,0.8891,92,9/20/22,0.1555,35,6/27/22,1376
+1384,Woodpecker,Eastern Grey,Dendropicos,spodocephalus,0.8118,84,9/25/22,0.2044,46,9/18/22,1384
+1392,Woodpecker,African Grey,Dendropicos,goertae,9.0654,938,9/13/22,1.3332,300,9/24/22,1392
+1394,Woodpecker,Speckle-breasted,Dendropicos,poecilolaemus,0,0,-,0.0044,1,9/28/19,1394
+1400,Woodpecker,Yellow-crested,Chloropicus,xantholophus,0.2706,28,1/25/22,0.0356,8,5/24/22,1400
+1402,Wryneck,Eurasian,Jynx,torquilla,0.0097,1,1/20/20,0.0044,1,11/14/10,1402
+1406,Woodpecker,African Grey,Dendropicos,goertae,0.2513,26,1/14/18,0.0444,10,2/21/21,1406
+1410,Woodpecker,Brown-backed,Dendropicos,obsoletus,1.0921,113,8/21/22,0.2266,51,8/31/22,1410
+1414,Barbet,Yellow-spotted,Buccanodon,duchaillui,0.5509,57,1/27/22,0.0578,13,11/30/21,1414
+1416,Barbet,Grey-throated,Gymnobucco,bonapartei,0.9858,102,9/1/22,0.1289,29,5/24/22,1416
+1422,Barbet,Double-toothed,Lybius,bidentatus,1.411,146,9/4/22,0.2089,47,8/11/22,1422
+1428,Barbet,Black-billed,Lybius,guifsobalito,0.2416,25,9/2/22,0.0356,8,4/22/22,1428
+1442,Tinkerbird,Moustached ,Pogoniulus,leucomystax,0.7635,79,9/4/22,0.1022,23,6/27/22,1442
+1452,Barbet,D'Arnaud's ,Trachyphonus,darnaudii,11.2593,1165,9/16/22,2.2975,517,9/17/22,1452
+1454,Barbet,Red-and-yellow,Trachyphonus,erythrocephalus,6.3593,658,9/21/22,1.342,302,9/17/22,1454
+1458,Barbet,Yellow-billed,Trachyphonus,purpuratus,0.8698,90,9/11/22,0.0844,19,7/24/22,1458
+1462,Barbet,Red-fronted,Tricholaema,diademata,9.0654,938,9/3/22,1.0399,234,9/17/22,1462
+1468,Barbet,Hairy-breasted,Tricholaema,hirsuta,0.2416,25,10/23/21,0.0356,8,5/24/22,1468
+1470,Barbet,Spot-flanked,Tricholaema,lacrymosa,11.1143,1150,9/26/22,1.2398,279,9/20/22,1470
+1472,Barbet,Black-throated,Tricholaema,melanocephala,4.3104,446,9/11/22,0.6444,145,9/17/22,1472
+1484,Hornbill,Black-and-white-casqued,Bycanistes,subcylindricus,1.817,188,9/1/22,0.3911,88,9/24/22,1484
+1490,Hornbill,Von der Decken's,Tockus,deckeni,12.5544,1299,9/26/22,3.4751,782,9/26/22,1490
+1494,Hornbill,Eastern Yellow-billed ,Tockus,flavirostris,3.8562,399,9/26/22,0.991,223,9/26/22,1494
+1498,Hornbill,Hemprich's,Lophoceros,hemprichii,0.3383,35,9/4/22,0.0489,11,5/1/22,1498
+1500,Hornbill,Jackson's,Tockus,jacksoni,0.6669,69,9/2/22,0.1422,32,9/6/22,1500
+1508,Hornbill,Northern Red-billed,Tockus,erythrorhynchus,5.4219,561,9/26/22,1.9686,443,9/26/22,1508
+1510,Hornbill,Abyssinian Ground ,Bucorvus,abyssinicus,0.058,6,10/3/19,0,0,-,1510
+1512,Hoopoe,Eurasian,Upupa,epops,2.6578,275,5/4/22,0.4044,91,5/1/22,1512
+1516,Wood Hoopoe,White-headed ,Phoeniculus,bollei,0.8505,88,9/11/22,0.1689,38,7/16/22,1516
+1526,Scimitarbill,Abyssinian ,Rhinopomastus,minor,6.4656,669,9/9/22,0.9154,206,9/6/22,1526
+1530,Roller,Abyssinian,Coracias,abyssinicus,0.1353,14,5/4/22,0.0978,22,7/30/22,1530
+1574,Bee-eater,Blue-headed,Merops,muelleri,0.3769,39,9/11/22,0.04,9,8/11/21,1574
+1576,Bee-eater,Northern Carmine,Merops,nubicus,6.3883,661,8/27/22,1.7642,397,9/8/22,1576
+1578,Bee-eater,Cinnamon-chested,Merops,oreobates,16.8551,1744,9/25/22,3.9284,884,9/28/22,1578
+1582,Bee-eater,Somali,Merops,revoilii,1.0148,105,7/31/22,0.36,81,7/20/22,1582
+1584,Bee-eater,Blue-breasted,Merops,variegatus,0.0387,4,6/18/22,0,0,-,1584
+1588,Mousebird,White-headed,Colius,leucocephalus,1.5657,162,8/14/22,0.2444,55,9/5/22,1588
+1590,Mousebird,Blue-naped,Urocolius,macrourus,18.3435,1898,9/26/22,3.6706,826,9/26/22,1590
+1596,Malkoha,Blue ,Ceuthmochares,aereus,0.6185,64,8/19/22,0.0978,22,8/21/22,1596
+1620,Cuckoo,Madagascan,Cuculus,rochii,0,0,-,0.0044,1,5/29/15,1620
+1628,Coucal,Blue-headed,Centropus,monachus,0.9568,99,9/5/22,0.2222,50,7/24/22,1628
+1636,Lovebird,Fischer's,Agapornis,fischeri,2.9091,301,9/13/22,0.8488,191,9/6/22,1636
+1638,Lovebird,Yellow-collared,Agapornis,personatus,0.1353,14,1/20/22,0.0356,8,10/18/20,1638
+1640,Lovebird,Red-headed,Agapornis,pullarius,0.0097,1,7/30/21,0.0089,2,7/12/21,1640
+1656,Parrot,Red-fronted,Poicephalus,gulielmi,1.2564,130,8/23/22,0.3155,71,9/5/22,1656
+1658,Parrot,Red-bellied ,Poicephalus,rufiventris,4.6197,478,9/26/22,0.8932,201,9/26/22,1658
+1664,Parrot,Grey,Psittacus,erithacus,0.0773,8,12/23/21,0.0311,7,12/12/20,1664
+1674,Swift,Forbes-Watson's,Apus,berliozi,0.0193,2,2/5/22,0,0,-,1674
+1676,Swift,Nyanza,Apus,niansae,3.2473,336,9/18/22,0.6177,139,8/20/22,1676
+1696,Turaco,Great Blue,Corythaeola,cristata,0.5122,53,1/25/22,0.0489,11,8/11/21,1696
+1698,Go-away-bird,White-bellied,Crinifer,leucogaster,17.638,1825,9/26/22,4.3861,987,9/26/22,1698
+1700,Go-away-bird,Bare-faced,Crinifer,personatus,2.5128,260,8/24/22,0.4088,92,9/18/22,1700
+1704,Plantain-eater,Eastern ,Crinifer,zonurus,1.2661,131,9/2/22,0.1644,37,8/26/22,1704
+1716,Turaco,Fischer's,Tauraco,fischeri,2.3195,240,8/19/22,0.4933,111,3/27/22,1716
+1718,Turaco,Hartlaub's,Tauraco,hartlaubi,7.5964,786,9/20/22,1.8309,412,9/14/22,1718
+1720,Turaco,White-crested,Tauraco,leucolophus,0.3963,41,9/2/22,0.1422,32,5/14/22,1720
+1730,Turaco,Black-billed,Tauraco,schuettii,0.116,12,1/25/22,0.0178,4,8/11/21,1730
+1754,Eagle-Owl,Greyish,Bubo,cinerascens,0.2899,30,5/1/22,0.04,9,5/5/22,1754
+1780,Owl,Sokoke Scops,Otus,ireneae,0.6185,64,8/19/22,0.1333,30,7/2/22,1780
+1790,Owl,Eurasian Scops,Otus,scops,0.0097,1,2/7/18,0.0044,1,2/17/19,1790
+1792,Owl,Northern White-faced Scops,Ptilopsis,leucotis,0.2996,31,5/14/22,0.0667,15,5/14/22,1792
+1814,Nightjar,Slender-tailed,Caprimulgus,clarus,2.3388,242,9/11/22,0.2711,61,9/3/22,1814
+1818,Nightjar,Donaldson Smith's,Caprimulgus,donaldsoni,0.7248,75,9/26/22,0.0578,13,9/26/22,1818
+1824,Nightjar,Sombre,Caprimulgus,fraenatus,1.0631,110,6/18/22,0.1022,23,9/7/22,1824
+1826,Nightjar,Plain,Caprimulgus,inornatus,0.3576,37,3/9/22,0.0311,7,12/6/21,1826
+1830,Nightjar,Nubian,Caprimulgus,nubicus,0.0677,7,9/26/22,0.0089,2,9/26/22,1830
+1838,Nightjar,Standard-winged,Caprimulgus,longipennis,0.0097,1,5/1/22,0.0044,1,5/2/22,1838
+1874,Dove,Dusky Turtle,Streptopelia,lugens,6.5333,676,9/4/22,1.1021,248,9/5/22,1874
+1888,Pigeon,Bruce's Green,Treron,waalia,0.0097,1,11/12/14,0,0,-,1888
+1890,Dove,Black-billed Wood,Turtur,abyssinicus,0.0097,1,5/3/22,0,0,-,1890
+1894,Bustard,Arabian,Ardeotis,arabs,0.029,3,5/6/22,0,0,-,1894
+1900,Bustard,Buff-crested,Lophotis,gindiana,3.6339,376,9/9/22,1.2976,292,9/17/22,1900
+1906,Bustard,Hartlaub's,Lissotis,hartlaubii,0.9471,98,9/21/22,0.2222,50,7/25/22,1906
+1910,Bustard,Heuglin's,Neotis,heuglinii,0.087,9,8/4/21,0.0356,8,11/2/21,1910
+1936,Rail,Water,Rallus,aquaticus,0.0097,1,10/20/21,0,0,-,1936
+1944,Flufftail,White-spotted,Sarothrura,pulchra,0.2996,31,1/26/22,0.0222,5,8/11/21,1944
+1958,Sandgrouse,Black-faced,Pterocles,decoratus,4.7647,493,9/26/22,1.5865,357,9/26/22,1958
+1960,Sandgrouse,Chestnut-bellied,Pterocles,exustus,1.4497,150,8/12/22,0.6621,149,8/3/22,1960
+1962,Sandgrouse,Lichtenstein's,Pterocles,lichtensteinii,0.4542,47,6/18/22,0.0889,20,5/3/22,1962
+1968,Sandgrouse,Four-banded,Pterocles,quadricinctus,0.0677,7,5/4/22,0.0089,2,5/5/22,1968
+1998,Stone-curlew,Eurasian ,Burhinus,oedicnemus,0,0,-,0.0044,1,11/2/03,1998
+2000,Thick-knee,Senegal,Burhinus,senegalensis,0.1643,17,5/8/22,0.0267,6,5/8/22,2000
+2018,Lapwing,Brown-chested,Vanellus,superciliosus,0,0,-,0.0044,1,10/17/19,2018
+2020,Lapwing,Black-headed,Vanellus,tectus,1.7976,186,9/9/22,0.7599,171,9/15/22,2020
+2026,Courser,Somali,Cursorius,somalensis,0.4156,43,5/4/22,0.4266,96,9/5/22,2026
+2042,Gull,Heuglin's,Larus,heuglini,0.0773,8,4/16/18,0.0178,4,11/12/17,2042
+2052,Gull,Mew ,Larus,canus,0.0193,2,11/23/19,0,0,-,2052
+2058,Gull,Sooty,Ichthyaetus,hemprichii,2.0586,213,8/21/22,0.6799,153,7/30/22,2058
+2070,Tern,Saunders's,Sternula,saundersi,1.3144,136,4/16/22,0.3244,73,5/14/22,2070
+2074,Sparrowhawk,Levant,Accipiter,brevipes,0.0193,2,10/25/20,0.0044,1,3/30/18,2074
+2096,Eagle,Eastern Imperial,Aquila,heliaca,0.0387,4,5/3/22,0.0044,1,12/2/03,2096
+2100,Buzzard,Grasshopper,Butastur,rufipennis,0.1643,17,3/10/22,0.1955,44,5/2/22,2100
+2112,Buzzard,Mountain,Buteo,oreophilus,1.2371,128,8/24/22,0.4044,91,9/5/22,2112
+2114,Kite,Scissor-tailed,Chelictinia,riocourii,0.0966,10,5/4/22,0.0311,7,11/3/21,2114
+2116,Eagle,Beaudouin's Snake ,Circaetus,beaudouini,0.0097,1,8/11/15,0.0044,1,2/5/21,2116
+2136,Goshawk,Eastern Chanting,Melierax,poliopterus,6.7073,694,9/26/22,2.8796,648,9/26/22,2136
+2140,Buzzard,Crested Honey,Pernis,ptilorhynchus,0.0097,1,2/1/21,0,0,-,2140
+2144,Cassin's,Hawk-Eagle,Aquila,africana,0.0097,1,4/4/22,0.0044,1,11/20/21,2144
+2148,Falcon,Barbary,Falco,pelegrinoides,0,0,-,0.0044,1,11/6/00,2148
+2152,Kestrel,Fox,Falco,alopex,0.058,6,5/4/22,0.0222,5,5/2/22,2152
+2162,Kestrel,Common,Falco,tinnunculus,1.8459,191,9/4/22,0.4933,111,5/1/22,2162
+2188,Egret,Dimorphic,Egretta,dimorpha,3.5469,367,8/19/22,0.7732,174,9/1/22,2188
+2190,Heron,Western Reef,Egretta,gularis,0.087,9,2/27/22,0.0267,6,11/30/20,2190
+2202,Ibis,Olive,Bostrychia,olivacea,0.1836,19,4/4/22,0.0356,8,4/20/22,2202
+2274,Shrike,Yellow-billed,Corvinella,corvina,0.0677,7,9/2/22,0.0089,2,4/12/22,2274
+2276,Shrike,Northern White-crowned,Eurocephalus,ruppelli,14.7676,1528,9/26/22,4.435,998,9/26/22,2276
+2278,Fiscal,Long-tailed,Lanius,cabanisi,13.4532,1392,9/21/22,3.2529,732,9/25/22,2278
+2280,Fiscal,Taita,Lanius,dorsalis,4.6004,476,9/16/22,2.0797,468,9/16/22,2280
+2284,Fiscal,Grey-backed,Lanius,excubitoroides,7.1132,736,9/13/22,1.8709,421,9/20/22,2284
+2288,Shrike,Isabelline,Lanius,isabellinus,5.2286,541,4/19/22,1.0354,233,4/15/22,2288
+2290,Shrike,Mackinnon's,Lanius,mackinnoni,0.5992,62,1/25/22,0.0667,15,9/1/21,2290
+2296,Shrike,Masked,Lanius,nubicus,0,0,-,0.0044,1,3/2/17,2296
+2298,Fiscal,Somali,Lanius,somalicus,0.5219,54,8/14/22,0.4977,112,5/1/22,2298
+2300,Shrike,Magpie,Urolestes,melanoleucus,0.2706,28,6/26/18,0.0356,8,12/20/17,2300
+2320,Batis,Eastern Black-headed,Batis,minor,3.5952,372,9/12/22,0.3022,68,7/2/22,2320
+2326,Batis,Pygmy,Batis,perkeo,2.3582,244,7/31/22,0.3155,71,9/5/22,2326
+2340,Cuckooshrike,Petit's ,Campephaga,petiti,0.4349,45,1/25/22,0.0356,8,8/11/21,2340
+2344,Cuckooshrike,Purple-throated ,Campephaga,quiscalina,0.4736,49,9/4/22,0.0711,16,2/17/22,2344
+2362,Crow,Somali,Corvus,edithae,0.5219,54,7/23/22,0.7954,179,5/1/22,2362
+2368,Raven,Fan-tailed,Corvus,rhipidurus,3.3923,351,9/2/22,0.631,142,7/29/22,2368
+2384,Puffback,Pink-footed,Dryoscopus,angolensis,0.4059,42,1/27/22,0.04,9,8/11/21,2384
+2386,Puffback,Northern,Dryoscopus,gambensis,1.7976,186,9/5/22,0.2533,57,5/14/22,2386
+2388,Puffback,Pringle's,Dryoscopus,pringlii,0.5122,53,9/26/22,0.2,45,3/30/22,2388
+2398,Wattle-eye,Chestnut,Platysteira,castanea,0.1643,17,1/25/22,0.0267,6,8/11/21,2398
+2404,Wattle-eye,Jameson's,Platysteira,jamesoni,0.087,9,2/6/19,0.0044,1,10/2/16,2404
+2408,Flycatcher,Little Yellow,Erythrocercus,holochlorus,1.3241,137,7/2/22,0.2666,60,8/21/22,2408
+2428,Gonolek,Black-headed,Laniarius,erythrogaster,2.9574,306,9/2/22,0.511,115,8/11/22,2428
+2430,Boubou,Slate-colored,Laniarius,funebris,21.6874,2244,9/26/22,4.3372,976,9/26/22,2430
+2436,Bushshrike,Lühder's,Laniarius,luehderi,0.8505,88,9/5/22,0.1289,29,11/21/21,2436
+2438,Gonolek,Papyrus,Laniarius,mufumbiri,0.2803,29,8/27/22,0.0489,11,9/28/22,2438
+2440,Bushshrike,Red-naped,Laniarius,ruficeps,0.1353,14,9/26/22,0.0978,22,3/30/22,2440
+2456,Shrike-flycatcher,African,Megabyas,flammulatus,0.1836,19,12/10/21,0.0178,4,10/17/20,2456
+2460,Oriole,Western,Oriolus,brachyrynchus,0.2803,29,1/25/22,0.0311,7,5/24/22,2460
+2466,Oriole,Mountain ,Oriolus,percivali,1.5077,156,9/4/22,0.2622,59,9/20/22,2466
+2478,Helmetshrike,Grey-crested,Prionops,poliolophus,0.232,24,3/28/22,0.1022,23,5/20/22,2478
+2484,,Piapiac,Ptilostomus,afer,0.0193,2,7/3/21,0.0089,2,7/31/19,2484
+2490,Bushshrike,Rosy-patched,Telophorus,cruentus,5.6828,588,9/9/22,1.5331,345,9/26/22,2490
+2496,Tchagra,Three-streaked,Tchagra,jamesi,1.5173,157,8/28/22,0.2489,56,9/5/22,2496
+2498,Bushshrike,Bocage's,Chlorophoneus,bocagei,0.087,9,10/7/17,0.0044,1,10/2/16,2498
+2500,Bushshrike,Doherty's,Telophorus,dohertyi,0.145,15,7/20/22,0.0267,6,2/6/21,2500
+2544,Flycatcher,African Grey,Melaenornis,microrhynchus,14.5743,1508,9/26/22,2.3241,523,9/17/22,2544
+2550,Chat,Brown-tailed Rock,Oenanthe,scotocerca,0.7732,80,7/21/22,0.12,27,5/14/22,2550
+2552,Chat,Moorland,Pinarochroa,sordida,0.1933,20,8/24/22,0.3911,88,6/18/22,2552
+2556,Scrub Robin,Brown-backed,Cercotrichas,hartlaubi,0.6379,66,9/18/22,0.0311,7,5/14/22,2556
+2560,Palm Thrush,Spotted,Cichladusa,guttata,13.4822,1395,9/16/22,1.8842,424,9/25/22,2560
+2570,Robin-Chat,Blue-shouldered,Cossypha,cyanocampter,0.4542,47,1/25/22,0.0444,10,11/30/21,2570
+2574,Robin-Chat,Snowy-crowned ,Cossypha,niveicapilla,0.6185,64,1/25/22,0.0889,20,7/24/22,2574
+2576,Robin-Chat,Rueppell's ,Cossypha,semirufa,13.2309,1369,9/26/22,2.3641,532,9/28/22,2576
+2578,,Silverbird,Empidornis,semipartitus,1.9136,198,9/4/22,0.4577,103,9/18/22,2578
+2584,Flycatcher,Semicollared,Ficedula,semitorquata,0,0,-,0.0089,2,2/28/19,2584
+2592,Robin,White-throated ,Irania,gutturalis,0.7152,74,2/23/22,0.0755,17,2/24/22,2592
+2596,Nightingale,Common,Luscinia,megarhynchos,1.9136,198,4/11/22,0.4266,96,3/22/22,2596
+2600,Flycatcher,White-eyed Slaty,Melaenornis,fischeri,21.7938,2255,9/26/22,4.7771,1075,9/28/22,2600
+2608,Flycatcher,Northern Black,Melaenornis,edolioides,3.4986,362,9/5/22,0.36,81,9/8/22,2608
+2616,Thrush,Little Rock ,Monticola,rufocinereus,1.2854,133,9/25/22,0.2755,62,9/17/22,2616
+2618,Thrush,Common Rock,Monticola,saxatilis,3.8465,398,5/14/22,0.8043,181,4/8/22,2618
+2634,Flycatcher,Gambaga,Muscicapa,gambagae,0.4252,44,4/10/22,0.0311,7,12/13/20,2634
+2638,Flycatcher,Chapin's,Muscicapa,lendu,0.087,9,12/23/21,0.0267,6,8/13/21,2638
+2650,Chat,Anteater,Myrmecocichla,aethiops,7.7027,797,9/25/22,2.6308,592,8/27/22,2650
+2660,Thrush,White-tailed Ant,Neocossyphus,poensis,0.3383,35,1/26/22,0.0267,6,8/11/21,2660
+2662,Thrush,Red-tailed Ant,Neocossyphus,rufus,0.8022,83,7/2/22,0.2044,46,7/2/22,2662
+2664,Wheatear,Heuglin's,Oenanthe,heuglinii,0.0677,7,5/6/22,0.0044,1,5/1/22,2664
+2670,Wheatear,Desert,Oenanthe,deserti,0.0097,1,2/5/18,0,0,-,2670
+2682,Wheatear,Abyssinian,Oenanthe,lugubris,1.2274,127,8/28/22,0.4755,107,7/30/22,2682
+2690,Wheatear,Schalow's,Oenanthe,schalowi,0.8505,88,1/28/22,0.0889,20,3/8/18,2690
+2710,Akalat,Equatorial,Sheppardia,aequatorialis,0.5992,62,12/23/21,0.12,27,8/13/21,2710
+2732,Thrush,Taita,Turdus,helleri,0.1063,11,7/2/22,0.0844,19,7/10/22,2732
+2736,Thrush,Abyssinian,Turdus,abyssinicus,19.3099,1998,9/25/22,6.3947,1439,9/25/22,2736
+2750,Thrush,Bare-eyed,Turdus,tephronotus,10.9404,1132,9/21/22,1.4887,335,9/5/22,2750
+2768,Thrush,Abyssinian Ground,Geokichla,piaggiae,0.1546,16,3/13/22,0.0489,11,1/11/22,2768
+2778,Starling,Golden-breasted,Lamprotornis,regius,4.1751,432,9/26/22,1.5865,357,9/26/22,2778
+2782,Starling,Miombo Blue-eared,Lamprotornis,elisabeth,0,0,-,0.0044,1,6/18/21,2782
+2784,Starling,Long-tailed Glossy,Lamprotornis,caudatus,0.5509,57,6/12/22,0.1111,25,3/9/22,2784
+2786,Starling,Bronze-tailed,Lamprotornis,chalcurus,0.0677,7,12/30/20,0.0178,4,4/12/22,2786
+2788,Starling,Hildebrandt's,Lamprotornis,hildebrandti,9.6646,1000,9/26/22,2.0575,463,9/18/22,2788
+2792,Starling,Purple,Lamprotornis,purpureus,0.0387,4,6/22/21,0.0267,6,10/14/19,2792
+2794,Starling,Ruppell's,Lamprotornis,purpuroptera,9.8869,1023,9/26/22,1.9864,447,9/26/22,2794
+2796,Starling,Shelley's,Lamprotornis,shelleyi,0.1063,11,8/28/22,0.0356,8,12/5/21,2796
+2798,Starling,Splendid,Lamprotornis,splendidus,0.0483,5,12/30/20,0.0044,1,4/12/22,2798
+2800,Starling,Superb,Lamprotornis,superbus,34.754,3596,9/26/22,15.0469,3386,9/26/22,2800
+2814,Starling,Bristle-crowned,Onychognathus,salvadorii,1.4304,148,7/31/22,0.2177,49,5/16/22,2814
+2816,Starling,Slender-billed,Onychognathus,tenuirostris,0.2899,30,8/24/22,0.0889,20,5/14/22,2816
+2818,Starling,Waller's,Onychognathus,walleri,0.3963,41,4/4/22,0.0533,12,7/16/22,2818
+2820,Starling,Abbott's,Poeoptera,femoralis,0.2223,23,7/2/22,0.0489,11,8/3/22,2820
+2822,Starling,Sharpe's,Poeoptera,sharpii,0.3383,35,10/1/21,0.0667,15,4/6/21,2822
+2824,Starling,Kenrick's,Poeoptera,kenricki,0.2996,31,4/20/22,0.0533,12,5/8/21,2824
+2828,Starling,Stuhlmann's,Poeoptera,stuhlmanni,0.7248,75,3/8/22,0.0889,20,8/11/21,2828
+2832,Starling,Magpie,Speculipastor,bicolor,0.8602,89,7/30/22,0.2,45,5/18/22,2832
+2834,Starling,White-crowned,Lamprotornis,albicapillus,0.0483,5,3/7/19,0.1244,28,2/4/22,2834
+2836,Starling,Fischer's,Lamprotornis,fischeri,4.1461,429,9/26/22,1.5553,350,9/15/22,2836
+2850,Tit,Mouse-coloured Penduline,Anthoscopus,musculus,0.5122,53,9/16/22,0.1022,23,9/16/22,2850
+2860,Tit,White-bellied,Melaniparus,albiventris,13.6561,1413,9/25/22,2.2086,497,8/31/22,2860
+2868,Tit,Red-throated,Melaniparus,fringillinus,2.0006,207,7/2/22,0.2222,50,9/17/22,2868
+2870,Tit,Dusky,Melaniparus,funereus,0.4252,44,12/23/21,0.0578,13,11/30/21,2870
+2876,Tit,Acacia,Melaniparus,thruppi,1.4594,151,7/31/22,0.1911,43,5/14/22,2876
+2886,Swallow,Ethiopian,Hirundo,aethiopica,4.3008,445,8/12/22,0.7155,161,9/13/22,2886
+2914,Saw-wing,Black (Northern Race),Psalidoprocne,pristoptera ,0.058,6,3/28/22,0.0044,1,10/13/20,2914
+2942,Greenbul,Mountain ,Arizelocichla,nigriceps,1.1018,114,7/31/22,0.1955,44,7/16/22,2942
+2944,Greenbul,Ansorge's,Eurillas,ansorgei,0.2996,31,1/25/22,0.0578,13,10/24/21,2944
+2946,Greenbul,Plain,Eurillas,curvirostris,0.0387,4,1/26/22,0.0044,1,10/27/15,2946
+2948,Greenbul,Slender-billed,Stelgidillas,gracilirostris,1.5947,165,6/9/22,0.2577,58,3/29/22,2948
+2950,Greenbul,Little Grey,Eurillas,gracilis,0.3093,32,7/4/22,0.0222,5,5/8/21,2950
+2952,Greenbul,Kakamega,Arizelocichla,kakamegae,0.2706,28,1/25/22,0.04,9,5/24/22,2952
+2954,Greenbul,Olive-breasted ,Arizelocichla,kikuyuensis,0.4156,43,4/4/22,0.0889,20,7/16/22,2954
+2958,Greenbul,Stripe-faced,Arizelocichla,striifacies,0.029,3,2/22/22,0.0356,8,5/14/22,2958
+2972,Greenbul,Joyful,Chlorocichla,laetissima,0.8891,92,9/11/22,0.1155,26,11/30/21,2972
+2998,Greenbul,Fischer's,Phyllastrephus,fischeri,1.2177,126,8/19/22,0.2711,61,5/14/22,2998
+3012,Greenbul,Toro Olive,Phyllastrephus,hypochloris,0.1643,17,12/23/21,0.0044,1,8/11/21,3012
+3024,Brownbul,Northern,Phyllastrephus,strepitans,13.6948,1417,9/26/22,2.0486,461,9/3/22,3024
+3032,Bulbul,Dodson's,Pycnonotus,dodsoni,7.8767,815,9/26/22,2.293,516,9/26/22,3032
+3036,Bulbul,Dark-capped,Pycnonotus,tricolor,24.6931,2555,5/15/21,5.4126,1218,5/8/21,3036
+3056,Apalis,Taita,Apalis,fuscigularis,0.0773,8,7/2/22,0.0667,15,3/30/22,3056
+3070,Apalis,Grey,Apalis,cinerea,3.2377,335,9/14/22,0.5288,119,9/20/22,3070
+3074,Apalis,Black-throated,Apalis,jacksoni,0.8795,91,6/9/22,0.1511,34,6/27/22,3074
+3076,Apalis,Karamoja,Apalis,karamojae,0.029,3,5/9/21,0.0222,5,2/11/22,3076
+3082,Apalis,Chestnut-throated,Apalis,porphyrolaema,2.5031,259,9/4/22,0.6621,149,9/20/22,3082
+3084,Apalis,Black-collared,Oreolais,pulcher,3.0154,312,9/4/22,0.4488,101,9/20/22,3084
+3090,Wren-Warbler,Grey ,Calamonastes,simplex,6.5816,681,9/16/22,1.5953,359,9/16/22,3090
+3092,Wren-Warbler,Miombo ,Calamonastes,undosus,0.145,15,5/9/21,0.0178,4,2/13/22,3092
+3098,Cisticola,Rock-loving,Cisticola,emini,0.0773,8,10/17/20,0.0089,2,5/8/21,3098
+3102,Cisticola,Long-tailed,Cisticola,angusticauda,0.0677,7,2/11/22,0.0356,8,7/10/22,3102
+3104,Cisticola,Lynes's,Cisticola,distinctus,0.1546,16,1/12/22,0.0844,19,3/27/22,3104
+3108,Cisticola,Aberdare,Cisticola,aberdare,0.1546,16,7/30/22,0.2266,51,6/18/22,3108
+3112,Cisticola,Boran,Cisticola,bodessa,0.1063,11,10/10/20,0.0489,11,9/2/22,3112
+3114,Cisticola,Pectoral-patch,Cisticola,brunnescens,3.7692,390,9/26/22,0.8577,193,7/31/22,3114
+3118,Cisticola,Carruthers's,Cisticola,carruthersi,0.3093,32,1/9/22,0.0489,11,11/7/21,3118
+3122,Cisticola,Chubb's,Cisticola,chubbi,1.2661,131,9/11/22,0.28,63,11/21/21,3122
+3124,Cisticola,Ashy,Cisticola,cinereolus,0.5219,54,3/31/22,0.2089,47,6/27/22,3124
+3130,Cisticola,Black-backed,Cisticola,eximius,0.058,6,4/14/21,0.0356,8,8/5/22,3130
+3132,Cisticola,Coastal,Cisticola,haematocephalus,3.3923,351,8/30/22,0.6355,143,9/13/22,3132
+3136,Cisticola,Whistling,Cisticola,lateralis,0.029,3,12/22/20,0.0178,4,1/20/18,3136
+3138,Cisticola,Luapula,Cisticola,luapula,0.5702,59,7/17/20,0.0844,19,5/24/20,3138
+3142,Cisticola,Winding,Cisticola,marginatus,7.6544,792,9/26/22,1.3732,309,9/28/22,3142
+3146,Cisticola,Tiny,Cisticola,nana,1.0148,105,9/23/22,0.2089,47,5/2/22,3146
+3152,Cisticola,Stout,Cisticola,robustus,3.7595,389,9/18/22,0.5777,130,9/28/22,3152
+3166,Cisticola,Trilling,Cisticola,woosnami,0.1063,11,12/12/21,0.0489,11,5/8/21,3166
+3170,Warbler,Grey-capped,Eminia,lepida,15.4151,1595,9/26/22,2.6885,605,9/28/22,3170
+3176,Warbler,Buff-bellied,Phyllolais,pulchella,5.8664,607,9/25/22,0.751,169,9/2/22,3176
+3180,Prinia,White-chinned,Schistolais,leucopogon,0.6282,65,9/11/22,0.0667,15,9/11/21,3180
+3188,Prinia,Pale,Prinia,somalica,0.5799,60,5/6/22,0.1955,44,5/16/22,3188
+3192,Prinia,Red-fronted,Prinia,rufifrons,1.7106,177,7/22/22,0.3466,78,7/6/22,3192
+3198,White-eye,Abyssinian,Zosterops,abyssinicus,0.0193,2,2/5/22,0.0044,1,1/29/19,3198
+3204,White-eye,Kulal,Zosterops,kulalensis,0.0193,2,6/6/16,0,0,-,3204
+3214,White-eye,Heuglin's,Zosterops,poliogastrus,6.8522,709,7/2/22,0.9377,211,9/5/22,3214
+3216,White-eye,Taita,Zosterops,silvanus,0.2223,23,7/2/22,0.1555,35,7/10/22,3216
+3228,Warbler,Moustached,Acrocephalus,melanopogon,0.058,6,11/25/21,0.0044,1,10/27/21,3228
+3262,Eremomela,Green-backed,Eremomela,canescens,0.029,3,9/2/22,0.0178,4,4/12/22,3262
+3268,Eremomela,Yellow-vented,Eremomela,flavicrissalis,0.1546,16,5/2/22,0.08,18,5/16/22,3268
+3272,Eremomela,Turner's,Eremomela,turneri,0.5122,53,1/26/22,0.1067,24,8/13/21,3272
+3276,Warbler,Upcher's,Hippolais,languida,0.4156,43,2/22/22,0.0667,15,12/3/21,3276
+3278,Warbler,Eastern Olivaceous,Iduna,pallida,1.8073,187,4/19/22,0.1511,34,4/11/22,3278
+3282,Hylia,Green,Hylia,prasina,0.203,21,1/26/22,0.0356,8,10/17/20,3282
+3292,Illadopsis,Mountain,Illadopsis,pyrrhoptera,0.1546,16,5/8/21,0.0356,8,11/21/21,3292
+3356,Parisoma,Banded,Curruca,boehmi,3.6049,373,9/16/22,0.5155,116,9/16/22,3356
+3358,Parisoma,Brown,Curruca,lugens,2.9767,308,9/18/22,0.4577,103,9/8/22,3358
+3370,Warbler,Uganda Woodland,Phylloscopus,budongoensis,0.6669,69,1/27/22,0.1422,32,5/24/22,3370
+3382,Warbler,Brown Woodland,Phylloscopus,umbrovirens,2.0102,208,9/20/22,0.2844,64,9/5/22,3382
+3384,Babbler,Rwenzori Hill,Sylvia,atriceps,0.116,12,2/24/15,0,0,-,3384
+3426,Crombec,Northern,Sylvietta,brachyura,3.344,346,9/3/22,0.5777,130,9/17/22,3426
+3430,Crombec,Somali ,Sylvietta,isabellina,0.1063,11,7/2/22,0.0044,1,11/7/19,3430
+3432,Crombec,White-browed,Sylvietta,leucophrys,0.5412,56,3/5/22,0.0889,20,9/20/22,3432
+3440,Chatterer,Scaly,Argya,aylmeri,0.5219,54,7/25/22,0.0755,17,4/21/22,3440
+3444,Babbler,Hinde's,Turdoides,hindei,1.788,185,9/4/22,0.3288,74,8/20/22,3444
+3446,Babbler,Northern Pied,Turdoides,hypoleuca,5.3929,558,9/26/22,0.9465,213,9/5/22,3446
+3452,Babbler,Brown,Turdoides,plebejus,1.2951,134,9/2/22,0.1733,39,9/26/22,3452
+3456,Chatterer,Rufous,Argya,rubiginosa,7.0745,732,9/16/22,1.1776,265,9/16/22,3456
+3458,Babbler,Black-lored,Turdoides,sharpei,4.726,489,9/13/22,0.9688,218,9/26/22,3458
+3462,Babbler,Scaly,Turdoides,squamulata,5.3349,552,9/12/22,0.8532,192,9/25/22,3462
+3482,Lark,Athi Short-toed,Alaudala,athensis,0.0966,10,4/4/20,0,0,-,3482
+3484,Lark,Somali Short-toed,Alaudala,somalica,0.1836,19,2/15/21,0.0044,1,7/17/16,3484
+3500,Sparrow-Lark,Fischer's ,Eremopterix,leucopareia,5.8181,602,8/28/22,1.662,374,9/17/22,3500
+3504,Sparrow-Lark,Chestnut-headed,Eremopterix,signatus,0.6089,63,6/18/22,0.6799,153,8/1/22,3504
+3506,Lark,Crested,Galerida,cristata,0.2609,27,5/6/22,0.2133,48,5/8/22,3506
+3510,Lark,Thekla's,Galerida,theklae,0.058,6,2/5/22,0.0533,12,11/29/20,3510
+3520,Lark,Pink-breasted,Calendulauda,poecilosterna,2.996,310,9/9/22,1.4131,318,9/6/22,3520
+3522,Lark,Foxy,Calendulauda,alopex,0.3769,39,7/31/22,0.16,36,9/17/22,3522
+3528,Lark,White-tailed,Mirafra,albicauda,0.1933,20,2/14/22,0.0533,12,7/22/21,3528
+3534,Lark,Singing Bush,Mirafra,cantillans,0.5026,52,7/28/22,0.1067,24,8/27/22,3534
+3536,Lark,Collared,Mirafra,collaris,0.0097,1,12/27/19,0,0,-,3536
+3546,Lark,Red-winged,Mirafra,hypermetra,1.1791,122,7/27/22,0.8266,186,8/1/22,3546
+3552,Lark,Friedmann's,Mirafra,pulpa,0.0193,2,7/29/16,0,0,-,3552
+3558,Lark,Williams's,Mirafra,williamsi,0.029,3,5/18/22,0.04,9,4/8/22,3558
+3562,Lark,Short-tailed,Spizocorys,fremantlii,0.7732,80,1/23/22,0.16,36,9/5/22,3562
+3574,Sunbird,Amani,Hedydipna,pallidigaster,0.7538,78,5/14/22,0.16,36,3/24/22,3574
+3576,Sunbird,Pygmy,Hedydipna,platura,0.0193,2,5/4/22,0.0044,1,5/2/22,3576
+3588,Sunbird,Eastern Violet-backed,Anthreptes,orientalis,0.1836,19,12/28/14,0.0222,5,8/16/14,3588
+3590,Sunbird,Eastern Violet-backed,Anthreptes,orientalis,5.3349,552,9/3/22,1.0132,228,9/17/22,3590
+3592,Sunbird,Grey-chinned,Anthreptes,rectirostris,0.1353,14,11/11/21,0.0178,4,11/28/21,3592
+3610,Sunbird,Hunter's,Chalcomitra,hunteri,2.996,310,7/25/22,0.6088,137,7/30/22,3610
+3626,Sunbird,Orange-tufted,Cinnyris,bouvieri,0.0483,5,3/1/21,0,0,-,3626
+3628,Sunbird,Violet-breasted,Cinnyris,chalcomelas,0.4736,49,6/17/22,0.0444,10,2/1/22,3628
+3638,Sunbird,Red-chested,Cinnyris,erythrocercus,1.411,146,8/27/22,0.2222,50,4/24/22,3638
+3640,Sunbird,Shining,Cinnyris,habessinicus,0.5895,61,7/24/22,0.0356,8,5/14/22,3640
+3646,Sunbird,Scarlet-tufted ,Nectarinia,johnstoni,0.0773,8,8/24/22,0.0755,17,6/18/22,3646
+3660,Sunbird,Northern Double-collared,Cinnyris,reichenowi,7.8477,812,9/19/22,1.4354,323,9/20/22,3660
+3672,Sunbird,Superb,Cinnyris,superbus,0.0677,7,3/25/18,0.0089,2,8/8/18,3672
+3674,Sunbird,Tacazze,Nectarinia,tacazze,2.2712,235,9/20/22,0.4888,110,8/3/22,3674
+3676,Sunbird,Tsavo,Cinnyris,tsavoensis,0.8602,89,8/28/22,0.2089,47,7/30/22,3676
+3684,Sunbird,Black-bellied,Cinnyris,nectarinioides,1.9039,197,9/11/22,0.2,45,7/29/22,3684
+3686,Sunbird,Beautiful,Cinnyris,pulchellus,4.6584,482,9/4/22,0.9288,209,9/18/22,3686
+3688,Longclaw,Sharpe's,Macronyx,sharpei,0.5799,60,7/30/22,0.3511,79,7/16/22,3688
+3698,Pipit,Malindi,Anthus,melindae,1.1598,120,5/29/22,0.1466,33,5/14/22,3698
+3712,Pipit,Sokoke,Anthus,sokokensis,1.1501,119,7/2/22,0.24,54,7/7/22,3712
+3718,Weaver,White-billed Buffalo,Bubalornis,albirostris,0.3383,35,9/2/22,0.1422,32,7/30/22,3718
+3722,Twinspot,Brown,Clytospiza,monteiri,0.0483,5,8/23/15,0.0089,2,10/5/20,3722
+3726,Crimsonwing,Abyssinian,Cryptospiza,salvadorii,0.8215,85,9/4/22,0.1466,33,6/27/22,3726
+3730,Weaver,White-headed Buffalo,Dinemellia,dinemelli,9.9063,1025,9/26/22,3.2573,733,9/26/22,3730
+3734,Waxbill,Black-cheeked ,Brunhilda,charmosyna,0.8215,85,9/2/22,0.08,18,2/9/22,3734
+3740,Waxbill,Kandt's,Estrilda,kandti,0.1063,11,1/21/22,0.0222,5,8/4/21,3740
+3744,Waxbill,Black-rumped,Estrilda,troglodytes,0.174,18,7/30/22,0,0,-,3744
+3746,Bishop,Fire-fronted,Euplectes,diadematus,0.2996,31,6/22/22,0.0578,13,5/9/20,3746
+3748,Bishop,Northern Red ,Euplectes,franciscanus,0.174,18,8/25/21,0.0311,7,6/5/21,3748
+3750,Bishop,Black,Euplectes,gierowii,0.4446,46,7/16/22,0.0267,6,4/22/22,3750
+3752,Widowbird,Jackson's,Euplectes,jacksoni,2.0006,207,9/13/22,0.4888,110,7/16/22,3752
+3754,Bishop,Zanzibar Red ,Euplectes,nigroventris,5.0933,527,9/21/22,0.4666,105,9/13/22,3754
+3766,Weaver,Rufous-tailed,Histurgops,ruficauda,0.0387,4,8/29/21,0.0044,1,10/17/20,3766
+3768,Firefinch,Bar-breasted,Lagonosticta,rufopicta,0.3286,34,1/8/22,0.0356,8,4/24/22,3768
+3778,Firefinch,Black-bellied,Lagonosticta,rara,0.029,3,7/29/21,0,0,-,3778
+3784,Silverbill,African ,Euodice,cantans,0.6282,65,9/2/22,0.0933,21,6/22/22,3784
+3786,Longclaw,Pangani,Macronyx,aurantiigula,2.7641,286,6/26/22,0.4844,109,6/20/22,3786
+3810,Malimbe,Red-headed,Malimbus,rubricollis,0.2513,26,12/23/21,0.0444,10,11/30/21,3810
+3816,Wagtail,White,Motacilla,alba,0.0677,7,2/25/22,0.0089,2,1/20/18,3816
+3824,Nigrita,White-breasted,Nigrita,fusconotus,0.1063,11,1/27/22,0.0222,5,4/12/21,3824
+3830,Weaver,Compact,Ploceus,superciliosus,0.0193,2,1/8/22,0.0044,1,11/10/21,3830
+3834,Sparrow,Parrot-billed,Passer,gongonensis,11.3946,1179,9/26/22,3.0218,680,9/26/22,3834
+3836,Sparrow,Swahili,Passer,suahelicus,0.6572,68,7/16/22,0.12,27,8/14/22,3836
+3838,Sparrow,Swainson's,Passer,swainsonii,0.174,18,5/1/22,0.04,9,2/28/19,3838
+3840,Sparrow,Kenya,Passer,rufocinctus,24.6158,2547,9/26/22,5.6081,1262,9/25/22,3840
+3842,Sparrow,Somali,Passer,castanopterus,0.1933,20,5/1/22,0.0578,13,5/21/22,3842
+3846,Sparrow,Chestnut,Passer,eminibey,4.3877,454,9/2/22,0.991,223,9/18/22,3846
+3850,Sparrow,Parrot-billed,Passer,gongonensis,0.0097,1,10/20/21,0,0,-,3850
+3852,Sparrow,Northern Grey-headed,Passer,griseus,12.6897,1313,9/18/22,2.3908,538,9/16/22,3852
+3874,Sparrow,Yellow-spotted Bush,Gymnoris,pyrgita,7.5384,780,9/26/22,1.1821,266,9/3/22,3874
+3876,Sparrow-Weaver,Donaldson-Smith's ,Plocepasser,donaldsoni,0.6765,70,8/14/22,0.28,63,9/6/22,3876
+3878,Sparrow-Weaver,Chestnut-crowned ,Plocepasser,superciliosus,0.1353,14,9/2/22,0.0622,14,5/14/22,3878
+3898,Weaver,Golden Palm,Ploceus,bojeri,8.7272,903,9/21/22,1.2532,282,9/1/22,3898
+3902,Weaver,Taveta Golden,Ploceus,castaneiceps,0.3769,39,6/23/22,0.0578,13,9/17/22,3902
+3904,Weaver,Northern Brown-throated,Ploceus,castanops,0.4832,50,2/28/22,0.0311,7,8/15/21,3904
+3910,Weaver,Rueppell's,Ploceus,galbula,0.0097,1,9/2/16,0,0,-,3910
+3912,Weaver,Clarke's,Ploceus,golandi,0.2513,26,2/24/22,0.0755,17,8/21/22,3912
+3914,Weaver,Heuglin's Masked ,Ploceus,heuglini,0.058,6,7/15/22,0.0044,1,9/2/22,3914
+3916,Weaver,Golden-backed,Ploceus,jacksoni,3.0444,315,9/18/22,0.3999,90,9/12/22,3916
+3918,Weaver,Little,Ploceus,luteolus,1.0921,113,9/4/22,0.1955,44,9/4/22,3918
+3922,Weaver,Black-headed ,Ploceus,melanocephalus,1.1018,114,8/27/22,0.12,27,2/2/22,3922
+3934,Weaver,Speke's,Ploceus,spekei,15.647,1619,9/25/22,3.5329,795,9/25/22,3934
+3940,Weaver,Northern Masked ,Ploceus,taeniopterus,0.5122,53,6/18/22,0.0889,20,5/14/22,3940
+3952,Weaver,Grey-headed Social ,Pseudonigrita,arnaudi,6.1274,634,8/24/22,1.3598,306,9/17/22,3952
+3954,Weaver,Black-capped Social ,Pseudonigrita,cabanisi,1.8846,195,8/14/22,0.7599,171,9/5/22,3954
+3966,Silverbill,Grey-headed,Spermestes,griseicapilla,1.701,176,9/5/22,0.2711,61,9/26/22,3966
+3972,Weaver,Speckle-fronted,Sporopipes,frontalis,4.7357,490,9/26/22,0.7066,159,9/18/22,3972
+3974,Cordonbleu,Red-cheeked,Uraeginthus,bengalus,38.069,3939,9/26/22,7.359,1656,9/28/22,3974
+3976,Cordonbleu,Blue-capped,Uraeginthus,cyanocephalus,1.527,158,6/26/22,0.4222,95,8/16/22,3976
+3978,Grenadier,Purple,Granatina,ianthinogaster,20.7886,2151,9/21/22,3.7195,837,9/26/22,3978
+3990,Whydah,Straw-tailed,Vidua,fischeri,1.5753,163,5/14/22,0.3955,89,7/10/22,3990
+3992,Whydah,Steel-blue,Vidua,hypocherina,0.5702,59,6/18/22,0.0844,19,5/14/22,3992
+4032,Bunting,Ortolan,Emberiza,hortulana,0.0193,2,11/30/21,0.0044,1,12/1/21,4032
+4038,Bunting,Somali Golden-breasted,Emberiza,poliopleura,1.7783,184,6/20/22,0.3555,80,7/30/22,4038
+4048,Bunting,Striolated,Emberiza,striolata,0.0097,1,5/7/18,0.0044,1,5/13/18,4048
+4074,Seedeater,Kenya Yellow-rumped,Crithagra,reichenowi,16.8165,1740,9/26/22,2.6174,589,9/6/22,4074
+4076,Seedeater,Yellow-rumped ,Crithagra,xanthopygia,0.0677,7,7/8/21,0.0044,1,7/30/22,4076
+4080,Canary,Papyrus,Crithagra,koliensis,0.0966,10,12/11/21,0.0089,2,8/15/21,4080
+4082,Citril,Western,Crithagra,frontalis,0.2223,23,6/28/21,0.0133,3,10/16/20,4082
+4084,Citril,Southern ,Crithagra,hyposticta,1.0341,107,9/4/22,0.0578,13,7/15/22,4084
+4086,Grosbeak-Canary,Southern,Crithagra,buchanani,0.9181,95,1/23/22,0.1333,30,7/16/22,4086
+4094,Grosbeak-Canary,Northern,Crithagra,donaldsoni,0.058,6,3/14/21,0.0044,1,10/9/21,4094
+4096,Canary,White-bellied,Crithagra,dorsostriata,4.668,483,9/16/22,0.7643,172,9/16/22,4096
+4098,Canary,Yellow-crowned,Serinus,flavivertex,2.5901,268,9/4/22,0.7821,176,9/5/22,4098
+4104,Seedeater,White-rumped,Crithagra,leucopygia,0.0193,2,10/16/16,0.0044,1,6/12/17,4104
+4129,Hornbill,Southern Red-billed,Tockus,rufirostris,4.2621,441,7/16/22,1.0132,228,7/16/22,4129
+4130,Cuckoo,Lesser ,Cuculus,poliocephalus,0.058,6,11/27/19,0,0,-,4130
+4136,Gull,Lesser Black-backed,Larus,fuscus,0.7442,77,8/21/22,0.3155,71,5/8/22,4136
+4138,Cisticola,Rufous-winged,Cisticola,galactotes,0.7538,78,2/19/22,0.1155,26,5/8/22,4138
+5708,Leaflove,Yellow-throated ,Atimastillas,flavicollis,1.4884,154,9/5/22,0.1244,28,9/2/22,5708
+7865,Boubou,Black ,Laniarius,nigerrimus,0.0097,1,1/18/19,0.0044,1,10/2/18,7865
+7866,Boubou,Tropical,Laniarius,major,8.4179,871,9/26/22,2.3863,537,9/25/22,7866
+7867,Boubou,East Coast,Laniarius,sublacteus,5.8761,608,9/21/22,1.5998,360,9/25/22,7867
+7878,Shrike,Red-tailed,Lanius,phoenicuroides,0.6089,63,4/17/22,0.1289,29,4/15/22,7878
+7887,Fiscal,Northern,Lanius,humeralis,25.186,2606,9/26/22,7.239,1629,9/28/22,7887
+8090,Mannikin,Black and White,Spermestes,bicolor,1.788,185,9/5/22,0.3999,90,8/21/22,8090
+9638,Cormorant,Great,Phalacrocorax,carbo,1.3917,144,9/25/22,0.3955,89,9/28/22,9638
+10031,Lovebird,fischeri x personatus,Agapornis ,fischeri x personatus,3.5469,367,9/3/22,0.7421,167,9/24/22,10031
+10874,White-eye,Northern Yellow,Zosterops,senegalensis,1.2854,133,9/5/22,0.1644,37,9/25/22,10874
+10876,Pipit,Long-billed,Anthus,similis,0.9858,102,8/28/22,0.1378,31,5/2/22,10876
+11491,Bulbul,Common,Pycnonotus,barbatus,21.2332,2197,9/26/22,7.9767,1795,9/28/22,11491
+13633,White-eye,Southern Yellow,Zosterops,anderssoni,0.9278,96,12/25/21,0.0267,6,7/14/21,13633
+14189,Kite,Black,Milvus,migrans,0.2899,30,10/4/18,0.0844,19,7/31/21,14189
+14191,Chatterer,Rufous ,Argya,rubiginosa,0.7732,80,11/28/19,0.08,18,4/10/19,14191
+14193,Boubou,Ethiopian,laniarius,aethiopicus,2.0489,212,9/5/22,0.6577,148,6/19/22,14193
+0,,,,,5.5088,570,5/5/20,1.5509,349,5/1/20,#N/A
+3828,,Quailfinch (ssp gabonensis),Ortygospiza,atricollis gabonensis,0.0097,1,2/5/22,0,0,-,3828
+2310,Batis,West African,Batis,occulta,0.0193,2,9/2/22,0.0133,3,4/9/21,2310
+1880,Dove,Vinaceous,Streptopelia,vinacea,0.0097,1,5/3/22,0,0,-,1880
+1194,Leafbird,Yellow-throated ,Chloropsis,palawanensis,0.0387,4,6/21/22,0,0,-,1194
+20004,Lovebird,Hybrid,Agapornis,hybrid,0.029,3,8/21/21,0.0089,2,7/23/22,20004
+3692,Pipit,Jackson's,Anthus,latistriatus,0.0097,1,6/18/22,0,0,-,3692
+3184,Prinia,River,Prinia,fluviatilis,0.0097,1,5/6/22,0,0,-,3184
+2370,Raven,Brown-necked,Corvus,ruficollis,0,0,-,0.0044,1,4/30/22,2370
+3958,Seedcracker,Black-bellied,Pyrenestes,ostrinus,0.0097,1,9/1/22,0,0,-,3958
+7863,Starling,Lesser Blue-eared,Lamprotornis,chloropterus,0.058,6,5/1/22,0.0489,11,9/2/22,7863
+3600,Sunbird,Usambara Double-collared,Cinnyris,usambaricus,0.0097,1,7/3/20,0.0044,1,7/2/22,3600
+10878,White-eye,Abyssinian,Zosterops,flavilateralis,5.8471,605,9/4/22,0.8577,193,7/14/22,10878
