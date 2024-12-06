@@ -2,7 +2,7 @@
 
 This repository contains the code and data used for the following publication:
 
-> Nussbaumer, R., ....
+> Nussbaumer, R., Nussbaumer, A., Guchu, S., Hatfield, R.S., M. Kanga, E., Kung'u, G.N., Kuria, A., Miller, E., Ndang'ang'a, P.K., Njoroge, P., Ogada, D., Shema, S. and Jackson, C. (2024), Historical Bird Atlas and Contemporary Citizen Science Data Reveal Long-Term Changes in Geographic Range of Kenyan Birds. _Diversity and Distributions_ e13935. https://doi.org/10.1111/ddi.13935
 
 The main output of this code can be visualized on [kenyabirdtrends.co.ke](https://kenyabirdtrends.co.ke/)
 
