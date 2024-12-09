@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13710126.svg)](https://doi.org/10.5281/zenodo.13710126)
+
 # KenyaAtlasComparison
 
 This repository contains the code and data used for the following publication:
