@@ -193,6 +193,7 @@ for i = 1:numel(cov_u)
     id = find(coverage_old(:)==cov_u(i) & x>0);
     plot(x(id), y(id),'.', color=col(i,:), markersize=20)
     p = fit(log(x(id)), y(id), 'poly1');
+    disp((10^-p.p2/p.p1)/24)
     x_interp = logspace(-0.6,4.5,100);
     plot(x_interp, p(log(x_interp)),'-', color=col(i,:), linewidth=2)
     % exp(-p.p2/p.p1)/24
@@ -204,8 +205,8 @@ for i = 1:numel(cov_u)
     assert(all(~isnan(map_new_correction(id))))
 end
 set(gca,"XScale","log"); xlabel("Total duration"); ylabel("Number of species")
-set(gca,"Xtick", ([0 12 24 24*7 24*30.5 24*30.5*6]));
-set(gca,"XtickLabels",["0" "12hr" "1day" "1week" "1month" "6months"]);
+set(gca,"Xtick", ([0 12 24 3*24 24*7 2*7*24 24*30.5 24*30.5*6]));
+set(gca,"XtickLabels",["0" "12hr" "3day" "1day" "1week" "2week" "1month" "6months"]);
 yline(0,'--k')
 box on; grid on; axis tight; ylim([-200 200])
 
