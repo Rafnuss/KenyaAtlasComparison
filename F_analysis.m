@@ -170,7 +170,7 @@ scatter(log10(sp.mass),sp.diff,'k','filled',"MarkerFaceAlpha",.2)
 l=lsline;l.Color="r";
 
 % figure; 
-% scatter((sp.Range_Size),sp.diff,'k','filled',"MarkerFaceAlpha",.2)
+% scatter((sp.range_size),sp.diff,'k','filled',"MarkerFaceAlpha",.2)
 % l=lsline;l.Color="r";
 
 %%  Migrant
@@ -215,7 +215,7 @@ yticks(1:height(tmp3)/2)
 yticklabels(unique(tmp3.checklist_family,"stable"))
  grid on; box on; xlim([-40 40]); set(gca, 'YDir','reverse');
 
-exportgraphics(gcf, "figures/migrant_per_family.eps") 
+exportgraphics(gcf, "export/migrant_per_family.eps") 
 
 % 
 % figure; yline(0)
@@ -223,7 +223,7 @@ exportgraphics(gcf, "figures/migrant_per_family.eps")
 % set(gca, 'XDir','reverse'); grid on; box on; axis tight;ylim([-50 50]); 
 %% Group species 
 
-cat = ["AfrotropicalMigrant" "Endemic" "Palearctic" "waterBird"];
+cat = ["afrotropical" "endemic" "palearctic" "waterbird"];
 
 for i_g=1:numel(cat)
     id_sub = find(sp.(cat(i_g)));
@@ -286,11 +286,11 @@ end
 
 %% By family
 
-fam = groupcounts(sp,"Family");
+fam = groupcounts(sp,"checklist_family");
 fam = fam(fam.GroupCount>1,:);
 
 for i_f=1:height(fam)
-    id_sub = find(sp.Family==fam.Family(i_f));
+    id_sub = find(sp.checklist_family==fam.checklist_family(i_f));
     
     figure('position',[0 0 3508/3 100+2480*numel(id_sub)/100]/2); tiledlayout(1,1,'TileSpacing','tight','Padding','tight')
     nexttile; box on; grid on;
@@ -308,8 +308,8 @@ for i_f=1:height(fam)
     text(-sp.lost(id_sub)/2-sp.kept(id_sub)/2,1:numel(id_sub),num2str(round(sp.lost(id_sub))),'horiz','center'); 
     text(sp.gain(id_sub)/2+sp.kept(id_sub)/2,1:numel(id_sub),num2str(round(sp.gain(id_sub))),'horiz','center'); 
     grid on; axis tight; xlim([-90 90])
-    title(fam.Family(i_f))
-    exportgraphics(gcf, "export/family/"+fam.Family(i_f)+".eps")
+    title(fam.checklist_family(i_f))
+    exportgraphics(gcf, "export/family/"+fam.checklist_family(i_f)+".eps")
 end
 
 
@@ -373,11 +373,11 @@ id = find(ismember(sp.common_name, sp_introduced));
 
 %% Waterbird
 
-sp_water = sp(sp.waterBird==1,:);
+sp_water = sp(sp.waterbird==1,:);
 
 figure('position',[0 0 900 900]); hold on; grid on; box on; axis equal square
 plot([0 100],[0 100],'--k')
-scatter(sp_water.old, sp_water.new,100, categorical(sp_water.Family),'filled','MarkerFaceAlpha',.8,'MarkerEdgeColor','none')
+scatter(sp_water.old, sp_water.new,100, categorical(sp_water.checklist_family),'filled','MarkerFaceAlpha',.8,'MarkerEdgeColor','none')
 xlabel('Number of square in old atlas'); ylabel('Number of square in new atlas')
 
 
@@ -393,7 +393,12 @@ p11 = predint(p,x_interp,0.95,'functional','on');
 
 
 figure; hold on;
-fill([x_interp' ; flipud(x_interp')],[p11(:,1) ; flipud(p11(:,2))],col(i,:), EdgeColor = 'none',FaceAlpha=.2);  
+% The confidence band used to be filled with col(i,:), but neither `col` nor
+% `i` is ever defined in this script - the cell only worked when run by hand
+% with a workspace left over from D_correction.m, which does define `col`.
+% Pick the shade here so the script runs top to bottom on its own.
+col = brewermap(7,'GnBu');
+fill([x_interp' ; flipud(x_interp')],[p11(:,1) ; flipud(p11(:,2))],col(5,:), EdgeColor = 'none',FaceAlpha=.2);
 
 plot(x_interp, p(x_interp),'-', linewidth=2)
 scatter( x ,  y, 'ok','filled',AlphaData=0.5 )
@@ -409,7 +414,7 @@ figure; box on; grid on; grid on; grid on
 histogram(sp.gain-sp.lost)
 xlabel('Number of cell gained (+) or lost (-) since old atlas');
 ylabel("Number of species")
-% exportgraphics(gcf, "figures/histogram.png")
+% exportgraphics(gcf, "export/histogram.png")
 
 
 %

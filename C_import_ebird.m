@@ -36,7 +36,11 @@ coverage_ebird(isnan(coverage_ebird)) = 0;
 %% Combine species/grid data
 
 % Select and simplify eBird data for further processing
-ebd = table(ebd.LATITUDE, ebd.LONGITUDE, ebd.COMMONNAME, ebd.SCIENTIFICNAME, ebd.CATEGORY, ebd.idg, 'VariableNames', {'lat', 'lon', 'common_name', 'scientific_name', 'category', 'idg'});
+% avibase_id (eBird's TAXON CONCEPT ID) is carried through for taxonomy
+% matching below: unlike scientific_name/common_name it is stable across
+% eBird taxonomy versions, so the join does not break when eBird revises
+% names or splits/lumps species (see data/eBird/add_avibase_id.py).
+ebd = table(ebd.LATITUDE, ebd.LONGITUDE, ebd.COMMONNAME, ebd.SCIENTIFICNAME, ebd.CATEGORY, ebd.TAXONCONCEPTID, ebd.idg, 'VariableNames', {'lat', 'lon', 'common_name', 'scientific_name', 'category', 'avibase_id', 'idg'});
 ebd = unique(ebd, "sorted");
 
 %% Taxonomy Matching
@@ -44,8 +48,22 @@ ebd = unique(ebd, "sorted");
 % Load the species taxonomy data for eBird
 sp_ebird = readtable('data/eBird/sp_ebird.xlsx', 'TextType', 'string');
 
-% Match species in eBird data with those in the existing species base
-[Lia, Locb] = ismember(ebd.scientific_name, sp_ebird.scientific_name);
+% Match species in eBird data with those in the existing species base.
+% Primary key: scientific_name text, exactly as before - this is the RIGHT
+% granularity for "issf" (identifiable-subspecies-group) records, since
+% several distinct issf concepts (each with its own avibase_id) commonly
+% share one species-level scientific_name, and sp_ebird.xlsx only tracks one
+% id per species. avibase_id alone is too fine-grained here: matching on it
+% first left 12,564 species/issf records unmatched (2026-09 testing).
+% Fallback: avibase_id, for any record the name match misses - this is what
+% makes the join robust to a *future* re-run on a newer EBD release, where
+% eBird may have renamed a genus (this sp_ebird.xlsx keeps its 2023-vintage
+% names) but the underlying concept id is unchanged.
+[Lia_name, Locb_name] = ismember(ebd.scientific_name, sp_ebird.scientific_name);
+[Lia_id, Locb_id] = ismember(ebd.avibase_id, sp_ebird.avibase_id);
+Lia = Lia_name | Lia_id;
+Locb = Locb_name;
+Locb(~Lia_name & Lia_id) = Locb_id(~Lia_name & Lia_id);
 
 % Ensure that all species are matched
 tmp2 = unique(ebd((ebd.category == "species" | ebd.category == "issf") & ~Lia, ["common_name", "scientific_name"]));

@@ -69,34 +69,105 @@ old_atlas(ismissing(old_atlas.x1970_1984), :) = [];
 
 %% Create Dataset for Comparison with New Atlas
 
-% Load the species base list
-sp_base = readtable("data/species_base_list.xlsx", 'TextType', 'string');
+% Load the species base list. Since 2026-09 this carries the AviList/eBird
+% taxonomy crosswalk built by data/taxonomy/update_taxonomy.py: avibase_id,
+% avilist_common_name, avilist_scientific_name, avilist_sort, avilist_members,
+% ebird_code, family, order, iucn, birdlife_url, n_avilist_species - plus the
+% hand-curated ecological flags and the AVONET traits, which that script
+% carries through untouched (see data/taxonomy/SOURCES.md).
+sp_base = readtable("data/species_base_list.csv", 'TextType', 'string');
 
-% Remove species with MergeSEQ == 0 (i.e., species that were not merged)
+% Remove records with merged_SEQ == 0: these are rejected/misidentified
+% historical records (see the comment column for the specific rationale per
+% species), not a taxonomy fold.
 old_atlas(ismember(old_atlas.SEQ, sp_base.SEQ(sp_base.merged_SEQ == 0)), :) = [];
 
-% Merge species by replacing SEQ with merged_SEQ where applicable
-[~, id] = ismember(old_atlas.SEQ, sp_base.merged_SEQ);
-old_atlas.SEQ(id > 0) = sp_base.merged_SEQ(id(id > 0));
+% Fold records for a merged_SEQ > 0 species onto their target SEQ (e.g.
+% Herring Gull records -> Lesser Black-backed Gull; see the comment column on
+% each such row in species_base_list.csv for whether the fold is taxonomic or
+% an identification decision).
+%
+% Fixed 2026-09: the previous version matched old_atlas.SEQ against
+% sp_base.merged_SEQ directly - but a fold-source's own SEQ (e.g. 299) is
+% never itself a *value* within the merged_SEQ column (only 298, its target,
+% is), so that match never found anything, and those records were then
+% silently dropped once the fold-source rows were removed from sp_base below.
+% 49 old-atlas squares across 6 species were affected (SEQ 299, 348, 498,
+% 502, 506, 691); see git history for this file for the corrected counts.
+%
+% External datasets keyed to the atlas by SEQ (SABAP1-2, burns2021) need the
+% same fold applied to *their* SEQ column before joining - see
+% functions/fold_SEQ.m, which also knows which folds an outside dataset must
+% not follow (the two that are identification decisions, not taxonomy).
+fold_src = sp_base.SEQ(sp_base.merged_SEQ > 0);
+fold_dst = sp_base.merged_SEQ(sp_base.merged_SEQ > 0);
+[tf, loc] = ismember(old_atlas.SEQ, fold_src);
+old_atlas.SEQ(tf) = fold_dst(loc(tf));
 
-% Filter out merged species from the base list
+% Filter out fold-source and rejected rows from the base list: each is now
+% represented under its target (or excluded entirely), not as its own concept
 sp_base = sp_base(isnan(sp_base.merged_SEQ), :);
 
-% Remove unnecessary columns from the base list
-sp_base = removevars(sp_base, ["merged_SEQ", "avibaseID", "inaturalistID", ...
-    "observationorgID", "GBIFID", "clements_code", "SISRecID", "Min_Latitude", ...
-    "Max_Latitude", "Centroid_Latitude", "Centroid_Longitude", "Range_Size"]);
+% Two namings travel side by side from here on, and nothing is overwritten:
+%   common_name / scientific_name          the 1970s atlas (historical)
+%   avilist_common_name / avilist_scientific_name / avilist_sort   AviList
+% F_analysis.m, D_correction.m and the website's "A Bird Atlas of Kenya
+% (1989)" option read the first triplet; the website's "AviList" option reads
+% the second. Both are built in data/taxonomy/update_taxonomy.py, including
+% the collapsed display form for a lump ("Ficedula sp."), so this file only
+% has to fill the gaps that need the atlas name as a fallback.
+%
+% This replaces the two species that used to be renamed by hand here (the
+% Fischer's Lovebird hybrid and the Ficedula group) with one general rule
+% covering every multi-species concept.
+%
+% SEQ 556 (Red-rumped Swallow) is the sole concept with no resolvable AviList
+% member (see data/taxonomy/SOURCES.md): fall back to the atlas name so the
+% website's AviList option still shows something for it.
+has_avilist = ~ismissing(sp_base.avilist_common_name);
+sp_base.avilist_common_name(~has_avilist) = sp_base.common_name(~has_avilist);
+sp_base.avilist_scientific_name(~has_avilist) = sp_base.scientific_name(~has_avilist);
 
-% Rename specific species for consistency
-id = sp_base.common_name == "Fischer's Lovebird";
-sp_base.common_name(id) = "Fischer's x Yellow-collared Lovebird";
-sp_base.scientific_name(id) = "Agapornis fischeri x personatus";
-sp_base.IUCN(id) = missing();
+% avilist_sort: AviList's own linear sequence (readtable already infers this
+% numeric, NaN for the one row with nothing to fall back to). Falls back to
+% SEQ, an imperfect but reasonable stand-in for that one row (SEQ 556, no
+% AviList position of its own).
+no_sort = isnan(sp_base.avilist_sort);
+sp_base.avilist_sort(no_sort) = sp_base.SEQ(no_sort);
 
-% Rename Collared Flycatcher species group
-id = sp_base.SEQ == 786;
-sp_base.common_name(id) = "Semicollared/Pied/Collared Flycatcher";
-sp_base.scientific_name(id) = "Ficedula sp.";
+% IUCN: convert AviList's Red List code to the spelled-out category this
+% pipeline's downstream figures expect (F_analysis.m hard-codes strings like
+% "Critically Endangered"). A lump reports its most severe member's status
+% (computed in update_taxonomy.py) so e.g. Bar-throated/Taita Apalis (SEQ
+% 753, includes Critically Endangered Apalis fuscigularis) is not silently
+% omitted from threat-status figures.
+iucn_map = dictionary(["LC", "NT", "VU", "EN", "CR", "CR (PE)", "CR (PEW)", "EW", "EX", "DD", "NE"], ...
+    ["Least Concern", "Near Threatened", "Vulnerable", "Endangered", "Critically Endangered", ...
+     "Critically Endangered", "Critically Endangered", "Extinct in the Wild", "Extinct", ...
+     "Data Deficient", "Not Evaluated"]);
+% Unset stays <missing> rather than "", so jsonencode emits null for it in
+% the website export - the same "no value" spelling as birdlife_url.
+sp_base.IUCN = repmat(string(missing), height(sp_base), 1);
+has_iucn = ~ismissing(sp_base.iucn);
+sp_base.IUCN(has_iucn) = iucn_map(sp_base.iucn(has_iucn));
+
+% checklist_family: kept under its historical name (F_analysis.m and
+% plot_tree.R both read sp.checklist_family) but now sourced from AviList
+% instead of the retired 2019 checklist column of the same name.
+sp_base = renamevars(sp_base, "family", "checklist_family");
+
+% Hand-curated ecological flags, recovered 2026-09 from the last commit of
+% data/species_base_list.xlsx (git history) after the CSV rewrite dropped
+% them: not derivable from AviList, so update_taxonomy.py never touches
+% these columns. Convert from CSV text ("true"/"false") to logical so
+% jsonencode later emits real JSON booleans, not truthy strings.
+for v = ["endemic", "afrotropical", "palearctic", "waterbird"]
+    sp_base.(v) = sp_base.(v) == "true";
+end
+
+% Drop crosswalk-only/no-longer-needed columns: merged_SEQ (already applied
+% above), avibase_id_source (internal provenance), iucn (superseded by IUCN)
+sp_base = removevars(sp_base, ["merged_SEQ", "avibase_id_source", "iucn"]);
 
 %% Format Atlas Data as Matrix
 

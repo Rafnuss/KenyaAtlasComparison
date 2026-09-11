@@ -91,6 +91,7 @@ end
 
 % load data
 ebd0 = readtable("data/eBird/ebd_KE_relOct-2023/ebd_KE_relOct-2023.txt",'TextType','string');
+sp_ebird = readtable('data/eBird/sp_ebird.xlsx','TextType','string');
 load('data/kbm/map_kbm')
 
 % filter by years
@@ -110,9 +111,15 @@ name = validatestring(name,sp_base.common_name);
 
 i_sp = find(strcmp(sp_base.common_name,name));
 
-% filter species
-ebd_sp = ebd0;
-ebd_sp = ebd_sp(ebd_sp.COMMONNAME==sp_base.clements_common_name(i_sp),:);
+% Filter this concept's records out of the raw EBD by Avibase concept id
+% rather than by name. sp_base no longer carries the eBird/Clements name (it
+% went with the retired 2019-checklist columns), and matching on a name is
+% what breaks whenever eBird revises one. sp_ebird.avibase_id holds the ids
+% exactly as this archived EBD spells them - see data/eBird/add_avibase_id.py.
+% Matching every taxon mapped to the SEQ also means a lumped concept now
+% picks up all of its members, the same set C_import_ebird.m maps.
+ebd_sp = ebd0(ismember(ebd0.TAXONCONCEPTID, ...
+    sp_ebird.avibase_id(sp_ebird.SEQ==sp_base.SEQ(i_sp))), :);
 
 ebd_y = ebd_sp;
 ebd_y = ebd_y(year(ebd_y.OBSERVATIONDATE)>=2009 & year(ebd_y.OBSERVATIONDATE)<=2023,:);

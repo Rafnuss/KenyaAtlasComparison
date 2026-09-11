@@ -16,7 +16,7 @@ D_comp = unstack(removevars(D_comp,["x1980", "x2000"]),"diff","season");
 [~,id] = ismember(D_comp.SEQ,sp.SEQ);
 
 figure; hold on;
-bar(categorical(sp.CommonName(id(id>0))), [D_comp.migration D_comp.non_migration])
+bar(categorical(sp.common_name(id(id>0))), [D_comp.migration D_comp.non_migration])
 
 
 
@@ -27,11 +27,11 @@ sp_vult.diff = (sp_vult.new - sp_vult.old) ./ (sp_vult.new + sp_vult.old)*2;
 
 sp_vult.diff = (sp_vult.new - sp_vult.old) ./ sp_vult.old;
 
-sortrows(sp_vult(:,["CommonName","old","new","diff"]),"diff")
+sortrows(sp_vult(:,["common_name","old","new","diff"]),"diff")
 
 
 
-% sp(sp.Trophic_Niche=="Scavenger",:)
+% sp(sp.trophic_niche=="Scavenger",:)
 
 
 

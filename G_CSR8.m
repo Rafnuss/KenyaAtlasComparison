@@ -34,7 +34,7 @@ scatter(spj.diff(id), spj.add(id),(spj.new(id) + spj.old(id))/2,'ok','filled')
 errorbar(spj.diff(id), spj.add(id), spj.se_add(id),"xk","LineStyle","none")
 
 l=lsline;
-text(spj.diff(id), spj.add(id)+.001,spj.CommonName(id),"HorizontalAlignment","center")
+text(spj.diff(id), spj.add(id)+.001,spj.common_name_sp(id),"HorizontalAlignment","center")
 
 
 %
@@ -42,7 +42,7 @@ figure; hold on; grid on;
 tmp = spj.totals_imputed .* spj.add;
 tmp = sign(tmp).*log(abs(tmp));
 scatter(spj.new - spj.old, tmp, 10+10*log10(spj.totals_imputed),'ok','filled')
-text(spj.new - spj.old, tmp,spj.clements_common_name,"HorizontalAlignment","center")
+text(spj.new - spj.old, tmp,spj.common_name_sp,"HorizontalAlignment","center")
 
 
 %
@@ -63,7 +63,7 @@ for i_s=1:3
     b(3).FaceColor=  c(2,:);
     b(4).FaceColor=  c(3,:);
     yticks(1:height(spj));
-    yticklabels(spj.clements_common_name(id_sub)+" "+spj.meaning_sym(id_sub));
+    yticklabels(spj.common_name_sp(id_sub)+" "+spj.meaning_sym(id_sub));
     % xlabel('Number of grid lost (-) and gain(+)')
     set(gca, 'YDir','reverse')
     text(zeros(numel(id_sub),1),1:numel(id_sub),num2str(round(spj.kept(id_sub))),'horiz','center'); 

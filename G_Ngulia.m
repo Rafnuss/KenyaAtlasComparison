@@ -4,7 +4,7 @@ sp = readtable("export/sp_lost_kept_gain.csv", TextType="string");
 
 name=["Marsh Warbler", "Sprosser", "Whitethroat", "River Warbler", "Irania", "Willow Warbler", "Red-backed Shrike", "Red-tailed Shrike", "Rufous Bush Chat", "Olive-tree Warbler", "Olivaceous Warbler", "Nightingale", "Basra Reed Warbler"];
 
-[~,id] = ismember(name,sp.CommonName);
+[~,id] = ismember(name,sp.common_name);
 
 spj = sp(id,:);
 
@@ -13,7 +13,7 @@ spj.diff = (spj.new ./ spj.old).^(1/33);
 figure;
 bar(spj.diff)
 xticks(1:height(spj))
-xticklabels(spj.CommonName )
+xticklabels(spj.common_name )
 yline(1)
 ylim([.95 1.05])
 
@@ -25,7 +25,7 @@ b(2).FaceColor = c(1,:);
 b(3).FaceColor = c(2,:);
 b(4).FaceColor = c(3,:);
 yticks(1:height(spj));
-yticklabels(spj.CommonName);
+yticklabels(spj.common_name);
 % xlabel('Number of grid lost (-) and gainlost(+)')
 set(gca, 'YDir','reverse')
 text(zeros(height(spj),1),1:height(spj),num2str(round(spj.kept)),'horiz','center'); 

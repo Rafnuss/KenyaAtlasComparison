@@ -5,3 +5,14 @@
 
 export/species*
 data/eBird/ebd_KE_relOct-2023/ebd_KE_relOct-2023.txt
+
+# Excel lock files
+~$*
+
+# F_analysis.m regenerates these on every run under AviList family names,
+# which no longer match the 50 originally-committed filenames (retired 2019-
+# checklist families) - so they'd otherwise show as new/untracked forever.
+# The originals stay committed and untouched; only the newly-generated ones
+# (which didn't exist before) are ignored.
+export/family/*.eps
+export/migrant_per_family.eps
