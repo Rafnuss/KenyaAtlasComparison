@@ -5,6 +5,63 @@ in `data/species_base_list.csv` (see below). Re-download with
 `bash data/taxonomy/fetch_sources.sh`. **Pin these versions**: the crosswalk
 columns are only meaningful against the versions listed here.
 
+## The matching rule, in full
+
+`SEQ` is the key for everything. One row per atlas concept, and every data
+source joins to it:
+
+| Layer | Source data | Hand-edited crosswalk | Built by |
+|---|---|---|---|
+| 1970-84 atlas | `data/oldatlas/A Bird Atlas of Kenya_v5.xlsx` | *none - the sheet carries `SEQ` itself* | `A_import_old_atlas.m` |
+| Kenya Bird Map | `data/kbm/geojson/*` | `data/kbm/sp_kbm.xlsx` (`Ref` -> `SEQ`) | `B_import_KBM.m` |
+| eBird 2009-23 | `data/eBird/ebd_KE_relOct-2023/` | `data/eBird/sp_ebird.xlsx` (taxon -> `SEQ`) | `C_import_ebird.m` |
+| AviList naming | `avilist_v2025b_species.csv` | *none - derived from `sp_ebird.xlsx`* | `update_taxonomy.py` |
+
+So there are exactly **two files to hand-edit**: `sp_kbm.xlsx` for the KBM
+association and `sp_ebird.xlsx` for the eBird association. Everything else in
+`species_base_list.csv` - `avilist_common_name`, `avilist_scientific_name`,
+`avilist_members`, `ebird_code`, `family`, `order`, `iucn`, `birdlife_url`,
+`n_avilist_species`, `avibase_id` - is **derived** and is overwritten on every
+`update_taxonomy.py` run. Editing those columns by hand does not stick.
+
+`update_taxonomy.py` derives a SEQ's modern species from the eBird taxa mapped
+to it in `sp_ebird.xlsx`, and then:
+
+- **1 modern species** -> that species' name and Avibase id (`ebird_single`)
+- **2+ modern species** -> eBird's own slash/spuh taxon if one covers exactly
+  that set (`ebird_group_exact`), else a hand-picked sensu-lato id kept sticky
+  as `manual`, else the row goes to `avibase_id_todo.csv` for a human
+
+### Editing `sp_ebird.xlsx` safely
+
+The file does two jobs at once, and confusing them is the one way to break it:
+
+1. It is the **join table for the raw EBD**, matched on `scientific_name`
+   (falling back to `avibase_id`). Its rows are 2023-vintage eBird taxa.
+2. It **declares membership** - which modern species an atlas concept covers.
+
+Therefore: **never delete a row whose `GroupCount` is greater than zero.** That
+column is the number of Kenyan EBD records for the taxon, so deleting such a
+row silently drops real observations. To re-scope a concept, *add* rows for
+the current species instead. A row whose `species_code` is a `slash`/`spuh` in
+the current eBird taxonomy is used for the EBD join but ignored when deriving
+members, so a historical lumped taxon and its modern constituents coexist
+happily on the same `SEQ`. Set `SEQ = 0` for a taxon that belongs to no atlas
+concept.
+
+SEQ 556 (Red-rumped Swallow) is the worked example: `rerswa1`
+(`Cecropis daurica`, 272 Kenyan records, now a three-way slash) stays for the
+join, while `rerswa8` + `rerswa12` declare the European + African membership.
+
+### Reviewing a change
+
+`Z_review.m` diffs the whole pipeline against a baseline commit, joined on
+`SEQ`, and writes `export/review/review.html` (searchable, with per-species
+diff maps) plus `review.csv`. A taxonomy edit should change names and
+associations - never a map - and that page is where you confirm it.
+Re-running `C_import_ebird.m` after an edit takes ~8 s thanks to
+`data/eBird/ebd_reduced.mat`, so the edit/review loop is fast.
+
 | File | Version | Retrieved | Rows | Key columns |
 |---|---|---|---|---|
 | `AviList-v2025b-10Jun2026-extended.xlsx` | v2025b (10 Jun 2026) | 2026-09-10 | 33,686 taxa / 11,131 species | `Scientific_name`, `English_name_AviList`, `AvibaseID`, `Species_code_Cornell_Lab`, `Order`, `Family_English_name`, `IUCN_Red_List_Category` |
@@ -70,7 +127,7 @@ is needed. `update_taxonomy.py` instead adds derived columns directly onto
 | `avilist_members` | every member binomial, `\|`-joined - the precise content of the concept |
 | `avilist_sort` | AviList's own linear sequence, for ordering a species list "by taxonomy"; a lump takes its earliest member's position |
 | `ebird_code` | member eBird species code(s), `\|`-joined |
-| `family` | AviList English family name (from the member(s)), falling back to eBird's own family when AviList has no species-rank row - `SEQ 198` (African Swamphen, which AviList ranks as a subspecies of Purple Swamphen while eBird splits it) and `SEQ 556` (resolvable only to a slash) would otherwise be blank |
+| `family` | AviList English family name (from the member(s)), falling back to eBird's own family when AviList has no species-rank row - `SEQ 198` (African Swamphen, which AviList ranks as a subspecies of Purple Swamphen while eBird splits it) would otherwise be blank |
 | `order` | AviList order (from the member(s)), same fallback |
 | `iucn` | IUCN Red List code. For a lump this is the **most severe** status among its members, the usual conservation-reporting convention: `SEQ 753` (Bar-throated/Taita Apalis) contains Critically Endangered *Apalis fuscigularis*, and reporting the concept as blank would drop it out of every by-threat-category analysis. 5 concepts are affected. |
 | `birdlife_url` | AviList's BirdLife DataZone factsheet, only when `n_avilist_species == 1` - a lump has no single factsheet to point at |
@@ -88,10 +145,40 @@ the same way. See `TAXONOMY_FIELDS` in Rafnuss/KenyaBirdTrends `src/store.js`.
 
 `avibase_id_source` records how each id was determined:
 
-- `existing_ok` - a well-formed id that validates against the current AviList/eBird taxonomy (re-checked on every run, so a taxonomy refresh surfaces automatically)
-- `ebird_single`, `ebird_group_exact`, `sci_name_ebird`, `sci_name_avilist`, `inherited_from_merge_target` - auto-derived this run (only ever seen for a *new*, not-yet-resolved row - once resolved these collapse into `existing_ok` on the next run, since the value then validates)
+- `ebird_single`, `ebird_group_exact`, `sci_name_ebird`, `sci_name_avilist`, `inherited_from_merge_target` - derived fresh every run directly from the row's own members (via `sp_ebird.xlsx` -> eBird taxonomy), so this is the authoritative source whenever it finds anything
+- `existing_ok` - a well-formed id that doesn't derive from the row's own members (no single eBird parent, no exact slash/spuh group) but still resolves to *some* current AviList/eBird concept, so it's accepted as-is. This is deliberately the weakest check in the cascade - it only means the id isn't dangling, not that it's the id *this* row's members would produce - so it defers to member-derivation whenever that's possible (see the 2026-09 fix below)
 - `manual` - **sticky**: a human deliberately chose this id (typically a sensu-lato concept the automated cascade can't derive on its own); never silently overwritten by a re-run
-- `legacy_confirmed` - **sticky**: one of 18 SEQs reviewed by hand (2026-09) whose id is absent from current AviList/eBird by design - a pre-split "sensu lato" concept where the other member does not occur in Kenya, so no further review is needed. Matched by `SEQ`, not by exact id string, so a later manual refinement of the value stays accepted. The list lives in `update_taxonomy.py` as `CONFIRMED_LEGACY_SEQ`.
+- `legacy_confirmed` - **sticky**: a SEQ reviewed by hand whose id is absent from current AviList/eBird by design - a pre-split "sensu lato" concept where the other member does not occur in Kenya, so no further review is needed. Matched by `SEQ`, not by exact id string, so a later manual refinement of the value stays accepted. The list lives in `update_taxonomy.py` as `CONFIRMED_LEGACY_SEQ`.
+
+**Bug fixed 2026-09**: `CONFIRMED_LEGACY_SEQ` used to list 18 SEQs; only 1
+(`991`, Rufous Sparrow) is genuinely unresolvable. 17 were misclassified
+because phase 1 checked `existing_ok` (id exists *somewhere* in the global
+taxonomy) *before* ever deriving what the row's own members resolve to, so a
+stale id left over from years ago - still "valid" as some unrelated taxon -
+was accepted and never compared against the correct one. Example: SEQ 560
+(African Rock Martin) held `avibase-47DA0258`, the id for the slash taxon
+"Pale/Red-throated Crag-Martin" - a different bird - instead of
+`avibase-21E0ADE5`, the id its own `ebird_code` (`rocmar5`) actually resolves
+to. 31 rows total had a wrong id this way (28 single-species/small-group rows
+now auto-correct; 3 real 2-species lumps with no matching eBird slash/spuh -
+Grey Woodpecker, Northern White-tailed Bush Lark, Abyssinian White-eye - can't
+be auto-corrected and are back in `avibase_id_todo.csv` for manual input, the
+same workflow as the original cleanup). Phase 1 now always derives from
+members first and only falls back to `existing_ok`'s weaker check when
+derivation finds nothing - and never falls back at all for a real multi-
+species lump missing a group taxon, since keeping any single-member id there
+would silently drop the rest of the concept.
+
+The remaining 17th SEQ, `556` (Red-rumped Swallow), was in the set for a
+different reason: `sp_ebird.xlsx` mapped it to a single old code (`rerswa1`)
+that eBird's current taxonomy classifies as the 3-way slash "European/African/
+Eastern Red-rumped Swallow" - broader than the atlas concept, and not
+resolvable as a single member so it fell through to a blank crosswalk
+entirely. Corrected by remapping it to the two real current species (European
+`Cecropis rufula` + African `Cecropis melanocrissus`, excluding the Eastern/
+Daurian group), which eBird's own exact "European/African Red-rumped Swallow"
+slash (`y01284`, `avibase-1B08050E`) now resolves automatically - no manual
+override needed any more.
 
 The one-time pristine snapshot of `species_base_list.csv`, taken before any of
 this cleanup, is kept at `species_base_list.original.csv` for audit purposes.

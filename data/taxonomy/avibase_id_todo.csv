@@ -1,1 +1,2 @@
 SEQ,common_name,scientific_name,merged_SEQ,n_members,member_species,member_avibase_ids,candidate_superset,candidate_genus_spuh,avibase_search,why,avibase_id_TO_FILL
+939,Abyssinian White-eye,Zosterops abyssinicus,,2,Zosterops mbuluensis | Zosterops flavilateralis,avibase-086290D2 | avibase-F80D69C2,,avibase-87289665 = Zosterops sp.,https://avibase.bsc-eoc.org/search.jsp?qstr=Zosterops+abyssinicus,"2 modern species, no exact slash/spuh in eBird",

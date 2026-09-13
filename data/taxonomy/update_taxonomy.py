@@ -41,10 +41,26 @@ WELL_FORMED = re.compile(r"^avibase-[0-9A-F]{8}$", re.I)
 # Kenya, so an id absent from AviList/eBird is correct and deliberate here,
 # not an unresolved gap. Matched by SEQ, not by exact id string, so a later
 # manual refinement of the id (e.g. a closer Avibase lookup) stays accepted.
-CONFIRMED_LEGACY_SEQ = {
-    "34", "381", "493", "496", "531", "532", "556", "615", "616", "724",
-    "733", "904", "912", "920", "937", "991", "1062", "9005",
-}
+#
+# Corrected 2026-09 (post-launch bug): this set used to list 18 SEQs, but only
+# 1 is genuinely unresolvable - the other 17 are single/small-group, ordinary
+# current species that eBird resolves cleanly via their own members; they
+# only ended up here because phase 1's old validation accepted any well-formed
+# id that existed *somewhere* in the global taxonomy, without checking it
+# named the concept this row is actually about. Each had a stale id left over
+# from years ago (still "valid" as *some* unrelated taxon, e.g. SEQ 560's
+# African Rock Martin held avibase-47DA0258, the id for the slash taxon
+# "Pale/Red-throated Crag-Martin" - a different bird entirely) and was then
+# rubber-stamped as "legacy_confirmed" without re-deriving it from ebird_code
+# first. See the corrected phase 1 below: resolve(row) now always runs first
+# and wins whenever it finds a member-derived id, and the "cur exists
+# somewhere" fallback only applies when resolve() found nothing to compare
+# against. SEQ 556 (Red-rumped Swallow) was in this set for a different
+# reason - it had no sp_ebird.xlsx member at all - but a 2026-09 fix mapped it
+# to the current European + African Red-rumped Swallow (eBird's own exact
+# "European/African Red-rumped Swallow" slash, y01284/avibase-1B08050E, now
+# resolves it automatically), so it no longer needs this override either.
+CONFIRMED_LEGACY_SEQ = {"991"}
 
 # Historical lumps where at least one member was already a distinct species
 # in eBird's ~2007 taxonomy (i.e. separable in the field during the 1970-1984
@@ -229,32 +245,56 @@ def main():
         return out, groups, hybrids
 
     def resolve(row):
+        """Returns (auto_id, auto_src, needs_group).
+
+        needs_group is True only for a genuine multi-species lump (current
+        sp_ebird membership resolves to >1 modern species) where no slash/spuh
+        taxon in the current eBird taxonomy covers exactly that member set.
+        It signals to the caller that no fallback is safe: any id sitting in
+        the row can only ever name one member, silently dropping the rest, so
+        this must be escalated to a human rather than accepted as "existing".
+        """
         seq = (row["SEQ"] or "").strip().split(".")[0]
         parents, groups, hybrids = parents_of(seq)
         if len(parents) == 1:
-            return parents[0]["TAXON_CONCEPT_ID"], "ebird_single"
+            return parents[0]["TAXON_CONCEPT_ID"], "ebird_single", False
         if len(parents) > 1:
             want = {p["SCI_NAME"] for p in parents}
             for g in groups:
                 c, _ = constituents(g)
                 if c == want:
-                    return g["TAXON_CONCEPT_ID"], "ebird_group_exact"
+                    return g["TAXON_CONCEPT_ID"], "ebird_group_exact", False
             exact, _, _ = find_group(want)
             if exact:
-                return exact["TAXON_CONCEPT_ID"], "ebird_group_exact"
-            return "", ""
+                return exact["TAXON_CONCEPT_ID"], "ebird_group_exact", False
+            return "", "", True
         sci = (row["scientific_name"] or "").strip()
         if sci in eb_by_sci:
-            return eb_by_sci[sci]["TAXON_CONCEPT_ID"], "sci_name_ebird"
+            return eb_by_sci[sci]["TAXON_CONCEPT_ID"], "sci_name_ebird", False
         if sci in av_by_sci and av_by_sci[sci]["AvibaseID"]:
-            return av_by_sci[sci]["AvibaseID"], "sci_name_avilist"
-        return "", ""
+            return av_by_sci[sci]["AvibaseID"], "sci_name_avilist", False
+        return "", "", False
 
     # ---- phase 1: resolve avibase_id ------------------------------------
     # "manual" and "legacy_confirmed" are human judgement calls, recorded once
     # and never silently overwritten by a later run. Everything else is
     # cheap/automatic and is re-validated against the current reference data
     # every time, so a refreshed AviList/eBird taxonomy is picked up for free.
+    #
+    # Fixed 2026-09 (post-launch bug): resolve(row) now always runs first (for
+    # any non-sticky row) and its member-derived id wins whenever it finds
+    # one. The previous order checked "is cur well-formed and does it exist
+    # *somewhere* in the global taxonomy" before ever deriving what the row's
+    # own members resolve to - so a stale id that happened to still be valid
+    # for some unrelated taxon (e.g. a different slash/spuh, or a species that
+    # used to be here before a code churned) was accepted as "existing_ok" and
+    # never compared against the correct one. 28 rows across single species
+    # and small lumps had this exact problem; see git history for this file
+    # for the audit. The weaker "cur exists somewhere" fallback now only
+    # applies once resolve() has found nothing to compare against, and never
+    # for a real multi-species lump missing a group taxon (needs_group) -
+    # there, keeping any single-member id would silently drop the rest of the
+    # concept, so it goes to avibase_id_todo.csv for a human instead.
     stats, todo = {}, []
     for row in base:
         cur = (row.get("avibase_id") or "").strip()
@@ -265,21 +305,27 @@ def main():
             src = "legacy_confirmed"
         elif recorded == "manual" and WELL_FORMED.match(cur):
             src = "manual"
-        elif WELL_FORMED.match(cur):
-            if cur in valid_ids:
-                src = "existing_ok"
-            else:
-                # well-formed, not a currently-valid concept id, not sticky:
-                # the only way to reach this state post-cleanup is a deliberate
-                # human entry (a sensu-lato pick the automated cascade can't
-                # derive on its own) - so it's manual, not a thing to re-flag.
-                auto_id, auto_src = resolve(row)
-                src = auto_src if (auto_id and cur == auto_id) else "manual"
         else:
-            auto_id, auto_src = resolve(row)
-            row["avibase_id"] = auto_id
-            src = auto_src if auto_id else "TODO"
-            if not auto_id:
+            auto_id, auto_src, needs_group = resolve(row)
+            if auto_id:
+                row["avibase_id"] = auto_id
+                src = auto_src
+            elif needs_group:
+                row["avibase_id"] = ""
+                src = "TODO"
+                todo.append(row)
+            elif WELL_FORMED.match(cur) and cur in valid_ids:
+                src = "existing_ok"
+            elif WELL_FORMED.match(cur):
+                # well-formed, not derivable from members, not currently
+                # valid either: the only way to reach this state is a
+                # deliberate human entry (a sensu-lato pick the automated
+                # cascade can't derive on its own) - so it's manual, not a
+                # thing to re-flag, and becomes sticky from here on.
+                src = "manual"
+            else:
+                row["avibase_id"] = ""
+                src = "TODO"
                 todo.append(row)
         row["avibase_id_source"] = src
         stats[src] = stats.get(src, 0) + 1

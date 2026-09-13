@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kenya atlas - taxonomy review</title>
+<style>
+  /* Light is the base palette; every token is declared here, and the two
+     blocks below only redefine values. The page is also published as a
+     shareable Artifact, which renders in the reader's own theme - and the
+     reader has three states, not two: an explicit choice stamps data-theme on
+     the root, while the default "system" setting stamps nothing and leaves
+     only prefers-color-scheme to go on. Hence both blocks. */
+  :root {
+    --bg: #ffffff; --fg: #1f2328; --muted: #656d76; --line: #d8dee4;
+    --panel: #f6f8fa; --both: #374151; --lost: #dc2626; --gain: #2563eb;
+    --accent: #0969da;
+    --cell: #e8eaed;                                  /* surveyed, absent */
+    --tag-bg: #eaeef2; --tag-chg: #fff1f0; --tag-new: #eaf5ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1318; --fg: #e3e8ef; --muted: #8b95a3; --line: #2a313b;
+      --panel: #161b22; --both: #c9d3df; --lost: #f4796b; --gain: #6ea8fe;
+      --accent: #58a6ff;
+      --cell: #242b35;
+      --tag-bg: #242b35; --tag-chg: #3b1f1f; --tag-new: #162740;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1318; --fg: #e3e8ef; --muted: #8b95a3; --line: #2a313b;
+    --panel: #161b22; --both: #c9d3df; --lost: #f4796b; --gain: #6ea8fe;
+    --accent: #58a6ff;
+    --cell: #242b35;
+    --tag-bg: #242b35; --tag-chg: #3b1f1f; --tag-new: #162740;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         color: var(--fg); background: var(--bg); }
+  header { padding: 14px 18px; border-bottom: 1px solid var(--line); background: var(--panel);
+           position: sticky; top: 0; z-index: 10; }
+  h1 { margin: 0 0 2px; font-size: 16px; }
+  .sub { color: var(--muted); font-size: 12px; }
+  .stats { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 10px; font-size: 12px; }
+  .stats b { font-size: 15px; display: block; font-variant-numeric: tabular-nums; }
+  .stats .bad b { color: var(--lost); }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
+  input[type=search] { padding: 5px 9px; border: 1px solid var(--line); border-radius: 6px;
+                       font: inherit; min-width: 260px; background: var(--bg); color: var(--fg); }
+  .chip { padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer;
+          background: var(--bg); font: inherit; color: var(--fg); }
+  .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .legend { display: flex; gap: 12px; align-items: center; margin-left: auto; color: var(--muted); font-size: 12px; }
+  .sw { display: inline-block; width: 10px; height: 10px; vertical-align: -1px; margin-right: 4px; border-radius: 2px; }
+
+  table { border-collapse: collapse; width: 100%; }
+  thead th { position: sticky; top: 0; background: var(--bg); border-bottom: 1px solid var(--line);
+             text-align: left; padding: 6px 8px; font-size: 11px; text-transform: uppercase;
+             letter-spacing: .03em; color: var(--muted); white-space: nowrap; }
+  tbody td { border-bottom: 1px solid var(--line); padding: 5px 8px; vertical-align: top; }
+  tbody tr:hover { background: var(--panel); }
+  tbody tr.open { background: var(--panel); }
+  .seq { font-variant-numeric: tabular-nums; color: var(--muted); }
+  .nm { font-weight: 600; }
+  .sci { color: var(--muted); font-style: italic; }
+  .codes { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px;
+           color: var(--muted); word-break: break-word; }
+  .maps { display: flex; gap: 6px; }
+  .m { text-align: center; }
+  .m canvas { width: 51px; height: 60px; image-rendering: pixelated; border: 1px solid var(--line);
+              background: var(--bg); display: block; }
+  .m span { font-size: 9px; color: var(--muted); letter-spacing: .02em; }
+  .m.diff canvas { border-color: var(--lost); }
+  .tag { display: inline-block; padding: 1px 6px; border-radius: 4px; font-size: 10px;
+         background: var(--tag-bg); color: var(--muted); white-space: nowrap; }
+  .tag.chg { background: var(--tag-chg); color: var(--lost); }
+  .tag.new { background: var(--tag-new); color: var(--gain); }
+  .detail td { background: var(--panel); }
+  .detail dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 14px; margin: 4px 0; }
+  .detail dt { color: var(--muted); }
+  .detail dd { margin: 0; }
+  .empty { padding: 40px; text-align: center; color: var(--muted); }
+  .more { margin: 12px auto; display: block; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Kenya atlas &mdash; taxonomy &amp; map review</h1>
+  <div class="sub">
+    Current pipeline output vs baseline <code id="bl"></code> &middot; generated <span id="gen"></span>.
+    Joined on <b>SEQ</b>. A taxonomy update should change names and eBird/KBM associations &mdash; never a map.
+  </div>
+  <div class="stats" id="stats"></div>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search SEQ, name, eBird code&hellip;" autocomplete="off">
+    <button class="chip" data-f="changed">map changed</button>
+    <button class="chip" data-f="lump">lumps (&gt;1 species)</button>
+    <button class="chip" data-f="noebird">no eBird code</button>
+    <button class="chip" data-f="todo">unresolved id</button>
+    <button class="chip" data-f="renamed">atlas renamed</button>
+    <span class="legend">
+      <span><i class="sw" style="background:var(--both)"></i>both</span>
+      <span><i class="sw" style="background:var(--lost)"></i>baseline only</span>
+      <span><i class="sw" style="background:var(--gain)"></i>current only</span>
+    </span>
+  </div>
+</header>
+
+<table>
+  <thead><tr>
+    <th style="width:60px">SEQ</th>
+    <th>Atlas name (1970&ndash;84)</th>
+    <th>AviList name</th>
+    <th style="width:190px">eBird taxa mapped</th>
+    <th style="width:150px">KBM mapped</th>
+    <th style="width:190px">old&nbsp;/&nbsp;eBird&nbsp;/&nbsp;KBM</th>
+    <th style="width:80px"></th>
+  </tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+<div class="empty" id="empty" hidden>Nothing matches.</div>
+<button class="chip more" id="more" hidden>Show more</button>
+
+<script>
+const DATA = /*__DATA__*/;
+const G = DATA.grid, NC = G.nlat * G.nlon;
+
+function bits(hex) {
+  const out = new Uint8Array(NC);
+  for (let i = 0; i < NC; i++) {
+    const nib = parseInt(hex[i >> 2], 16);
+    out[i] = (nib >> (3 - (i & 3))) & 1;
+  }
+  return out;
+}
+const VALID = bits(G.valid);
+
+// The maps are painted pixel by pixel, so they cannot inherit the theme the
+// way the CSS does - the four cell colours are read back out of the same
+// tokens instead, and the page repaints when the theme changes (below).
+const rgb = t => {
+  const h = getComputedStyle(document.documentElement).getPropertyValue(t).trim();
+  return [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16)).concat(255);
+};
+let PAL = null;
+const palette = () => PAL || (PAL = {
+  both: rgb('--both'), lost: rgb('--lost'), gain: rgb('--gain'),
+  none: rgb('--cell'), off: [0, 0, 0, 0],
+});
+
+// Cells are column-major over (lat, lon) with lat ascending, so row 0 is the
+// southernmost - flipped here so the drawing has north up.
+function draw(cv, a, b) {
+  const W = G.nlon, H = G.nlat, p = palette();
+  cv.width = W; cv.height = H;
+  const img = cv.getContext('2d').createImageData(W, H);
+  for (let i = 0; i < NC; i++) {
+    const y = H - 1 - (i % H), x = (i / H) | 0, o = (y * W + x) * 4;
+    let c;
+    if (!VALID[i])         c = p.off;
+    else if (a[i] && b[i]) c = p.both;
+    else if (a[i])         c = p.lost;
+    else if (b[i])         c = p.gain;
+    else                   c = p.none;
+    img.data[o] = c[0]; img.data[o+1] = c[1]; img.data[o+2] = c[2]; img.data[o+3] = c[3];
+  }
+  cv.getContext('2d').putImageData(img, 0, 0);
+}
+
+// Canvases are only painted once they scroll into view: the full list is
+// ~1100 rows x 3 maps, and painting all of them up front is what would make
+// this page slow to open.
+// layer -> [display label, count-column prefix, baseline mask, current mask]
+const LAYERS = [['old', 'old', 'old_b', 'old_n'],
+                ['eBird', 'ebird', 'eb_b', 'eb_n'],
+                ['KBM', 'kbm', 'kbm_b', 'kbm_n']];
+
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  const cv = e.target, r = DATA.rows[+cv.dataset.i], [, , mb, mn] = LAYERS[+cv.dataset.l];
+  draw(cv, bits(r[mb]), bits(r[mn]));
+  io.unobserve(cv);
+}), { rootMargin: '200px' });
+
+const esc = s => String(s == null ? '' : s).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+
+function mapCell(i, r) {
+  return '<div class="maps">' + LAYERS.map(([nm, key], L) => {
+    const ch = r[key + '_added'] + r[key + '_removed'] > 0;
+    return `<div class="m${ch ? ' diff' : ''}"><canvas data-i="${i}" data-l="${L}"></canvas>`
+         + `<span>${nm} ${r[key + '_now']}${ch ? ' <b style="color:var(--lost)">&ne;</b>' : ''}</span></div>`;
+  }).join('') + '</div>';
+}
+
+function detail(r) {
+  const rows = [
+    ['Atlas scientific', `<i>${esc(r.atlas_sci)}</i>`],
+    ['AviList scientific', `<i>${esc(r.avilist_sci)}</i>`],
+    ['Baseline name', `${esc(r.base_name)} &middot; <i>${esc(r.base_sci)}</i>`],
+    ['Baseline Clements', esc(r.base_clements)],
+    ['Baseline checklist', esc(r.base_checklist)],
+    ['Members', esc(r.n_members)],
+    ['eBird code', `<span class="codes">${esc(r.ebird_code)}</span>`],
+    ['Avibase id', `<span class="codes">${esc(r.avibase_id)} (${esc(r.id_source)})</span>`],
+    ['merged_SEQ', esc(r.merged_SEQ)],
+    ['Comment', esc(r.comment)],
+  ];
+  const cnt = LAYERS.map(([nm, k]) =>
+    `${nm}: ${r[k + '_base']} &rarr; ${r[k + '_now']} `
+    + `(<b style="color:var(--gain)">+${r[k + '_added']}</b> / `
+    + `<b style="color:var(--lost)">&minus;${r[k + '_removed']}</b>)`).join(' &nbsp;|&nbsp; ');
+  return '<dl>' + rows.filter(([, v]) => v && v.trim() && v !== '<i></i>' && v !== '<i></i>')
+      .map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')
+    + `<dt>Squares</dt><dd>${cnt}</dd></dl>`;
+}
+
+let shown = 0, filtered = [];
+const tbody = document.getElementById('rows');
+
+function render(reset) {
+  if (reset) { tbody.innerHTML = ''; shown = 0; }
+  const slice = filtered.slice(shown, shown + 150);
+  const html = slice.map(({ r, i }) => {
+    let tag = '';
+    if (r.status === 'new_seq') tag = '<span class="tag new">new SEQ</span>';
+    else if (r.status === 'dropped_seq') tag = '<span class="tag chg">dropped</span>';
+    else if (r.status === 'map_changed') tag = '<span class="tag chg">map moved</span>';
+    if (r.atlas_renamed) tag += ' <span class="tag chg">renamed</span>';
+    return `<tr data-i="${i}">
+      <td class="seq">${esc(r.SEQ)}</td>
+      <td><span class="nm">${esc(r.atlas_name)}</span><br><span class="sci">${esc(r.atlas_sci)}</span></td>
+      <td>${esc(r.avilist_name)}<br><span class="sci">${esc(r.avilist_sci)}</span></td>
+      <td class="codes">${esc(r.ebird_mapped) || '&mdash;'}</td>
+      <td class="codes">${esc(r.kbm_mapped) || '&mdash;'}</td>
+      <td>${mapCell(i, r)}</td>
+      <td>${tag}</td></tr>`;
+  }).join('');
+  tbody.insertAdjacentHTML('beforeend', html);
+  tbody.querySelectorAll('canvas:not([data-obs])').forEach(c => { c.dataset.obs = 1; io.observe(c); });
+  shown += slice.length;
+  document.getElementById('more').hidden = shown >= filtered.length;
+  document.getElementById('empty').hidden = filtered.length > 0;
+}
+
+const FILTERS = {
+  changed: r => r.status !== 'ok',
+  lump:    r => +r.n_members > 1,
+  noebird: r => !String(r.ebird_code || '').trim(),
+  todo:    r => r.id_source === 'TODO' || !String(r.avibase_id || '').trim(),
+  renamed: r => !!r.atlas_renamed,
+};
+const SEARCH = ['SEQ', 'atlas_name', 'atlas_sci', 'avilist_name', 'avilist_sci',
+                'ebird_code', 'ebird_mapped', 'kbm_mapped', 'base_name', 'avibase_id'];
+let active = new Set();
+
+function apply() {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  filtered = DATA.rows.map((r, i) => ({ r, i })).filter(({ r }) => {
+    for (const f of active) if (!FILTERS[f](r)) return false;
+    if (!q) return true;
+    return SEARCH.some(c => String(r[c] || '').toLowerCase().includes(q));
+  });
+  render(true);
+}
+
+document.querySelectorAll('.chip[data-f]').forEach(b => b.onclick = () => {
+  const f = b.dataset.f;
+  if (active.has(f)) { active.delete(f); b.classList.remove('on'); }
+  else { active.add(f); b.classList.add('on'); }
+  apply();
+});
+document.getElementById('q').oninput = apply;
+document.getElementById('more').onclick = () => render(false);
+
+// Drop the cached cell colours and rebuild the visible rows when the reader
+// switches theme, so the canvases follow the rest of the page.
+const retheme = () => { PAL = null; apply(); };
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', retheme);
+new MutationObserver(retheme).observe(document.documentElement,
+  { attributes: true, attributeFilter: ['data-theme'] });
+
+tbody.onclick = e => {
+  const tr = e.target.closest('tr[data-i]');
+  if (!tr) return;
+  const nxt = tr.nextElementSibling;
+  if (nxt && nxt.classList.contains('detail')) { nxt.remove(); tr.classList.remove('open'); return; }
+  tr.classList.add('open');
+  tr.insertAdjacentHTML('afterend',
+    `<tr class="detail"><td colspan="7">${detail(DATA.rows[+tr.dataset.i])}</td></tr>`);
+};
+
+// summary
+(() => {
+  document.getElementById('bl').textContent = DATA.baseline;
+  document.getElementById('gen').textContent = DATA.generated;
+  const R = DATA.rows;
+  const n = k => R.filter(r => r[k + '_added'] + r[k + '_removed'] > 0).length;
+  const cards = [
+    ['SEQ compared', R.length, false],
+    ['old-atlas map changed', n('old'), n('old') > 0],
+    ['eBird map changed', n('ebird'), n('ebird') > 0],
+    ['KBM map changed', n('kbm'), n('kbm') > 0],
+    ['atlas name changed', R.filter(FILTERS.renamed).length, R.filter(FILTERS.renamed).length > 0],
+    ['multi-species concepts', R.filter(FILTERS.lump).length, false],
+    ['unresolved id', R.filter(FILTERS.todo).length, false],
+  ];
+  document.getElementById('stats').innerHTML = cards
+    .map(([k, v, bad]) => `<div class="${bad ? 'bad' : ''}"><b>${v}</b>${k}</div>`).join('');
+})();
+
+apply();
+</script>
+</body>
+</html>

@@ -121,17 +121,19 @@ sp_base = sp_base(isnan(sp_base.merged_SEQ), :);
 % Fischer's Lovebird hybrid and the Ficedula group) with one general rule
 % covering every multi-species concept.
 %
-% SEQ 556 (Red-rumped Swallow) is the sole concept with no resolvable AviList
-% member (see data/taxonomy/SOURCES.md): fall back to the atlas name so the
-% website's AviList option still shows something for it.
+% A concept with no resolvable AviList member falls back to the atlas name, so
+% the website's AviList option always shows something. No row needs this as of
+% 2026-09 (SEQ 556 was the last one, fixed by mapping it to the European +
+% African Red-rumped Swallow - see data/taxonomy/SOURCES.md); the rule stays
+% because a future eBird taxonomy revision can reopen the gap.
 has_avilist = ~ismissing(sp_base.avilist_common_name);
 sp_base.avilist_common_name(~has_avilist) = sp_base.common_name(~has_avilist);
 sp_base.avilist_scientific_name(~has_avilist) = sp_base.scientific_name(~has_avilist);
 
 % avilist_sort: AviList's own linear sequence (readtable already infers this
-% numeric, NaN for the one row with nothing to fall back to). Falls back to
-% SEQ, an imperfect but reasonable stand-in for that one row (SEQ 556, no
-% AviList position of its own).
+% numeric, NaN where AviList has no species-rank row for the concept). Falls
+% back to SEQ, an imperfect but reasonable stand-in. One row needs it: SEQ 198
+% African Swamphen, which AviList ranks as a subspecies while eBird splits it.
 no_sort = isnan(sp_base.avilist_sort);
 sp_base.avilist_sort(no_sort) = sp_base.SEQ(no_sort);
 

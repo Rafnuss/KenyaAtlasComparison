@@ -201,5 +201,11 @@ else
 end
 
 %% Save the final atlas data
-% Save the KBM species map and effort coverage data to a MAT-file
-save('data/kbmatlas.mat', "map_kbm", "coverage_kbm")
+% seq_map records which SEQ each slice of map_kbm belongs to. The three map
+% layers are combined by array position downstream (map_kbm | map_ebird), so
+% a layer built against a different species list silently pairs every species
+% with someone else's data - which is exactly what happened when the 2026-09
+% taxonomy update rebuilt oldatlas/ebirdatlas but not this file. Saving the
+% key alongside the map lets D and E assert the three agree.
+seq_map = sp_base.SEQ;
+save('data/kbmatlas.mat', "map_kbm", "coverage_kbm", "seq_map")

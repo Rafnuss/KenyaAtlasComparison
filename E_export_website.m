@@ -8,6 +8,11 @@ load("data/ebirdatlas.mat")
 % grid = loadjson('data/oldatlas/grid.geojson');
 grid = jsondecode(fileread("data/oldatlas/grid.geojson"));
 
+% map_new below is map_kbm | map_ebird, combined by array position, so all
+% three layers must share one species list - see
+% functions/check_seq_alignment.m for what goes wrong when they don't.
+check_seq_alignment(sp_base, "data/kbmatlas.mat", "data/ebirdatlas.mat")
+
 %%
 
 map_new = map_kbm | map_ebird;

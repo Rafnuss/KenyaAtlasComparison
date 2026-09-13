@@ -1,9 +1,14 @@
 %% Import data
 % Load geographical grid and atlas data from different sources
+addpath('functions/')
 load('data/grid')
 load('data/oldatlas')
 load('data/kbmatlas.mat')
 load("data/ebirdatlas.mat")
+
+% All three layers are indexed by position, so they must share one species
+% list - see functions/check_seq_alignment.m.
+check_seq_alignment(sp_base, "data/kbmatlas.mat", "data/ebirdatlas.mat")
 
 %% Overview of data coverage
 % Calculate the total number of species records in each atlas
