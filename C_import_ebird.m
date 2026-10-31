@@ -7,7 +7,7 @@ load('data/oldatlas')
 % Reading, filtering and gridding the 864 MB EBD text file takes minutes and
 % depends only on the raw download and the grid - never on the taxonomy. It
 % is therefore cached, so that re-running this script after editing
-% data/eBird/sp_ebird.xlsx (the only input a taxonomy review actually
+% data/eBird/species_mapping.csv (the only input a taxonomy review actually
 % changes) takes seconds instead of minutes.
 %
 % Delete data/eBird/ebd_reduced.mat to force a re-read - needed only after a
@@ -52,49 +52,22 @@ else
     save(CACHE, "ebd", "coverage_ebird")
 end
 
-%% Taxonomy Matching
-
-% Load the species taxonomy data for eBird
-sp_ebird = readtable('data/eBird/sp_ebird.xlsx', 'TextType', 'string');
-
-% Match species in eBird data with those in the existing species base.
-% Primary key: scientific_name text, exactly as before - this is the RIGHT
-% granularity for "issf" (identifiable-subspecies-group) records, since
-% several distinct issf concepts (each with its own avibase_id) commonly
-% share one species-level scientific_name, and sp_ebird.xlsx only tracks one
-% id per species. avibase_id alone is too fine-grained here: matching on it
-% first left 12,564 species/issf records unmatched (2026-09 testing).
-% Fallback: avibase_id, for any record the name match misses - this is what
-% makes the join robust to a *future* re-run on a newer EBD release, where
-% eBird may have renamed a genus (this sp_ebird.xlsx keeps its 2023-vintage
-% names) but the underlying concept id is unchanged.
-[Lia_name, Locb_name] = ismember(ebd.scientific_name, sp_ebird.scientific_name);
-[Lia_id, Locb_id] = ismember(ebd.avibase_id, sp_ebird.avibase_id);
-Lia = Lia_name | Lia_id;
-Locb = Locb_name;
-Locb(~Lia_name & Lia_id) = Locb_id(~Lia_name & Lia_id);
-
-% Ensure that all species are matched
-tmp2 = unique(ebd((ebd.category == "species" | ebd.category == "issf") & ~Lia, ["common_name", "scientific_name"]));
-assert(height(tmp2) == 0)
-
-% Report species that were not matched and are categorized as "slash"
-disp("Species not kept (eBird): We should only have slash ")
-unique(ebd(ebd.category == "slash" & ~Locb, ["common_name", "scientific_name"]))
-
-% Keep only matched species
-ebd = ebd(Lia, :);
-
-% Add SEQ number to the eBird data based on the species base
-ebd.SEQ = sp_ebird.SEQ(Locb(Lia));
-
-% Check for species with SEQ number 0
-unique(ebd.common_name(ebd.SEQ == 0))
+%% Join the raw eBird names to the curated comparison IDs
+sp_ebird = readtable('data/eBird/species_mapping.csv', TextType='string');
+% The download uses species-level names for identifiable subspecies groups.
+% Match those source names directly; use source concept IDs for remaining taxa.
+[matched_name, idx] = ismember(ebd.scientific_name, sp_ebird.scientific_name);
+[matched_id, idx_id] = ismember(ebd.avibase_id, sp_ebird.source_avibase_id);
+idx(~matched_name & matched_id) = idx_id(~matched_name & matched_id);
+matched = matched_name | matched_id;
+assert(~any((ebd.category == "species" | ebd.category == "issf") & ~matched));
+ebd = ebd(matched, :);
+ebd.comparison_id = sp_ebird.avibase_id(idx(matched));
 
 %% Spatial Grid Processing
 
 % Map species observations to grid cells
-[~, id_sp] = ismember(ebd.SEQ, sp_base.SEQ);
+[~, id_sp] = ismember(ebd.comparison_id, sp_base.avibase_id);
 [~, id_lat] = min((g.lat - ebd.lat) .^ 2, [], 2);
 [~, id_lon] = min((g.lon - ebd.lon) .^ 2, [], 2);
 
@@ -105,9 +78,14 @@ map_ebird = false(size(map_old));
 id = sub2ind(size(map_ebird), id_lat(id_sp > 0), id_lon(id_sp > 0), id_sp(id_sp > 0));
 map_ebird(id) = true;
 
+% Exclude rectangular-grid cells outside the exported atlas squares.
+map_ebird = map_ebird & (g.SqN > 0);
+coverage_ebird(g.SqN == 0) = 0;
+
 %% Save the eBird Atlas Data
 
 % Save the processed eBird map and coverage data to a MAT-file. seq_map is
 % the species key for the third dimension - see the note in B_import_KBM.m.
 seq_map = sp_base.SEQ;
-save('data/ebirdatlas.mat', "map_ebird", "coverage_ebird", "seq_map")
+avibase_map = sp_base.avibase_id;
+save('data/ebirdatlas.mat', "map_ebird", "coverage_ebird", "seq_map", "avibase_map")

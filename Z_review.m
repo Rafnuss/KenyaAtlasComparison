@@ -3,12 +3,8 @@
 % One question, asked once per SEQ: did this update change anything other
 % than the species' *name* and its *eBird / KBM association*?
 %
-% SEQ is the key for everything - the 1970-1984 atlas sheet, the KBM
-% crosswalk (data/kbm/sp_kbm.xlsx), the eBird crosswalk
-% (data/eBird/sp_ebird.xlsx) and the species list
-% (data/species_base_list.csv) all join on it - so this review joins on it
-% too, never on row position. That matters: the baseline's sp_base is not
-% even sorted by SEQ, and both lists have gained and lost rows since.
+% Legacy SEQs align the baseline and current comparison maps. Source
+% associations are displayed from the current Avibase-keyed CSV mappings.
 %
 % Outputs, both rewritten from scratch on every run:
 %   export/review/review.html  browsable - search, filter to changes only,
@@ -57,9 +53,9 @@ assert(size(N.map_old, 3) == height(N.sp_base) && size(Ne.map_ebird, 3) == heigh
 assert(isequal(size(B.map_old, [1 2]), size(N.map_old, [1 2])), "grid changed size")
 
 %% Side tables used only for display
-sp   = readtable("data/species_base_list.csv", 'TextType', 'string');
-kbm  = readtable("data/kbm/sp_kbm.xlsx", 'TextType', 'string');
-ebx  = readtable("data/eBird/sp_ebird.xlsx", 'TextType', 'string');
+sp   = readtable("data/taxonomy/comparison_taxa.csv", 'TextType', 'string');
+kbm  = readtable("data/kbm/species_mapping.csv", 'TextType', 'string');
+ebx  = readtable("data/eBird/species_mapping.csv", 'TextType', 'string');
 
 %% Compare, joined on SEQ
 allseq = union(B.sp_base.SEQ, N.sp_base.SEQ);
@@ -97,26 +93,21 @@ T.atlas_name     = pick(N.sp_base.common_name, in, "");
 T.atlas_sci      = pick(N.sp_base.scientific_name, in, "");
 T.base_name      = pick(B.sp_base.common_name, ib, "");
 T.base_sci       = pick(B.sp_base.scientific_name, ib, "");
-% The two taxonomies the baseline carried, so a rename is reviewable against
-% what the species used to be called rather than only against the atlas name.
-T.base_clements  = pick(B.sp_base.clements_common_name, ib, "");
-T.base_checklist = pick(B.sp_base.checklist_common_name, ib, "");
-
 [~, is] = ismember(allseq, sp.SEQ);
 T.avilist_name   = pick(sp.avilist_common_name, is, "");
 T.avilist_sci    = pick(sp.avilist_scientific_name, is, "");
 T.n_members      = pick(sp.n_avilist_species, is, "");
-T.ebird_code     = pick(sp.ebird_code, is, "");
+T.avilist_members = pick(sp.avilist_members, is, "");
 T.avibase_id     = pick(sp.avibase_id, is, "");
-T.id_source      = pick(sp.avibase_id_source, is, "");
-T.merged_SEQ     = pick(sp.merged_SEQ, is, "");
+T.id_source      = pick(sp.name_source, is, "");
+
 T.comment        = pick(sp.comment, is, "");
 
 % eBird taxa and KBM references currently pointed at each SEQ. Both are the
 % hand-edited crosswalks, so showing them here is what makes an association
 % mistake reviewable without opening the spreadsheets.
-T.ebird_mapped = joinby(allseq, ebx.SEQ, ebx.species_code + " (" + ebx.common_name + ")");
-T.kbm_mapped   = joinby(allseq, kbm.SEQ, string(kbm.Ref) + " (" + kbm.Common_species + " " + kbm.Common_group + ")");
+T.ebird_mapped = joinby(T.avibase_id, ebx.avibase_id, ebx.species_code + " (" + ebx.common_name + ")");
+T.kbm_mapped   = joinby(T.avibase_id, kbm.avibase_id, string(kbm.ref) + " (" + kbm.common_name + ")");
 
 for L = 1:3
     c = cnt.(layers(L));
@@ -189,7 +180,7 @@ fprintf('\n=== review vs %s ===\n', BASELINE);
 fprintf('SEQ compared        : %d  (baseline %d, current %d)\n', n, height(B.sp_base), height(N.sp_base));
 fprintf('  new SEQ           : %d\n', sum(ib == 0));
 fprintf('  dropped SEQ       : %d\n', sum(in == 0));
-fprintf('  atlas name changed: %d   <- should be 0\n', sum(T.atlas_renamed));
+fprintf('  atlas name changed: %d   (check corrected book names)\n', sum(T.atlas_renamed));
 for L = 1:3
     c = cnt.(layers(L));
     both = ib > 0 & in > 0;

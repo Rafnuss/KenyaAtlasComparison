@@ -1,6 +1,7 @@
 %% Import data
 % Load geographical grid and atlas data from different sources
 addpath('functions/')
+trend_colors = interp1([0 .5 1], [.843 .188 .153; .996 .878 .545; .271 .667 .349], linspace(0,1,256));
 load('data/grid')
 load('data/oldatlas')
 load('data/kbmatlas.mat')
@@ -28,41 +29,41 @@ map_sp_base = sum(map_old,3);
 map_sp_new = sum(map_kbm|map_ebird,3);
 
 figure('position',[0 0 1400 1200]); tiledlayout(2,3,'TileSpacing','tight','Padding','tight')
-colormap(viridis)
+colormap(parula)
 nexttile;hold on;
-imagesc(g.lon,g.lat,map_sp_base,'alphadata',.8*(map_sp_base>0)); 
+imagesc(g.lon,g.lat,map_sp_base,'alphadata',.8*(map_sp_base>0));
 axis equal tight; set(gca,"YDir","normal"); title('Species in old atlas')
-plot_google_map('MapType','terrain', 'ShowLabels',0); box on; colorbar; clim([0 630])
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; box on; colorbar; clim([0 630])
 
 nexttile;hold on;
-imagesc(g.lon,g.lat,sum(map_kbm,3),'alphadata',.8*(sum(map_kbm,3)>0)); 
+imagesc(g.lon,g.lat,sum(map_kbm,3),'alphadata',.8*(sum(map_kbm,3)>0));
 axis equal tight; set(gca,"YDir","normal"); title('Species in KBM')
-plot_google_map('MapType','terrain', 'ShowLabels',0); box on; colorbar; clim([0 630])
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; box on; colorbar; clim([0 630])
 
 nexttile;hold on;
-imagesc(g.lon,g.lat,sum(map_ebird,3),'alphadata',.8*(sum(map_ebird,3)>0)); 
+imagesc(g.lon,g.lat,sum(map_ebird,3),'alphadata',.8*(sum(map_ebird,3)>0));
 axis equal tight; set(gca,"YDir","normal"); title('Species in eBird')
-plot_google_map('MapType','terrain', 'ShowLabels',0); box on; colorbar; clim([0 630])
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; box on; colorbar; clim([0 630])
 
 nexttile;hold on; title('Difference NEW (KBM+eBird) - OLD')
-imagesc(g.lon,g.lat,map_sp_new-map_sp_base,'alphadata',.8*((map_sp_new-map_sp_base)~=0)); 
+imagesc(g.lon,g.lat,map_sp_new-map_sp_base,'alphadata',.8*((map_sp_new-map_sp_base)~=0));
 axis equal tight; set(gca,"YDir","normal")
-plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar;
-colormap(gca,brewermap([],'RdYlGn')); clim([-300 300]);box on; 
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; colorbar;
+colormap(gca,trend_colors); clim([-300 300]);box on;
 
 nexttile;hold on; title('Difference KBM - OLD')
 tmp = sum(map_kbm>0,3)-sum(map_old>0,3);
-imagesc(g.lon,g.lat,tmp,'alphadata',.8*(tmp~=0)); 
+imagesc(g.lon,g.lat,tmp,'alphadata',.8*(tmp~=0));
 axis equal tight; set(gca,"YDir","normal")
-plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar;
-colormap(gca,brewermap([],'RdYlGn')); clim([-300 300]); box on; 
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; colorbar;
+colormap(gca,trend_colors); clim([-300 300]); box on;
 
 nexttile;hold on; title('Difference eBird - OLD')
 tmp = sum(map_ebird>0,3)-sum(map_old>0,3);
-imagesc(g.lon,g.lat,tmp,'alphadata',.8*(tmp~=0)); 
+imagesc(g.lon,g.lat,tmp,'alphadata',.8*(tmp~=0));
 axis equal tight; set(gca,"YDir","normal")
-plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar;
-colormap(gca,brewermap([],'RdYlGn')); clim([-300 300]); box on; 
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; colorbar;
+colormap(gca,trend_colors); clim([-300 300]); box on;
 
 
 
@@ -72,19 +73,19 @@ i_sp = find(strcmp(sp_base.common_name,"Arabian Bustard"));
 figure('position',[0 0 1400 600]); tiledlayout(1,3,'TileSpacing','tight','Padding','tight')
 
 nexttile;hold on; box on;
-imagesc(g.lon,g.lat,map_old(:,:,i_sp),'alphadata',.8*map_old(:,:,i_sp)); 
+imagesc(g.lon,g.lat,map_old(:,:,i_sp),'alphadata',.8*map_old(:,:,i_sp));
 axis equal tight; set(gca,"YDir","normal"); title('Atlas')
-plot_google_map('MapType','terrain', 'ShowLabels',0); 
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end;
 
 nexttile;hold on; box on;
-imagesc(g.lon,g.lat,map_kbm(:,:,i_sp),'alphadata',.8*map_kbm(:,:,i_sp)); 
+imagesc(g.lon,g.lat,map_kbm(:,:,i_sp),'alphadata',.8*map_kbm(:,:,i_sp));
 axis equal tight; set(gca,"YDir","normal"); title('KBM')
-plot_google_map('MapType','terrain', 'ShowLabels',0);
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end;
 
 nexttile;hold on; box on;
-imagesc(g.lon,g.lat,map_ebird(:,:,i_sp),'alphadata',.8*map_ebird(:,:,i_sp)); 
+imagesc(g.lon,g.lat,map_ebird(:,:,i_sp),'alphadata',.8*map_ebird(:,:,i_sp));
 axis equal tight; set(gca,"YDir","normal"); title('eBird')
-plot_google_map('MapType','terrain', 'ShowLabels',0);
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end;
 
 
 %% Compute the difference
@@ -114,20 +115,20 @@ histogram(map_sp_new(map_sp_new>0),binWidth=10)
 
 % Coverage & Effort
 figure('position',[0 0 1400 600]); tiledlayout(1,2,'TileSpacing','tight','Padding','tight')
-colormap(viridis)
+colormap(parula)
 nexttile;hold on;
 tmp =reshape(grp2idx(categorical(coverage_old(:))),size(coverage_old));
-imagesc(g.lon,g.lat,tmp,'alphadata',0.8*(tmp>1)); 
+imagesc(g.lon,g.lat,tmp,'alphadata',0.8*(tmp>1));
 axis equal tight; set(gca,"YDir","normal"); title('OLD: modeled coverage %')
-plot_google_map('MapType','terrain', 'ShowLabels',0); c=colorbar;c.Ticks=0:6; c.TickLabels=unique(coverage_old)+"%";
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; c=colorbar;c.Ticks=0:6; c.TickLabels=unique(coverage_old)+"%";
 xticks(''); yticks('');  box on
 
 nexttile;hold on;
-imagesc(g.lon,g.lat,log(coverage_kbm+coverage_ebird),'alphadata',.8*((coverage_ebird(:,:,1)+coverage_kbm(:,:,1))>0)); 
+imagesc(g.lon,g.lat,log(coverage_kbm+coverage_ebird),'alphadata',.8*((coverage_ebird(:,:,1)+coverage_kbm(:,:,1))>0));
 axis equal tight; set(gca,"YDir","normal"); title('NEW: sum of durations')
-plot_google_map('MapType','terrain', 'ShowLabels',0); c=colorbar; 
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; c=colorbar;
 c.Ticks=log([0 12 24 24*7 24*30.5 24*30.5*6]);
-c.TickLabels=["0" "12hr" "1day" "1week" "1month"  "6months"]; 
+c.TickLabels=["0" "12hr" "1day" "1week" "1month"  "6months"];
 xticks(''); yticks(''); clim(log([12 24*30.5*6])); box on
 
 
@@ -163,7 +164,7 @@ set(gca,"XtickLabels",["0" "12hr" "1day" "1week" "1month" "6months"]);
 box on; grid on; ylim([0 700]); yticklabels('')
 
 
-% Effort new vs old 
+% Effort new vs old
 figure('position',[0 0 900 450]);
 x=coverage_kbm(:)+coverage_ebird(:);
 y=categorical(coverage_old(:));
@@ -177,18 +178,19 @@ scatter(x, y, 300, z, 'filled',MarkerFaceAlpha=.8)
 set(gca,"XScale","log"); xlabel("Total duration (new atlas)"); ylabel("Coverage (old atlas)")
 set(gca,"Xtick", ([0 12 24 24*7 24*30.5 24*30.5*6]));
 set(gca,"XtickLabels",["0" "12hr" "1day" "1week" "1month" "6months"]);
-box on; grid on; colorbar; colormap(brewermap([],'RdYlGn'))
-% clim([-.5 .5]); 
+box on; grid on; colorbar; colormap(trend_colors)
+% clim([-.5 .5]);
 clim([-200 200])
 
 
-% Compute correction 
+% Compute correction
 % map_new_correction quantifies how many species in a square can be
-% explained by the additional effort (compared to a standard effort for this category). 
+% explained by the additional effort (compared to a standard effort for this category).
 figure('position',[0 0 900 400]); hold on;
 coverage_old(coverage_old=="")="0";
-cov_u = unique(coverage_old);
-col = colormap( brewermap(7,'GnBu'));
+% A square with no historical coverage cannot calibrate an effort comparison.
+cov_u = unique(coverage_old(g.SqN > 0 & coverage_old ~= "0"));
+col = colormap( winter(7));
 map_new_correction = nan(size(coverage_old));
 y = sum(map_kbm|map_ebird,3) - sum(map_old,3); y=y(:);
 x = coverage_kbm(:)+coverage_ebird(:);
@@ -202,9 +204,9 @@ for i = 1:numel(cov_u)
     x_interp = logspace(-0.6,4.5,100);
     plot(x_interp, p(log(x_interp)),'-', color=col(i,:), linewidth=2)
     % exp(-p.p2/p.p1)/24
-    try 
+    try
         p11 = predint(p,log(x_interp),0.95,'functional','on');
-        fill([x_interp' ; flipud(x_interp')],[p11(:,1) ; flipud(p11(:,2))],col(i,:), EdgeColor = 'none',FaceAlpha=.2);  
+        fill([x_interp' ; flipud(x_interp')],[p11(:,1) ; flipud(p11(:,2))],col(i,:), EdgeColor = 'none',FaceAlpha=.2);
     end
     map_new_correction(id) = p(log(x(id)));
     assert(all(~isnan(map_new_correction(id))))
@@ -220,29 +222,29 @@ box on; grid on; axis tight; ylim([-200 200])
 map_new_corrected = sum(map_kbm|map_ebird,3) - map_new_correction;
 
 figure('position',[0 0 900 600]); tiledlayout(1,2,'TileSpacing','tight','Padding','tight')
-colormap( brewermap([],'RdYlGn')); 
+colormap( trend_colors);
 nexttile;hold on;
-imagesc(g.lon,g.lat,sum(map_kbm|map_ebird,3)-sum(map_old,3),'alphadata',.8*(sum(map_kbm|map_ebird,3)>0)); 
+imagesc(g.lon,g.lat,sum(map_kbm|map_ebird,3)-sum(map_old,3),'alphadata',.8*(sum(map_kbm|map_ebird,3)>0));
 axis equal tight; set(gca,"YDir","normal"); title('Old - uncorrected new')
-plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar; clim([-200 200])
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; colorbar; clim([-200 200])
 
 nexttile;hold on;
-imagesc(g.lon,g.lat,map_new_corrected-sum(map_old,3,"omitnan"),'alphadata',.8*(map_new_corrected>0)); 
+imagesc(g.lon,g.lat,map_new_corrected-sum(map_old,3,"omitnan"),'alphadata',.8*(map_new_corrected>0));
 axis equal tight; set(gca,"YDir","normal"); title('Old - corrected new')
-plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar; clim([-200 200])
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; colorbar; clim([-200 200])
 
 
 %% Correction
 % the correction C can be view as the probability that a given species is
-% observed/not observed due to the change in effort. 
-% The negative sign is to provide 
+% observed/not observed due to the change in effort.
+% The negative sign is to provide
 
 C = - 10 * map_new_correction ./ (map_sp_new+map_sp_base)/2;
 Clost = - map_new_correction ./ map_sp_new;
 Cgain = - map_new_correction ./ map_sp_base;
 C = - map_new_correction ./ (map_sp_new+map_sp_base)/2;
 
-% Trim C. In practice, the fit can predict a higher value than the total number of species available, which is wrong. 
+% Trim C. In practice, the fit can predict a higher value than the total number of species available, which is wrong.
 C(C<-1)=-1;
 C(C>1)=1;
 C(map_sp_new==0 & map_sp_base>0)=1;
@@ -265,13 +267,13 @@ mask = abs(C)>.1 | isnan(C);
 % No mask
 % mask = abs(C)>=1 | isnan(C);
 
-% figure;hold on; 
-% imagesc(g.lon,g.lat,ones(size(mask)),'alphadata',.8*(1-mask/2)); 
+% figure;hold on;
+% imagesc(g.lon,g.lat,ones(size(mask)),'alphadata',.8*(1-mask/2));
 % axis equal tight; set(gca,"YDir","normal")
-% plot_google_map('MapType','terrain', 'ShowLabels',0); 
+% plot_google_map('MapType','terrain', 'ShowLabels',0);
 % set(gca,'XColor', 'none','YColor','none')
 % set(gca, 'color', 'none');
-% colormap( 'gray'); 
+% colormap( 'gray');
 
 % Create size of marker for figure
 sz = @(x) min(max(200*(1+4*x),15),600); % -1<x<1
@@ -282,13 +284,13 @@ sz = @(x) szs(x, 15, 600);
 
 
 figure('position',[0 0 600 600]);
-colormap( brewermap([],'BrBG')); 
+colormap( trend_colors);
 nexttile;hold on;
 scatter(g.LON(~isnan(C)),g.LAT(~isnan(C)),sz(-C(~isnan(C))),-C(~isnan(C)),'filled','MarkerEdgeColor','k')
-% imagesc(g.lon,g.lat,nan(size(C)),'alphadata',zeros(size(C))); 
-imagesc(g.lon,g.lat,ones(size(mask)),'alphadata',.6*mask); 
+% imagesc(g.lon,g.lat,nan(size(C)),'alphadata',zeros(size(C)));
+imagesc(g.lon,g.lat,ones(size(mask)),'alphadata',.6*mask);
 axis equal tight; set(gca,"YDir","normal");
-plot_google_map('MapType','terrain', 'ShowLabels',0); colorbar; 
+if usejava('desktop'), plot_google_map('MapType','terrain', 'ShowLabels',0); end; colorbar;
 clim([-.7 .7])
 box on; xticks(''); yticks('')
 % colormap(flipud(gray))
@@ -326,7 +328,7 @@ xlabel("Threshold of the correction coefficient")
 
 
 %%
-% 
+%
 sp = sp_base;
 
 tmp_old = map_old;

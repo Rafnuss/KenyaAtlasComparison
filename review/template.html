@@ -198,12 +198,9 @@ function detail(r) {
     ['Atlas scientific', `<i>${esc(r.atlas_sci)}</i>`],
     ['AviList scientific', `<i>${esc(r.avilist_sci)}</i>`],
     ['Baseline name', `${esc(r.base_name)} &middot; <i>${esc(r.base_sci)}</i>`],
-    ['Baseline Clements', esc(r.base_clements)],
-    ['Baseline checklist', esc(r.base_checklist)],
     ['Members', esc(r.n_members)],
-    ['eBird code', `<span class="codes">${esc(r.ebird_code)}</span>`],
+    ['AviList members', esc(r.avilist_members)],
     ['Avibase id', `<span class="codes">${esc(r.avibase_id)} (${esc(r.id_source)})</span>`],
-    ['merged_SEQ', esc(r.merged_SEQ)],
     ['Comment', esc(r.comment)],
   ];
   const cnt = LAYERS.map(([nm, k]) =>

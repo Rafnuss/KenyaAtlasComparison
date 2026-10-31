@@ -18,26 +18,19 @@ _Explore The change in distributation of any species in the species view and sea
 
 You can reproduce the analysis by running the script in alphabetical order:
 
-1. `A_import_old_atlas.m`: Process historical data (`data/oldatlas/A Bird Atlas of Kenya_v5.xlsx`) based on the species list `data/species_base_list.csv` into `data/oldatlas.mat` as well as the grid data (read from `data/oldatlas/grid.geojson`)
-2. `B_import_KBM.m`: Process KBM data (downloaded from the ABAP API in `data/kbm/geojson/`) based on the species list `data/kbm/sp_kbm.xlsx` into `data/kbmatlas.mat`
-3. `C_import_ebird.m`: Process eBird data (EBD file downloaded in `data/eBird/ebd_KE_relOct-2023/`) based on the species list `data/eBird/sp_ebird.xlsx` into `data/ebirdatlas.mat` 
-4. `D_correction.m`: Compute the confidence index into the corrected grid `data/grid_corr.mat`
+Run `AA_wrapper_all.m` from this repository's root. It prepares taxonomy metadata and runs A–E in order:
+
+1. `A_import_old_atlas.m`: Read the sibling digitization project's `export/comparison/atlas_records.csv`, select 1970–1984 records, and apply the explicit historical-to-comparison mapping.
+2. `B_import_KBM.m`: Join cached KBM observations by source `ref` through `data/kbm/species_mapping.csv`.
+3. `C_import_ebird.m`: Join archived eBird observations through `data/eBird/species_mapping.csv`.
+4. `D_correction.m`: Refit the existing effort correction and export species statistics.
+5. `E_export_website.m`: Export Avibase-keyed maps, original names, AviList names and associated source links.
 
 ### Taxonomy
 
-`data/species_base_list.csv` is the master species list. Each row is one
-**atlas concept**, keyed by the immutable `SEQ` used since the 1989 atlas —
-and a concept is not always one species: 35 of them are lumps that the atlas
-recorded at a coarser resolution than today's checklists.
+Four readable CSVs contain the curated decisions: `data/species_base_list.csv`, `data/taxonomy/atlas_mapping.csv`, and the two source mapping files above. Each comparison taxon has one unique Avibase ID and explicit AviList membership. Historical concepts remain owned by `Digitization-of-A-Bird-Atlas-of-Kenya`; comparison merges and exclusions are recorded separately rather than changing that historical taxonomy.
 
-`data/taxonomy/update_taxonomy.py` resolves every concept against
-[AviList](https://www.avilist.org) v2025b and the eBird/Clements taxonomy,
-adding an `avibase_id` plus current names, family, IUCN status and eBird codes
-to each row. `data/eBird/add_avibase_id.py` does the equivalent for
-`sp_ebird.xlsx`, so eBird observations join on a stable concept id rather than
-on a scientific name that changes with every taxonomic revision. Both scripts
-are idempotent. See [`data/taxonomy/SOURCES.md`](data/taxonomy/SOURCES.md) for
-the reference versions, the column contract and the conventions.
+`python3 data/taxonomy/update_taxonomy.py` derives display metadata into `data/taxonomy/comparison_taxa.csv` from those memberships and the digitization project's pinned AviList 2026 export. eBird observations remain a data source; eBird and Birds of Kenya 2019 naming systems are retired. Original and AviList names travel together to the website. See [taxonomy sources and decisions](data/taxonomy/SOURCES.md) for the table contracts, qualifications and rebuild steps.
 
 ### Export
 
@@ -66,11 +59,4 @@ offer them as alternatives; see the taxonomy section above.
 - `G_scavenger.m`: Vulture trends against 1980 vs 2000 density estimates per season (hard-coded in the script, source not recorded)
 - `G_serengeti.m`: Comparison with [Henao-Diaz & Sinclair (2019)](https://doi.org/10.1002/ecy.2919)
 
-The SABAP1-2, Burns et al. and AEWA files were keyed to the atlas by hand,
-before the 2026-09 taxonomy update retired some `SEQ`s through `merged_SEQ`.
-Any script joining such a file on `SEQ` must first call
-`functions/fold_SEQ.m`, which follows the taxonomic folds and zeroes the
-rest (so the usual `t = t(t.SEQ>0,:)` filter drops them) — otherwise those
-rows silently vanish from the comparison. `G_scavenger.m` and
-`G_Ngulia.m` key on hard-coded `SEQ`s/names that no fold touches, and
-`G_serengeti.m` does not use the atlas list at all.
+The SABAP1-2, Burns et al. and AEWA files retain legacy numeric SEQs. `functions/fold_SEQ.m` reads the explicit `atlas_mapping.csv` decisions before these scripts join them to current comparison taxa. Identification merges are not applied to external-study trends. `G_scavenger.m` and `G_Ngulia.m` use fixed legacy SEQs; `G_serengeti.m` does not use the atlas list.

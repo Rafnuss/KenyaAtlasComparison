@@ -1,0 +1,1183 @@
+scientific_name,common_name,source_avibase_id,species_code,avibase_id,GroupCount,notes,link_code
+Myrmecocichla arnotti,Arnot's Chat,avibase-535524BE,whbcha2,avibase-535524BE,5.0,,whbcha2
+Merops lafresnayii,Ethiopian Bee-eater,avibase-D0C68FE0,bubbee2,avibase-D0C68FE0,4.0,,bubbee2
+Scleroptila gutturalis,Orange River Francolin,avibase-8E833C63,orrfra2,,4.0,,
+Balaeniceps rex,Shoebill,avibase-47C7FDFD,shoebi1,avibase-47C7FDFD,3.0,,shoebi1
+Pachyptila desolata,Antarctic Prion,avibase-105C306C,dovpri1,,2.0,,
+Pyrenestes ostrinus,Black-bellied Seedcracker,avibase-2CC91390,blbsee1,,2.0,,
+Fregetta tropica,Black-bellied Storm-Petrel,avibase-ACE8EADE,bbspet1,,2.0,,
+Cursorius cursor,Cream-colored Courser,avibase-DE0A72A7,crccou1,,2.0,,
+Laniarius aethiopicus,Ethiopian Boubou,avibase-EBC3B53B,trobou2,avibase-EBC3B53B,2.0,,trobou2
+Botaurus stellaris,Great Bittern,avibase-0F42F11A,grebit1,,2.0,,
+Cuculus rochii,Madagascar Cuckoo,avibase-C2E0717C,madcuc1,,2.0,,
+Vanellus vanellus,Northern Lapwing,avibase-F029489A,norlap,,2.0,,
+Procellaria aequinoctialis,White-chinned Petrel,avibase-35EB45A0,whcpet1,,2.0,,
+Asio abyssinicus,Abyssinian Owl,avibase-250123FB,aleowl1,,1.0,,
+Crithagra atrogularis,Black-throated Canary,avibase-D12CDD0F,bltcan1,,1.0,,
+Grus grus,Common Crane,avibase-99B8841E,comcra,,1.0,,
+Anthropoides virgo,Demoiselle Crane,avibase-64DDD14D,demcra1,,1.0,,
+Laniarius leucorhynchus,Lowland Sooty Boubou,avibase-3402C9BB,soobou1,,1.0,,
+Anaplectes jubaensis,Red Weaver,avibase-ECE36984,rehwea3,,1.0,,
+Cisticola ruficeps,Red-pate Cisticola,avibase-8338F12F,repcis1,,1.0,,
+Campethera scriptoricauda,Reichenow's Woodpecker,avibase-C5585051,reiwoo1,,1.0,,
+Pachyptila belcheri,Slender-billed Prion,avibase-0D885A80,slbpri1,,1.0,,
+Merops nubicoides,Southern Carmine Bee-eater,avibase-B34CB92A,scbeat1,,1.0,,
+Actitis macularius,Spotted Sandpiper,avibase-0D88C072,sposan,,1.0,,
+Illadopsis distans,Tanzanian Illadopsis,avibase-A14D3117,pabill3,,1.0,,
+Stiphrornis mabirae,Yellow-breasted Forest Robin,avibase-2455B82B,forrob4,,1.0,,
+Streptopelia vinacea,Vinaceous Dove,avibase-DDEF7228,vindov1,avibase-DDEF7228,5.0,,vindov1
+Struthio camelus,Common Ostrich,avibase-2247CB05,ostric2,avibase-5D14080C,10412.0,,ostric2
+Struthio molybdophanes,Somali Ostrich,avibase-40329BB6,ostric3,avibase-5D14080C,2385.0,,ostric3
+Struthio camelus/molybdophanes,Common/Somali Ostrich,avibase-5D14080C,y00934,avibase-5D14080C,90.0,,
+Tachybaptus ruficollis,Little Grebe,avibase-215FEA89,litgre1,avibase-215FEA89,54.0,,litgre1
+Podiceps nigricollis,Eared Grebe,avibase-32DCEC14,eargre,avibase-32DCEC14,339.0,,eargre
+Podiceps cristatus,Great Crested Grebe,avibase-8F269702,grcgre1,avibase-8F269702,121.0,,grcgre1
+Thalassarche melanophris,Black-browed Albatross,avibase-F9FCB9FF,bkbalb,avibase-F9FCB9FF,2.0,,bkbalb
+Daption capense,Cape Petrel,avibase-AAC2D613,cappet,avibase-AAC2D613,1.0,,cappet
+Pachyptila vittata,Broad-billed Prion,avibase-93860B9B,brbpri1,,0.0,,
+Bulweria fallax,Jouanin's Petrel,avibase-F501ED18,joupet,avibase-F501ED18,8.0,,joupet
+Ardenna pacifica,Wedge-tailed Shearwater,avibase-E94A7272,wetshe,avibase-E94A7272,17.0,,wetshe
+Puffinus lherminieri,Audubon's Shearwater,avibase-06C36D41,audshe,,0.0,,
+Puffinus persicus,Persian Shearwater,avibase-198120BB,pershe1,avibase-CA3D6C51,18.0,,pershe1
+Puffinus bailloni,Tropical Shearwater,avibase-6DA05B66,troshe5,avibase-CA3D6C51,1.0,,troshe5
+Oceanites oceanicus,Wilson's Storm-Petrel,avibase-D295D249,wispet,avibase-D295D249,16.0,,wispet
+Hydrobates leucorhous,Leach's Storm-Petrel,avibase-C5FB15C6,lcspet,avibase-C5FB15C6,3.0,,lcspet
+Hydrobates matsudairae,Matsudaira's Storm-Petrel,avibase-6AA236DD,maspet2,,0.0,,
+Phaethon rubricauda,Red-tailed Tropicbird,avibase-C412CD62,rettro,,2.0,,
+Phaethon lepturus,White-tailed Tropicbird,avibase-1D07B501,whttro,avibase-1D07B501,36.0,,whttro
+Pelecanus onocrotalus,Great White Pelican,avibase-8BAFB01E,grwpel1,avibase-8BAFB01E,5302.0,,grwpel1
+Pelecanus rufescens,Pink-backed Pelican,avibase-8D24E93C,pibpel1,avibase-8D24E93C,3592.0,,pibpel1
+Sula sula,Red-footed Booby,avibase-0A4609D1,refboo,avibase-0A4609D1,15.0,,refboo
+Sula dactylatra,Masked Booby,avibase-22D1B4A2,masboo,avibase-22D1B4A2,31.0,,masboo
+Sula leucogaster,Brown Booby,avibase-5EC21767,brnboo,avibase-05520B42,1.0,,brnboo
+Phalacrocorax carbo,Great Cormorant,avibase-3DF5C587,grecor,avibase-3DF5C587,1178.0,,grecor
+Microcarbo africanus,Long-tailed Cormorant,avibase-E255DCE1,lotcor1,avibase-E255DCE1,9683.0,,lotcor1
+Anhinga rufa,African Darter,avibase-5C7936A7,darter3,avibase-5C7936A7,3735.0,,darter3
+Fregata minor,Great Frigatebird,avibase-788EBCAB,grefri,avibase-788EBCAB,18.0,,grefri
+Fregata ariel,Lesser Frigatebird,avibase-09ED7E92,lesfri,avibase-09ED7E92,1.0,,lesfri
+Ixobrychus sturmii,Dwarf Bittern,avibase-87EEBD3E,dwabit1,avibase-87EEBD3E,243.0,,dwabit1
+Ixobrychus minutus,Little Bittern,avibase-7AAD57AC,litbit1,avibase-7AAD57AC,26.0,,litbit1
+Calherodius leuconotus,White-backed Night Heron,avibase-3C12AA44,wbnher1,avibase-3C12AA44,103.0,,wbnher1
+Nycticorax nycticorax,Black-crowned Night Heron,avibase-6BB94D7E,bcnher,avibase-6BB94D7E,18.0,,bcnher
+Bubulcus ibis,Western Cattle Egret,avibase-AB1CB216,categr1,avibase-AB1CB216,14246.0,,categr1
+Ardeola ralloides,Squacco Heron,avibase-CE73EBD7,squher1,avibase-CE73EBD7,4551.0,,squher1
+Ardeola idae,Malagasy Pond-Heron,avibase-EA2C460A,mapher1,avibase-EA2C460A,400.0,,mapher1
+Ardeola rufiventris,Rufous-bellied Heron,avibase-AEB2DA9B,rubher2,avibase-AEB2DA9B,490.0,,rubher2
+Butorides striata,Striated Heron,avibase-36DF115B,strher,avibase-7085B8A0,63.0,,
+Egretta garzetta,Little Egret,avibase-F2858F9F,litegr,avibase-F2858F9F,1116.0,,litegr
+Egretta gularis,Western Reef-Heron,avibase-DF32B1F9,werher,avibase-DF32B1F9,26.0,,werher
+Egretta ardesiaca,Black Heron,avibase-74853F89,blaher1,avibase-74853F89,898.0,,blaher1
+Ardea brachyrhyncha,Yellow-billed Egret,avibase-C3ABF863,integr3,avibase-C3ABF863,5246.0,,integr3
+Ardea alba,Great Egret,avibase-49D9148A,greegr,avibase-49D9148A,1333.0,,greegr
+Ardea cinerea,Gray Heron,avibase-6429024D,graher1,avibase-6429024D,71.0,,graher1
+Ardea purpurea,Purple Heron,avibase-3395DCF1,purher1,avibase-3395DCF1,9.0,,purher1
+Ardea goliath,Goliath Heron,avibase-C7888A15,golher1,avibase-C7888A15,3638.0,,golher1
+Ardea melanocephala,Black-headed Heron,avibase-25A648FE,blhher1,avibase-25A648FE,14114.0,,blhher1
+Scopus umbretta,Hamerkop,avibase-FC10F6ED,hamerk1,avibase-FC10F6ED,13472.0,,hamerk1
+Ciconia ciconia,White Stork,avibase-28825494,whisto1,avibase-28825494,1873.0,,whisto1
+Ciconia nigra,Black Stork,avibase-E2817DAE,blasto1,avibase-E2817DAE,1007.0,,blasto1
+Ciconia abdimii,Abdim's Stork,avibase-26CD0319,abdsto1,avibase-26CD0319,949.0,,abdsto1
+Ciconia microscelis,African Woolly-necked Stork,avibase-5157C558,wonsto2,avibase-5157C558,2809.0,,wonsto2
+Ephippiorhynchus senegalensis,Saddle-billed Stork,avibase-3D155653,sabsto1,avibase-3D155653,2650.0,,sabsto1
+Leptoptilos crumenifer,Marabou Stork,avibase-03C0F97C,marsto1,avibase-03C0F97C,14678.0,,marsto1
+Anastomus lamelligerus,African Openbill,avibase-0F14ECE4,afrope1,avibase-0F14ECE4,2826.0,,afrope1
+Mycteria ibis,Yellow-billed Stork,avibase-4F92C892,yebsto1,avibase-4F92C892,11598.0,,yebsto1
+Threskiornis aethiopicus,African Sacred Ibis,avibase-550DE745,sacibi2,avibase-550DE745,17341.0,,sacibi2
+Bostrychia hagedash,Hadada Ibis,avibase-CAFBA217,hadibi1,avibase-CAFBA217,24759.0,,hadibi1
+Bostrychia olivacea,Olive Ibis,avibase-23ACB56E,oliibi2,avibase-23ACB56E,321.0,,oliibi2
+Plegadis falcinellus,Glossy Ibis,avibase-D4540F88,gloibi,avibase-D4540F88,3892.0,,gloibi
+Platalea alba,African Spoonbill,avibase-F86BB1D3,afrspo1,avibase-F86BB1D3,8268.0,,afrspo1
+Platalea leucorodia,Eurasian Spoonbill,avibase-A0A584C1,eurspo1,avibase-A0A584C1,4.0,,eurspo1
+Phoenicopterus roseus,Greater Flamingo,avibase-0F9B5174,grefla3,avibase-0F9B5174,4004.0,,grefla3
+Phoeniconaias minor,Lesser Flamingo,avibase-B06A9079,lesfla1,avibase-B06A9079,4106.0,,lesfla1
+Dendrocygna bicolor,Fulvous Whistling-Duck,avibase-9A60617E,fuwduc,avibase-9A60617E,959.0,,fuwduc
+Dendrocygna viduata,White-faced Whistling-Duck,avibase-A534AFEA,wfwduc1,avibase-A534AFEA,4909.0,,wfwduc1
+Tadorna ferruginea,Ruddy Shelduck,avibase-1F9D883E,rudshe,,1.0,,
+Alopochen aegyptiaca,Egyptian Goose,avibase-DA2F24E3,egygoo,avibase-DA2F24E3,21559.0,,egygoo
+Plectropterus gambensis,Spur-winged Goose,avibase-EB01B24C,spwgoo1,avibase-EB01B24C,9.0,,spwgoo1
+Sarkidiornis melanotos,Knob-billed Duck,avibase-3948131B,comduc2,avibase-3948131B,1495.0,,comduc2
+Nettapus auritus,African Pygmy-Goose,avibase-EC7C1618,afrpyg1,avibase-EC7C1618,222.0,,afrpyg1
+Anas sparsa,African Black Duck,avibase-1EAFAD9F,afbduc1,avibase-1EAFAD9F,1303.0,,afbduc1
+Anas capensis,Cape Teal,avibase-25DA0F41,captea1,avibase-25DA0F41,1773.0,,captea1
+Mareca penelope,Eurasian Wigeon,avibase-15EE0D36,eurwig,avibase-15EE0D36,13.0,,eurwig
+Mareca strepera,Gadwall,avibase-C235A4D7,gadwal,avibase-C235A4D7,4.0,,gadwal
+Anas crecca,Green-winged Teal,avibase-BC6C3CCE,gnwtea,avibase-BC6C3CCE,8.0,,gnwtea
+Spatula querquedula,Garganey,avibase-F577BA0F,gargan,avibase-F577BA0F,472.0,,gargan
+Anas undulata,Yellow-billed Duck,avibase-7F64AD87,yebduc1,avibase-7F64AD87,5208.0,,yebduc1
+Anas acuta,Northern Pintail,avibase-56CCA717,norpin,avibase-56CCA717,269.0,,norpin
+Anas erythrorhyncha,Red-billed Duck,avibase-8F6876AC,rebduc1,avibase-8F6876AC,4059.0,,rebduc1
+Spatula hottentota,Blue-billed Teal,avibase-FA831F65,hottea1,avibase-FA831F65,2483.0,,hottea1
+Spatula clypeata,Northern Shoveler,avibase-ED4CE8E7,norsho,avibase-ED4CE8E7,633.0,,norsho
+Netta erythrophthalma,Southern Pochard,avibase-36C0242E,soupoc1,avibase-36C0242E,778.0,,soupoc1
+Aythya ferina,Common Pochard,avibase-A96692E0,compoc,avibase-A96692E0,1.0,,compoc
+Aythya nyroca,Ferruginous Duck,avibase-7CF91527,ferduc,avibase-7CF91527,1.0,,ferduc
+Aythya fuligula,Tufted Duck,avibase-67CEA1C1,tufduc,avibase-67CEA1C1,3.0,,tufduc
+Oxyura maccoa,Maccoa Duck,avibase-1C2F4E80,macduc1,avibase-1C2F4E80,283.0,,macduc1
+Thalassornis leuconotus,White-backed Duck,avibase-2EEDACD5,whbduc1,avibase-2EEDACD5,1075.0,,whbduc1
+Sagittarius serpentarius,Secretarybird,avibase-DCBCCEB8,secret2,avibase-DCBCCEB8,7518.0,,secret2
+Gypohierax angolensis,Palm-nut Vulture,avibase-14885C18,panvul1,avibase-14885C18,1317.0,,panvul1
+Torgos tracheliotos,Lappet-faced Vulture,avibase-672EA454,lafvul1,avibase-672EA454,4779.0,,lafvul1
+Trigonoceps occipitalis,White-headed Vulture,avibase-93D7EC56,whhvul1,avibase-93D7EC56,1230.0,,whhvul1
+Gyps rueppelli,Rüppell's Griffon,avibase-76B512B1,ruegri1,avibase-76B512B1,4524.0,,ruegri1
+Gyps africanus,White-backed Vulture,avibase-0419DDC2,whbvul1,avibase-0419DDC2,9947.0,,whbvul1
+Neophron percnopterus,Egyptian Vulture,avibase-6D3480A6,egyvul1,avibase-6D3480A6,588.0,,egyvul1
+Necrosyrtes monachus,Hooded Vulture,avibase-131038AD,hoovul1,avibase-131038AD,2485.0,,hoovul1
+Gypaetus barbatus,Bearded Vulture,avibase-81DB7410,lammer1,avibase-81DB7410,7.0,,lammer1
+Polyboroides typus,African Harrier-Hawk,avibase-C505EA72,afhhaw1,avibase-C505EA72,4844.0,,afhhaw1
+Circus macrourus,Pallid Harrier,avibase-22647E26,palhar1,avibase-22647E26,1994.0,,palhar1
+Circus pygargus,Montagu's Harrier,avibase-63B6412E,monhar1,avibase-63B6412E,1929.0,,monhar1
+Circus aeruginosus,Western Marsh Harrier,avibase-E2A19474,wemhar1,avibase-E2A19474,1722.0,,wemhar1
+Circus ranivorus,African Marsh Harrier,avibase-2A2C169B,afmhar1,avibase-2A2C169B,505.0,,afmhar1
+Terathopius ecaudatus,Bateleur,avibase-6CBD8724,batele1,avibase-6CBD8724,7931.0,,batele1
+Circaetus beaudouini,Beaudouin's Snake-Eagle,avibase-F4E78AFA,beasne1,avibase-A0C5797F,22.0,,beasne1
+Circaetus pectoralis,Black-chested Snake-Eagle,avibase-BF553D32,bkbsne1,avibase-A0C5797F,3329.0,,bkbsne1
+Circaetus gallicus,Short-toed Snake-Eagle,avibase-8372FFBA,shteag1,avibase-A0C5797F,4.0,,shteag1
+Circaetus cinereus,Brown Snake-Eagle,avibase-6904D83F,brseag1,avibase-6904D83F,2666.0,,brseag1
+Circaetus cinerascens,Banded Snake-Eagle,avibase-4327F813,baseag1,avibase-4327F813,443.0,,baseag1
+Circaetus fasciolatus,Fasciated Snake-Eagle,avibase-9F2839A9,faseag1,avibase-9F2839A9,324.0,,faseag1
+Accipiter melanoleucus,Black Goshawk,avibase-819AB823,blagos1,avibase-819AB823,2374.0,,blagos1
+Accipiter ovampensis,Ovambo Sparrowhawk,avibase-BAE91683,ovaspa2,avibase-BAE91683,147.0,,ovaspa2
+Accipiter nisus,Eurasian Sparrowhawk,avibase-DB376A66,eurspa1,avibase-DB376A66,15.0,,eurspa1
+Accipiter rufiventris,Rufous-breasted Sparrowhawk,avibase-EC0E680F,rucspa2,avibase-EC0E680F,2.0,,rucspa2
+Accipiter tachiro,African Goshawk,avibase-35A1472C,afrgos1,avibase-35A1472C,14.0,,afrgos1
+Accipiter minullus,Little Sparrowhawk,avibase-CE1CF6FD,litspa1,avibase-CE1CF6FD,1530.0,,litspa1
+Accipiter badius,Shikra,avibase-1A0ECB6E,shikra1,avibase-1A0ECB6E,27.0,,shikra1
+Accipiter brevipes,Levant Sparrowhawk,avibase-8492E4B7,levspa1,avibase-8492E4B7,35.0,,levspa1
+Melierax metabates,Dark Chanting-Goshawk,avibase-D2AFD39B,dacgos1,avibase-D2AFD39B,1547.0,,dacgos1
+Melierax poliopterus,Eastern Chanting-Goshawk,avibase-FA3A1F20,eacgos1,avibase-FA3A1F20,5416.0,,eacgos1
+Micronisus gabar,Gabar Goshawk,avibase-922DE9C1,gabgos2,avibase-922DE9C1,3346.0,,gabgos2
+Kaupifalco monogrammicus,Lizard Buzzard,avibase-3EEB66ED,lizbuz1,avibase-3EEB66ED,1319.0,,lizbuz1
+Buteo oreophilus,Mountain Buzzard,avibase-5BFEFD9A,moubuz2,avibase-5BFEFD9A,903.0,,moubuz2
+Buteo buteo,Common Buzzard,avibase-3C0C325D,combuz1,avibase-3C0C325D,688.0,,combuz1
+Buteo rufinus,Long-legged Buzzard,avibase-CC65921F,lolbuz1,avibase-CC65921F,1.0,,lolbuz1
+Buteo augur,Augur Buzzard,avibase-EBDC03AA,augbuz2,avibase-EBDC03AA,9874.0,,augbuz2
+Butastur rufipennis,Grasshopper Buzzard,avibase-45A1D850,grabuz1,avibase-45A1D850,331.0,,grabuz1
+Lophaetus occipitalis,Long-crested Eagle,avibase-14B9664A,loceag1,avibase-14B9664A,5417.0,,loceag1
+Stephanoaetus coronatus,Crowned Eagle,avibase-1E3B3515,crheag1,avibase-1E3B3515,2231.0,,crheag1
+Polemaetus bellicosus,Martial Eagle,avibase-FDA2E4A3,mareag1,avibase-FDA2E4A3,5188.0,,mareag1
+Hieraaetus pennatus,Booted Eagle,avibase-4B8CC285,booeag1,avibase-4B8CC285,625.0,,booeag1
+Aquila spilogaster,African Hawk-Eagle,avibase-9A418C45,afrhae1,avibase-9A418C45,1939.0,,afrhae1
+Hieraaetus ayresii,Ayres's Hawk-Eagle,avibase-7DF00403,ayheag1,avibase-7DF00403,627.0,,ayheag1
+Clanga pomarina,Lesser Spotted Eagle,avibase-C2565B65,leseag1,avibase-C2565B65,400.0,,leseag1
+Clanga clanga,Greater Spotted Eagle,avibase-BAC4CA22,grseag1,avibase-BAC4CA22,68.0,,grseag1
+Aquila rapax,Tawny Eagle,avibase-F6D547B2,taweag1,avibase-F6D547B2,9569.0,,taweag1
+Aquila nipalensis,Steppe Eagle,avibase-A635F565,steeag1,avibase-A635F565,1975.0,,steeag1
+Aquila heliaca,Imperial Eagle,avibase-469DCF57,impeag1,avibase-469DCF57,12.0,,impeag1
+Aquila verreauxii,Verreaux's Eagle,avibase-14F13C32,vereag1,avibase-14F13C32,1369.0,,vereag1
+Hieraaetus wahlbergi,Wahlberg's Eagle,avibase-535F3C99,waheag3,avibase-535F3C99,2317.0,,waheag3
+Icthyophaga vocifer,African Fish-Eagle,avibase-A19B0CF4,affeag1,avibase-A19B0CF4,11789.0,,affeag1
+Milvus migrans,Black Kite,avibase-06D9A2C8,blakit1,avibase-06D9A2C8,4647.0,,blakit1
+Aviceda cuculoides,African Cuckoo-Hawk,avibase-648936C0,afrcuh1,avibase-648936C0,213.0,,afrcuh1
+Pernis apivorus,European Honey-buzzard,avibase-ED5A7E8F,euhbuz1,avibase-ED5A7E8F,278.0,,euhbuz1
+Macheiramphus alcinus,Bat Hawk,avibase-DAE4C523,bathaw1,avibase-DAE4C523,336.0,,bathaw1
+Elanus caeruleus,Black-winged Kite,avibase-97C47F3E,bkskit1,avibase-97C47F3E,55.0,,bkskit1
+Chelictinia riocourii,Scissor-tailed Kite,avibase-22832FF4,sctkit1,avibase-22832FF4,167.0,,sctkit1
+Pandion haliaetus,Osprey,avibase-1327AC55,osprey,avibase-1327AC55,13.0,,osprey
+Polihierax semitorquatus,Pygmy Falcon,avibase-3B52D2B8,pygfal1,avibase-3B52D2B8,3010.0,,pygfal1
+Falco peregrinus,Peregrine Falcon,avibase-47E58408,perfal,avibase-47E58408,22.0,,perfal
+Falco peregrinus pelegrinoides,Peregrine Falcon (Barbary),avibase-A113792C,barfal1,avibase-47E58408,0.0,Source assignment follows the explicit comparison merge in atlas_mapping.csv.,
+Falco fasciinucha,Taita Falcon,avibase-9A4AA945,taifal1,avibase-9A4AA945,12.0,,taifal1
+Falco biarmicus,Lanner Falcon,avibase-3D3808E3,lanfal1,avibase-3D3808E3,1897.0,,lanfal1
+Falco cherrug,Saker Falcon,avibase-A9F51494,sakfal1,avibase-A9F51494,0.0,,sakfal1
+Falco chicquera,Red-necked Falcon,avibase-6A64EFCB,renfal1,avibase-6A64EFCB,15.0,,renfal1
+Falco vespertinus,Red-footed Falcon,avibase-997A9437,reffal1,avibase-997A9437,7.0,,reffal1
+Falco amurensis,Amur Falcon,avibase-E6137E65,amufal1,avibase-E6137E65,315.0,,amufal1
+Falco cuvierii,African Hobby,avibase-F56A73BF,afrhob1,avibase-F56A73BF,228.0,,afrhob1
+Falco subbuteo,Eurasian Hobby,avibase-E91E287A,eurhob,avibase-E91E287A,996.0,,eurhob
+Falco ardosiaceus,Gray Kestrel,avibase-3F2BA4F7,grykes1,avibase-3F2BA4F7,1170.0,,grykes1
+Falco dickinsoni,Dickinson's Kestrel,avibase-CA34C05A,dickes1,avibase-CA34C05A,8.0,,dickes1
+Falco eleonorae,Eleonora's Falcon,avibase-9EA1F12D,elefal1,avibase-9EA1F12D,55.0,,elefal1
+Falco concolor,Sooty Falcon,avibase-BD34FDFD,soofal1,avibase-BD34FDFD,84.0,,soofal1
+Falco alopex,Fox Kestrel,avibase-D2CAA18B,foxkes1,avibase-D2CAA18B,85.0,,foxkes1
+Falco rupicoloides,Greater Kestrel,avibase-2E4DAA13,grekes1,avibase-2E4DAA13,397.0,,grekes1
+Falco tinnunculus,Eurasian Kestrel,avibase-2DAB45B8,eurkes,avibase-2DAB45B8,132.0,,eurkes
+Falco naumanni,Lesser Kestrel,avibase-BECA271F,leskes1,avibase-BECA271F,1260.0,,leskes1
+Pternistis squamatus,Scaly Spurfowl,avibase-1B11690B,scafra2,avibase-1B11690B,1336.0,,scafra2
+Pternistis jacksoni,Jackson's Spurfowl,avibase-A7E59764,jacfra2,avibase-A7E59764,823.0,,jacfra2
+Pternistis castaneicollis,Chestnut-naped Spurfowl,avibase-F86E768E,chnfra2,avibase-81474844,11.0,,chnfra2
+Pternistis leucoscepus,Yellow-necked Spurfowl,avibase-90AFDF9E,yenspu1,avibase-90AFDF9E,9728.0,,yenspu1
+Pternistis afer,Red-necked Spurfowl,avibase-5FA94F66,renfra1,avibase-5FA94F66,23.0,,renfra1
+Pternistis hildebrandti,Hildebrandt's Spurfowl,avibase-F5A73AAA,hilfra2,avibase-F5A73AAA,1374.0,,hilfra2
+Ortygornis sephaena,Crested Francolin,avibase-8004C7E5,crefra2,avibase-8004C7E5,42.0,,crefra2
+Scleroptila streptophora,Ring-necked Francolin,avibase-5B115F6C,rinfra2,avibase-5B115F6C,5.0,,rinfra2
+Scleroptila levaillantii,Red-winged Francolin,avibase-B49935ED,rewfra2,avibase-B49935ED,136.0,,rewfra2
+Scleroptila shelleyi,Shelley's Francolin,avibase-A15F6836,shefra1,avibase-A15F6836,619.0,,shefra1
+Scleroptila elgonensis,Elgon Francolin,avibase-3D25568A,moofra3,avibase-3D25568A,58.0,,moofra3
+Campocolinus coqui,Coqui Francolin,avibase-ECD7C1D8,coqfra2,avibase-ECD7C1D8,21.0,,coqfra2
+Coturnix coturnix,Common Quail,avibase-CAFE345D,comqua1,avibase-CAFE345D,272.0,,comqua1
+Coturnix delegorguei,Harlequin Quail,avibase-0CA903BB,harqua1,avibase-0CA903BB,1204.0,,harqua1
+Synoicus adansonii,Blue Quail,avibase-CAA45AC6,bluqua1,avibase-CAA45AC6,10.0,,bluqua1
+Ptilopachus petrosus,Stone Partridge,avibase-57B05159,stopar1,avibase-57B05159,135.0,,stopar1
+Acryllium vulturinum,Vulturine Guineafowl,avibase-F7A3FA35,vulgui1,avibase-F7A3FA35,3735.0,,vulgui1
+Guttera pucherani,Eastern Crested Guineafowl,avibase-35D60F12,cregui3,avibase-35D60F12,466.0,,cregui3
+Guttera verreauxi,Western Crested Guineafowl,avibase-9D29C252,cregui2,avibase-9D29C252,87.0,,cregui2
+Guttera pucherani/verreauxi/edouardi,crested guineafowl sp.,avibase-D5813CA4,cregui1,,3.0,,
+Numida meleagris,Helmeted Guineafowl,avibase-1044B438,helgui,avibase-1044B438,2.0,,helgui
+Turnix sylvaticus,Small Buttonquail,avibase-0DA8BB90,smabut2,avibase-0DA8BB90,245.0,,smabut2
+Turnix nanus,Black-rumped Buttonquail,avibase-0874B4D5,hotbut3,avibase-0874B4D5,1.0,,hotbut3
+Ortyxelos meiffrenii,Quail-plover,avibase-B605A049,quailp1,avibase-B605A049,21.0,,quailp1
+Balearica regulorum,Gray Crowned-Crane,avibase-D10CAC5D,grccra1,avibase-D10CAC5D,10705.0,,grccra1
+Sarothrura pulchra,White-spotted Flufftail,avibase-6EF64F69,whsflu1,avibase-6EF64F69,7.0,,whsflu1
+Sarothrura elegans,Buff-spotted Flufftail,avibase-E75BA92C,busflu1,avibase-E75BA92C,39.0,,busflu1
+Sarothrura rufa,Red-chested Flufftail,avibase-10B56544,recflu1,avibase-10B56544,88.0,,recflu1
+Sarothrura boehmi,Streaky-breasted Flufftail,avibase-EBA9F2C4,stbflu1,avibase-EBA9F2C4,3.0,,stbflu1
+Sarothrura affinis,Striped Flufftail,avibase-D4A066EA,strflu1,avibase-D4A066EA,7.0,,strflu1
+Rallus caerulescens,African Rail,avibase-5B443EDE,afrrai1,avibase-5B443EDE,356.0,,afrrai1
+Crex egregia,African Crake,avibase-09A0F2EB,afrcra1,avibase-09A0F2EB,59.0,,afrcra1
+Crex crex,Corn Crake,avibase-7E257242,corcra,avibase-7E257242,20.0,,corcra
+Zapornia flavirostra,Black Crake,avibase-148F0B01,blacra1,avibase-148F0B01,6673.0,,blacra1
+Porzana porzana,Spotted Crake,avibase-460708F9,spocra1,avibase-460708F9,7.0,,spocra1
+Zapornia pusilla,Baillon's Crake,avibase-34D5B04D,baicra1,avibase-34D5B04D,20.0,,baicra1
+Amaurornis marginalis,Striped Crake,avibase-13967506,strcra1,avibase-13967506,6.0,,strcra1
+Fulica cristata,Red-knobbed Coot,avibase-53235FDC,rekcoo1,avibase-53235FDC,3707.0,,rekcoo1
+Porphyrio madagascariensis,African Swamphen,avibase-865C039E,purswa2,avibase-AC1E791E,927.0,Current eBird species maps to a broader AviList species through the same explicit override used by Birds-of-Kenya.,purswa2
+Porphyrio alleni,Allen's Gallinule,avibase-53288666,allgal1,avibase-53288666,273.0,,allgal1
+Paragallinula angulata,Lesser Moorhen,avibase-A927C1AE,lesmoo1,avibase-A927C1AE,204.0,,lesmoo1
+Gallinula chloropus,Eurasian Moorhen,avibase-8F82FF8C,commoo3,avibase-8F82FF8C,4252.0,,commoo3
+Podica senegalensis,African Finfoot,avibase-46DECAEE,afrfin1,avibase-46DECAEE,126.0,,afrfin1
+Eupodotis senegalensis,White-bellied Bustard,avibase-3B287014,whbbus2,avibase-3B287014,56.0,,whbbus2
+Lissotis hartlaubii,Hartlaub's Bustard,avibase-402E7401,harbus2,avibase-402E7401,958.0,,harbus2
+Lissotis melanogaster,Black-bellied Bustard,avibase-562F4456,bkbbus1,avibase-562F4456,3276.0,,bkbbus1
+Lophotis gindiana,Buff-crested Bustard,avibase-968D57F9,bucbus1,avibase-968D57F9,2932.0,,bucbus1
+Neotis denhami,Denham's Bustard,avibase-4FDBC0CB,stabus1,avibase-4FDBC0CB,5.0,,stabus1
+Neotis heuglinii,Heuglin's Bustard,avibase-4971D1EF,heubus1,avibase-4971D1EF,106.0,,heubus1
+Ardeotis kori,Kori Bustard,avibase-4FC41CA0,korbus1,avibase-4FC41CA0,4762.0,,korbus1
+Ardeotis arabs,Arabian Bustard,avibase-6A394479,arabus1,avibase-6A394479,17.0,,arabus1
+Actophilornis africanus,African Jacana,avibase-D16D486D,afrjac1,avibase-D16D486D,7516.0,,afrjac1
+Microparra capensis,Lesser Jacana,avibase-29B03FAE,lesjac1,avibase-29B03FAE,247.0,,lesjac1
+Rostratula benghalensis,Greater Painted-Snipe,avibase-7516E687,grpsni1,avibase-7516E687,675.0,,grpsni1
+Haematopus ostralegus,Eurasian Oystercatcher,avibase-ED663165,euroys1,avibase-ED663165,40.0,,euroys1
+Vanellus crassirostris,Long-toed Lapwing,avibase-F7D5320E,lotlap1,avibase-F7D5320E,3430.0,,lotlap1
+Vanellus senegallus,Wattled Lapwing,avibase-074251A3,watlap1,avibase-074251A3,2802.0,,watlap1
+Vanellus armatus,Blacksmith Lapwing,avibase-2F23EDC6,blaplo1,avibase-2F23EDC6,11120.0,,blaplo1
+Vanellus spinosus,Spur-winged Lapwing,avibase-F5E92B22,spwlap1,avibase-F5E92B22,10597.0,,spwlap1
+Vanellus tectus,Black-headed Lapwing,avibase-D531B5D3,blhlap1,avibase-D531B5D3,1132.0,,blhlap1
+Vanellus coronatus,Crowned Lapwing,avibase-D0FA8EBE,crolap1,avibase-D0FA8EBE,13408.0,,crolap1
+Vanellus superciliosus,Brown-chested Lapwing,avibase-881C954D,brclap1,avibase-881C954D,6.0,,brclap1
+Vanellus lugubris,Senegal Lapwing,avibase-42D3918F,senlap1,avibase-42D3918F,809.0,,senlap1
+Vanellus melanopterus,Black-winged Lapwing,avibase-83D95620,blwlap1,avibase-83D95620,1996.0,,blwlap1
+Pluvialis fulva,Pacific Golden-Plover,avibase-07C11CF3,pagplo,avibase-07C11CF3,22.0,,pagplo
+Pluvialis squatarola,Black-bellied Plover,avibase-27903EF7,bkbplo,avibase-27903EF7,1389.0,,bkbplo
+Charadrius dubius,Little Ringed Plover,avibase-35EC3BBF,lirplo,avibase-35EC3BBF,8.0,,lirplo
+Charadrius hiaticula,Common Ringed Plover,avibase-EDA37B7C,corplo,avibase-EDA37B7C,3301.0,,corplo
+Anarhynchus alexandrinus,Kentish Plover,avibase-AA4385A2,kenplo1,avibase-AA4385A2,8.0,,kenplo1
+Anarhynchus marginatus,White-fronted Plover,avibase-214B3533,whfplo1,avibase-214B3533,474.0,,whfplo1
+Anarhynchus pallidus,Chestnut-banded Plover,avibase-61F0E581,chbplo1,avibase-61F0E581,307.0,,chbplo1
+Anarhynchus leschenaultii,Greater Sand-Plover,avibase-98B9C10B,grsplo,avibase-98B9C10B,891.0,,grsplo
+Anarhynchus atrifrons,Tibetan Sand-Plover,avibase-828D3D5A,lessap1,avibase-828D3D5A,998.0,,lessap1
+Anarhynchus asiaticus,Caspian Plover,avibase-264D0351,casplo1,avibase-264D0351,561.0,,casplo1
+Anarhynchus pecuarius,Kittlitz's Plover,avibase-0F0DCC2F,kitplo1,avibase-0F0DCC2F,3596.0,,kitplo1
+Charadrius tricollaris,Three-banded Plover,avibase-8DAF86A1,thbplo1,avibase-8DAF86A1,55.0,,thbplo1
+Calidris canutus,Red Knot,avibase-B5CE8FAD,redkno,avibase-B5CE8FAD,0.0,,redkno
+Calidris alba,Sanderling,avibase-06B9BD24,sander,avibase-06B9BD24,788.0,,sander
+Calidris ruficollis,Red-necked Stint,avibase-BBDF2F1B,rensti,avibase-BBDF2F1B,3.0,,rensti
+Calidris minuta,Little Stint,avibase-9936FF4A,litsti,avibase-9936FF4A,4457.0,,litsti
+Calidris temminckii,Temminck's Stint,avibase-5ACF7FB3,temsti,avibase-5ACF7FB3,304.0,,temsti
+Calidris subminuta,Long-toed Stint,avibase-7D629288,lotsti,avibase-7D629288,2.0,,lotsti
+Calidris melanotos,Pectoral Sandpiper,avibase-ACC99F35,pecsan,avibase-ACC99F35,6.0,,pecsan
+Calidris ferruginea,Curlew Sandpiper,avibase-143A681C,cursan,avibase-143A681C,1996.0,,cursan
+Calidris alpina,Dunlin,avibase-15369E8E,dunlin,avibase-15369E8E,6.0,,dunlin
+Calidris falcinellus,Broad-billed Sandpiper,avibase-0A14882F,brbsan,avibase-0A14882F,73.0,,brbsan
+Calidris subruficollis,Buff-breasted Sandpiper,avibase-3A3C62BC,bubsan,avibase-3A3C62BC,1.0,,bubsan
+Calidris pugnax,Ruff,avibase-2DABF98F,ruff,avibase-2DABF98F,3616.0,,ruff
+Lymnocryptes minimus,Jack Snipe,avibase-1A15F0C6,jacsni,avibase-1A15F0C6,4.0,,jacsni
+Gallinago gallinago,Common Snipe,avibase-9151E0BA,comsni,avibase-9151E0BA,1252.0,,comsni
+Gallinago nigripennis,African Snipe,avibase-831FC147,afrsni1,avibase-831FC147,459.0,,afrsni1
+Gallinago media,Great Snipe,avibase-BCCD5840,gresni1,avibase-BCCD5840,21.0,,gresni1
+Gallinago stenura,Pin-tailed Snipe,avibase-EE61E2CA,pitsni,avibase-EE61E2CA,1.0,,pitsni
+Limnodromus semipalmatus,Asian Dowitcher,avibase-B7E68EC8,asidow1,,0.0,,
+Limosa limosa,Black-tailed Godwit,avibase-454B5CD5,bktgod,avibase-454B5CD5,46.0,,bktgod
+Limosa lapponica,Bar-tailed Godwit,avibase-9A684C99,batgod,avibase-9A684C99,20.0,,batgod
+Numenius phaeopus,Whimbrel,avibase-F9305BAA,whimbr,avibase-082F3A63,160.0,,
+Numenius arquata,Eurasian Curlew,avibase-3BB5CBA6,eurcur,avibase-3BB5CBA6,613.0,,eurcur
+Tringa erythropus,Spotted Redshank,avibase-0895DD84,spored,avibase-0895DD84,252.0,,spored
+Tringa totanus,Common Redshank,avibase-D6BFC73A,comred1,avibase-D6BFC73A,156.0,,comred1
+Tringa stagnatilis,Marsh Sandpiper,avibase-15CF9352,marsan,avibase-15CF9352,3111.0,,marsan
+Tringa nebularia,Common Greenshank,avibase-18B415D2,comgre,avibase-18B415D2,5514.0,,comgre
+Tringa ochropus,Green Sandpiper,avibase-A7B17EFC,grnsan,avibase-A7B17EFC,3874.0,,grnsan
+Tringa glareola,Wood Sandpiper,avibase-8E67DC5F,woosan,avibase-8E67DC5F,6993.0,,woosan
+Xenus cinereus,Terek Sandpiper,avibase-6D5992EE,tersan,avibase-6D5992EE,860.0,,tersan
+Actitis hypoleucos,Common Sandpiper,avibase-8548B07E,comsan,avibase-8548B07E,9956.0,,comsan
+Arenaria interpres,Ruddy Turnstone,avibase-DC3050A9,rudtur,avibase-DC3050A9,619.0,,rudtur
+Himantopus himantopus,Black-winged Stilt,avibase-3CAEB7CE,bkwsti,avibase-3CAEB7CE,6908.0,,bkwsti
+Recurvirostra avosetta,Pied Avocet,avibase-C73ED2F5,pieavo1,avibase-C73ED2F5,2142.0,,pieavo1
+Phalaropus lobatus,Red-necked Phalarope,avibase-E6F3BA54,renpha,avibase-E6F3BA54,50.0,,renpha
+Phalaropus fulicarius,Red Phalarope,avibase-18A19380,redpha1,avibase-18A19380,2.0,,redpha1
+Dromas ardeola,Crab-Plover,avibase-C3E33FEB,craplo1,avibase-C3E33FEB,844.0,,craplo1
+Burhinus oedicnemus,Eurasian Thick-knee,avibase-C7DB323E,eutkne1,avibase-C7DB323E,6.0,,eutkne1
+Burhinus senegalensis,Senegal Thick-knee,avibase-85DF723B,setkne1,avibase-85DF723B,192.0,,setkne1
+Burhinus vermiculatus,Water Thick-knee,avibase-96CCAFEE,watkne1,avibase-96CCAFEE,2955.0,,watkne1
+Burhinus capensis,Spotted Thick-knee,avibase-862F6F04,sptkne1,avibase-862F6F04,2131.0,,sptkne1
+Pluvianus aegyptius,Egyptian Plover,avibase-1B28A4B6,egyplo1,avibase-1B28A4B6,1.0,,egyplo1
+Cursorius somalensis,Somali Courser,avibase-6091E70B,somcou1,avibase-6091E70B,694.0,,somcou1
+Cursorius temminckii,Temminck's Courser,avibase-7A841F83,temcou1,avibase-7A841F83,1887.0,,temcou1
+Smutsornis africanus,Double-banded Courser,avibase-C130193B,dobcou2,avibase-C130193B,1129.0,,dobcou2
+Rhinoptilus cinctus,Three-banded Courser,avibase-29D50ED5,thbcou1,avibase-29D50ED5,933.0,,thbcou1
+Rhinoptilus chalcopterus,Bronze-winged Courser,avibase-F5145338,brwcou1,avibase-F5145338,22.0,,brwcou1
+Glareola pratincola,Collared Pratincole,avibase-D56ABB4E,colpra,avibase-D56ABB4E,1184.0,,colpra
+Glareola nordmanni,Black-winged Pratincole,avibase-E1F6A875,blwpra1,avibase-E1F6A875,30.0,,blwpra1
+Glareola nuchalis,Rock Pratincole,avibase-95820ED1,rocpra1,avibase-95820ED1,2.0,,rocpra1
+Glareola ocularis,Madagascar Pratincole,avibase-AC0F25BB,madpra1,avibase-AC0F25BB,144.0,,madpra1
+Stercorarius antarcticus,Brown Skua,avibase-8FC49046,brnsku3,,1.0,,
+Stercorarius pomarinus,Pomarine Jaeger,avibase-7CB8F5B7,pomjae,avibase-7CB8F5B7,5.0,,pomjae
+Stercorarius parasiticus,Parasitic Jaeger,avibase-39086887,parjae,avibase-39086887,5.0,,parjae
+Stercorarius longicaudus,Long-tailed Jaeger,avibase-1D446440,lotjae,avibase-1D446440,1.0,,lotjae
+Ichthyaetus hemprichii,Sooty Gull,avibase-67D43542,soogul2,avibase-67D43542,1114.0,,soogul2
+Ichthyaetus leucophthalmus,White-eyed Gull,avibase-A7F240E3,whegul2,avibase-A7F240E3,2.0,,whegul2
+Ichthyaetus ichthyaetus,Pallas's Gull,avibase-EF930CDC,gbhgul2,avibase-EF930CDC,5.0,,gbhgul2
+Ichthyaetus melanocephalus,Mediterranean Gull,avibase-052BFA8A,medgul1,,0.0,,
+Hydrocoloeus minutus,Little Gull,avibase-F89FD6E3,litgul,,1.0,,
+Chroicocephalus ridibundus,Black-headed Gull,avibase-FB02DD96,bkhgul,avibase-FB02DD96,462.0,,bkhgul
+Chroicocephalus cirrocephalus,Gray-hooded Gull,avibase-6EB497FA,grhgul,avibase-6EB497FA,3277.0,,grhgul
+Chroicocephalus genei,Slender-billed Gull,avibase-27CE7132,slbgul1,avibase-27CE7132,63.0,,slbgul1
+Larus fuscus,Lesser Black-backed Gull,avibase-2D52E3A5,lbbgul,avibase-2D52E3A5,154.0,,lbbgul
+Larus argentatus,Herring Gull,avibase-E1325FAB,hergul,,1.0,Historical identification merge is not a taxonomic synonym; modern records are not reidentified into the target species.,
+Larus dominicanus,Kelp Gull,avibase-E6536E4E,kelgul,avibase-E6536E4E,2.0,,kelgul
+Gelochelidon nilotica,Gull-billed Tern,avibase-87168739,gubter2,avibase-87168739,3308.0,,gubter2
+Hydroprogne caspia,Caspian Tern,avibase-BC06BC0D,caster1,avibase-BC06BC0D,469.0,,caster1
+Thalasseus bergii,Great Crested Tern,avibase-526978C4,grcter1,avibase-526978C4,425.0,,grcter1
+Thalasseus bengalensis,Lesser Crested Tern,avibase-D01CDECD,lecter2,avibase-D01CDECD,906.0,,lecter2
+Thalasseus sandvicensis,Sandwich Tern,avibase-F7504353,santer1,avibase-F7504353,4.0,,santer1
+Sterna dougallii,Roseate Tern,avibase-74236837,roster,avibase-74236837,203.0,,roster
+Sterna hirundo,Common Tern,avibase-4D2FF6F1,comter,avibase-4D2FF6F1,2.0,,comter
+Sterna repressa,White-cheeked Tern,avibase-CF5C013D,whcter1,avibase-CF5C013D,95.0,,whcter1
+Onychoprion anaethetus,Bridled Tern,avibase-E6518B9D,briter1,avibase-E6518B9D,28.0,,briter1
+Onychoprion fuscatus,Sooty Tern,avibase-3E7F825D,sooter1,avibase-3E7F825D,67.0,,sooter1
+Sternula albifrons,Little Tern,avibase-17310BF0,litter1,avibase-B552AFE3,89.0,,litter1
+Sternula saundersi,Saunders's Tern,avibase-4B21F4D8,sauter2,avibase-B552AFE3,391.0,,sauter2
+Sternula albifrons/saundersi,Little/Saunders's Tern,avibase-B552AFE3,y00662,avibase-B552AFE3,27.0,,
+Chlidonias hybrida,Whiskered Tern,avibase-7AB4E42B,whiter2,avibase-7AB4E42B,2461.0,,whiter2
+Chlidonias niger,Black Tern,avibase-115AF02D,blkter,avibase-115AF02D,3.0,,blkter
+Chlidonias leucopterus,White-winged Tern,avibase-43CAAEE3,whwter,avibase-43CAAEE3,2631.0,,whwter
+Anous tenuirostris,Lesser Noddy,avibase-03F9EB15,lesnod1,avibase-03F9EB15,38.0,,lesnod1
+Anous stolidus,Brown Noddy,avibase-A070171E,brnnod,avibase-A070171E,87.0,,brnnod
+Rynchops flavirostris,African Skimmer,avibase-907B1140,afrski1,avibase-907B1140,327.0,,afrski1
+Pterocles exustus,Chestnut-bellied Sandgrouse,avibase-F5DE9155,chbsan,avibase-F5DE9155,30.0,,chbsan
+Pterocles decoratus,Black-faced Sandgrouse,avibase-70AFED2C,blfsan1,avibase-70AFED2C,3731.0,,blfsan1
+Pterocles lichtensteinii,Lichtenstein's Sandgrouse,avibase-F3715F7B,licsan1,avibase-F3715F7B,11.0,,licsan1
+Pterocles quadricinctus,Four-banded Sandgrouse,avibase-461482EA,fobsan1,avibase-461482EA,36.0,,fobsan1
+Pterocles gutturalis,Yellow-throated Sandgrouse,avibase-8B6EA5FA,yetsan1,avibase-8B6EA5FA,1326.0,,yetsan1
+Columba livia,Rock Pigeon,avibase-BBA263C2,rocpig,avibase-BBA263C2,1534.0,,rocpig
+Columba guinea,Speckled Pigeon,avibase-A6EA9F02,spepig1,avibase-A6EA9F02,11449.0,,spepig1
+Columba arquatrix,Rameron Pigeon,avibase-EEDB8253,rampig1,avibase-EEDB8253,1312.0,,rampig1
+Columba delegorguei,Delegorgue's Pigeon,avibase-870E4DDA,delpig1,avibase-870E4DDA,756.0,,delpig1
+Streptopelia reichenowi,White-winged Collared-Dove,avibase-65FE8029,wwcdov1,avibase-65FE8029,2.0,,wwcdov1
+Streptopelia capicola,Ring-necked Dove,avibase-AB937AEB,rindov,avibase-AB937AEB,22435.0,,rindov
+Streptopelia decipiens,Mourning Collared-Dove,avibase-70BD722B,afmdov1,avibase-70BD722B,6721.0,,afmdov1
+Streptopelia semitorquata,Red-eyed Dove,avibase-9888B3AE,reedov1,avibase-9888B3AE,19205.0,,reedov1
+Streptopelia turtur,European Turtle-Dove,avibase-5788552B,eutdov,avibase-5788552B,5.0,,eutdov
+Streptopelia lugens,Dusky Turtle-Dove,avibase-8770C6A7,dutdov1,avibase-8770C6A7,3721.0,,dutdov1
+Spilopelia senegalensis,Laughing Dove,avibase-B2D6AB06,laudov1,avibase-B2D6AB06,13051.0,,laudov1
+Aplopelia larvata,Lemon Dove,avibase-EE40DDB6,lemdov2,avibase-EE40DDB6,3.0,,lemdov2
+Turtur tympanistria,Tambourine Dove,avibase-7308278F,tamdov1,avibase-7308278F,4244.0,,tamdov1
+Turtur afer,Blue-spotted Wood-Dove,avibase-23D5FC36,bswdov1,avibase-23D5FC36,1450.0,,bswdov1
+Turtur chalcospilos,Emerald-spotted Wood-Dove,avibase-BDF442F2,eswdov1,avibase-BDF442F2,13582.0,,eswdov1
+Turtur abyssinicus,Black-billed Wood-Dove,avibase-72B71F11,bbwdov1,,0.0,,
+Oena capensis,Namaqua Dove,avibase-DDC2CC92,namdov1,avibase-DDC2CC92,6675.0,,namdov1
+Treron calvus,African Green-Pigeon,avibase-00146574,afrgrp1,avibase-00146574,33.0,,afrgrp1
+Treron waalia,Bruce's Green-Pigeon,avibase-46C90944,brgpig1,avibase-46C90944,11.0,,brgpig1
+Poicephalus gulielmi,Red-fronted Parrot,avibase-83D329B5,refpar5,avibase-83D329B5,13.0,,refpar5
+Poicephalus rufiventris,Red-bellied Parrot,avibase-69661C7D,rebpar1,avibase-69661C7D,2641.0,,rebpar1
+Poicephalus meyeri,Meyer's Parrot,avibase-0ECD9D58,meypar1,avibase-0ECD9D58,3455.0,,meypar1
+Poicephalus cryptoxanthus,Brown-headed Parrot,avibase-4A039821,brhpar2,avibase-4A039821,178.0,,brhpar2
+Psittacus erithacus,Gray Parrot,avibase-A20878F0,grepar,avibase-A20878F0,3.0,,grepar
+Agapornis pullarius,Red-headed Lovebird,avibase-1E2EC99C,rehlov1,avibase-1E2EC99C,118.0,,rehlov1
+Agapornis personatus,Yellow-collared Lovebird,avibase-4396F4F1,yeclov,,0.0,Historical identification merge is not a taxonomic synonym; modern records are not reidentified into the target species.,
+Agapornis fischeri x personatus,Fischer's x Yellow-collared Lovebird (hybrid),avibase-7B0E2F01,x00671,avibase-E1EE00F7,2262.0,,
+Psittacula krameri,Rose-ringed Parakeet,avibase-6B1CFC3C,rorpar,avibase-6B1CFC3C,3.0,,rorpar
+Corythaeola cristata,Great Blue Turaco,avibase-002445CB,grbtur1,avibase-002445CB,1105.0,,grbtur1
+Crinifer zonurus,Eastern Plantain-eater,avibase-10B14696,easple1,avibase-10B14696,643.0,,easple1
+Crinifer personatus,Bare-faced Go-away-bird,avibase-215428B0,bfgbir1,avibase-215428B0,29.0,,bfgbir1
+Crinifer leucogaster,White-bellied Go-away-bird,avibase-2AA4BC58,wbgbir1,avibase-2AA4BC58,11190.0,,wbgbir1
+Tauraco fischeri,Fischer's Turaco,avibase-D5846D2A,fistur1,avibase-D5846D2A,10.0,,fistur1
+Tauraco schalowi,Schalow's Turaco,avibase-22952180,schtur1,avibase-22952180,870.0,,schtur1
+Tauraco schuettii,Black-billed Turaco,avibase-C9A1C773,blbtur1,avibase-C9A1C773,4.0,,blbtur1
+Tauraco hartlaubi,Hartlaub's Turaco,avibase-94214F1C,hartur1,avibase-94214F1C,5050.0,,hartur1
+Tauraco leucolophus,White-crested Turaco,avibase-FF2AF138,whctur2,avibase-FF2AF138,429.0,,whctur2
+Gallirex porphyreolophus,Purple-crested Turaco,avibase-76E45A19,puctur2,avibase-76E45A19,73.0,,puctur2
+Musophaga rossae,Ross's Turaco,avibase-2C7BA3A6,rostur1,avibase-2C7BA3A6,1424.0,,rostur1
+Clamator glandarius,Great Spotted Cuckoo,avibase-3D67C56A,grscuc1,avibase-3D67C56A,614.0,,grscuc1
+Clamator jacobinus,Pied Cuckoo,avibase-BF0A0954,piecuc1,avibase-BF0A0954,1685.0,,piecuc1
+Clamator levaillantii,Levaillant's Cuckoo,avibase-3C8C3A31,levcuc1,avibase-3C8C3A31,344.0,,levcuc1
+Cuculus solitarius,Red-chested Cuckoo,avibase-26A34DA5,reccuc1,avibase-26A34DA5,5702.0,,reccuc1
+Cuculus clamosus,Black Cuckoo,avibase-EDB84334,blacuc1,avibase-EDB84334,10.0,,blacuc1
+Cuculus gularis,African Cuckoo,avibase-66931B3F,afrcuc1,avibase-66931B3F,510.0,,afrcuc1
+Cuculus canorus,Common Cuckoo,avibase-B3D2C3C5,comcuc,avibase-B3D2C3C5,597.0,,comcuc
+Cuculus poliocephalus,Lesser Cuckoo,avibase-FF41B79F,lescuc1,avibase-FF41B79F,42.0,,lescuc1
+Pachycoccyx audeberti,Thick-billed Cuckoo,avibase-2AD52363,thbcuc1,avibase-2AD52363,1.0,,thbcuc1
+Cercococcyx montanus,Barred Long-tailed Cuckoo,avibase-B8D42059,bltcuc1,avibase-B8D42059,1.0,,bltcuc1
+Chrysococcyx cupreus,African Emerald Cuckoo,avibase-1B309CB5,afecuc1,avibase-1B309CB5,9.0,,afecuc1
+Chrysococcyx klaas,Klaas's Cuckoo,avibase-1FACD210,klacuc1,avibase-1FACD210,5433.0,,klacuc1
+Chrysococcyx caprius,Dideric Cuckoo,avibase-0482FA7E,didcuc1,avibase-0482FA7E,5330.0,,didcuc1
+Centropus monachus,Blue-headed Coucal,avibase-7C879D6D,blhcou2,avibase-7C879D6D,625.0,,blhcou2
+Centropus senegalensis,Senegal Coucal,avibase-4A83155B,sencou1,avibase-4A83155B,80.0,,sencou1
+Centropus superciliosus,White-browed Coucal,avibase-BD2BC35C,whbcou1,avibase-4B2A7A35,1098.0,,
+Centropus grillii,Black Coucal,avibase-DB09507D,blacou1,avibase-DB09507D,243.0,,blacou1
+Ceuthmochares aereus,Blue Malkoha,avibase-E0D521B7,yellow5,avibase-DC83C05D,283.0,,yellow5
+Ceuthmochares australis,Green Malkoha,avibase-3A46A20C,yellow6,avibase-DC83C05D,617.0,,yellow6
+Tyto capensis,African Grass-Owl,avibase-B21A37E7,afgowl1,avibase-B21A37E7,12.0,,afgowl1
+Tyto alba,Barn Owl,avibase-FEE35F4C,brnowl,avibase-CFD6F275,6.0,,webowl1
+Otus senegalensis,African Scops-Owl,avibase-F0AA4FE4,afsowl1,avibase-80603CB9,90.0,,afsowl1
+Otus scops,Eurasian Scops-Owl,avibase-2C7AA154,eursco1,avibase-80603CB9,14.0,,eursco1
+Otus ireneae,Sokoke Scops-Owl,avibase-75194A63,sosowl1,avibase-75194A63,458.0,,sosowl1
+Ptilopsis leucotis,Northern White-faced Owl,avibase-E561A180,nwfowl1,avibase-53E6B684,601.0,,nwfowl1
+Ptilopsis granti,Southern White-faced Owl,avibase-023D6E38,swfowl1,avibase-53E6B684,25.0,,swfowl1
+Bubo capensis,Cape Eagle-Owl,avibase-3CD0F535,caeowl1,avibase-3CD0F535,111.0,,caeowl1
+Bubo cinerascens,Grayish Eagle-Owl,avibase-0018A99B,graeao1,avibase-38E24616,493.0,,graeao1
+Bubo africanus,Spotted Eagle-Owl,avibase-DC8CC91D,spoeao2,avibase-38E24616,668.0,,spoeao2
+Ketupa lactea,Verreaux's Eagle-Owl,avibase-EBD3129B,veeowl1,avibase-EBD3129B,2802.0,,veeowl1
+Scotopelia peli,Pel's Fishing-Owl,avibase-034B2A6A,pefowl1,avibase-034B2A6A,25.0,,pefowl1
+Strix woodfordii,African Wood-Owl,avibase-2E6575A8,afwowl1,avibase-2E6575A8,807.0,,afwowl1
+Glaucidium capense,African Barred Owlet,avibase-77FEB897,afbowl1,avibase-77FEB897,5.0,,afbowl1
+Glaucidium perlatum,Pearl-spotted Owlet,avibase-70CB00EC,pesowl1,avibase-70CB00EC,2029.0,,pesowl1
+Glaucidium tephronotum,Red-chested Owlet,avibase-E05A96F3,recowl1,avibase-E05A96F3,83.0,,recowl1
+Asio otus,Long-eared Owl,avibase-FC4D40D2,loeowl,avibase-FC4D40D2,0.0,,loeowl
+Asio capensis,Marsh Owl,avibase-83E21A84,marowl2,avibase-83E21A84,214.0,,marowl2
+Asio flammeus,Short-eared Owl,avibase-8F123A11,sheowl,avibase-8F123A11,3.0,,sheowl
+Caprimulgus stellatus,Star-spotted Nightjar,avibase-CE884D49,stsnig1,avibase-CE884D49,18.0,,stsnig1
+Caprimulgus pectoralis,Fiery-necked Nightjar,avibase-7E3578A2,finnig1,avibase-7E3578A2,3.0,,finnig1
+Caprimulgus poliocephalus,Montane Nightjar,avibase-FB96690D,monnig1,avibase-FB96690D,1231.0,,monnig1
+Caprimulgus nubicus,Nubian Nightjar,avibase-626D56E4,nubnig1,avibase-626D56E4,1.0,,nubnig1
+Caprimulgus fraenatus,Sombre Nightjar,avibase-E93A0F33,somnig1,avibase-E93A0F33,396.0,,somnig1
+Caprimulgus europaeus,Eurasian Nightjar,avibase-80D4B0FE,eurnig1,avibase-80D4B0FE,266.0,,eurnig1
+Caprimulgus inornatus,Plain Nightjar,avibase-7C3959D6,planig1,avibase-7C3959D6,149.0,,planig1
+Caprimulgus tristigma,Freckled Nightjar,avibase-E3C780D6,frenig1,avibase-E3C780D6,298.0,,frenig1
+Caprimulgus donaldsoni,Donaldson Smith's Nightjar,avibase-D1D9B619,dosnig1,avibase-D1D9B619,552.0,,dosnig1
+Caprimulgus natalensis,Swamp Nightjar,avibase-52E6406E,swanig1,avibase-52E6406E,139.0,,swanig1
+Caprimulgus clarus,Slender-tailed Nightjar,avibase-54494BCE,sltnig1,avibase-54494BCE,1761.0,,sltnig1
+Caprimulgus climacurus,Long-tailed Nightjar,avibase-A20EA34D,lotnig1,avibase-A20EA34D,1.0,,lotnig1
+Caprimulgus fossii,Square-tailed Nightjar,avibase-4FD242D0,sqtnig1,avibase-4FD242D0,137.0,,sqtnig1
+Caprimulgus longipennis,Standard-winged Nightjar,avibase-D36F4D98,stwnig1,avibase-D36F4D98,16.0,,stwnig1
+Caprimulgus vexillarius,Pennant-winged Nightjar,avibase-A526534E,pewnig1,avibase-A526534E,45.0,,pewnig1
+Rhaphidura sabini,Sabine's Spinetail,avibase-1E12D857,sabspi1,avibase-1E12D857,21.0,,sabspi1
+Telacanthura ussheri,Mottled Spinetail,avibase-8ACC245F,motspi1,avibase-8ACC245F,370.0,,motspi1
+Neafrapus boehmi,Bat-like Spinetail,avibase-0D52DFC7,balspi1,avibase-0D52DFC7,320.0,,balspi1
+Schoutedenapus myoptilus,Scarce Swift,avibase-8439A6E7,scaswi1,avibase-8439A6E7,579.0,,scaswi1
+Cypsiurus parvus,African Palm Swift,avibase-DA106373,afpswi1,avibase-DA106373,11544.0,,afpswi1
+Tachymarptis aequatorialis,Mottled Swift,avibase-91429F78,motswi2,avibase-91429F78,1713.0,,motswi2
+Tachymarptis melba,Alpine Swift,avibase-FA1CAD29,alpswi1,avibase-FA1CAD29,571.0,,alpswi1
+Apus apus,Common Swift,avibase-4E6EF3F9,comswi,avibase-4E6EF3F9,927.0,,comswi
+Apus barbatus,African Swift,avibase-DEE4829A,afrswi1,avibase-DEE4829A,11.0,,afrswi1
+Apus berliozi,Forbes-Watson's Swift,avibase-45D3FD5A,fowswi1,avibase-45D3FD5A,21.0,,fowswi1
+Apus niansae,Nyanza Swift,avibase-2103011F,nyaswi1,avibase-2103011F,1630.0,,nyaswi1
+Apus caffer,White-rumped Swift,avibase-FA9F6019,whrswi1,avibase-FA9F6019,5052.0,,whrswi1
+Apus horus,Horus Swift,avibase-FF79A533,horswi1,avibase-FF79A533,5.0,,horswi1
+Apus affinis,Little Swift,avibase-D209A90C,litswi1,avibase-D209A90C,67.0,,y00960
+Colius striatus,Speckled Mousebird,avibase-1FDDABDB,spemou2,avibase-1FDDABDB,25769.0,,spemou2
+Colius leucocephalus,White-headed Mousebird,avibase-ADDB3611,whhmou1,avibase-ADDB3611,1469.0,,whhmou1
+Urocolius macrourus,Blue-naped Mousebird,avibase-E45D9EB2,blnmou1,avibase-E45D9EB2,8029.0,,blnmou1
+Apaloderma narina,Narina Trogon,avibase-7FED5700,nartro1,avibase-7FED5700,1598.0,,nartro1
+Apaloderma vittatum,Bar-tailed Trogon,avibase-2F2CB724,battro1,avibase-2F2CB724,544.0,,battro1
+Megaceryle maxima,Giant Kingfisher,avibase-F51C1C4A,giakin3,avibase-F51C1C4A,2641.0,,giakin3
+Ceryle rudis,Pied Kingfisher,avibase-8205077F,piekin1,avibase-8205077F,10884.0,,piekin1
+Alcedo semitorquata,Half-collared Kingfisher,avibase-F9F5CAB0,hackin1,avibase-F9F5CAB0,8.0,,hackin1
+Alcedo quadribrachys,Shining-blue Kingfisher,avibase-A376DE65,shbkin1,avibase-A376DE65,2.0,,shbkin1
+Corythornis cristatus,Malachite Kingfisher,avibase-7149F93D,malkin1,avibase-7149F93D,522.0,,malkin1
+Ispidina picta,African Pygmy Kingfisher,avibase-C0998BB9,afpkin1,avibase-C0998BB9,2202.0,,afpkin1
+Halcyon leucocephala,Gray-headed Kingfisher,avibase-178B6892,gyhkin1,avibase-178B6892,8995.0,,gyhkin1
+Halcyon albiventris,Brown-hooded Kingfisher,avibase-C5D3CB2A,brhkin1,avibase-C5D3CB2A,1187.0,,brhkin1
+Halcyon chelicuti,Striped Kingfisher,avibase-AB51824B,strkin1,avibase-AB51824B,4246.0,,strkin1
+Halcyon senegalensis,Woodland Kingfisher,avibase-47E71671,wookin1,avibase-47E71671,2552.0,,wookin1
+Halcyon senegaloides,Mangrove Kingfisher,avibase-1F360691,mankin2,avibase-1F360691,548.0,,mankin2
+Merops bullockoides,White-fronted Bee-eater,avibase-38507A80,wfbeat1,avibase-38507A80,2814.0,,wfbeat1
+Merops pusillus,Little Bee-eater,avibase-C0A68CA0,libeat1,avibase-C0A68CA0,11032.0,,libeat1
+Merops variegatus,Blue-breasted Bee-eater,avibase-A90C512F,bbbeat2,avibase-A90C512F,24.0,,bbbeat2
+Merops oreobates,Cinnamon-chested Bee-eater,avibase-B85B93BB,ccbeat1,avibase-B85B93BB,9284.0,,ccbeat1
+Merops hirundineus,Swallow-tailed Bee-eater,avibase-910E6D86,stbeat1,avibase-910E6D86,6.0,,stbeat1
+Merops superciliosus,Madagascar Bee-eater,avibase-AC89B8FF,mabeat1,avibase-AC89B8FF,1146.0,,mabeat1
+Merops persicus,Blue-cheeked Bee-eater,avibase-6EE45113,bcbeat1,avibase-6EE45113,1208.0,,bcbeat1
+Merops apiaster,European Bee-eater,avibase-66AA3934,eubeat1,avibase-66AA3934,4573.0,,eubeat1
+Merops muelleri,Blue-headed Bee-eater,avibase-72CAA64D,bhbeat2,avibase-72CAA64D,761.0,,bhbeat2
+Merops albicollis,White-throated Bee-eater,avibase-03C4A0C9,wtbeat1,avibase-03C4A0C9,4714.0,,wtbeat1
+Merops revoilii,Somali Bee-eater,avibase-AFA39D5A,sobeat1,avibase-AFA39D5A,1018.0,,sobeat1
+Merops nubicus,Northern Carmine Bee-eater,avibase-2125426A,ncbeat1,avibase-2125426A,1630.0,,ncbeat1
+Coracias abyssinicus,Abyssinian Roller,avibase-E7C7EE3A,abyrol2,avibase-E7C7EE3A,153.0,,abyrol2
+Coracias garrulus,European Roller,avibase-7451A628,eurrol1,avibase-7451A628,2947.0,,eurrol1
+Coracias caudatus,Lilac-breasted Roller,avibase-9E9B6EF9,librol2,avibase-9E9B6EF9,164.0,,librol2
+Coracias naevius,Rufous-crowned Roller,avibase-2624054E,rucrol2,avibase-2624054E,1980.0,,rucrol2
+Eurystomus glaucurus,Broad-billed Roller,avibase-4F01F416,brbrol1,avibase-4F01F416,23.0,,brbrol1
+Upupa epops,Eurasian Hoopoe,avibase-FA2F9125,hoopoe,avibase-FA2F9125,3264.0,,hoopoe
+Phoeniculus purpureus,Green Woodhoopoe,avibase-28CACA8F,grewoo2,avibase-A86DA27F,4979.0,,grewoo2
+Phoeniculus somaliensis,Black-billed Woodhoopoe,avibase-68A80086,blbwoo2,avibase-A86DA27F,25.0,,blbwoo2
+Phoeniculus damarensis,Violet Woodhoopoe,avibase-76FAC9A5,viowoo1,avibase-8F18EC0A,112.0,,viowoo1
+Phoeniculus bollei,White-headed Woodhoopoe,avibase-D1FFB474,whhwoo1,avibase-D1FFB474,7.0,,whhwoo1
+Rhinopomastus cyanomelas,Common Scimitarbill,avibase-B0DD1318,cosbil1,avibase-B0DD1318,1634.0,,cosbil1
+Rhinopomastus minor,Abyssinian Scimitarbill,avibase-46847C50,absbil1,avibase-46847C50,2896.0,,absbil1
+Bycanistes subcylindricus,Black-and-white-casqued Hornbill,avibase-02428AC1,bawhor2,avibase-02428AC1,2531.0,,bawhor2
+Bycanistes brevis,Silvery-cheeked Hornbill,avibase-5350D0E8,sichor1,avibase-5350D0E8,2824.0,,sichor1
+Bycanistes bucinator,Trumpeter Hornbill,avibase-3A4D2B44,truhor1,avibase-3A4D2B44,1029.0,,truhor1
+Bucorvus leadbeateri,Southern Ground-Hornbill,avibase-4192DE77,soghor1,avibase-4192DE77,2787.0,,soghor1
+Bucorvus abyssinicus,Abyssinian Ground-Hornbill,avibase-948ED65C,noghor1,avibase-948ED65C,25.0,,noghor1
+Tockus flavirostris,Eastern Yellow-billed Hornbill,avibase-3BCD9CB0,eybhor1,avibase-3BCD9CB0,2320.0,,eybhor1
+Tockus deckeni,Von der Decken's Hornbill,avibase-DE36D3BD,vddhor1,avibase-DE36D3BD,6013.0,,vddhor1
+Tockus jacksoni,Jackson's Hornbill,avibase-427D7FD6,jachor1,avibase-427D7FD6,1559.0,,jachor1
+Tockus erythrorhynchus,Northern Red-billed Hornbill,avibase-AF75AC32,rebhor1,avibase-AF75AC32,8045.0,,rebhor1
+Lophoceros hemprichii,Hemprich's Hornbill,avibase-6D72B23C,hemhor1,avibase-6D72B23C,715.0,,hemhor1
+Lophoceros alboterminatus,Crowned Hornbill,avibase-1FDA0172,crohor1,avibase-1FDA0172,2478.0,,crohor1
+Lophoceros nasutus,African Gray Hornbill,avibase-0CCD664D,afghor1,avibase-0CCD664D,5630.0,,afghor1
+Lophoceros pallidirostris,Pale-billed Hornbill,avibase-235F0000,pabhor1,,0.0,,
+Pogonornis bidentatus,Double-toothed Barbet,avibase-439FE608,dotbar1,avibase-439FE608,966.0,,dotbar1
+Pogonornis melanopterus,Brown-breasted Barbet,avibase-724266B4,brbbar1,avibase-724266B4,576.0,,brbbar1
+Lybius leucocephalus,White-headed Barbet,avibase-BCA0F974,whhbar1,avibase-BCA0F974,260.0,,whhbar1
+Lybius torquatus,Black-collared Barbet,avibase-8C50CB2D,blcbar1,avibase-8C50CB2D,119.0,,blcbar1
+Lybius guifsobalito,Black-billed Barbet,avibase-0D419595,blbbar3,avibase-0D419595,239.0,,blbbar3
+Tricholaema diademata,Red-fronted Barbet,avibase-3E3AFB25,refbar2,avibase-3E3AFB25,3253.0,,refbar2
+Tricholaema melanocephala,Black-throated Barbet,avibase-F03BE6C3,bltbar1,avibase-F03BE6C3,2581.0,,bltbar1
+Tricholaema lacrymosa,Spot-flanked Barbet,avibase-F1CCA0AA,spfbar1,avibase-F1CCA0AA,5009.0,,spfbar1
+Tricholaema hirsuta,Hairy-breasted Barbet,avibase-915DABE2,habbar1,avibase-915DABE2,11.0,,habbar1
+Stactolaema leucotis,White-eared Barbet,avibase-6C81D39B,whebar1,avibase-6C81D39B,3.0,,whebar1
+Buccanodon duchaillui,Yellow-spotted Barbet,avibase-56790B57,yesbar1,avibase-56790B57,1080.0,,yesbar1
+Cryptolybia olivacea,Green Barbet,avibase-4568986F,grebar2,avibase-4568986F,17.0,,grebar2
+Gymnobucco bonapartei,Gray-throated Barbet,avibase-95054CA5,gytbar1,avibase-95054CA5,146.0,,gytbar1
+Pogoniulus scolopaceus,Speckled Tinkerbird,avibase-EEA161A8,spetin1,avibase-EEA161A8,0.0,,spetin1
+Pogoniulus simplex,Green Tinkerbird,avibase-5238FF10,gretin2,avibase-5238FF10,277.0,,gretin2
+Pogoniulus leucomystax,Moustached Tinkerbird,avibase-7BEB0003,moutin1,avibase-7BEB0003,568.0,,moutin1
+Pogoniulus pusillus,Red-fronted Tinkerbird,avibase-A4CF3B9E,reftin1,avibase-E01F4BD7,4839.0,,reftin1
+Pogoniulus chrysoconus,Yellow-fronted Tinkerbird,avibase-2F467821,yeftin1,avibase-2F467821,272.0,,yeftin1
+Pogoniulus bilineatus,Yellow-rumped Tinkerbird,avibase-7749C92B,yertin1,avibase-7749C92B,44.0,,yertin1
+Trachyphonus purpuratus,Yellow-billed Barbet,avibase-75DF194C,yebbar1,avibase-80BC978E,26.0,,yebbar5
+Trachyphonus darnaudii,D'Arnaud's Barbet,avibase-1953C1D6,darbar1,avibase-1953C1D6,1243.0,,darbar1
+Trachyphonus darnaudii usambiro,D'Arnaud's Barbet (Usambiro),avibase-55E9B668,darbar3,avibase-1953C1D6,0.0,Source assignment follows the explicit comparison merge in atlas_mapping.csv.,
+Trachyphonus erythrocephalus,Red-and-yellow Barbet,avibase-570C1121,raybar1,avibase-570C1121,3305.0,,raybar1
+Indicator indicator,Greater Honeyguide,avibase-862749B0,grehon2,avibase-862749B0,2120.0,,grehon2
+Indicator minor,Lesser Honeyguide,avibase-50F3668C,y00400,avibase-50F3668C,2586.0,,y00400
+Indicator variegatus,Scaly-throated Honeyguide,avibase-7EF4C99C,scthon1,avibase-7EF4C99C,795.0,,scthon1
+Indicator exilis,Least Honeyguide,avibase-BFF3AA65,leahon2,avibase-BFF3AA65,215.0,,leahon2
+Indicator meliphilus,Pallid Honeyguide,avibase-5B74A911,palhon1,avibase-5B74A911,333.0,,palhon1
+Prodotiscus insignis,Cassin's Honeyguide,avibase-7884F0D6,cashon1,avibase-7884F0D6,11.0,,cashon1
+Prodotiscus zambesiae,Green-backed Honeyguide,avibase-B20CDCE3,grbhon2,avibase-B20CDCE3,921.0,,grbhon2
+Prodotiscus regulus,Wahlberg's Honeyguide,avibase-8DB3F1A2,wahhon1,avibase-8DB3F1A2,311.0,,wahhon1
+Jynx ruficollis,Rufous-necked Wryneck,avibase-93EC5E12,runwry1,avibase-93EC5E12,5.0,,runwry1
+Jynx torquilla,Eurasian Wryneck,avibase-B2E6AB9F,eurwry,avibase-B2E6AB9F,36.0,,eurwry
+Campethera nubica,Nubian Woodpecker,avibase-70170649,nubwoo1,avibase-70170649,7675.0,,nubwoo1
+Campethera abingoni,Golden-tailed Woodpecker,avibase-CD2F7C98,gotwoo1,avibase-69B835E2,162.0,,gotwoo1
+Campethera mombassica,Mombasa Woodpecker,avibase-BA63C545,momwoo1,avibase-69B835E2,655.0,,momwoo1
+Campethera maculosa,Green-backed Woodpecker,avibase-BD7C4F70,grbwoo2,avibase-F8E7707C,5.0,,grbwoo2
+Campethera taeniolaema,Fine-banded Woodpecker,avibase-D0A5FADB,tulwoo3,avibase-D0A5FADB,633.0,,tulwoo3
+Pardipicus nivosus,Buff-spotted Woodpecker,avibase-02E56D98,buswoo1,avibase-02E56D98,324.0,,buswoo1
+Pardipicus caroli,Brown-eared Woodpecker,avibase-01C9752D,brewoo1,avibase-01C9752D,2.0,,brewoo1
+Dendropicos poecilolaemus,Speckle-breasted Woodpecker,avibase-739A97EE,spbwoo2,avibase-739A97EE,22.0,,spbwoo2
+Dendropicos fuscescens,Cardinal Woodpecker,avibase-0A241B83,carwoo1,avibase-0A241B83,5720.0,,carwoo1
+Chloropicus namaquus,Bearded Woodpecker,avibase-77D82F60,beawoo1,avibase-77D82F60,1666.0,,beawoo1
+Chloropicus xantholophus,Golden-crowned Woodpecker,avibase-2700C97D,gocwoo3,avibase-2700C97D,445.0,,gocwoo3
+Dendropicos goertae,African Gray Woodpecker,avibase-E5DF48FC,grywoo1,avibase-178B3896,2.0,,grywoo1
+Dendropicos spodocephalus,Mountain Gray Woodpecker,avibase-902E9F69,gyhwoo1,avibase-178B3896,3755.0,,gyhwoo1
+Dendropicos obsoletus,Brown-backed Woodpecker,avibase-9FF4EDB5,brbwoo1,avibase-9FF4EDB5,583.0,,brbwoo1
+Smithornis capensis,African Broadbill,avibase-9EE216F9,afrbro1,avibase-9EE216F9,332.0,,afrbro1
+Pitta angolensis,African Pitta,avibase-373286B2,afrpit1,avibase-373286B2,27.0,,afrpit1
+Calendulauda africanoides,Fawn-colored Lark,avibase-A990EB0B,faclar8,avibase-A990EB0B,1916.0,,faclar8
+Mirafra javanica,Singing Bushlark,avibase-5BFC242D,sinbus6,avibase-6B089785,401.0,,sinbus6
+Mirafra cheniana,Melodious Lark,avibase-AB507233,latlar1,avibase-AB507233,199.0,"Separate modern taxon; historical albicauda identifications may be uncertain, but this is not the same concept.",latlar1
+Mirafra albicauda,White-tailed Lark,avibase-8E612CF6,whtlar1,avibase-8E612CF6,146.0,,whtlar1
+Mirafra rufocinnamomea,Flappet Lark,avibase-C49FA9A8,flalar1,avibase-C49FA9A8,1083.0,,flalar1
+Mirafra collaris,Collared Lark,avibase-D0EAD8A3,collar1,avibase-D0EAD8A3,15.0,,collar1
+Mirafra africana,Rufous-naped Lark,avibase-6A0D6123,runlar1,avibase-6A0D6123,69.0,Historical lark group corrected from atlas pp. 306–307 and AviList decisions; see the comparison taxon notes.,runlar1
+Mirafra hypermetra,Red-winged Lark,avibase-BAA83B0C,rewlar1,avibase-BAA83B0C,12.0,Historical lark group corrected from atlas pp. 306–307 and AviList decisions; see the comparison taxon notes.,rewlar1
+Calendulauda poecilosterna,Pink-breasted Lark,avibase-99F447AD,piblar3,avibase-99F447AD,3199.0,,piblar3
+Mirafra gilletti,Gillett's Lark,avibase-A3E077E6,gillar1,avibase-A3E077E6,1.0,,gillar1
+Mirafra williamsi,Williams's Lark,avibase-4E61514C,willar1,avibase-4E61514C,134.0,,willar1
+Mirafra pulpa,Friedmann's Lark,avibase-F22CCF78,frilar1,avibase-F22CCF78,78.0,,frilar1
+Chersomanes albofasciata,Spike-heeled Lark,avibase-D3DAD4C2,sphlar12,,0.0,,
+Spizocorys personata,Masked Lark,avibase-419AEB97,maslar1,avibase-419AEB97,53.0,,maslar1
+Calandrella brachydactyla,Greater Short-toed Lark,avibase-4091A51E,gstlar1,avibase-4091A51E,1.0,,gstlar1
+Calandrella cinerea,Red-capped Lark,avibase-FCDA4F09,reclar1,avibase-FCDA4F09,3429.0,,reclar1
+Alaudala somalica,Somali Short-toed Lark,avibase-61CECCA7,sstlar1,avibase-61CECCA7,78.0,,sstlar1
+Spizocorys fremantlii,Short-tailed Lark,avibase-1AF3034A,shtlar1,avibase-1AF3034A,376.0,,shtlar1
+Galerida cristata,Crested Lark,avibase-21ADC3ED,crelar1,avibase-21ADC3ED,184.0,,crelar1
+Galerida theklae,Thekla's Lark,avibase-5351025C,thelar1,avibase-5351025C,45.0,,thelar1
+Eremopterix leucopareia,Fischer's Sparrow-Lark,avibase-97D7865F,fislar1,avibase-97D7865F,4895.0,,fislar1
+Eremopterix signatus,Chestnut-headed Sparrow-Lark,avibase-2F66131B,chhspl1,avibase-2F66131B,739.0,,chhspl1
+Eremopterix leucotis,Chestnut-backed Sparrow-Lark,avibase-9164F314,cbslar1,avibase-9164F314,184.0,,cbslar1
+Neophedina cincta,Banded Martin,avibase-1AED683B,banmar1,avibase-1AED683B,2007.0,,banmar1
+Riparia paludicola,Plain Martin,avibase-D2854489,plamar1,avibase-D2854489,6721.0,,plamar1
+Riparia riparia,Bank Swallow,avibase-94A1C447,banswa,avibase-94A1C447,1496.0,,banswa
+Hirundo atrocaerulea,Montane Blue Swallow,avibase-CB7FB32A,bluswa1,avibase-CB7FB32A,44.0,,bluswa1
+Hirundo smithii,Wire-tailed Swallow,avibase-B79D6B3D,witswa1,avibase-B79D6B3D,8478.0,,witswa1
+Hirundo rustica,Barn Swallow,avibase-58C502EA,barswa,avibase-58C502EA,2124.0,,barswa
+Hirundo aethiopica,Ethiopian Swallow,avibase-42E93B64,ethswa1,avibase-42E93B64,1373.0,,ethswa1
+Hirundo angolensis,Angola Swallow,avibase-B418B155,angswa1,avibase-B418B155,1075.0,,angswa1
+Cecropis senegalensis,Mosque Swallow,avibase-9185D29D,mosswa2,avibase-9185D29D,2741.0,,mosswa2
+Cecropis semirufa,Rufous-chested Swallow,avibase-958F4A5E,rucswa2,avibase-958F4A5E,415.0,,rucswa2
+Cecropis abyssinica,Lesser Striped Swallow,avibase-5ACC908D,lessts1,avibase-5ACC908D,9939.0,,lessts1
+Ptyonoprogne fuligula,Rock Martin,avibase-47DA0258,rocmar2,avibase-A85102D3,777.0,,
+Pseudhirundo griseopyga,Gray-rumped Swallow,avibase-97E7A30B,gyrswa1,avibase-97E7A30B,346.0,,gyrswa1
+Phedina borbonica,Mascarene Martin,avibase-6C7BEEC6,masmar1,avibase-6C7BEEC6,14.0,,masmar1
+Delichon urbicum,Western House-Martin,avibase-30FEC6BE,comhom1,avibase-30FEC6BE,1591.0,,comhom1
+Psalidoprocne pristoptera,Black Sawwing,avibase-4AC57370,blksaw1,avibase-4AC57370,8319.0,,blksaw1
+Psalidoprocne albiceps,White-headed Sawwing,avibase-88AAE3D3,whhsaw1,avibase-88AAE3D3,29.0,,whhsaw1
+Dicrurus modestus,Velvet-mantled Drongo,avibase-5DEB4565,vemdro6,avibase-25C3A6D0,7.0,,vemdro6
+Dicrurus adsimilis,Fork-tailed Drongo,avibase-11FE7313,fotdro5,avibase-25C3A6D0,99.0,,fotdro5
+Dicrurus sharpei,Sharpe's Drongo,avibase-1EA13EB3,shadro2,avibase-E83D45A6,1007.0,,shadro2
+Dicrurus ludwigii,Square-tailed Drongo,avibase-E79026DE,cstdro1,avibase-E83D45A6,21.0,,cstdro1
+Oriolus larvatus,African Black-headed Oriole,avibase-BE62734A,abhori1,avibase-BE62734A,8260.0,,abhori1
+Oriolus brachyrynchus,Western Black-headed Oriole,avibase-418C7CCB,wbhori1,avibase-418C7CCB,573.0,,wbhori1
+Oriolus percivali,Black-tailed Oriole,avibase-95A2F6E7,bltori1,avibase-95A2F6E7,1246.0,,bltori1
+Oriolus chlorocephalus,Green-headed Oriole,avibase-4321596C,grhori1,avibase-4321596C,3.0,,grhori1
+Oriolus auratus,African Golden Oriole,avibase-D4866EAE,afgori2,avibase-D4866EAE,831.0,,afgori2
+Oriolus oriolus,Eurasian Golden Oriole,avibase-92A772BB,eugori2,avibase-92A772BB,1553.0,,eugori2
+Ptilostomus afer,Piapiac,avibase-4C35510F,piapia1,avibase-4C35510F,46.0,,piapia1
+Corvus splendens,House Crow,avibase-39868903,houcro1,avibase-39868903,4063.0,,houcro1
+Corvus edithae,Somali Crow,avibase-9DBAAB1D,somcro2,avibase-9DBAAB1D,206.0,,somcro2
+Corvus albus,Pied Crow,avibase-34D538E1,piecro1,avibase-34D538E1,18913.0,,piecro1
+Corvus albicollis,White-necked Raven,avibase-EA326EA2,whnrav1,avibase-EA326EA2,750.0,,whnrav1
+Corvus rhipidurus,Fan-tailed Raven,avibase-32C216E2,fatrav1,avibase-32C216E2,2398.0,,fatrav1
+Corvus capensis,Cape Crow,avibase-562E17AB,capcro2,avibase-562E17AB,2538.0,,capcro2
+Melaniparus thruppi,Somali Tit,avibase-610FFD8E,somtit4,avibase-610FFD8E,1329.0,,somtit4
+Melaniparus guineensis,White-shouldered Black-Tit,avibase-5C70AA7D,whsblt1,avibase-5C70AA7D,8.0,,whsblt1
+Melaniparus albiventris,White-bellied Tit,avibase-C8880D28,whbtit5,avibase-C8880D28,6563.0,,whbtit5
+Melaniparus fringillinus,Red-throated Tit,avibase-92FDBAF0,rettit2,avibase-92FDBAF0,824.0,,rettit2
+Melaniparus funereus,Dusky Tit,avibase-5C54F8C9,dustit2,avibase-5C54F8C9,787.0,,dustit2
+Anthoscopus caroli,African Penduline-Tit,avibase-F44BD4BE,afptit1,avibase-F44BD4BE,7.0,,afptit1
+Anthoscopus musculus,Mouse-colored Penduline-Tit,avibase-6F967270,mcptit1,avibase-6F967270,790.0,,mcptit1
+Salpornis salvadori,African Spotted Creeper,avibase-A51A5F84,spocre2,avibase-A51A5F84,37.0,,spocre2
+Illadopsis fulvescens,Brown Illadopsis,avibase-3805ACAD,broill1,avibase-3805ACAD,4.0,,broill1
+Illadopsis rufipennis,Pale-breasted Illadopsis,avibase-64078193,pabill1,avibase-64078193,186.0,,pabill1
+Illadopsis pyrrhoptera,Mountain Illadopsis,avibase-596BDE51,mouill1,avibase-596BDE51,275.0,,mouill1
+Illadopsis albipectus,Scaly-breasted Illadopsis,avibase-2D157C82,scbill1,avibase-2D157C82,455.0,,scbill1
+Kakamega poliothorax,Gray-chested Babbler,avibase-FC1BE879,gycill1,avibase-FC1BE879,88.0,,gycill1
+Sylvia abyssinica,African Hill Babbler,avibase-7C3026CC,afhbab1,avibase-7C3026CC,17.0,,afhbab1
+Argya rubiginosa,Rufous Chatterer,avibase-861DA135,rufcha2,avibase-861DA135,3875.0,,rufcha2
+Argya aylmeri,Scaly Chatterer,avibase-987C8F6E,scacha1,avibase-987C8F6E,281.0,,scacha1
+Turdoides sharpei,Black-lored Babbler,avibase-7350FE4C,bklbab1,avibase-7350FE4C,159.0,,bklbab1
+Turdoides hypoleuca,Northern Pied-Babbler,avibase-B0F2FB67,norpib1,avibase-B0F2FB67,2811.0,,norpib1
+Turdoides squamulata,Scaly Babbler,avibase-0E9C6F45,scabab2,avibase-0E9C6F45,769.0,,scabab2
+Turdoides hindei,Hinde's Pied-Babbler,avibase-224B2B08,hipbab1,avibase-224B2B08,544.0,,hipbab1
+Turdoides jardineii,Arrow-marked Babbler,avibase-E6576A8D,armbab1,avibase-E6576A8D,2812.0,,armbab1
+Turdoides plebejus,Brown Babbler,avibase-6EBDD2D5,brobab1,avibase-6EBDD2D5,1022.0,,brobab1
+Campephaga phoenicea,Red-shouldered Cuckooshrike,avibase-439F76D1,rescus1,avibase-439F76D1,10.0,,rescus1
+Campephaga flava,Black Cuckooshrike,avibase-F9031A09,blkcus1,avibase-F9031A09,3911.0,,blkcus1
+Campephaga petiti,Petit's Cuckooshrike,avibase-95A02709,petcus1,avibase-95A02709,641.0,,petcus1
+Campephaga quiscalina,Purple-throated Cuckooshrike,avibase-37D0D696,putcus1,avibase-37D0D696,783.0,,putcus1
+Coracina caesia,Gray Cuckooshrike,avibase-C7B05F46,grycus1,avibase-C7B05F46,1117.0,,grycus1
+Coracina pectoralis,White-breasted Cuckooshrike,avibase-6E682612,whbcus2,avibase-6E682612,11.0,,whbcus2
+Pycnonotus barbatus,Common Bulbul,avibase-6ABDB635,combul2,avibase-6ABDB635,7700.0,,combul2
+Eurillas virens,Little Greenbul,avibase-3413C42C,litgre2,avibase-3413C42C,585.0,,litgre2
+Eurillas gracilis,Gray Greenbul,avibase-486103D7,grygre1,avibase-486103D7,6.0,,grygre1
+Eurillas ansorgei,Ansorge's Greenbul,avibase-0EA5F2E1,ansgre1,avibase-0EA5F2E1,624.0,,ansgre1
+Stelgidillas gracilirostris,Slender-billed Greenbul,avibase-5D82C13B,slbgre1,avibase-5D82C13B,1772.0,,slbgre1
+Eurillas curvirostris,Plain Greenbul,avibase-0B325B7F,plagre2,avibase-0B325B7F,2.0,,plagre2
+Arizelocichla nigriceps,Eastern Mountain Greenbul,avibase-54A902B5,easmog1,avibase-FC523946,349.0,,
+Arizelocichla milanjensis,Stripe-cheeked Greenbul,avibase-4996833A,stcgre1,avibase-9A80B57C,142.0,,stfgre1
+Arizelocichla masukuensis,Shelley's Greenbul,avibase-6FC57210,shegre1,avibase-6FC57210,429.0,,shegre1
+Eurillas latirostris,Yellow-whiskered Greenbul,avibase-728B225E,yewgre1,avibase-728B225E,5168.0,,yewgre1
+Andropadus importunus,Sombre Greenbul,avibase-79A45DAF,somgre1,avibase-79A45DAF,3659.0,,somgre1
+Atimastillas flavicollis,Yellow-throated Greenbul,avibase-C73137EA,yetgre1,avibase-C73137EA,8.0,,
+Chlorocichla flaviventris,Yellow-bellied Greenbul,avibase-D083BB3F,yebgre1,avibase-D083BB3F,1419.0,,yebgre1
+Chlorocichla laetissima,Joyful Greenbul,avibase-4602AC01,joygre1,avibase-4602AC01,1775.0,,joygre1
+Bleda syndactylus,Red-tailed Bristlebill,avibase-5A94FEAE,combri2,avibase-5A94FEAE,795.0,,combri2
+Baeopogon indicator,Honeyguide Greenbul,avibase-E6A0D208,hongre1,avibase-E6A0D208,297.0,,hongre1
+Phyllastrephus fischeri,Fischer's Greenbul,avibase-2DA2C52F,fisgre1,avibase-2DA2C52F,584.0,,fisgre1
+Phyllastrephus cabanisi,Cabanis's Greenbul,avibase-24F71192,cabgre1,avibase-24F71192,687.0,,cabgre1
+Phyllastrephus terrestris,Terrestrial Brownbul,avibase-07FD1D4C,terbro1,avibase-07FD1D4C,220.0,,terbro1
+Phyllastrephus strepitans,Northern Brownbul,avibase-29820AD9,norbro1,avibase-29820AD9,2355.0,,norbro1
+Phyllastrephus cerviniventris,Gray-olive Greenbul,avibase-7CE29E0E,gyogre1,avibase-7CE29E0E,360.0,,gyogre1
+Phyllastrephus flavostriatus,Yellow-streaked Greenbul,avibase-651384DF,yesbul1,avibase-651384DF,2.0,,yesbul1
+Phyllastrephus hypochloris,Toro Olive-Greenbul,avibase-2E3D5AAF,toogre1,avibase-2E3D5AAF,280.0,,toogre1
+Phyllastrephus debilis,Tiny Greenbul,avibase-FA137697,tingre1,avibase-FA137697,489.0,,tingre1
+Nicator gularis,Eastern Nicator,avibase-7066D2F1,easnic1,avibase-7066D2F1,1135.0,,easnic1
+Saxicola torquatus,African Stonechat,avibase-CF2E9674,afrsto1,avibase-CF2E9674,524.0,,afrsto1
+Saxicola rubetra,Whinchat,avibase-A0EDAEA2,whinch1,avibase-A0EDAEA2,985.0,,whinch1
+Oenanthe pileata,Capped Wheatear,avibase-E6BD3258,capwhe1,avibase-E6BD3258,1131.0,,capwhe1
+Oenanthe heuglinii,Heuglin's Wheatear,avibase-6ADB636C,heuwhe1,avibase-6ADB636C,59.0,,heuwhe1
+Oenanthe isabellina,Isabelline Wheatear,avibase-E6C6F746,isawhe1,avibase-E6C6F746,3526.0,,isawhe1
+Oenanthe oenanthe,Northern Wheatear,avibase-DF526047,norwhe,avibase-DF526047,384.0,,norwhe
+Oenanthe pleschanka,Pied Wheatear,avibase-2FB34D83,piewhe1,avibase-2FB34D83,2003.0,,piewhe1
+Oenanthe hispanica,Western Black-eared Wheatear,avibase-CBB94183,bkewhe1,avibase-9611335C,0.0,,bkewhe1
+Oenanthe melanoleuca,Eastern Black-eared Wheatear,avibase-DF26171F,bkewhe2,avibase-9611335C,3.0,,bkewhe2
+Oenanthe deserti,Desert Wheatear,avibase-078BC0ED,deswhe1,avibase-078BC0ED,2.0,,deswhe1
+Oenanthe lugubris,Abyssinian Wheatear,avibase-5396F9FB,mouwhe4,avibase-5396F9FB,1063.0,,mouwhe4
+Luscinia luscinia,Thrush Nightingale,avibase-6EC66752,thrnig1,avibase-6EC66752,653.0,,thrnig1
+Luscinia megarhynchos,Common Nightingale,avibase-7C7F0DEE,comnig1,avibase-7C7F0DEE,8.0,,comnig1
+Irania gutturalis,White-throated Robin,avibase-73BD4B29,whtrob3,avibase-73BD4B29,396.0,,whtrob3
+Phoenicurus phoenicurus,Common Redstart,avibase-06DD9D95,comred2,avibase-06DD9D95,25.0,,comred2
+Oenanthe familiaris,Familiar Chat,avibase-CD8DEBE3,famcha1,avibase-CD8DEBE3,222.0,,famcha1
+Oenanthe scotocerca,Brown-tailed Chat,avibase-DA3F40DB,brtcha1,avibase-DA3F40DB,8.0,,brtcha1
+Pinarochroa sordida,Moorland Chat,avibase-8EB0AB41,moocha1,avibase-8EB0AB41,41.0,,moocha1
+Monticola saxatilis,Rufous-tailed Rock-Thrush,avibase-736D38E7,rtrthr1,avibase-736D38E7,2041.0,,rtrthr1
+Monticola rufocinereus,Little Rock-Thrush,avibase-566669CC,lirthr1,avibase-566669CC,866.0,,lirthr1
+Myrmecocichla aethiops,Northern Anteater-Chat,avibase-E09F7223,noacha1,avibase-E09F7223,5261.0,,noacha1
+Myrmecocichla nigra,Sooty Chat,avibase-B55BADC1,soocha1,avibase-B55BADC1,3026.0,,soocha1
+Thamnolaea cinnamomeiventris,Mocking Cliff-Chat,avibase-F8B6EC31,moccha1,avibase-F8B6EC31,1408.0,,moccha1
+Cercotrichas leucophrys,Red-backed Scrub-Robin,avibase-B5B6EC7B,rbsrob1,avibase-B5B6EC7B,69.0,,rbsrob1
+Cercotrichas hartlaubi,Brown-backed Scrub-Robin,avibase-15B2DD49,bbsrob1,avibase-15B2DD49,210.0,,bbsrob1
+Cercotrichas galactotes,Rufous-tailed Scrub-Robin,avibase-B68BD0D2,rutscr1,avibase-B68BD0D2,235.0,,rutscr1
+Cercotrichas quadrivirgata,Bearded Scrub-Robin,avibase-92908926,besrob1,avibase-92908926,7.0,,besrob1
+Cichladusa arquata,Collared Palm-Thrush,avibase-A0A3B03D,copthr1,avibase-A0A3B03D,199.0,,copthr1
+Cichladusa guttata,Spotted Morning-Thrush,avibase-345658E9,spmthr1,avibase-345658E9,6496.0,,spmthr1
+Pogonocichla stellata,White-starred Robin,avibase-230A0342,whsrob1,avibase-230A0342,1593.0,,whsrob1
+Chamaetylas poliocephala,Brown-chested Alethe,avibase-8B7A6FE9,brcale1,avibase-8B7A6FE9,13.0,,brcale1
+Stiphrornis erythrothorax,Orange-breasted Forest Robin,avibase-0DD78D2A,obfrob1,,0.0,,
+Cossypha niveicapilla,Snowy-crowned Robin-Chat,avibase-BB05D1FC,scrcha1,avibase-BB05D1FC,897.0,,scrcha1
+Cossypha heuglini,White-browed Robin-Chat,avibase-16BD42DD,wbrcha2,avibase-16BD42DD,9094.0,,wbrcha2
+Cossypha semirufa,Rüppell's Robin-Chat,avibase-53EABB81,rurcha1,avibase-53EABB81,5661.0,,rurcha1
+Cossypha cyanocampter,Blue-shouldered Robin-Chat,avibase-9616C96E,bsrcha1,avibase-9616C96E,599.0,,bsrcha1
+Cossypha natalensis,Red-capped Robin-Chat,avibase-3846F8A8,rcrcha1,avibase-3846F8A8,1159.0,,rcrcha1
+Cossypha caffra,Cape Robin-Chat,avibase-A38BABE1,carcha1,avibase-A38BABE1,6846.0,,carcha1
+Sheppardia polioptera,Gray-winged Robin-Chat,avibase-25C26AB9,gywroc1,avibase-25C26AB9,5.0,,gywroc1
+Sheppardia aequatorialis,Equatorial Akalat,avibase-C25F57BD,equaka1,avibase-C25F57BD,936.0,,equaka1
+Sheppardia gunningi,East Coast Akalat,avibase-3E4783BA,eacaka1,avibase-3E4783BA,9.0,,eacaka1
+Neocossyphus rufus,Red-tailed Ant-Thrush,avibase-90FDC4CC,rtathr1,avibase-90FDC4CC,9.0,,rtathr1
+Neocossyphus poensis,White-tailed Ant-Thrush,avibase-0BD37CDF,wtathr1,avibase-0BD37CDF,571.0,,wtathr1
+Turdus pelios,African Thrush,avibase-40A2405D,afrthr1,avibase-40A2405D,24.0,,afrthr1
+Turdus tephronotus,African Bare-eyed Thrush,avibase-A0DC8E87,abethr1,avibase-A0DC8E87,2029.0,,abethr1
+Turdus abyssinicus,Abyssinian Thrush,avibase-428DA7CD,abythr1,avibase-CE73F073,81.0,,abythr1
+Turdus helleri,Taita Thrush,avibase-FC085C6D,taithr1,avibase-CE73F073,202.0,,taithr1
+Geokichla gurneyi,Orange Ground-Thrush,avibase-45C55FDE,orgthr1,avibase-45C55FDE,51.0,,orgthr1
+Geokichla piaggiae,Abyssinian Ground-Thrush,avibase-C54DCA26,abgthr1,avibase-C54DCA26,1.0,,abgthr1
+Geokichla guttata,Spotted Ground-Thrush,avibase-60A39CF9,spgthr1,avibase-60A39CF9,98.0,,spgthr1
+Bradypterus baboecala,Little Rush Warbler,avibase-ED9EE880,afbwar1,avibase-E23637BD,237.0,,afbwar1
+Bradypterus centralis,Highland Rush Warbler,avibase-D6A69E06,hirwar2,avibase-E23637BD,873.0,,hirwar2
+Bradypterus carpalis,White-winged Swamp Warbler,avibase-8CA1A851,wwswar1,avibase-8CA1A851,152.0,,wwswar1
+Bradypterus cinnamomeus,Cinnamon Bracken-Warbler,avibase-523913AE,cibwar1,avibase-523913AE,1409.0,,cibwar1
+Bradypterus lopezi,Evergreen-forest Warbler,avibase-8160D091,camscw1,avibase-8160D091,6.0,,camscw1
+Catriscus brevirostris,Fan-tailed Grassbird,avibase-2470FC01,fatgra1,avibase-2470FC01,208.0,,fatgra1
+Locustella naevia,Common Grasshopper Warbler,avibase-BC0E4C9F,cogwar1,avibase-BC0E4C9F,2.0,,cogwar1
+Locustella fluviatilis,River Warbler,avibase-2B020CA0,eurwar2,avibase-2B020CA0,108.0,,eurwar2
+Locustella luscinioides,Savi's Warbler,avibase-2D46BB98,savwar1,avibase-2D46BB98,1.0,,savwar1
+Acrocephalus schoenobaenus,Sedge Warbler,avibase-FED5AED5,sedwar1,avibase-FED5AED5,456.0,,sedwar1
+Acrocephalus scirpaceus,Common Reed Warbler,avibase-3F0EE474,afrwar1,avibase-3F0EE474,209.0,Source assignment follows the explicit comparison merge in atlas_mapping.csv.,
+Acrocephalus scirpaceus,Common Reed Warbler,avibase-3F0EE474,eurwar1,avibase-3F0EE474,209.0,,eurwar1
+Acrocephalus palustris,Marsh Warbler,avibase-B675E006,marwar3,avibase-B675E006,399.0,,marwar3
+Acrocephalus arundinaceus,Great Reed Warbler,avibase-B283E332,grrwar1,avibase-B283E332,144.0,,grrwar1
+Acrocephalus griseldis,Basra Reed Warbler,avibase-0D42A253,barwar2,avibase-0D42A253,115.0,,barwar2
+Acrocephalus gracilirostris,Lesser Swamp Warbler,avibase-4AA7817D,leswar1,avibase-4AA7817D,1717.0,,leswar1
+Acrocephalus rufescens,Greater Swamp Warbler,avibase-C8857CC8,grswar2,avibase-C8857CC8,347.0,,grswar2
+Iduna pallida,Eastern Olivaceous Warbler,avibase-BAE527A2,eaowar1,avibase-BAE527A2,1418.0,,eaowar1
+Hippolais languida,Upcher's Warbler,avibase-B10AD127,upcwar1,avibase-B10AD127,394.0,,upcwar1
+Hippolais olivetorum,Olive-tree Warbler,avibase-791DED18,oltwar1,avibase-791DED18,197.0,,oltwar1
+Hippolais icterina,Icterine Warbler,avibase-869C978C,ictwar1,avibase-869C978C,36.0,,ictwar1
+Iduna natalensis,African Yellow-Warbler,avibase-EBBD09CA,afywar1,avibase-EBBD09CA,1707.0,,afywar1
+Iduna similis,Mountain Yellow-Warbler,avibase-E999FD2D,moywar1,avibase-E999FD2D,570.0,,moywar1
+Calamonastides gracilirostris,Papyrus Yellow-Warbler,avibase-25F4FE96,paywar1,avibase-25F4FE96,37.0,,paywar1
+Curruca nisoria,Barred Warbler,avibase-1EA60B94,barwar1,avibase-1EA60B94,315.0,,barwar1
+Curruca communis,Greater Whitethroat,avibase-14AFBA82,grewhi1,avibase-14AFBA82,989.0,,grewhi1
+Sylvia borin,Garden Warbler,avibase-A6A4FC63,garwar1,avibase-A6A4FC63,699.0,,garwar1
+Sylvia atricapilla,Eurasian Blackcap,avibase-61F9065B,blackc1,avibase-61F9065B,1726.0,,blackc1
+Melocichla mentalis,Moustached Grass-Warbler,avibase-1478AA79,mogwar1,avibase-1478AA79,1275.0,,mogwar1
+Phylloscopus ruficapilla,Yellow-throated Woodland-Warbler,avibase-F6B77E64,yetwow1,avibase-F6B77E64,163.0,,yetwow1
+Phylloscopus budongoensis,Uganda Woodland-Warbler,avibase-132E0773,ugawow1,avibase-132E0773,1126.0,,ugawow1
+Phylloscopus umbrovirens,Brown Woodland-Warbler,avibase-E22B8495,brwwar1,avibase-E22B8495,1209.0,,brwwar1
+Phylloscopus sibilatrix,Wood Warbler,avibase-572C4C7F,woowar,avibase-572C4C7F,31.0,,woowar
+Phylloscopus collybita,Common Chiffchaff,avibase-F9F4B04D,comchi1,avibase-F9F4B04D,2.0,,comchi1
+Phylloscopus trochilus,Willow Warbler,avibase-88F4B969,wlwwar,avibase-88F4B969,4872.0,,wlwwar
+Cisticola brunnescens,Pectoral-patch Cisticola,avibase-006667E7,pepcis1,avibase-006667E7,14.0,,pepcis1
+Cisticola ayresii,Wing-snapping Cisticola,avibase-78573BB2,wiscis1,avibase-78573BB2,8.0,,wiscis1
+Cisticola eximius,Black-backed Cisticola,avibase-53E61277,blncis1,avibase-53E61277,2.0,,blncis1
+Cisticola juncidis,Zitting Cisticola,avibase-AEE2063F,zitcis1,avibase-AEE2063F,15.0,,zitcis1
+Cisticola aridulus,Desert Cisticola,avibase-A2C88219,descis1,avibase-A2C88219,881.0,,descis1
+Cisticola natalensis,Croaking Cisticola,avibase-FB740D14,crocis1,avibase-FB740D14,1134.0,,crocis1
+Cisticola robustus,Stout Cisticola,avibase-D3B1A98B,stocis1,avibase-D3B1A98B,13.0,,stocis1
+Cisticola aberdare,Aberdare Cisticola,avibase-3C79F1AC,abecis1,avibase-3C79F1AC,317.0,,abecis1
+Cisticola lais,Wailing Cisticola,avibase-9AEEFA09,waicis1,avibase-52B4F230,66.0,,waicis2
+Cisticola cinereolus,Ashy Cisticola,avibase-71F6A3F0,ashcis1,avibase-71F6A3F0,976.0,,ashcis1
+Cisticola restrictus,Tana River Cisticola,avibase-2E0E6C82,tarcis1,avibase-2E0E6C82,4.0,,tarcis1
+Cisticola chiniana,Rattling Cisticola,avibase-909FEE8A,ratcis1,avibase-909FEE8A,10418.0,,ratcis1
+Cisticola bodessa,Boran Cisticola,avibase-F8469E3F,borcis1,avibase-F8469E3F,294.0,,borcis1
+Cisticola nana,Tiny Cisticola,avibase-BF29E8B6,tincis3,avibase-BF29E8B6,512.0,,tincis3
+Cisticola brachypterus,Siffling Cisticola,avibase-FBDCA962,sifcis1,avibase-FBDCA962,997.0,,sifcis1
+Cisticola troglodytes,Foxy Cisticola,avibase-844A290B,foxcis1,avibase-844A290B,25.0,,foxcis1
+Cisticola angusticauda,Tabora Cisticola,avibase-9CE4FC4C,tabcis1,avibase-9CE4FC4C,222.0,,tabcis1
+Cisticola aberrans,Rock-loving Cisticola,avibase-2C8B24B6,rolcis2,avibase-AB6AE581,4.0,,rolcis2
+Cisticola lateralis,Whistling Cisticola,avibase-5A184029,whicis1,avibase-5A184029,86.0,,whicis1
+Cisticola woosnami,Trilling Cisticola,avibase-5BD1E605,tricis1,avibase-5BD1E605,424.0,,tricis1
+Cisticola erythrops,Red-faced Cisticola,avibase-47053A35,refcis1,avibase-47053A35,18.0,,refcis1
+Cisticola cantans,Singing Cisticola,avibase-6B64558B,sincis1,avibase-6B64558B,4570.0,,sincis1
+Cisticola hunteri,Hunter's Cisticola,avibase-373DCDF4,huncis1,avibase-373DCDF4,3511.0,,huncis1
+Cisticola chubbi,Chubb's Cisticola,avibase-4849AA43,chucis1,avibase-4849AA43,24.0,,chucis1
+Cisticola marginatus,Winding Cisticola,avibase-1DA06308,wincis3,avibase-143D3D6B,5344.0,,wincis3
+Cisticola haematocephalus,Coastal Cisticola,avibase-E88C0B71,wincis4,avibase-143D3D6B,843.0,,wincis4
+Cisticola carruthersi,Carruthers's Cisticola,avibase-2C6D5362,carcis1,avibase-2C6D5362,349.0,,carcis1
+Cisticola tinniens,Levaillant's Cisticola,avibase-F936B680,tincis1,avibase-F936B680,404.0,,tincis1
+Prinia subflava,Tawny-flanked Prinia,avibase-63F72CA7,tafpri1,avibase-63F72CA7,8965.0,,tafpri1
+Prinia somalica,Pale Prinia,avibase-319F6754,palpri1,avibase-319F6754,854.0,,palpri1
+Schistolais leucopogon,White-chinned Prinia,avibase-95B6C7C5,whcpri2,avibase-95B6C7C5,1333.0,,whcpri2
+Prinia bairdii,Banded Prinia,avibase-C54D2FEE,banpri1,avibase-C54D2FEE,99.0,,banpri1
+Prinia rufifrons,Red-fronted Prinia,avibase-D8177CEC,refwar2,avibase-D8177CEC,10.0,,refwar2
+Prinia erythroptera,Red-winged Prinia,avibase-C67FD539,rewpri1,avibase-C67FD539,4.0,,rewpri1
+Phyllolais pulchella,Buff-bellied Warbler,avibase-DFC5A27D,bubwar2,avibase-DFC5A27D,2619.0,,bubwar2
+Apalis flavida,Yellow-breasted Apalis,avibase-E70F9747,yebapa1,avibase-E70F9747,286.0,,yebapa1
+Apalis jacksoni,Black-throated Apalis,avibase-1ABAB622,bltapa1,avibase-1ABAB622,1054.0,,bltapa1
+Apalis chariessa,White-winged Apalis,avibase-184BA213,whwapa1,avibase-184BA213,1.0,,whwapa1
+Apalis thoracica,Bar-throated Apalis,avibase-B285E2B0,batapa2,avibase-C9C9D426,39.0,,batapa2
+Apalis fuscigularis,Taita Apalis,avibase-D5549C6D,batapa4,avibase-C9C9D426,193.0,,batapa4
+Apalis cinerea,Gray Apalis,avibase-7A8A8FCF,gryapa1,avibase-7A8A8FCF,34.0,,gryapa1
+Apalis rufogularis,Buff-throated Apalis,avibase-75E0430B,butapa1,avibase-75E0430B,63.0,,butapa1
+Apalis porphyrolaema,Chestnut-throated Apalis,avibase-E8F03B18,chtapa3,avibase-E8F03B18,1378.0,,chtapa3
+Apalis melanocephala,Black-headed Apalis,avibase-4FE76868,blhapa1,avibase-4FE76868,1155.0,,blhapa1
+Oreolais pulcher,Black-collared Apalis,avibase-91FD087B,blcapa2,avibase-91FD087B,2057.0,,blcapa2
+Bathmocercus rufus,Black-faced Rufous-Warbler,avibase-438D0DFF,bkfruw1,avibase-438D0DFF,1249.0,,bkfruw1
+Camaroptera brachyura,Green-backed Camaroptera,avibase-DC456636,grbcam1,avibase-DC456636,5925.0,,grbcam1
+Calamonastes simplex,Gray Wren-Warbler,avibase-0195CFDD,grywrw1,avibase-7D4883D7,3913.0,,grywrw1
+Calamonastes undosus,Miombo Wren-Warbler,avibase-1E7CADC2,miowrw2,avibase-7D4883D7,223.0,,miowrw2
+Camaroptera chloronota,Olive-green Camaroptera,avibase-65393B92,olgcam1,avibase-65393B92,6.0,,olgcam1
+Eminia lepida,Gray-capped Warbler,avibase-31E5F1E9,gycwar3,avibase-31E5F1E9,5106.0,,gycwar3
+Eremomela icteropygialis,Yellow-bellied Eremomela,avibase-9E034D83,yebere1,avibase-183E7FD0,1440.0,,yebere1
+Eremomela flavicrissalis,Yellow-vented Eremomela,avibase-D46EE5F8,yevere1,avibase-D46EE5F8,444.0,,yevere1
+Eremomela scotops,Greencap Eremomela,avibase-0394BA0B,greere1,avibase-0394BA0B,223.0,,greere1
+Eremomela canescens,Green-backed Eremomela,avibase-75932535,grbere1,avibase-75932535,60.0,,grbere1
+Eremomela turneri,Turner's Eremomela,avibase-7D340BF9,turere1,avibase-7D340BF9,724.0,,turere1
+Sylvietta leucophrys,White-browed Crombec,avibase-489FFCA9,whbcro2,avibase-489FFCA9,3.0,,whbcro2
+Sylvietta virens,Green Crombec,avibase-83E5801B,grecro1,avibase-83E5801B,22.0,,grecro1
+Sylvietta whytii,Red-faced Crombec,avibase-A9030503,refcro1,avibase-A9030503,5609.0,,refcro1
+Sylvietta brachyura,Northern Crombec,avibase-7542C6F1,norcro1,avibase-7542C6F1,85.0,,norcro1
+Sylvietta isabellina,Somali Crombec,avibase-6B9529AE,somcro1,avibase-6B9529AE,131.0,,somcro1
+Curruca lugens,Brown Parisoma,avibase-16FEF081,brnwar1,avibase-16FEF081,7.0,,brnwar1
+Curruca boehmi,Banded Parisoma,avibase-982C918E,banwar2,avibase-982C918E,1826.0,,banwar2
+Macrosphenus kretschmeri,Kretschmer's Longbill,avibase-D8BFA987,krelon1,avibase-D8BFA987,1.0,,krelon1
+Hylia prasina,Green Hylia,avibase-98BA31AA,grehyl1,avibase-98BA31AA,337.0,,grehyl1
+Hyliota australis,Southern Hyliota,avibase-F840409E,souhyl1,avibase-F840409E,218.0,,souhyl1
+Hyliota flavigaster,Yellow-bellied Hyliota,avibase-0F82D614,yebhyl1,avibase-0F82D614,81.0,,yebhyl1
+Muscicapa striata,Spotted Flycatcher,avibase-EE8206E7,spofly1,avibase-EE8206E7,34.0,,spofly2
+Muscicapa gambagae,Gambaga Flycatcher,avibase-7387E828,gamfly1,avibase-7387E828,209.0,,gamfly1
+Muscicapa adusta,African Dusky Flycatcher,avibase-6E95C4A9,afdfly1,avibase-6E95C4A9,5460.0,,afdfly1
+Fraseria lendu,Chapin's Flycatcher,avibase-84E4178E,chafly1,avibase-84E4178E,22.0,,chafly1
+Muscicapa aquatica,Swamp Flycatcher,avibase-77F0C62C,swafly3,avibase-77F0C62C,691.0,,swafly3
+Fraseria caerulescens,Ashy Flycatcher,avibase-3B3A6911,ashfly1,avibase-3B3A6911,819.0,,ashfly1
+Ficedula hypoleuca/albicollis/semitorquata,European Pied/Collared/Semicollared Flycatcher,avibase-861272FD,y00820,,4.0,Unresolved source group may include Pied Flycatcher; do not assign it to the narrower Collared/Semicollared concept.,
+Ficedula sp.,Ficedula sp.,avibase-CF292C9B,ficedu1,,3.0,Unresolved source group may include Pied Flycatcher; do not assign it to the narrower Collared/Semicollared concept.,
+Ficedula albicollis,Collared Flycatcher,avibase-0B2F8058,colfly1,avibase-4C44CB7C,1.0,,colfly1
+Ficedula hypoleuca,European Pied Flycatcher,avibase-6E352E18,eupfly1,avibase-6E352E18,15.0,Separate from historical albicollis/semitorquata concept (printed pp. 419–420).,eupfly1
+Ficedula semitorquata,Semicollared Flycatcher,avibase-BE56C141,semfly1,avibase-4C44CB7C,27.0,,semfly1
+Fraseria plumbea,Gray Tit-Flycatcher,avibase-5EA2B90C,grytif1,avibase-5EA2B90C,207.0,,grytif1
+Melaenornis pammelaina,Southern Black-Flycatcher,avibase-8A9A7AAA,sobfly1,avibase-8A9A7AAA,2540.0,,sobfly1
+Melaenornis edolioides,Northern Black-Flycatcher,avibase-F188F8C8,nobfly1,avibase-F188F8C8,2231.0,,nobfly1
+Melaenornis fischeri,White-eyed Slaty-Flycatcher,avibase-3809131C,wheslf1,avibase-3809131C,11395.0,,wheslf1
+Melaenornis semipartitus,Silverbird,avibase-AB38EDFD,silver1,avibase-AB38EDFD,1384.0,,silver1
+Agricola pallidus,Pale Flycatcher,avibase-FA03A965,palfly2,avibase-FA03A965,33.0,,palfly2
+Bradornis microrhynchus,African Gray Flycatcher,avibase-E281D783,afgfly1,avibase-E281D783,232.0,,afgfly1
+Bias musicus,Black-and-white Shrike-flycatcher,avibase-F1A4B955,bawfly1,avibase-F1A4B955,41.0,,bawfly1
+Megabyas flammulatus,African Shrike-flycatcher,avibase-18A968DB,afrshf1,avibase-18A968DB,328.0,,afrshf1
+Batis mixta,Short-tailed Batis,avibase-D91540DE,shtbat1,avibase-D91540DE,52.0,,shtbat1
+Batis soror,Pale Batis,avibase-5A58B69A,palbat1,avibase-5A58B69A,715.0,,palbat1
+Batis erlangeri,Western Black-headed Batis,avibase-DF7C8FC5,bkhbat1,avibase-204130B2,180.0,,bkhbat1
+Batis minor,Eastern Black-headed Batis,avibase-90D0D245,bkhbat2,avibase-204130B2,619.0,,bkhbat2
+Batis erlangeri/minor,Western/Eastern Black-headed Batis,avibase-204130B2,blhbat1,avibase-204130B2,0.0,,
+Batis molitor,Chinspot Batis,avibase-C5C38D98,chibat1,avibase-C5C38D98,8777.0,,chibat1
+Batis perkeo,Pygmy Batis,avibase-5C9DDB02,pygbat1,avibase-5C9DDB02,1827.0,,pygbat1
+Batis orientalis,Gray-headed Batis,avibase-A6DFFC15,gyhbat1,avibase-A6DFFC15,5.0,,gyhbat1
+Platysteira cyanea,Brown-throated Wattle-eye,avibase-E15225F1,btweye2,avibase-E15225F1,2138.0,,btweye2
+Platysteira peltata,Black-throated Wattle-eye,avibase-16935B44,btweye1,avibase-16935B44,974.0,,btweye1
+Platysteira concreta,Yellow-bellied Wattle-eye,avibase-3B66D504,ybweye1,avibase-3B66D504,2.0,,ybweye1
+Platysteira jamesoni,Jameson's Wattle-eye,avibase-7DC78D7A,jaweye1,avibase-7DC78D7A,606.0,,jaweye1
+Platysteira castanea,Chestnut Wattle-eye,avibase-8D562259,chweye1,avibase-8D562259,461.0,,chweye1
+Erythrocercus holochlorus,Yellow Flycatcher,avibase-847AE7B8,yelfly2,avibase-847AE7B8,873.0,,yelfly2
+Elminia longicauda,African Blue Flycatcher,avibase-56209052,afbfly1,avibase-56209052,2511.0,,afbfly1
+Elminia albonotata,White-tailed Crested Flycatcher,avibase-18ED7458,wtcfly1,avibase-18ED7458,583.0,,wtcfly1
+Elminia nigromitrata,Dusky Crested Flycatcher,avibase-B01090EF,ducfly1,avibase-B01090EF,256.0,,ducfly1
+Trochocercus cyanomelas,African Crested Flycatcher,avibase-15F017B7,afcfly1,avibase-15F017B7,4.0,,afcfly1
+Terpsiphone viridis,African Paradise-Flycatcher,avibase-75AAC17B,afpfly1,avibase-75AAC17B,15525.0,,afpfly1
+Terpsiphone rufiventer,Black-headed Paradise-Flycatcher,avibase-0EDEEB49,bhpfly1,avibase-0EDEEB49,18.0,,bhpfly1
+Anthus cinnamomeus,African Pipit,avibase-0D7CC717,afrpip1,avibase-0D7CC717,47.0,,afrpip1
+Anthus campestris,Tawny Pipit,avibase-250CDA58,tawpip1,avibase-250CDA58,4.0,,tawpip1
+Anthus cervinus,Red-throated Pipit,avibase-319D044A,retpip,avibase-319D044A,486.0,,retpip
+Anthus trivialis,Tree Pipit,avibase-365F5E97,trepip,avibase-365F5E97,1303.0,,trepip
+Anthus leucophrys,Plain-backed Pipit,avibase-ECC3F122,plbpip1,avibase-ECC3F122,3186.0,,plbpip1
+Anthus similis,Long-billed Pipit,avibase-ECFF22D2,lobpip1,avibase-ECFF22D2,87.0,,lobpip1
+Anthus lineiventris,Striped Pipit,avibase-C69E0E28,strpip1,avibase-C69E0E28,155.0,,strpip1
+Anthus caffer,Bush Pipit,avibase-4C7B3D81,buspip1,avibase-4C7B3D81,60.0,,buspip1
+Anthus sokokensis,Sokoke Pipit,avibase-19489268,sokpip1,avibase-19489268,454.0,,sokpip1
+Anthus melindae,Malindi Pipit,avibase-D8A51184,malpip1,avibase-D8A51184,463.0,,malpip1
+Tmetothylacus tenellus,Golden Pipit,avibase-B9104F62,golpip1,avibase-B9104F62,1500.0,,golpip1
+Macronyx croceus,Yellow-throated Longclaw,avibase-0D9BFED1,yetlon1,avibase-0D9BFED1,6572.0,,yetlon1
+Macronyx aurantiigula,Pangani Longclaw,avibase-F774B577,panlon1,avibase-F774B577,1404.0,,panlon1
+Macronyx ameliae,Rosy-throated Longclaw,avibase-70129CB1,rotlon1,avibase-70129CB1,1816.0,,rotlon1
+Macronyx sharpei,Sharpe's Longclaw,avibase-FED54E53,shalon1,avibase-FED54E53,578.0,,shalon1
+Motacilla capensis,Cape Wagtail,avibase-4F2CC293,capwag1,avibase-4F2CC293,1235.0,,capwag1
+Motacilla flava,Western Yellow Wagtail,avibase-5983D677,eaywag1,avibase-5983D677,452.0,,eaywag1
+Motacilla aguimp,African Pied Wagtail,avibase-CE7D41A6,afpwag1,avibase-CE7D41A6,20742.0,,afpwag1
+Motacilla alba,White Wagtail,avibase-400E032C,whiwag,avibase-400E032C,5.0,,whiwag
+Motacilla clara,Mountain Wagtail,avibase-747B3A52,mouwag1,avibase-747B3A52,2324.0,,mouwag1
+Motacilla cinerea,Gray Wagtail,avibase-AE073221,grywag,avibase-AE073221,578.0,,grywag
+Nilaus afer,Brubru,avibase-967545BC,brubru1,avibase-967545BC,4820.0,,brubru1
+Dryoscopus cubla,Black-backed Puffback,avibase-00855728,blbpuf2,avibase-00855728,8.0,,blbpuf2
+Dryoscopus gambensis,Northern Puffback,avibase-7DE7F0ED,norpuf1,avibase-7DE7F0ED,1244.0,,norpuf1
+Dryoscopus pringlii,Pringle's Puffback,avibase-706FEEB4,pripuf1,avibase-706FEEB4,345.0,,pripuf1
+Dryoscopus angolensis,Pink-footed Puffback,avibase-201E1243,pifpuf1,avibase-201E1243,662.0,,pifpuf1
+Tchagra australis,Brown-crowned Tchagra,avibase-4F9D43DE,brctch1,avibase-4F9D43DE,3571.0,,brctch1
+Tchagra jamesi,Three-streaked Tchagra,avibase-FA7A6D02,thstch1,avibase-FA7A6D02,915.0,,thstch1
+Tchagra senegalus,Black-crowned Tchagra,avibase-022798AB,bkctch1,avibase-022798AB,16.0,,bkctch1
+Bocagia minuta,Marsh Tchagra,avibase-7DCA1C1E,martch2,avibase-7DCA1C1E,2.0,,martch2
+Rhodophoneus cruentus,Rosy-patched Bushshrike,avibase-8B8AC14A,ropbus1,avibase-8B8AC14A,3114.0,,ropbus1
+Laniarius erythrogaster,Black-headed Gonolek,avibase-5E822C9C,blhgon1,avibase-5E822C9C,1517.0,,blhgon1
+Laniarius mufumbiri,Papyrus Gonolek,avibase-1E5D636D,papgon1,avibase-1E5D636D,264.0,,papgon1
+Laniarius luehderi,Lühder's Bushshrike,avibase-5AF20251,luebus1,avibase-5AF20251,1247.0,,luebus1
+Laniarius ruficeps,Red-naped Bushshrike,avibase-C59DFD44,renbus1,avibase-C59DFD44,145.0,,renbus1
+Laniarius nigerrimus,Coastal Boubou,avibase-E7DC526A,sombou1,avibase-446E7AE7,19.0,,sombou1
+Laniarius major,Tropical Boubou,avibase-07F940AA,trobou1,avibase-446E7AE7,11775.0,,trobou1
+Laniarius sublacteus,Zanzibar Boubou,avibase-0133C47B,zanbou1,avibase-446E7AE7,1773.0,,zanbou1
+Laniarius funebris,Slate-colored Boubou,avibase-0868B50D,slcbou1,avibase-0868B50D,10409.0,,slcbou1
+Telophorus bocagei,Gray-green Bushshrike,avibase-EF5EDE6D,gygbus1,avibase-EF5EDE6D,886.0,,gygbus1
+Telophorus sulfureopectus,Sulphur-breasted Bushshrike,avibase-F3DCCA8F,subbus1,avibase-F3DCCA8F,3621.0,,subbus1
+Telophorus nigrifrons,Black-fronted Bushshrike,avibase-5CE2F0DC,blfbus1,avibase-5CE2F0DC,581.0,,blfbus1
+Malaconotus blanchoti,Gray-headed Bushshrike,avibase-641068BB,gyhbus1,avibase-641068BB,2390.0,,gyhbus1
+Telophorus viridis,Four-colored Bushshrike,avibase-ACDC8DEE,focbus2,avibase-ACDC8DEE,44.0,,focbus2
+Telophorus dohertyi,Doherty's Bushshrike,avibase-0BC36521,dohbus1,avibase-0BC36521,153.0,,dohbus1
+Lanius collurio,Red-backed Shrike,avibase-F2CEFD1A,rebshr1,avibase-F2CEFD1A,2075.0,,rebshr1
+Lanius isabellinus,Isabelline Shrike,avibase-97166F72,isashr1,avibase-959151D9,18.0,,isashr1
+Lanius phoenicuroides/isabellinus,Red-tailed/Isabelline Shrike,avibase-959151D9,rutshr1,avibase-959151D9,582.0,,
+Lanius phoenicuroides,Red-tailed Shrike,avibase-EE7915A2,rutshr2,avibase-959151D9,1375.0,,rutshr2
+Lanius nubicus,Masked Shrike,avibase-E90CC64A,masshr1,avibase-E90CC64A,8.0,,masshr1
+Lanius senator,Woodchat Shrike,avibase-7E70D490,wooshr1,avibase-7E70D490,1.0,,wooshr1
+Lanius excubitoroides,Gray-backed Fiscal,avibase-02B6A30C,gybfis1,avibase-02B6A30C,5810.0,,gybfis1
+Lanius cabanisi,Long-tailed Fiscal,avibase-836EDA33,lotfis1,avibase-836EDA33,6460.0,,lotfis1
+Lanius minor,Lesser Gray Shrike,avibase-8852337B,legshr2,avibase-8852337B,779.0,,legshr2
+Lanius humeralis,Northern Fiscal,avibase-5792867A,norfis1,avibase-5792867A,13546.0,,norfis1
+Lanius dorsalis,Taita Fiscal,avibase-64772F0F,taifis1,avibase-64772F0F,4019.0,,taifis1
+Lanius somalicus,Somali Fiscal,avibase-F7932185,somfis1,avibase-F7932185,157.0,,somfis1
+Lanius mackinnoni,Mackinnon's Shrike,avibase-72387112,macshr1,avibase-72387112,1079.0,,macshr1
+Lanius corvinus,Yellow-billed Shrike,avibase-E44FAD6F,yebshr1,avibase-E44FAD6F,87.0,,yebshr1
+Lanius melanoleucus,Magpie Shrike,avibase-56A7F384,magshr1,avibase-56A7F384,518.0,,magshr1
+Prionops plumatus,White Helmetshrike,avibase-3996ECD0,whihel1,avibase-3996ECD0,23.0,,whihel1
+Prionops poliolophus,Gray-crested Helmetshrike,avibase-1F2F7323,gychel1,avibase-1F2F7323,311.0,,gychel1
+Prionops retzii,Retz's Helmetshrike,avibase-5B9EA71C,rethel1,avibase-5B9EA71C,664.0,,rethel1
+Prionops scopifrons,Chestnut-fronted Helmetshrike,avibase-E27EEDC5,chfhel1,avibase-E27EEDC5,1097.0,,chfhel1
+Eurocephalus ruppelli,White-rumped Shrike,avibase-866D07A0,whrshr1,avibase-866D07A0,7759.0,,whrshr1
+Poeoptera stuhlmanni,Stuhlmann's Starling,avibase-AEC1B69C,stusta1,avibase-AEC1B69C,1199.0,,stusta1
+Poeoptera kenricki,Kenrick's Starling,avibase-295B9665,kensta1,avibase-295B9665,61.0,,kensta1
+Notopholia corusca,Black-bellied Starling,avibase-40781028,bbgsta1,avibase-40781028,1820.0,,bbgsta1
+Lamprotornis chalcurus,Bronze-tailed Starling,avibase-AEEED5D0,btgsta1,avibase-AEEED5D0,51.0,,btgsta1
+Lamprotornis chalybaeus,Greater Blue-eared Starling,avibase-7DDB347E,gbesta1,avibase-7DDB347E,9674.0,,gbesta1
+Lamprotornis chloropterus,Lesser Blue-eared Starling,avibase-0AA15ACA,lbesta1,avibase-0AA15ACA,28.0,,lbesta1
+Lamprotornis purpuroptera,Rüppell's Starling,avibase-3BB2565D,ruegls1,avibase-3BB2565D,9781.0,,ruegls1
+Lamprotornis splendidus,Splendid Starling,avibase-18B10CF9,spgsta1,avibase-18B10CF9,40.0,,spgsta1
+Lamprotornis purpureus,Purple Starling,avibase-6A0BA87A,pugsta1,avibase-6A0BA87A,29.0,,pugsta1
+Onychognathus salvadorii,Bristle-crowned Starling,avibase-E8DEABBD,brcsta1,avibase-E8DEABBD,1373.0,,brcsta1
+Onychognathus morio,Red-winged Starling,avibase-508D5CA2,rewsta1,avibase-508D5CA2,4420.0,,rewsta1
+Onychognathus tenuirostris,Slender-billed Starling,avibase-F2C7AA06,slbsta1,avibase-F2C7AA06,395.0,,slbsta1
+Onychognathus walleri,Waller's Starling,avibase-E11D6D66,walsta1,avibase-E11D6D66,6.0,,walsta1
+Lamprotornis shelleyi,Shelley's Starling,avibase-B24A13C7,shesta1,avibase-B24A13C7,82.0,,shesta1
+Lamprotornis hildebrandti,Hildebrandt's Starling,avibase-621F6E07,hilsta1,avibase-621F6E07,5970.0,,hilsta1
+Lamprotornis superbus,Superb Starling,avibase-405CCAAE,supsta1,avibase-405CCAAE,27049.0,,supsta1
+Lamprotornis fischeri,Fischer's Starling,avibase-4FF4CAF8,fissta1,avibase-4FF4CAF8,2656.0,,fissta1
+Lamprotornis albicapillus,White-crowned Starling,avibase-A77D4A77,whcsta3,avibase-A77D4A77,37.0,,whcsta3
+Lamprotornis regius,Golden-breasted Starling,avibase-EE674721,gobsta5,avibase-EE674721,2597.0,,gobsta5
+Lamprotornis unicolor,Ashy Starling,avibase-6BFEA7BE,ashsta2,,0.0,,
+Speculipastor bicolor,Magpie Starling,avibase-D3390C6C,magsta1,avibase-D3390C6C,876.0,,magsta1
+Cinnyricinclus leucogaster,Violet-backed Starling,avibase-B1A3AF6C,vibsta2,avibase-B1A3AF6C,3773.0,,vibsta2
+Pholia sharpii,Sharpe's Starling,avibase-D6F2837E,shasta2,avibase-D6F2837E,341.0,,shasta2
+Arizelopsar femoralis,Abbott's Starling,avibase-1350773F,abbsta2,avibase-1350773F,255.0,,abbsta2
+Creatophora cinerea,Wattled Starling,avibase-9D95139B,watsta1,avibase-9D95139B,6779.0,,watsta1
+Buphagus africanus,Yellow-billed Oxpecker,avibase-5D970425,yeboxp1,avibase-5D970425,5058.0,,yeboxp1
+Buphagus erythrorynchus,Red-billed Oxpecker,avibase-7471E71D,reboxp1,avibase-7471E71D,10942.0,,reboxp1
+Hedydipna collaris,Collared Sunbird,avibase-1611F295,colsun2,avibase-1611F295,8824.0,,colsun2
+Hedydipna platura,Pygmy Sunbird,avibase-B0E7740F,pygsun2,avibase-B0E7740F,26.0,,pygsun2
+Anthreptes rectirostris,Green Sunbird,avibase-71EF2ACB,gresun1,avibase-35A2CCDF,95.0,,
+Anthreptes reichenowi,Plain-backed Sunbird,avibase-67F06823,plbsun1,avibase-67F06823,532.0,,plbsun1
+Anthreptes orientalis,Eastern Violet-backed Sunbird,avibase-2D0C83B2,kvbsun1,avibase-2D0C83B2,3742.0,,kvbsun1
+Anthreptes longuemarei,Western Violet-backed Sunbird,avibase-857DCDD5,wvbsun1,avibase-857DCDD5,19.0,,wvbsun1
+Anthreptes neglectus,Uluguru Violet-backed Sunbird,avibase-56C6CBA8,uvbsun1,avibase-56C6CBA8,13.0,,uvbsun1
+Hedydipna pallidigaster,Amani Sunbird,avibase-0B4F3AA2,amasun2,avibase-0B4F3AA2,582.0,,amasun2
+Cinnyris venustus,Variable Sunbird,avibase-8E9E45B5,varsun2,avibase-8E9E45B5,2019.0,,varsun2
+Cinnyris bouvieri,Orange-tufted Sunbird,avibase-693FC6FD,ortsun3,avibase-693FC6FD,99.0,,ortsun3
+Cinnyris habessinicus,Shining Sunbird,avibase-C6D0CB7E,shisun3,avibase-688582BF,5.0,,shisun3
+Cinnyris bifasciatus,Purple-banded Sunbird,avibase-71C72002,pubsun4,avibase-150F563A,1125.0,,pubsun4
+Cinnyris tsavoensis,Tsavo Sunbird,avibase-17DE4B1F,tsasun1,avibase-150F563A,577.0,,tsasun1
+Cinnyris chalcomelas,Violet-breasted Sunbird,avibase-9CDA630C,vibsun2,avibase-9CDA630C,35.0,,vibsun2
+Cinnyris superbus,Superb Sunbird,avibase-7C8BC7CF,supsun2,avibase-7C8BC7CF,8.0,,supsun2
+Cinnyris mariquensis,Marico Sunbird,avibase-5AC9F737,marsun2,avibase-5AC9F737,4217.0,,marsun2
+Cinnyris erythrocercus,Red-chested Sunbird,avibase-4C428439,recsun2,avibase-4C428439,807.0,,recsun2
+Cinnyris nectarinioides,Black-bellied Sunbird,avibase-7C822074,bkbsun1,avibase-7C822074,1223.0,,bkbsun1
+Cinnyris chloropygius,Olive-bellied Sunbird,avibase-D2B15B3F,olbsun3,avibase-D2B15B3F,512.0,,olbsun3
+Cinnyris pulchellus,Beautiful Sunbird,avibase-00D5E1C6,beasun2,avibase-718A3B70,83.0,,beasun2
+Cinnyris reichenowi,Northern Double-collared Sunbird,avibase-A6083057,ndcsun2,avibase-A6083057,44.0,,ndcsun2
+Cinnyris mediocris,Eastern Double-collared Sunbird,avibase-EF6101F4,edcsun3,avibase-1E1FCF58,2342.0,,edcsun3
+Cinnyris usambaricus,Usambara Double-collared Sunbird,avibase-CBA39A29,edcsun4,avibase-1E1FCF58,50.0,,edcsun4
+Cinnyris cupreus,Copper Sunbird,avibase-1F21FFE9,copsun2,avibase-1F21FFE9,421.0,,copsun2
+Nectarinia tacazze,Tacazze Sunbird,avibase-FAFA576B,tacsun1,avibase-FAFA576B,1901.0,,tacsun1
+Nectarinia kilimensis,Bronze Sunbird,avibase-D4F9B273,brosun1,avibase-D4F9B273,10954.0,,brosun1
+Drepanorhynchus reichenowi,Golden-winged Sunbird,avibase-D33D2F6D,gowsun2,avibase-D33D2F6D,2023.0,,gowsun2
+Nectarinia famosa,Malachite Sunbird,avibase-26F27894,malsun1,avibase-26F27894,694.0,,malsun1
+Nectarinia johnstoni,Red-tufted Sunbird,avibase-D91BCC1B,retsun2,avibase-D91BCC1B,208.0,,retsun2
+Cyanomitra olivacea,Olive Sunbird,avibase-EE79A5EF,eaosun1,avibase-EE79A5EF,2999.0,,eaosun1
+Chalcomitra senegalensis,Scarlet-chested Sunbird,avibase-0059A2E0,sccsun2,avibase-0059A2E0,9085.0,,sccsun2
+Chalcomitra hunteri,Hunter's Sunbird,avibase-8F052626,hunsun2,avibase-8F052626,2695.0,,hunsun2
+Chalcomitra amethystina,Amethyst Sunbird,avibase-B022292C,amesun2,avibase-B022292C,6346.0,,amesun2
+Chalcomitra rubescens,Green-throated Sunbird,avibase-2E2DE0B6,gntsun1,avibase-2E2DE0B6,531.0,,gntsun1
+Cyanomitra verticalis,Green-headed Sunbird,avibase-6DE16262,gnhsun1,avibase-6DE16262,30.0,,gnhsun1
+Cyanomitra cyanolaema,Blue-throated Brown Sunbird,avibase-36A24C79,btbsun2,,0.0,,
+Cyanomitra veroxii,Mouse-colored Sunbird,avibase-C1CBA33A,mocsun2,avibase-C1CBA33A,229.0,,mocsun2
+Zosterops senegalensis,Northern Yellow White-eye,avibase-EAC8528E,afywhe2,avibase-2D8C0437,4.0,,afywhe2
+Zosterops stuhlmanni/senegalensis,Green/Northern Yellow White-eye,avibase-CD569EC4,y00444,avibase-2D8C0437,34.0,,
+Zosterops kikuyuensis,Kikuyu White-eye,avibase-6483A467,brrwhe3,avibase-70FD20BB,4548.0,,brrwhe3
+Zosterops silvanus,Taita White-eye,avibase-B24BD4A1,brrwhe4,avibase-70FD20BB,339.0,,brrwhe4
+Zosterops eurycricotus,Kilimanjaro White-eye,avibase-A23B8E7A,brrwhe8,avibase-70FD20BB,49.0,,brrwhe8
+Zosterops poliogastrus,Heuglin's White-eye,avibase-BF3D3E26,heuwhe2,avibase-70FD20BB,10.0,,heuwhe2
+Zosterops mbuluensis,Mbulu White-eye,avibase-086290D2,brrwhe9,avibase-70FD20BB,7.0,,brrwhe9
+Zosterops flavilateralis,Pale White-eye,avibase-F80D69C2,whbwhe3,avibase-F80D69C2,2540.0,,whbwhe3
+Ploceus cucullatus,Village Weaver,avibase-E8AA9E1C,vilwea1,avibase-E8AA9E1C,1783.0,,vilwea1
+Ploceus nigerrimus,Vieillot's Black Weaver,avibase-20D915AD,viewea3,avibase-20D915AD,964.0,,viewea3
+Ploceus spekei,Speke's Weaver,avibase-4DC2B23C,spewea2,avibase-4DC2B23C,6058.0,,spewea2
+Ploceus aurantius,Orange Weaver,avibase-2C42345F,orawea1,avibase-2C42345F,1.0,,orawea1
+Ploceus castaneiceps,Taveta Golden-Weaver,avibase-2379E3EB,tagwea1,avibase-2379E3EB,708.0,,tagwea1
+Ploceus bojeri,Golden Palm Weaver,avibase-F40197D6,gopwea1,avibase-F40197D6,2274.0,,gopwea1
+Ploceus subaureus,African Golden-Weaver,avibase-86BEAFA6,afgwea1,avibase-86BEAFA6,1744.0,,afgwea1
+Ploceus xanthops,Holub's Golden-Weaver,avibase-2D86B0D2,hogwea1,avibase-2D86B0D2,4291.0,,hogwea1
+Ploceus castanops,Northern Brown-throated Weaver,avibase-F9FB0226,nbtwea1,avibase-F9FB0226,491.0,,nbtwea1
+Ploceus melanocephalus,Black-headed Weaver,avibase-19D053B3,blhwea1,avibase-19D053B3,696.0,,blhwea1
+Ploceus jacksoni,Golden-backed Weaver,avibase-DF0759C0,gobwea1,avibase-DF0759C0,1566.0,,gobwea1
+Ploceus taeniopterus,Northern Masked-Weaver,avibase-6A84BDB8,nomwea1,avibase-6A84BDB8,976.0,,nomwea1
+Ploceus dichrocephalus,Salvadori's Weaver,avibase-2E4A97D9,salwea1,avibase-2E4A97D9,1.0,,salwea1
+Ploceus intermedius,Lesser Masked-Weaver,avibase-E069A0BB,lesmaw1,avibase-E069A0BB,3916.0,,lesmaw1
+Ploceus vitellinus,Vitelline Masked-Weaver,avibase-FC6C191F,vimwea1,avibase-FC6C191F,3543.0,,vimwea1
+Ploceus heuglini,Heuglin's Masked-Weaver,avibase-D8E67602,hemwea1,avibase-D8E67602,51.0,,hemwea1
+Ploceus rubiginosus,Chestnut Weaver,avibase-01BFAE61,chewea1,avibase-01BFAE61,21.0,,chewea1
+Ploceus luteolus,Little Weaver,avibase-1373D324,litwea1,avibase-1373D324,1323.0,,litwea1
+Ploceus pelzelni,Slender-billed Weaver,avibase-36C24C3D,slbwea1,avibase-36C24C3D,617.0,,slbwea1
+Ploceus golandi,Clarke's Weaver,avibase-2A2CC7B3,clawea1,avibase-2A2CC7B3,223.0,,clawea1
+Ploceus baglafecht,Baglafecht Weaver,avibase-BE1FE156,bagwea1,avibase-BE1FE156,171.0,,bagwea1
+Pachyphantes superciliosus,Compact Weaver,avibase-0405CA69,comwea1,avibase-0405CA69,82.0,,comwea1
+Ploceus ocularis,Spectacled Weaver,avibase-CA4839B2,spewea1,avibase-CA4839B2,31.0,,spewea1
+Ploceus nigricollis,Black-necked Weaver,avibase-55997100,bknwea2,avibase-55997100,2154.0,,bknwea2
+Ploceus melanogaster,Black-billed Weaver,avibase-B38CE692,blbwea1,avibase-B38CE692,12.0,,blbwea1
+Ploceus insignis,Brown-capped Weaver,avibase-C649EA57,brcwea1,avibase-C649EA57,2023.0,,brcwea1
+Ploceus tricolor,Yellow-mantled Weaver,avibase-BE85C81E,yemwea1,avibase-BE85C81E,1.0,,yemwea1
+Ploceus bicolor,Forest Weaver,avibase-70312286,forwea1,avibase-70312286,1953.0,,forwea1
+Malimbus rubricollis,Red-headed Malimbe,avibase-960B56F2,rehmal1,avibase-960B56F2,542.0,,rehmal1
+Anaplectes rubriceps,Red-headed Weaver,avibase-4D19099B,rehwea1,avibase-4D19099B,35.0,,rehwea1
+Amblyospiza albifrons,Grosbeak Weaver,avibase-C7708C70,growea1,avibase-C7708C70,4035.0,,growea1
+Euplectes orix,Southern Red Bishop,avibase-95F08BC3,redbis,avibase-95F08BC3,645.0,,redbis
+Euplectes franciscanus,Northern Red Bishop,avibase-3D122849,orabis1,avibase-3D122849,278.0,,orabis1
+Euplectes nigroventris,Zanzibar Red Bishop,avibase-A31AC101,zanbis1,avibase-A31AC101,1117.0,,zanbis1
+Euplectes hordeaceus,Black-winged Bishop,avibase-7B414273,blwbis1,avibase-7B414273,394.0,,blwbis1
+Euplectes gierowii,Black Bishop,avibase-CC7862AF,blabis1,avibase-CC7862AF,206.0,,blabis1
+Euplectes afer,Yellow-crowned Bishop,avibase-4A58452B,yecbis,avibase-4A58452B,709.0,,yecbis
+Euplectes diadematus,Fire-fronted Bishop,avibase-95A724BE,fifbis1,avibase-95A724BE,165.0,,fifbis1
+Euplectes capensis,Yellow Bishop,avibase-97A73D9F,yelbis1,avibase-97A73D9F,23.0,,yelbis1
+Euplectes albonotatus,White-winged Widowbird,avibase-749E7B3C,whwwid1,avibase-749E7B3C,3022.0,,whwwid1
+Euplectes macroura,Yellow-mantled Widowbird,avibase-F5E0EA0D,yeswid2,avibase-F5E0EA0D,40.0,,yeswid2
+Euplectes laticauda,Red-cowled Widowbird,avibase-6A1F6033,recwid2,avibase-F5740956,2335.0,,recwid2
+Euplectes ardens,Red-collared Widowbird,avibase-26618AA1,recwid3,avibase-F5740956,1.0,,recwid3
+Euplectes laticauda/ardens,Red-cowled/Red-collared Widowbird,avibase-F5740956,recwid1,avibase-F5740956,1.0,,
+Euplectes progne,Long-tailed Widowbird,avibase-3153FE22,lotwid1,avibase-3153FE22,1200.0,,lotwid1
+Euplectes hartlaubi,Marsh Widowbird,avibase-59E7ABE5,marwid1,avibase-59E7ABE5,60.0,,marwid1
+Euplectes axillaris,Fan-tailed Widowbird,avibase-B08FF959,fatwid1,avibase-B08FF959,1689.0,,fatwid1
+Euplectes jacksoni,Jackson's Widowbird,avibase-87071086,jacwid1,avibase-87071086,1613.0,,jacwid1
+Quelea quelea,Red-billed Quelea,avibase-2B6DE136,rebque1,avibase-2B6DE136,5300.0,,rebque1
+Quelea erythrops,Red-headed Quelea,avibase-F8041931,rehque1,avibase-F8041931,28.0,,rehque1
+Quelea cardinalis,Cardinal Quelea,avibase-9387DC41,carque1,avibase-9387DC41,650.0,,carque1
+Anomalospiza imberbis,Parasitic Weaver,avibase-C97A5C39,parwea1,avibase-C97A5C39,318.0,,parwea1
+Passer griseus,Northern Gray-headed Sparrow,avibase-E10D0809,gyhspa1,avibase-8AF9A02A,3192.0,,gyhspa1
+Passer gongonensis,Parrot-billed Sparrow,avibase-DB4998D1,pabspa1,avibase-8AF9A02A,6156.0,,pabspa1
+Passer suahelicus,Swahili Sparrow,avibase-2B55E679,swaspa1,avibase-8AF9A02A,799.0,,swaspa1
+Passer swainsonii,Swainson's Sparrow,avibase-F375B25B,swaspa2,avibase-8AF9A02A,39.0,,swaspa2
+Passer rufocinctus,Kenya Rufous Sparrow,avibase-DBAB527C,kerspa2,avibase-E010F324,10925.0,,kerspa2
+Passer shelleyi,Shelley's Rufous Sparrow,avibase-126E0CFA,shrspa1,avibase-E010F324,39.0,,shrspa1
+Passer domesticus,House Sparrow,avibase-240E3390,houspa,avibase-240E3390,7.0,,houspa
+Passer castanopterus,Somali Sparrow,avibase-1D25E0DB,somspa1,avibase-1D25E0DB,146.0,,somspa1
+Passer eminibey,Chestnut Sparrow,avibase-D8F2F78B,chespa1,avibase-D8F2F78B,2676.0,,chespa1
+Gymnoris pyrgita,Yellow-spotted Bush Sparrow,avibase-FCD72CEE,yespet1,avibase-FCD72CEE,4236.0,,yespet1
+Sporopipes frontalis,Speckle-fronted Weaver,avibase-C90890A3,spfwea1,avibase-C90890A3,3120.0,,spfwea1
+Plocepasser mahali,White-browed Sparrow-Weaver,avibase-94C71DF6,wbswea1,avibase-94C71DF6,69.0,,wbswea1
+Plocepasser donaldsoni,Donaldson Smith's Sparrow-Weaver,avibase-5011E123,dsswea1,avibase-5011E123,1504.0,,dsswea1
+Plocepasser superciliosus,Chestnut-crowned Sparrow-Weaver,avibase-2C504059,ccswea1,avibase-2C504059,179.0,,ccswea1
+Pseudonigrita arnaudi,Gray-headed Social-Weaver,avibase-573C3683,gyhsow1,avibase-573C3683,3591.0,,gyhsow1
+Pseudonigrita cabanisi,Black-capped Social-Weaver,avibase-65856D49,bcswea1,avibase-65856D49,2085.0,,bcswea1
+Bubalornis albirostris,White-billed Buffalo-Weaver,avibase-864D4A4F,wbbwea1,avibase-864D4A4F,835.0,,wbbwea1
+Bubalornis niger,Red-billed Buffalo-Weaver,avibase-9EB53638,rbbwea1,avibase-9EB53638,3653.0,,rbbwea1
+Dinemellia dinemelli,White-headed Buffalo-Weaver,avibase-00B07B12,whbwea1,avibase-00B07B12,7892.0,,whbwea1
+Nigrita canicapillus,Gray-headed Nigrita,avibase-B15F4C49,gyhneg1,avibase-B15F4C49,1652.0,,gyhneg1
+Nigrita bicolor,Chestnut-breasted Nigrita,avibase-AD1CBF5A,chbneg1,,0.0,,
+Nigrita fusconotus,White-breasted Nigrita,avibase-F3B46894,whbneg2,avibase-F3B46894,331.0,,whbneg2
+Pytilia melba,Green-winged Pytilia,avibase-01A3BE3C,grwpyt1,avibase-01A3BE3C,2332.0,,grwpyt1
+Pytilia afra,Orange-winged Pytilia,avibase-6A1ED1C2,orwpyt1,avibase-6A1ED1C2,57.0,,orwpyt1
+Vidua paradisaea,Eastern Paradise-Whydah,avibase-ACF0F1A2,eapwhy1,avibase-ACF0F1A2,1339.0,,eapwhy1
+Vidua obtusa,Broad-tailed Paradise-Whydah,avibase-C1A42CCA,btpwhy1,avibase-C1A42CCA,2.0,,btpwhy1
+Clytospiza monteiri,Brown Twinspot,avibase-BD7558AD,brotwi1,avibase-BD7558AD,20.0,,brotwi1
+Hypargos niveoguttatus,Peters's Twinspot,avibase-50490520,pettwi1,avibase-50490520,357.0,,pettwi1
+Mandingoa nitidula,Green-backed Twinspot,avibase-1A6B766A,grbtwi1,avibase-1A6B766A,164.0,,grbtwi1
+Spermophaga ruficapilla,Red-headed Bluebill,avibase-46A1FC77,rehblu1,avibase-46A1FC77,749.0,,rehblu1
+Cryptospiza salvadorii,Abyssinian Crimsonwing,avibase-98B15EE7,abcwin1,avibase-98B15EE7,395.0,,abcwin1
+Lagonosticta rufopicta,Bar-breasted Firefinch,avibase-43FE4788,babfir1,avibase-43FE4788,277.0,,babfir1
+Lagonosticta senegala,Red-billed Firefinch,avibase-B4A4E4BF,rebfir2,avibase-B4A4E4BF,11271.0,,rebfir2
+Vidua chalybeata,Village Indigobird,avibase-BA01A793,vilind,avibase-BA01A793,2949.0,,vilind
+Vidua purpurascens,Purple Indigobird,avibase-2AA13F1D,purind1,avibase-2AA13F1D,30.0,,purind1
+Lagonosticta rhodopareia,Jameson's Firefinch,avibase-871F32D9,jamfir1,avibase-871F32D9,234.0,,jamfir1
+Lagonosticta rubricata,African Firefinch,avibase-A6034D7F,afffin,avibase-A6034D7F,1600.0,,afffin
+Lagonosticta rara,Black-bellied Firefinch,avibase-27012CC9,blbfir1,avibase-27012CC9,58.0,,blbfir1
+Uraeginthus bengalus,Red-cheeked Cordonbleu,avibase-EAE77D96,reccor,avibase-EAE77D96,13324.0,,reccor
+Uraeginthus cyanocephalus,Blue-capped Cordonbleu,avibase-5CAE6778,blccor1,avibase-5CAE6778,1235.0,,blccor1
+Uraeginthus angolensis,Southern Cordonbleu,avibase-B40A6BCD,bubcor1,,0.0,,
+Granatina ianthinogaster,Purple Grenadier,avibase-DE689967,purgre2,avibase-DE689967,9068.0,,purgre2
+Vidua fischeri,Straw-tailed Whydah,avibase-424B857C,sttwhy1,avibase-424B857C,1076.0,,sttwhy1
+Estrilda astrild,Common Waxbill,avibase-61CB98C0,comwax,avibase-61CB98C0,5841.0,,comwax
+Estrilda troglodytes,Black-rumped Waxbill,avibase-D30DC715,bkrwax,avibase-D30DC715,65.0,,bkrwax
+Estrilda rhodopyga,Crimson-rumped Waxbill,avibase-6DD8F10F,crrwax1,avibase-6DD8F10F,2318.0,,crrwax1
+Vidua macroura,Pin-tailed Whydah,avibase-673E66F0,pitwhy,avibase-673E66F0,7828.0,,pitwhy
+Vidua hypocherina,Steel-blue Whydah,avibase-8D05A048,stbwhy1,avibase-8D05A048,382.0,,stbwhy1
+Estrilda paludicola,Fawn-breasted Waxbill,avibase-1066028B,fabwax1,avibase-1066028B,17.0,,fabwax1
+Brunhilda erythronotos,Black-faced Waxbill,avibase-842FF43C,blcwax1,avibase-9A218AAF,676.0,,blcwax1
+Brunhilda charmosyna,Black-cheeked Waxbill,avibase-50BF77FB,rerwax1,avibase-9A218AAF,590.0,,rerwax1
+Estrilda nonnula,Black-crowned Waxbill,avibase-2680F124,blcwax2,avibase-2680F124,467.0,,blcwax2
+Estrilda kandti,Kandt's Waxbill,avibase-C38DEB1A,kanwax1,avibase-C38DEB1A,486.0,,kanwax1
+Coccopygia quartinia,Yellow-bellied Waxbill,avibase-B9BE800C,yebwax2,avibase-B9BE800C,1465.0,,yebwax2
+Amandava subflava,Zebra Waxbill,avibase-ECC40D44,zebwax2,avibase-ECC40D44,237.0,,zebwax2
+Ortygospiza atricollis,Quailfinch,avibase-8E5252EB,quailf1,avibase-8E5252EB,626.0,,quailf1
+Spermestes cucullata,Bronze Mannikin,avibase-142E4CB7,broman1,avibase-142E4CB7,9102.0,,broman1
+Spermestes bicolor,Black-and-white Mannikin,avibase-E358EC8A,bawman1,avibase-E358EC8A,605.0,,bawman1
+Spermestes fringilloides,Magpie Mannikin,avibase-64E386FE,magman1,avibase-64E386FE,13.0,,magman1
+Euodice cantans,African Silverbill,avibase-FC6A9CD0,afrsil1,avibase-FC6A9CD0,788.0,,afrsil1
+Spermestes griseicapilla,Gray-headed Silverbill,avibase-7D6F12FE,gyhsil1,avibase-7D6F12FE,834.0,,gyhsil1
+Amadina fasciata,Cut-throat,avibase-CDDA63E0,cutthr1,avibase-CDDA63E0,1853.0,,cutthr1
+Emberiza goslingi,Gosling's Bunting,avibase-17E7F90B,gosbun1,avibase-49691092,10.0,,gosbun1
+Emberiza tahapisi,Cinnamon-breasted Bunting,avibase-0C571D99,cibbun1,avibase-49691092,1838.0,,cibbun1
+Emberiza striolata,Striolated Bunting,avibase-CDF4A106,houbun2,avibase-CDF4A106,11.0,,houbun2
+Emberiza hortulana,Ortolan Bunting,avibase-47210561,ortbun1,avibase-47210561,11.0,,ortbun1
+Emberiza flaviventris,Golden-breasted Bunting,avibase-D1C1A026,gobbun1,avibase-D1C1A026,2666.0,,gobbun1
+Emberiza poliopleura,Somali Bunting,avibase-72386016,sombun1,avibase-72386016,1434.0,,sombun1
+Emberiza affinis,Brown-rumped Bunting,avibase-BB11EE7F,brrbun1,avibase-BB11EE7F,3.0,,brrbun1
+Serinus flavivertex,Yellow-crowned Canary,avibase-DCFFEEC1,yeccan1,avibase-DCFFEEC1,1791.0,,yeccan1
+Crithagra citrinelloides,African Citril,avibase-D419E3A5,afrcit1,avibase-799630F1,5028.0,,afrcit1
+Crithagra hyposticta,Southern Citril,avibase-C978ABCC,soucit1,avibase-799630F1,778.0,,soucit1
+Crithagra frontalis,Western Citril,avibase-5108E1D3,wescit1,avibase-799630F1,54.0,,wescit1
+Crithagra koliensis,Papyrus Canary,avibase-5E456730,papcan1,avibase-5E456730,155.0,,papcan1
+Crithagra mozambica,Yellow-fronted Canary,avibase-169B483C,yefcan,avibase-169B483C,4429.0,,yefcan
+Crithagra dorsostriata,White-bellied Canary,avibase-90C937E4,whbcan1,avibase-90C937E4,3816.0,,whbcan1
+Crithagra reichenowi,Reichenow's Seedeater,avibase-69EB514A,reisee2,avibase-69EB514A,6554.0,,reisee2
+Crithagra sulphurata,Brimstone Canary,avibase-53A5E91F,brican1,avibase-53A5E91F,4098.0,,brican1
+Crithagra donaldsoni,Northern Grosbeak-Canary,avibase-0CEB2DA6,norgrc1,avibase-46634B1F,54.0,,norgrc1
+Crithagra buchanani,Southern Grosbeak-Canary,avibase-F3618305,sougrc1,avibase-46634B1F,387.0,,sougrc1
+Crithagra canicapilla,West African Seedeater,avibase-115CB3F4,sthsee3,avibase-B9BB1BE8,5.0,,sthsee3
+Crithagra reichardi,Reichard's Seedeater,avibase-E9A83FB4,reisee1,avibase-DE9A742B,8.0,,
+Crithagra burtoni,Thick-billed Seedeater,avibase-8E8B3DB9,thbsee1,avibase-8E8B3DB9,1423.0,,thbsee1
+Crithagra striolata,Streaky Seedeater,avibase-580A93C2,strsee1,avibase-580A93C2,10609.0,,strsee1
+Linurgus olivaceus,Oriole Finch,avibase-80B649D4,orifin1,avibase-80B649D4,189.0,,orifin1
+Sterna paradisaea,Arctic Tern,avibase-BDC5CF80,arcter,avibase-BDC5CF80,1.0,,arcter
+Balearica pavonina,Black Crowned-Crane,avibase-31413BFF,blccra1,avibase-31413BFF,1.0,,blccra1
+Halcyon malimbica,Blue-breasted Kingfisher,avibase-0D8BDD35,blbkin4,avibase-0D8BDD35,4.0,,blbkin4
+Aquila africana,Cassin's Hawk-Eagle,avibase-51FD3E3C,cashae1,avibase-51FD3E3C,8.0,,cashae1
+Apalis karamojae,Karamoja Apalis,avibase-D029B521,karapa1,avibase-174A4C00,29.0,,
+Bleda notatus,Lesser Bristlebill,avibase-619DFAA8,lesbri2,avibase-4F97BFE1,2.0,,
+Paludipasser locustella,Locustfinch,avibase-EF6293B7,locust3,avibase-EF6293B7,5.0,,locust3
+Anas platyrhynchos,Mallard,avibase-85625D75,mallar3,avibase-85625D75,3.0,,mallar3
+Pernis ptilorhynchus,Oriental Honey-buzzard,avibase-1192205B,orihob2,avibase-1192205B,2.0,,orihob2
+Coracias spatulatus,Racket-tailed Roller,avibase-BB456342,ratrol2,avibase-BB456342,1.0,,ratrol2
+Prinia fluviatilis,River Prinia,avibase-1CB41EB5,rivpri1,avibase-1CB41EB5,9.0,,rivpri1
+Pastor roseus,Rosy Starling,avibase-24208346,rossta2,avibase-24208346,3.0,,rossta2
+Histurgops ruficauda,Rufous-tailed Weaver,avibase-FD2FEFFD,rutwea1,avibase-FD2FEFFD,164.0,,rutwea1
+Ardenna grisea,Sooty Shearwater,avibase-1725B07D,sooshe,avibase-1725B07D,6.0,,sooshe
+Petrochelidon spilodera,South African Swallow,avibase-7D1AE743,soaswa2,avibase-7D1AE743,3.0,,soaswa2
+Vidua funerea,Variable Indigobird,avibase-49EF9657,varind1,avibase-49EF9657,2.0,,varind1
+Ploceus weynsi,Weyns's Weaver,avibase-341298B9,weywea1,avibase-341298B9,1.0,,weywea1
+Thalassarche cauta,White-capped Albatross,avibase-87797B47,whcalb1,avibase-87797B47,9.0,,whcalb1
+Merops boehmi,Böhm's Bee-eater,avibase-30238523,bobeat1,,1.0,,
+Cecropis daurica,Red-rumped Swallow,avibase-71741488,rerswa1,avibase-3690F067,272.0,,
+Cecropis rufula,European Red-rumped Swallow,avibase-B4967714,rerswa8,avibase-3690F067,,,rerswa8
+Cecropis melanocrissus,African Red-rumped Swallow,avibase-91315CD4,rerswa12,avibase-3690F067,,,rerswa12
+Cecropis melanocrissus,African Red-rumped Swallow,avibase-91315CD4,rerswa12,avibase-3690F067,,,rerswa12
+Zosterops kaffensis kulalensis,Kafa White-eye (Kulal),avibase-38EA4555,brrwhe5,avibase-70FD20BB,0.0,,
+Corypha athi,Athi Lark,avibase-D167A312,senlar1,avibase-6A0D6123,0,Current species association for the explicitly curated historical group; this row adds no archived observations.,senlar1
+Corypha kidepoensis,Kidepo Lark,avibase-724BF4FF,kidlar1,avibase-BAA83B0C,0,Current species association for the explicitly curated historical group; this row adds no archived observations.,kidlar1
+Muscicapa striata [striata Group],Spotted Flycatcher,avibase-B142856F,spofly2,avibase-EE8206E7,0,Current species association for the explicitly curated historical group; this row adds no archived observations.,spofly2
+Muscicapa tyrrhenica,Mediterranean Flycatcher,avibase-CBFA2D2B,spofly3,avibase-EE8206E7,0,Current species association for the explicitly curated historical group; this row adds no archived observations.,spofly3
+Butorides atricapilla,Little Heron,avibase-7085B8A0,strher1,avibase-7085B8A0,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,strher1
+Numenius phaeopus,Eurasian Whimbrel,avibase-082F3A63,whimbr5,avibase-082F3A63,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,whimbr5
+Agapornis fischeri,Fischer's Lovebird,avibase-E1EE00F7,fislov1,avibase-E1EE00F7,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,fislov1
+Centropus superciliosus,White-browed Coucal,avibase-4B2A7A35,whbcou2,avibase-4B2A7A35,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,whbcou2
+Ptyonoprogne rufigula,Red-throated Crag-Martin,avibase-A85102D3,rocmar4,avibase-A85102D3,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,rocmar4
+Arizelocichla nigriceps,Black-headed Mountain Greenbul,avibase-FC523946,easmog2,avibase-FC523946,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,easmog2
+Atimastillas flavicollis,Yellow-gorgeted Greenbul,avibase-3C8E84A6,yetgre2,avibase-C73137EA,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,yetgre2
+Anthreptes tephrolaemus,Gray-chinned Sunbird,avibase-35A2CCDF,grnsun2,avibase-35A2CCDF,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,grnsun2
+Zosterops kaffensis,Kafa White-eye,avibase-52C60399,kafwhe1,avibase-70FD20BB,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,kafwhe1
+Crithagra reichardi,Reichard's Seedeater,avibase-DE9A742B,reisee4,avibase-DE9A742B,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,reisee4
+Apalis karamojae,Karamoja Apalis,avibase-174A4C00,karapa2,avibase-174A4C00,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,karapa2
+Bleda notatus,Yellow-lored Bristlebill,avibase-4F97BFE1,lesbri1,avibase-4F97BFE1,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,lesbri1

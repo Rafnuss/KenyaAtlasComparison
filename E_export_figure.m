@@ -61,7 +61,7 @@ ann2 = annotation('textbox',Position=[0 0 .55 .04], String=sp_base.scientific_na
 
 % [~,id] = max(strlength(sp_base.scientific_name)) 25
 
-for i_sp = 300:height(sp_base)
+for i_sp = 1:height(sp_base)
      
     delete(s0); delete(s1); delete(s2);
 
@@ -91,7 +91,7 @@ end
 
 % load data
 ebd0 = readtable("data/eBird/ebd_KE_relOct-2023/ebd_KE_relOct-2023.txt",'TextType','string');
-sp_ebird = readtable('data/eBird/sp_ebird.xlsx','TextType','string');
+sp_ebird = readtable('data/eBird/species_mapping.csv','TextType','string');
 load('data/kbm/map_kbm')
 
 % filter by years
@@ -111,21 +111,16 @@ name = validatestring(name,sp_base.common_name);
 
 i_sp = find(strcmp(sp_base.common_name,name));
 
-% Filter this concept's records out of the raw EBD by Avibase concept id
-% rather than by name. sp_base no longer carries the eBird/Clements name (it
-% went with the retired 2019-checklist columns), and matching on a name is
-% what breaks whenever eBird revises one. sp_ebird.avibase_id holds the ids
-% exactly as this archived EBD spells them - see data/eBird/add_avibase_id.py.
-% Matching every taxon mapped to the SEQ also means a lumped concept now
-% picks up all of its members, the same set C_import_ebird.m maps.
+% Use the same curated source associations as the comparison import.
 ebd_sp = ebd0(ismember(ebd0.TAXONCONCEPTID, ...
-    sp_ebird.avibase_id(sp_ebird.SEQ==sp_base.SEQ(i_sp))), :);
+    sp_ebird.source_avibase_id(sp_ebird.avibase_id==sp_base.avibase_id(i_sp))), :);
 
 ebd_y = ebd_sp;
 ebd_y = ebd_y(year(ebd_y.OBSERVATIONDATE)>=2009 & year(ebd_y.OBSERVATIONDATE)<=2023,:);
 
 
-i_adu = find(seq_order==sp_base.ADU(i_sp));
+sp_kbm = readtable('data/kbm/species_mapping.csv', TextType='string');
+i_adu = find(ismember(seq_order, sp_kbm.ref(sp_kbm.avibase_id == sp_base.avibase_id(i_sp))));
 
 modes=["eBird", "eBird-upscaled", "combined", "KBM", "KBM-upscaled",  "old"];
 figure('position',[0 0 1200 600]); tiledlayout('flow','Padding','none');
