@@ -67,7 +67,9 @@ old_atlas.comparison_id = mapping.avibase_id(idx);
 [~, old_atlas.idg] = ismember(string(old_atlas.sq_n) + old_atlas.sq_l, string(g.SqN(:)) + g.SqL(:));
 
 %% Read comparison taxa and AviList names
-sp_base = readtable('data/taxonomy/comparison_taxa.csv', TextType='string');
+opts_taxa = detectImportOptions('data/taxonomy/comparison_taxa.csv', TextType='string');
+opts_taxa = setvartype(opts_taxa, 'atlas_seq', 'string');
+sp_base = readtable('data/taxonomy/comparison_taxa.csv', opts_taxa);
 assert(numel(unique(sp_base.avibase_id)) == height(sp_base));
 sp_base = renamevars(sp_base, 'family', 'checklist_family');
 for v = ["endemic", "afrotropical", "palearctic", "waterbird"]

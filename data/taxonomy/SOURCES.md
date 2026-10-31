@@ -31,7 +31,7 @@ The old eBird taxonomy resolver, pending-ID table, 2025b naming reference and ed
 
 ## Comparison decisions
 
-The existing exclusions and seven historical folds remain explicit in `atlas_mapping.csv`. Folds for Peregrine Falcon, d'Arnaud's Barbet, Lesser/Pallid Honeyguides and Reed Warbler use the broader comparison concept; they do not overwrite the digitization project's narrower historical IDs. Historical Herring Gull and Yellow-collared Lovebird identification folds are not used to reidentify modern records or external-study trends (`external_use=false`).
+The exclusions and historical mappings remain explicit in `atlas_mapping.csv`. Barbary Falcon, Usambiro Barbet and Kilimanjaro Honeyguide retain separate historical maps, as do the two guineafowl. Modern species-level Peregrine Falcon, d'Arnaud's Barbet and Pallid Honeyguide observations can include these separate historical taxa and cannot be partitioned without finer source identifications. Other earlier folds remain under review. Atlas Broad-billed Prion and Herring Gull are reidentified as Slender-billed Prion and Lesser Black-backed Gull. These identification decisions are not applied to external-study trends (`external_use=false`).
 
 The 2026 migration adopts the digitization project's revised IDs for the other active historical entries, including Kenyan AviList splits. Original spelling corrections and the Little/Dwarf Bittern SEQs come from the corrected atlas CSV. The historical book-review qualifications remain in the curated notes. White-eye parent IDs are not expanded into global memberships; Kulal is represented within AviList's Kafa White-eye. KBM Ref 1103 remains unassigned pending review.
 

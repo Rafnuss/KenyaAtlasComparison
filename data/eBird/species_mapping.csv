@@ -20,7 +20,7 @@ Laniarius leucorhynchus,Lowland Sooty Boubou,avibase-3402C9BB,soobou1,,1.0,,
 Anaplectes jubaensis,Red Weaver,avibase-ECE36984,rehwea3,,1.0,,
 Cisticola ruficeps,Red-pate Cisticola,avibase-8338F12F,repcis1,,1.0,,
 Campethera scriptoricauda,Reichenow's Woodpecker,avibase-C5585051,reiwoo1,,1.0,,
-Pachyptila belcheri,Slender-billed Prion,avibase-0D885A80,slbpri1,,1.0,,
+Pachyptila belcheri,Slender-billed Prion,avibase-0D885A80,slbpri1,avibase-0D885A80,1.0,Matches reidentified atlas SEQ 7.,slbpri1
 Merops nubicoides,Southern Carmine Bee-eater,avibase-B34CB92A,scbeat1,,1.0,,
 Actitis macularius,Spotted Sandpiper,avibase-0D88C072,sposan,,1.0,,
 Illadopsis distans,Tanzanian Illadopsis,avibase-A14D3117,pabill3,,1.0,,
@@ -175,7 +175,7 @@ Chelictinia riocourii,Scissor-tailed Kite,avibase-22832FF4,sctkit1,avibase-22832
 Pandion haliaetus,Osprey,avibase-1327AC55,osprey,avibase-1327AC55,13.0,,osprey
 Polihierax semitorquatus,Pygmy Falcon,avibase-3B52D2B8,pygfal1,avibase-3B52D2B8,3010.0,,pygfal1
 Falco peregrinus,Peregrine Falcon,avibase-47E58408,perfal,avibase-47E58408,22.0,,perfal
-Falco peregrinus pelegrinoides,Peregrine Falcon (Barbary),avibase-A113792C,barfal1,avibase-47E58408,0.0,Source assignment follows the explicit comparison merge in atlas_mapping.csv.,
+Falco peregrinus pelegrinoides,Peregrine Falcon (Barbary),avibase-A113792C,barfal1,avibase-7DC9971B,0.0,Barbary subspecies assigned to the historical Barbary concept; species-level records remain broader.,
 Falco fasciinucha,Taita Falcon,avibase-9A4AA945,taifal1,avibase-9A4AA945,12.0,,taifal1
 Falco biarmicus,Lanner Falcon,avibase-3D3808E3,lanfal1,avibase-3D3808E3,1897.0,,lanfal1
 Falco cherrug,Saker Falcon,avibase-A9F51494,sakfal1,avibase-A9F51494,0.0,,sakfal1
@@ -537,7 +537,7 @@ Pogoniulus chrysoconus,Yellow-fronted Tinkerbird,avibase-2F467821,yeftin1,avibas
 Pogoniulus bilineatus,Yellow-rumped Tinkerbird,avibase-7749C92B,yertin1,avibase-7749C92B,44.0,,yertin1
 Trachyphonus purpuratus,Yellow-billed Barbet,avibase-75DF194C,yebbar1,avibase-80BC978E,26.0,,yebbar5
 Trachyphonus darnaudii,D'Arnaud's Barbet,avibase-1953C1D6,darbar1,avibase-1953C1D6,1243.0,,darbar1
-Trachyphonus darnaudii usambiro,D'Arnaud's Barbet (Usambiro),avibase-55E9B668,darbar3,avibase-1953C1D6,0.0,Source assignment follows the explicit comparison merge in atlas_mapping.csv.,
+Trachyphonus darnaudii usambiro,D'Arnaud's Barbet (Usambiro),avibase-55E9B668,darbar3,avibase-55E9B668,0.0,Usambiro subspecies assigned to the historical Usambiro concept; species-level records remain broader.,
 Trachyphonus erythrocephalus,Red-and-yellow Barbet,avibase-570C1121,raybar1,avibase-570C1121,3305.0,,raybar1
 Indicator indicator,Greater Honeyguide,avibase-862749B0,grehon2,avibase-862749B0,2120.0,,grehon2
 Indicator minor,Lesser Honeyguide,avibase-50F3668C,y00400,avibase-50F3668C,2586.0,,y00400
