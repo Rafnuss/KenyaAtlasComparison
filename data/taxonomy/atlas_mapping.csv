@@ -148,7 +148,7 @@ which have since been considered unacceptable. https://eararities.org/downloads/
 141,avibase-1327AC55,avibase-1327AC55,141,true,
 142,avibase-3B52D2B8,avibase-3B52D2B8,142,true,
 143,avibase-5A9A42C1,avibase-47E58408,143,true,
-144,avibase-7DC9971B,avibase-7DC9971B,144,false,Preserve the historical Barbary Falcon concept separately; modern Peregrine Falcon records may include it.
+144,avibase-7DC9971B,avibase-47E58408,143,true,Combined with the current AviList species; the original atlas entry and Avibase concept are retained separately in the links.
 145,avibase-9A4AA945,avibase-9A4AA945,145,true,
 146,avibase-3D3808E3,avibase-3D3808E3,146,true,
 147,avibase-A9F51494,avibase-A9F51494,147,true,
@@ -514,7 +514,7 @@ which have since been considered unacceptable. https://eararities.org/downloads/
 495,avibase-7749C92B,avibase-7749C92B,495,true,
 496,avibase-80BC978E,avibase-80BC978E,496,true,
 497,avibase-1953C1D6,avibase-1953C1D6,497,true,
-498,avibase-55E9B668,avibase-55E9B668,498,false,Preserve historical Usambiro Barbet separately; modern d'Arnaud's Barbet records may include it.
+498,avibase-55E9B668,avibase-1953C1D6,497,true,Combined with the current AviList species; the original atlas entry and Avibase concept are retained separately in the links.
 499,avibase-570C1121,avibase-570C1121,499,true,
 500,avibase-862749B0,avibase-862749B0,500,true,
 501,avibase-E9ED7248,avibase-50F3668C,501,true,
@@ -522,7 +522,7 @@ which have since been considered unacceptable. https://eararities.org/downloads/
 503,avibase-7EF4C99C,avibase-7EF4C99C,503,true,
 504,avibase-BFF3AA65,avibase-BFF3AA65,504,true,
 505,avibase-5B74A911,avibase-5B74A911,505,true,
-506,avibase-37955888,avibase-37955888,506,false,Preserve historical Kilimanjaro Honeyguide separately; modern Pallid Honeyguide records may include it.
+506,avibase-37955888,avibase-5B74A911,505,true,Combined with the current AviList species; the original atlas entry and Avibase concept are retained separately in the links.
 507,avibase-7884F0D6,avibase-7884F0D6,507,true,
 508,avibase-B20CDCE3,avibase-B20CDCE3,508,true,
 509,avibase-8DB3F1A2,avibase-8DB3F1A2,509,true,

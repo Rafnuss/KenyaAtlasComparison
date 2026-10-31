@@ -86,16 +86,25 @@ sp_base2 = sortrows(sp_base2,"SEQ");
 % Website naming and source links come from the same explicit mappings.
 sp_base2 = renamevars(sp_base2, "checklist_family", "family");
 sp_base2 = sp_base2(:, ["SEQ", "avibase_id", "common_name", "scientific_name", ...
-    "avilist_common_name", "avilist_scientific_name", "avilist_sort", "avilist_members", "name_source", "atlas_seq", "comment", ...
+    "avilist_common_name", "avilist_scientific_name", "avilist_sort", "avilist_members", "name_source", "atlas_seq", ...
     "family", "order", "IUCN", "birdlife_url", "endemic", "afrotropical", "palearctic", "waterbird", ...
     "flag", "nb_lkgd", "per_lkgd", "nb_lkgd_gc", "per_lkgd_gc"]);
-sp_base2 = renamevars(sp_base2, 'comment', 'taxonomy_notes');
 sp_kbm = readtable('data/kbm/species_mapping.csv', TextType='string');
 sp_ebird = readtable('data/eBird/species_mapping.csv', TextType='string');
+atlas_options = detectImportOptions('data/taxonomy/atlas_mapping.csv', TextType='string');
+atlas_options = setvartype(atlas_options, 'atlas_seq', 'string');
+atlas_mapping = readtable('data/taxonomy/atlas_mapping.csv', atlas_options);
+taxon_options = detectImportOptions('../Digitization-of-A-Bird-Atlas-of-Kenya/data/curated/atlas_taxonomy.csv', TextType='string');
+taxon_options = setvartype(taxon_options, 'SEQ', 'string');
+atlas_taxa = readtable('../Digitization-of-A-Bird-Atlas-of-Kenya/data/curated/atlas_taxonomy.csv', taxon_options);
+sp_base2.atlas_concepts = cell(height(sp_base2), 1);
 sp_base2.kbm = cell(height(sp_base2), 1);
 sp_base2.ebird = cell(height(sp_base2), 1);
 for i_sp = 1:height(sp_base2)
     id = sp_base2.avibase_id(i_sp);
+    atlas_rows = atlas_mapping(atlas_mapping.avibase_id == id,:);
+    [~, atlas_idx] = ismember(string(atlas_rows.atlas_seq),string(atlas_taxa.SEQ));
+    sp_base2.atlas_concepts{i_sp} = num2cell(table2struct(table(atlas_rows.atlas_avibase_id, atlas_taxa.common_name(atlas_idx), atlas_taxa.scientific_name(atlas_idx), 'VariableNames', {'avibase_id','common_name','scientific_name'})));
     sp_base2.kbm{i_sp} = num2cell(unique(sp_kbm.ref(sp_kbm.avibase_id == id)));
     codes = sp_ebird.link_code(sp_ebird.avibase_id == id);
     sp_base2.ebird{i_sp} = cellstr(unique(codes(~ismissing(codes))));

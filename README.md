@@ -30,7 +30,7 @@ Run `AA_wrapper_all.m` from this repository's root. It prepares taxonomy metadat
 
 Four readable CSVs contain the curated decisions: `data/species_base_list.csv`, `data/taxonomy/atlas_mapping.csv`, and the two source mapping files above. Each comparison taxon has one unique Avibase ID and explicit AviList membership. Historical concepts remain owned by `Digitization-of-A-Bird-Atlas-of-Kenya`; comparison merges and exclusions are recorded separately rather than changing that historical taxonomy.
 
-Barbary Falcon, Usambiro Barbet, Kilimanjaro Honeyguide and both guineafowl retain separate historical maps. Modern species-level records may cover multiple historical taxa; the source mappings and website notes identify these limitations. Rejected and uncertain atlas entries are excluded from the comparison, while the two documented reidentifications are applied.
+Historical atlas taxa that correspond to the same current AviList species are combined for comparison, with their original Avibase concepts retained as links. The two guineafowl remain separate under AviList 2026. Rejected and uncertain atlas entries are excluded, and the two documented reidentifications are applied.
 
 `python3 data/taxonomy/update_taxonomy.py` derives display metadata into `data/taxonomy/comparison_taxa.csv` from those memberships and the digitization project's pinned AviList 2026 export. eBird observations remain a data source; eBird and Birds of Kenya 2019 naming systems are retired. Original and AviList names travel together to the website. See [taxonomy sources and decisions](data/taxonomy/SOURCES.md) for the table contracts, qualifications and rebuild steps.
 
