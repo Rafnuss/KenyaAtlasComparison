@@ -18,7 +18,8 @@ severity = ['NE', 'DD', 'LC', 'NT', 'VU', 'EN', 'CR', 'CR (PE)', 'CR (PEW)', 'EW
 rows = []
 for taxon in taxa:
     members = [reference[i] for i in taxon['avilist_ids'].split('|') if i]
-    exact = reference.get(taxon['avibase_id'])
+    # Only a single-member taxon takes its AviList name; any group lists its members.
+    exact = reference.get(taxon['avibase_id']) if len(members) == 1 else None
     row = dict(taxon)
     row['atlas_seq'] = '|'.join(r['atlas_seq'] for r in atlas_mapping if r['avibase_id'] == taxon['avibase_id'])
     # A historical group has no exact AviList name: label its explicit members.

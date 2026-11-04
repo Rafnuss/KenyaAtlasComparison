@@ -28,11 +28,14 @@ for i_g=1:numel(map_data.features)
     assert(sum(id(:))==1)
     id_old = map_old(repmat(id,1,1,size(map_old,3)));
     id_new = map_new(repmat(id,1,1,size(map_old,3)));
+    id_other = map_old_other(repmat(id,1,1,size(map_old,3)));
     prop = map_data.features(i_g).properties;
     prop.nb_lkgd = [sum(id_old & ~id_new) sum(id_old & id_new) sum(~id_old & id_new) sum(id_new-id_old)];
     % Cell arrays keep zero-, one- and many-taxon memberships flat in JSON.
     prop.taxa_old = cellstr(sp_base.avibase_id(id_old));
     prop.taxa_new = cellstr(sp_base.avibase_id(id_new));
+    % Atlas records only before 1970 or after 1984: not compared, but historical.
+    prop.taxa_old_other = cellstr(sp_base.avibase_id(id_other));
     prop.Sq = string(prop.SqN) + prop.SqL;
 
     prop = rmfield(prop,{'SqN','SqL', 'coverage'});

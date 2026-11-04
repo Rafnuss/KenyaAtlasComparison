@@ -56,7 +56,6 @@ set(gca, 'ydir', 'normal')  % Ensure the y-axis is in the correct direction
 opts = detectImportOptions('../Digitization-of-A-Bird-Atlas-of-Kenya/export/comparison/atlas_records.csv', TextType='string');
 opts = setvartype(opts, 'seq', 'string');
 old_atlas = readtable('../Digitization-of-A-Bird-Atlas-of-Kenya/export/comparison/atlas_records.csv', opts);
-old_atlas = old_atlas(~ismissing(old_atlas.period_1970_1984), :);
 opts_mapping = detectImportOptions('data/taxonomy/atlas_mapping.csv', TextType='string');
 opts_mapping = setvartype(opts_mapping, 'atlas_seq', 'string');
 mapping = readtable('data/taxonomy/atlas_mapping.csv', opts_mapping);
@@ -65,6 +64,14 @@ assert(all(found));
 assert(all(old_atlas.avibase_id == mapping.atlas_avibase_id(idx)), 'Historical IDs changed: review atlas_mapping.csv.');
 old_atlas.comparison_id = mapping.avibase_id(idx);
 [~, old_atlas.idg] = ismember(string(old_atlas.sq_n) + old_atlas.sq_l, string(g.SqN(:)) + g.SqL(:));
+
+% The comparison uses 1970-1984 records only (map_old). Records found only
+% before 1970 or after 1984 are kept separately (map_old_other): they are not
+% part of the comparison, but still show a species was once in the square
+% (Kenya Bird Trends Lost & Found page).
+old_atlas_other = old_atlas(ismissing(old_atlas.period_1970_1984) & old_atlas.idg > 0 & ...
+    (~ismissing(old_atlas.pre_1970) | ~ismissing(old_atlas.post_1984)), :);
+old_atlas = old_atlas(~ismissing(old_atlas.period_1970_1984), :);
 
 %% Read comparison taxa and AviList names
 opts_taxa = detectImportOptions('data/taxonomy/comparison_taxa.csv', TextType='string');
@@ -100,6 +107,14 @@ for i_sp = 1:height(sp_base)
     map_old(:, :, i_sp) = tmp;
 end
 
+% Same for records found only outside 1970-1984
+map_old_other = false(size(map_old));
+for i_sp = 1:height(sp_base)
+    tmp = false(numel(g.lat), numel(g.lon));
+    tmp(old_atlas_other.idg(sp_base.avibase_id(i_sp) == old_atlas_other.comparison_id)) = true;
+    map_old_other(:, :, i_sp) = tmp & ~map_old(:, :, i_sp);
+end
+
 %% Visual Validation of Data
 
 % Visualize the total number of species per grid cell
@@ -124,4 +139,4 @@ title(sp_base.common_name(i_sp) + " (SEQ=" + sp_base.SEQ(i_sp) + ")");
 
 % Save the grid data and the processed old atlas data
 save('data/grid', 'g');
-save('data/oldatlas', "map_old", "sp_base", "coverage_old");
+save('data/oldatlas', "map_old", "map_old_other", "sp_base", "coverage_old");
