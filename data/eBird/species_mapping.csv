@@ -1,30 +1,30 @@
 scientific_name,common_name,source_avibase_id,species_code,avibase_id,GroupCount,notes,link_code
 Myrmecocichla arnotti,Arnot's Chat,avibase-535524BE,whbcha2,avibase-535524BE,5.0,,whbcha2
 Merops lafresnayii,Ethiopian Bee-eater,avibase-D0C68FE0,bubbee2,avibase-D0C68FE0,4.0,,bubbee2
-Scleroptila gutturalis,Orange River Francolin,avibase-8E833C63,orrfra2,,4.0,,
+Scleroptila gutturalis,Orange River Francolin,avibase-8E833C63,orrfra2,avibase-8E833C63,4.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,orrfra2
 Balaeniceps rex,Shoebill,avibase-47C7FDFD,shoebi1,avibase-47C7FDFD,3.0,,shoebi1
-Pachyptila desolata,Antarctic Prion,avibase-105C306C,dovpri1,,2.0,,
-Pyrenestes ostrinus,Black-bellied Seedcracker,avibase-2CC91390,blbsee1,,2.0,,
-Fregetta tropica,Black-bellied Storm-Petrel,avibase-ACE8EADE,bbspet1,,2.0,,
-Cursorius cursor,Cream-colored Courser,avibase-DE0A72A7,crccou1,,2.0,,
+Pachyptila desolata,Antarctic Prion,avibase-105C306C,dovpri1,avibase-105C306C,2.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,dovpri1
+Pyrenestes ostrinus,Black-bellied Seedcracker,avibase-2CC91390,blbsee1,avibase-2CC91390,2.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,blbsee1
+Fregetta tropica,Black-bellied Storm-Petrel,avibase-ACE8EADE,bbspet1,avibase-ACE8EADE,2.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,bbspet1
+Cursorius cursor,Cream-colored Courser,avibase-DE0A72A7,crccou1,avibase-6091E70B,2.0,Member of historical SEQ 277 Cream-coloured Courser (2026-11-04 Kenya Bird Trends review).,crccou1
 Laniarius aethiopicus,Ethiopian Boubou,avibase-EBC3B53B,trobou2,avibase-EBC3B53B,2.0,,trobou2
-Botaurus stellaris,Great Bittern,avibase-0F42F11A,grebit1,,2.0,,
-Cuculus rochii,Madagascar Cuckoo,avibase-C2E0717C,madcuc1,,2.0,,
-Vanellus vanellus,Northern Lapwing,avibase-F029489A,norlap,,2.0,,
-Procellaria aequinoctialis,White-chinned Petrel,avibase-35EB45A0,whcpet1,,2.0,,
-Asio abyssinicus,Abyssinian Owl,avibase-250123FB,aleowl1,,1.0,,
-Crithagra atrogularis,Black-throated Canary,avibase-D12CDD0F,bltcan1,,1.0,,
-Grus grus,Common Crane,avibase-99B8841E,comcra,,1.0,,
-Anthropoides virgo,Demoiselle Crane,avibase-64DDD14D,demcra1,,1.0,,
-Laniarius leucorhynchus,Lowland Sooty Boubou,avibase-3402C9BB,soobou1,,1.0,,
-Anaplectes jubaensis,Red Weaver,avibase-ECE36984,rehwea3,,1.0,,
-Cisticola ruficeps,Red-pate Cisticola,avibase-8338F12F,repcis1,,1.0,,
-Campethera scriptoricauda,Reichenow's Woodpecker,avibase-C5585051,reiwoo1,,1.0,,
+Botaurus stellaris,Great Bittern,avibase-0F42F11A,grebit1,avibase-0F42F11A,2.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,grebit1
+Cuculus rochii,Madagascar Cuckoo,avibase-C2E0717C,madcuc1,avibase-FF41B79F,2.0,Member of historical SEQ 369 Lesser Cuckoo (2026-11-04 Kenya Bird Trends review).,madcuc1
+Vanellus vanellus,Northern Lapwing,avibase-F029489A,norlap,avibase-F029489A,2.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,norlap
+Procellaria aequinoctialis,White-chinned Petrel,avibase-35EB45A0,whcpet1,avibase-35EB45A0,2.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,whcpet1
+Asio abyssinicus,Abyssinian Owl,avibase-250123FB,aleowl1,avibase-FC4D40D2,1.0,Member of historical SEQ 393 Long-eared Owl (2026-11-04 Kenya Bird Trends review).,aleowl1
+Crithagra atrogularis,Black-throated Canary,avibase-D12CDD0F,bltcan1,avibase-69EB514A,1.0,Member of historical SEQ 1058 Yellow-rumped Seed-eater (2026-11-04 Kenya Bird Trends review).,bltcan1
+Grus grus,Common Crane,avibase-99B8841E,comcra,avibase-99B8841E,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,comcra
+Anthropoides virgo,Demoiselle Crane,avibase-64DDD14D,demcra1,avibase-64DDD14D,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,demcra1
+Laniarius leucorhynchus,Lowland Sooty Boubou,avibase-3402C9BB,soobou1,avibase-3402C9BB,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,soobou1
+Anaplectes jubaensis,Red Weaver,avibase-ECE36984,rehwea3,avibase-4D19099B,1.0,Member of historical SEQ 969 Red-headed Weaver (2026-11-04 Kenya Bird Trends review).,rehwea3
+Cisticola ruficeps,Red-pate Cisticola,avibase-8338F12F,repcis1,avibase-8338F12F,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,repcis1
+Campethera scriptoricauda,Reichenow's Woodpecker,avibase-C5585051,reiwoo1,avibase-C5585051,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,reiwoo1
 Pachyptila belcheri,Slender-billed Prion,avibase-0D885A80,slbpri1,avibase-0D885A80,1.0,Matches reidentified atlas SEQ 7.,slbpri1
-Merops nubicoides,Southern Carmine Bee-eater,avibase-B34CB92A,scbeat1,,1.0,,
-Actitis macularius,Spotted Sandpiper,avibase-0D88C072,sposan,,1.0,,
-Illadopsis distans,Tanzanian Illadopsis,avibase-A14D3117,pabill3,,1.0,,
-Stiphrornis mabirae,Yellow-breasted Forest Robin,avibase-2455B82B,forrob4,,1.0,,
+Merops nubicoides,Southern Carmine Bee-eater,avibase-B34CB92A,scbeat1,avibase-2125426A,1.0,Member of historical SEQ 452 Carmine Bee-eater (2026-11-04 Kenya Bird Trends review).,scbeat1
+Actitis macularius,Spotted Sandpiper,avibase-0D88C072,sposan,avibase-0D88C072,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,sposan
+Illadopsis distans,Tanzanian Illadopsis,avibase-A14D3117,pabill3,avibase-A14D3117,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,pabill3
+Stiphrornis mabirae,Yellow-breasted Forest Robin,avibase-2455B82B,forrob4,avibase-2455B82B,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,forrob4
 Streptopelia vinacea,Vinaceous Dove,avibase-DDEF7228,vindov1,avibase-DDEF7228,5.0,,vindov1
 Struthio camelus,Common Ostrich,avibase-2247CB05,ostric2,avibase-5D14080C,10412.0,,ostric2
 Struthio molybdophanes,Somali Ostrich,avibase-40329BB6,ostric3,avibase-5D14080C,2385.0,,ostric3
@@ -43,7 +43,7 @@ Puffinus bailloni,Tropical Shearwater,avibase-6DA05B66,troshe5,avibase-CA3D6C51,
 Oceanites oceanicus,Wilson's Storm-Petrel,avibase-D295D249,wispet,avibase-D295D249,16.0,,wispet
 Hydrobates leucorhous,Leach's Storm-Petrel,avibase-C5FB15C6,lcspet,avibase-C5FB15C6,3.0,,lcspet
 Hydrobates matsudairae,Matsudaira's Storm-Petrel,avibase-6AA236DD,maspet2,,0.0,,
-Phaethon rubricauda,Red-tailed Tropicbird,avibase-C412CD62,rettro,,2.0,,
+Phaethon rubricauda,Red-tailed Tropicbird,avibase-C412CD62,rettro,avibase-C412CD62,2.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,rettro
 Phaethon lepturus,White-tailed Tropicbird,avibase-1D07B501,whttro,avibase-1D07B501,36.0,,whttro
 Pelecanus onocrotalus,Great White Pelican,avibase-8BAFB01E,grwpel1,avibase-8BAFB01E,5302.0,,grwpel1
 Pelecanus rufescens,Pink-backed Pelican,avibase-8D24E93C,pibpel1,avibase-8D24E93C,3592.0,,pibpel1
@@ -92,7 +92,7 @@ Phoenicopterus roseus,Greater Flamingo,avibase-0F9B5174,grefla3,avibase-0F9B5174
 Phoeniconaias minor,Lesser Flamingo,avibase-B06A9079,lesfla1,avibase-B06A9079,4106.0,,lesfla1
 Dendrocygna bicolor,Fulvous Whistling-Duck,avibase-9A60617E,fuwduc,avibase-9A60617E,959.0,,fuwduc
 Dendrocygna viduata,White-faced Whistling-Duck,avibase-A534AFEA,wfwduc1,avibase-A534AFEA,4909.0,,wfwduc1
-Tadorna ferruginea,Ruddy Shelduck,avibase-1F9D883E,rudshe,,1.0,,
+Tadorna ferruginea,Ruddy Shelduck,avibase-1F9D883E,rudshe,avibase-1F9D883E,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,rudshe
 Alopochen aegyptiaca,Egyptian Goose,avibase-DA2F24E3,egygoo,avibase-DA2F24E3,21559.0,,egygoo
 Plectropterus gambensis,Spur-winged Goose,avibase-EB01B24C,spwgoo1,avibase-EB01B24C,9.0,,spwgoo1
 Sarkidiornis melanotos,Knob-billed Duck,avibase-3948131B,comduc2,avibase-3948131B,1495.0,,comduc2
@@ -318,7 +318,7 @@ Glareola pratincola,Collared Pratincole,avibase-D56ABB4E,colpra,avibase-D56ABB4E
 Glareola nordmanni,Black-winged Pratincole,avibase-E1F6A875,blwpra1,avibase-E1F6A875,30.0,,blwpra1
 Glareola nuchalis,Rock Pratincole,avibase-95820ED1,rocpra1,avibase-95820ED1,2.0,,rocpra1
 Glareola ocularis,Madagascar Pratincole,avibase-AC0F25BB,madpra1,avibase-AC0F25BB,144.0,,madpra1
-Stercorarius antarcticus,Brown Skua,avibase-8FC49046,brnsku3,,1.0,,
+Stercorarius antarcticus,Brown Skua,avibase-8FC49046,brnsku3,avibase-4D5D2BC3,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,brnsku3
 Stercorarius pomarinus,Pomarine Jaeger,avibase-7CB8F5B7,pomjae,avibase-7CB8F5B7,5.0,,pomjae
 Stercorarius parasiticus,Parasitic Jaeger,avibase-39086887,parjae,avibase-39086887,5.0,,parjae
 Stercorarius longicaudus,Long-tailed Jaeger,avibase-1D446440,lotjae,avibase-1D446440,1.0,,lotjae
@@ -326,7 +326,7 @@ Ichthyaetus hemprichii,Sooty Gull,avibase-67D43542,soogul2,avibase-67D43542,1114
 Ichthyaetus leucophthalmus,White-eyed Gull,avibase-A7F240E3,whegul2,avibase-A7F240E3,2.0,,whegul2
 Ichthyaetus ichthyaetus,Pallas's Gull,avibase-EF930CDC,gbhgul2,avibase-EF930CDC,5.0,,gbhgul2
 Ichthyaetus melanocephalus,Mediterranean Gull,avibase-052BFA8A,medgul1,,0.0,,
-Hydrocoloeus minutus,Little Gull,avibase-F89FD6E3,litgul,,1.0,,
+Hydrocoloeus minutus,Little Gull,avibase-F89FD6E3,litgul,avibase-F89FD6E3,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,litgul
 Chroicocephalus ridibundus,Black-headed Gull,avibase-FB02DD96,bkhgul,avibase-FB02DD96,462.0,,bkhgul
 Chroicocephalus cirrocephalus,Gray-hooded Gull,avibase-6EB497FA,grhgul,avibase-6EB497FA,3277.0,,grhgul
 Chroicocephalus genei,Slender-billed Gull,avibase-27CE7132,slbgul1,avibase-27CE7132,63.0,,slbgul1
@@ -1159,7 +1159,7 @@ Petrochelidon spilodera,South African Swallow,avibase-7D1AE743,soaswa2,avibase-7
 Vidua funerea,Variable Indigobird,avibase-49EF9657,varind1,avibase-49EF9657,2.0,,varind1
 Ploceus weynsi,Weyns's Weaver,avibase-341298B9,weywea1,avibase-341298B9,1.0,,weywea1
 Thalassarche cauta,White-capped Albatross,avibase-87797B47,whcalb1,avibase-87797B47,9.0,,whcalb1
-Merops boehmi,Böhm's Bee-eater,avibase-30238523,bobeat1,,1.0,,
+Merops boehmi,Böhm's Bee-eater,avibase-30238523,bobeat1,avibase-30238523,1.0,Added 2026-11-04 as its own comparison taxon (Kenya Bird Trends latest-records review).,bobeat1
 Cecropis daurica,Red-rumped Swallow,avibase-71741488,rerswa1,avibase-3690F067,272.0,,
 Cecropis rufula,European Red-rumped Swallow,avibase-B4967714,rerswa8,avibase-3690F067,,,rerswa8
 Cecropis melanocrissus,African Red-rumped Swallow,avibase-91315CD4,rerswa12,avibase-3690F067,,,rerswa12
@@ -1181,3 +1181,20 @@ Zosterops kaffensis,Kafa White-eye,avibase-52C60399,kafwhe1,avibase-70FD20BB,0,C
 Crithagra reichardi,Reichard's Seedeater,avibase-DE9A742B,reisee4,avibase-DE9A742B,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,reisee4
 Apalis karamojae,Karamoja Apalis,avibase-174A4C00,karapa2,avibase-174A4C00,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,karapa2
 Bleda notatus,Yellow-lored Bristlebill,avibase-4F97BFE1,lesbri1,avibase-4F97BFE1,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,lesbri1
+Apalis stronachi,Maasai Apalis,avibase-DCA0028B,karapa3,avibase-174A4C00,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,karapa3
+Atimastillas flavigula,Pale-throated Greenbul,avibase-04E77EEF,patgre1,avibase-C73137EA,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,patgre1
+Arizelocichla kikuyuensis,Kikuyu Mountain Greenbul,avibase-1EEE86B8,easmog5,avibase-FC523946,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,easmog5
+Cinnyris melanogastrus,Gorgeous Sunbird,avibase-375BAF53,beasun3,avibase-718A3B70,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,beasun3
+Crithagra striatipectus,Stripe-breasted Seedeater,avibase-FB84DF4D,reisee3,avibase-69EB514A,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,reisee3
+Nettapus coromandelianus,Cotton Pygmy-Goose,avibase-90AAE188,copgoo1,avibase-90AAE188,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,copgoo1
+Xema sabini,Sabine's Gull,avibase-86182656,sabgul,avibase-86182656,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,sabgul
+Larus cachinnans,Caspian Gull,avibase-93CA037F,casgul2,avibase-93CA037F,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,casgul2
+Phaethon aethereus,Red-billed Tropicbird,avibase-7EE005BD,rebtro,avibase-7EE005BD,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,rebtro
+Cisticola lugubris,Ethiopian Cisticola,avibase-3DF3F9B9,wincis6,avibase-143D3D6B,0,Member of historical SEQ 740 Winding Cisticola (2026-11-04 Kenya Bird Trends review).,wincis6
+Locustella alfredi,Bamboo Warbler,avibase-A630DB2C,baswar1,avibase-A630DB2C,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,baswar1
+Bleda ugandae,Yellow-eyed Bristlebill,avibase-1D9175EA,lesbri3,avibase-4F97BFE1,0,Member of historical SEQ 9006 Lesser Bristlebill (2026-11-04 Kenya Bird Trends review).,lesbri3
+Curruca curruca,Lesser Whitethroat,avibase-0DCD05BE,leswhi4,avibase-0DCD05BE,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,leswhi4
+Zosterops stuhlmanni,Green White-eye,avibase-33C35018,afywhe3,avibase-2D8C0437,0,Member of historical SEQ 937 Yellow White-eye (2026-11-04 Kenya Bird Trends review).,afywhe3
+Saxicola maurus,Siberian Stonechat,avibase-DB645AF5,sibsto1,avibase-CF2E9674,0,eBird's Siberian Stonechat concept has no direct AviList v2026 Cornell-code match; both identify Saxicola maurus through the same explicit override used by Birds-of-Kenya. Adds no archived observations. Member of historical SEQ 634 Stonechat (2026-11-04 Kenya Bird Trends review).,sibsto1
+Anthus vaalensis,Buffy Pipit,avibase-3BC778CE,bufpip1,avibase-3BC778CE,0,Current eBird 2026 species-page association from the explicit AviList membership. Adds no archived observations.,bufpip1
+Zosterops abyssinicus,Abyssinian White-eye,avibase-8C2C2D5B,wbweye1,avibase-F80D69C2,0,Current eBird 2026 species-page association; member of historical SEQ 939 Abyssinian White-eye (2026-11-04 Kenya Bird Trends review). Adds no archived observations.,wbweye1
